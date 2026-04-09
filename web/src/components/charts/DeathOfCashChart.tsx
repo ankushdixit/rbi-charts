@@ -17,6 +17,7 @@ const SERIES_CONFIG = [
   { key: "upi", name: "UPI", color: "#3b82f6" },
   { key: "neft", name: "NEFT", color: "#06b6d4" },
   { key: "imps", name: "IMPS", color: "#8b5cf6" },
+  { key: "debit_cards_payments", name: "Debit Cards (POS)", color: "#f97316" },
   { key: "credit_cards", name: "Credit Cards", color: "#f59e0b" },
   { key: "wallets", name: "Wallets", color: "#10b981" },
   { key: "cts", name: "Cheques (CTS)", color: "#ef4444" },

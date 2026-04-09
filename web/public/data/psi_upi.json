@@ -1,5 +1,25 @@
 [
   {
+    "date": "2016-10",
+    "volume_lakh": 15.0,
+    "value_crore": 580.08
+  },
+  {
+    "date": "2017-10",
+    "volume_lakh": 762.67,
+    "value_crore": 9152.67
+  },
+  {
+    "date": "2018-10",
+    "volume_lakh": 4492.92,
+    "value_crore": 73080.92
+  },
+  {
+    "date": "2019-10",
+    "volume_lakh": 10432.17,
+    "value_crore": 177644.17
+  },
+  {
     "date": "2019-11",
     "volume_lakh": 12187.71,
     "value_crore": 189229.0
