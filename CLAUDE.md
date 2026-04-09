@@ -9,10 +9,11 @@ full research, dataset inventory, and visualization concepts.
 ### Two-domain architecture
 - `www.rbi.org.in` — No bot protection. Plain curl/requests works. All pages
   are server-rendered ASP.NET WebForms HTML. Parse with BeautifulSoup.
-- `rbidocs.rbi.org.in` — ALL file downloads (Excel, PDF) blocked by
-  Imperva/TSPD JavaScript challenge. Returns ~48KB HTML instead of file.
-  Requires Playwright (headless browser) to solve the JS challenge.
-  Tested from both Irish and Indian residential IPs — same block.
+- `rbidocs.rbi.org.in` — Direct URL access returns 418 "Unauthorised Access".
+  **But**: Playwright click-through works — navigate to a listing page on
+  `www.rbi.org.in`, find the download link, and click it. The browser carries
+  the right referrer/session context and the file downloads successfully.
+  Tested and confirmed for all 20 Tier 1+2 datasets (Excel and PDF).
 - `data.rbi.org.in` (DBIE) — JavaScript SPA, no public API found. Not useful.
 
 ### Scrapeable HTML endpoints (no Playwright needed)
@@ -49,10 +50,13 @@ tokens for date/period navigation. To access historical data:
 1. GET the page to extract ViewState tokens
 2. POST with the tokens + hidden field values (hdnYear, hdnMonth, etc.)
 
-### File download via Playwright
-For rbidocs.rbi.org.in files, Playwright needs to:
-1. Navigate to the URL
-2. Wait for the Imperva JS challenge to auto-resolve
-3. The actual file download should start after the challenge passes
-The challenge is JS-only (no visual CAPTCHA) — Playwright should handle it
-without human intervention.
+### File download via Playwright (click-through pattern)
+Direct navigation to rbidocs URLs fails (418). The working pattern:
+1. Navigate to the listing/landing page on `www.rbi.org.in`
+2. Find `<a>` links pointing to `rbidocs.rbi.org.in`
+3. Click the link — Playwright handles the download via `expect_download()`
+4. The referrer/session context from `www.rbi.org.in` satisfies the protection
+
+This was tested Apr 2026 and works for all 20 Tier 1+2 datasets.
+All 4 HTML-scrapeable datasets (#4, #5, #11, #17) don't need Playwright.
+All 16 file-download datasets work via click-through.
