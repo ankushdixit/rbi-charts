@@ -19,6 +19,12 @@
   },
   {
     "date": "2015-12",
+    "system": "ccil_forex",
+    "volume_lakh": 1.5,
+    "value_crore": 3039897.0
+  },
+  {
+    "date": "2015-12",
     "system": "credit_cards",
     "volume_lakh": 699.0,
     "value_crore": 21469.0
@@ -184,6 +190,12 @@
     "system": "ccil",
     "volume_lakh": 2.6,
     "value_crore": 6555348.0
+  },
+  {
+    "date": "2016-01",
+    "system": "ccil_forex",
+    "volume_lakh": 1.6,
+    "value_crore": 2869860.0
   },
   {
     "date": "2016-01",
@@ -355,6 +367,12 @@
   },
   {
     "date": "2016-02",
+    "system": "ccil_forex",
+    "volume_lakh": 1.7,
+    "value_crore": 3066641.0
+  },
+  {
+    "date": "2016-02",
     "system": "credit_cards",
     "volume_lakh": 676.9,
     "value_crore": 20921.0
@@ -520,6 +538,12 @@
     "system": "ccil",
     "volume_lakh": 3.0,
     "value_crore": 7501174.0
+  },
+  {
+    "date": "2016-03",
+    "system": "ccil_forex",
+    "volume_lakh": 1.8,
+    "value_crore": 3607676.0
   },
   {
     "date": "2016-03",
@@ -691,6 +715,12 @@
   },
   {
     "date": "2016-04",
+    "system": "ccil_forex",
+    "volume_lakh": 1.5,
+    "value_crore": 3510105.0
+  },
+  {
+    "date": "2016-04",
     "system": "credit_cards",
     "volume_lakh": 734.3,
     "value_crore": 23013.0
@@ -856,6 +886,12 @@
     "system": "ccil",
     "volume_lakh": 2.9,
     "value_crore": 8198385.0
+  },
+  {
+    "date": "2016-05",
+    "system": "ccil_forex",
+    "volume_lakh": 1.7,
+    "value_crore": 3786340.0
   },
   {
     "date": "2016-05",
@@ -1027,6 +1063,12 @@
   },
   {
     "date": "2016-06",
+    "system": "ccil_forex",
+    "volume_lakh": 1.8,
+    "value_crore": 3880068.0
+  },
+  {
+    "date": "2016-06",
     "system": "credit_cards",
     "volume_lakh": 768.9,
     "value_crore": 24240.0
@@ -1192,6 +1234,12 @@
     "system": "ccil",
     "volume_lakh": 3.5,
     "value_crore": 8980006.0
+  },
+  {
+    "date": "2016-07",
+    "system": "ccil_forex",
+    "volume_lakh": 1.4,
+    "value_crore": 3159523.0
   },
   {
     "date": "2016-07",
@@ -1363,6 +1411,12 @@
   },
   {
     "date": "2016-08",
+    "system": "ccil_forex",
+    "volume_lakh": 1.5,
+    "value_crore": 3373974.0
+  },
+  {
+    "date": "2016-08",
     "system": "credit_cards",
     "volume_lakh": 845.9,
     "value_crore": 26050.0
@@ -1528,6 +1582,12 @@
     "system": "ccil",
     "volume_lakh": 3.1,
     "value_crore": 9728080.0
+  },
+  {
+    "date": "2016-09",
+    "system": "ccil_forex",
+    "volume_lakh": 1.5,
+    "value_crore": 4062584.0
   },
   {
     "date": "2016-09",
@@ -1699,6 +1759,12 @@
   },
   {
     "date": "2016-10",
+    "system": "ccil_forex",
+    "volume_lakh": 1.3,
+    "value_crore": 3372594.0
+  },
+  {
+    "date": "2016-10",
     "system": "credit_cards",
     "volume_lakh": 894.9,
     "value_crore": 30159.0
@@ -1864,6 +1930,12 @@
     "system": "ccil",
     "volume_lakh": 3.5,
     "value_crore": 9722502.0
+  },
+  {
+    "date": "2016-11",
+    "system": "ccil_forex",
+    "volume_lakh": 1.7,
+    "value_crore": 3944526.0
   },
   {
     "date": "2016-11",
@@ -2035,6 +2107,12 @@
   },
   {
     "date": "2016-12",
+    "system": "ccil_forex",
+    "volume_lakh": 1.6,
+    "value_crore": 3357804.0
+  },
+  {
+    "date": "2016-12",
     "system": "credit_cards",
     "volume_lakh": 1118.4,
     "value_crore": 29989.0
@@ -2200,6 +2278,12 @@
     "system": "ccil",
     "volume_lakh": 3.2,
     "value_crore": 8806884.0
+  },
+  {
+    "date": "2017-01",
+    "system": "ccil_forex",
+    "volume_lakh": 1.9,
+    "value_crore": 3247067.0
   },
   {
     "date": "2017-01",
@@ -2371,6 +2455,12 @@
   },
   {
     "date": "2017-02",
+    "system": "ccil_forex",
+    "volume_lakh": 1.6,
+    "value_crore": 2774683.0
+  },
+  {
+    "date": "2017-02",
     "system": "credit_cards",
     "volume_lakh": 950.8,
     "value_crore": 28631.0
@@ -2536,6 +2626,12 @@
     "system": "ccil",
     "volume_lakh": 2.9,
     "value_crore": 9441557.0
+  },
+  {
+    "date": "2017-03",
+    "system": "ccil_forex",
+    "volume_lakh": 1.9,
+    "value_crore": 3756328.0
   },
   {
     "date": "2017-03",
@@ -2707,6 +2803,12 @@
   },
   {
     "date": "2017-04",
+    "system": "ccil_forex",
+    "volume_lakh": 1.6,
+    "value_crore": 3561613.0
+  },
+  {
+    "date": "2017-04",
     "system": "credit_cards",
     "volume_lakh": 1070.6,
     "value_crore": 33376.0
@@ -2872,6 +2974,12 @@
     "system": "ccil",
     "volume_lakh": 2.9,
     "value_crore": 8620269.0
+  },
+  {
+    "date": "2017-05",
+    "system": "ccil_forex",
+    "volume_lakh": 1.7,
+    "value_crore": 3328191.0
   },
   {
     "date": "2017-05",
@@ -3043,6 +3151,12 @@
   },
   {
     "date": "2017-06",
+    "system": "ccil_forex",
+    "volume_lakh": 1.6,
+    "value_crore": 3211278.0
+  },
+  {
+    "date": "2017-06",
     "system": "credit_cards",
     "volume_lakh": 1100.3,
     "value_crore": 35750.0
@@ -3208,6 +3322,12 @@
     "system": "ccil",
     "volume_lakh": 3.0,
     "value_crore": 8666363.0
+  },
+  {
+    "date": "2017-07",
+    "system": "ccil_forex",
+    "volume_lakh": 1.7,
+    "value_crore": 3087988.0
   },
   {
     "date": "2017-07",
@@ -3379,6 +3499,12 @@
   },
   {
     "date": "2017-08",
+    "system": "ccil_forex",
+    "volume_lakh": 1.7,
+    "value_crore": 3275505.0
+  },
+  {
+    "date": "2017-08",
     "system": "credit_cards",
     "volume_lakh": 1159.9,
     "value_crore": 36603.0
@@ -3544,6 +3670,12 @@
     "system": "ccil",
     "volume_lakh": 3.0,
     "value_crore": 9276382.0
+  },
+  {
+    "date": "2017-09",
+    "system": "ccil_forex",
+    "volume_lakh": 1.9,
+    "value_crore": 3497231.0
   },
   {
     "date": "2017-09",
@@ -3715,6 +3847,12 @@
   },
   {
     "date": "2017-10",
+    "system": "ccil_forex",
+    "volume_lakh": 1.8,
+    "value_crore": 3602859.0
+  },
+  {
+    "date": "2017-10",
     "system": "credit_cards",
     "volume_lakh": 1240.4,
     "value_crore": 42260.0
@@ -3880,6 +4018,12 @@
     "system": "ccil",
     "volume_lakh": 3.3,
     "value_crore": 10137716.0
+  },
+  {
+    "date": "2017-11",
+    "system": "ccil_forex",
+    "volume_lakh": 2.0,
+    "value_crore": 3820272.0
   },
   {
     "date": "2017-11",
@@ -4051,6 +4195,12 @@
   },
   {
     "date": "2017-12",
+    "system": "ccil_forex",
+    "volume_lakh": 1.8,
+    "value_crore": 3433724.0
+  },
+  {
+    "date": "2017-12",
     "system": "credit_cards",
     "volume_lakh": 1244.2,
     "value_crore": 42184.0
@@ -4216,6 +4366,12 @@
     "system": "ccil",
     "volume_lakh": 3.5,
     "value_crore": 10156041.0
+  },
+  {
+    "date": "2018-01",
+    "system": "ccil_forex",
+    "volume_lakh": 2.3,
+    "value_crore": 3941212.0
   },
   {
     "date": "2018-01",
@@ -4387,6 +4543,12 @@
   },
   {
     "date": "2018-02",
+    "system": "ccil_forex",
+    "volume_lakh": 1.9,
+    "value_crore": 3429256.0
+  },
+  {
+    "date": "2018-02",
     "system": "credit_cards",
     "volume_lakh": 1154.4,
     "value_crore": 37981.0
@@ -4552,6 +4714,12 @@
     "system": "ccil",
     "volume_lakh": 2.7,
     "value_crore": 8698500.0
+  },
+  {
+    "date": "2018-03",
+    "system": "ccil_forex",
+    "volume_lakh": 1.8,
+    "value_crore": 3923937.0
   },
   {
     "date": "2018-03",
@@ -4723,6 +4891,12 @@
   },
   {
     "date": "2018-04",
+    "system": "ccil_forex",
+    "volume_lakh": 2.0,
+    "value_crore": 4045251.0
+  },
+  {
+    "date": "2018-04",
     "system": "credit_cards",
     "volume_lakh": 1330.5,
     "value_crore": 45174.0
@@ -4888,6 +5062,12 @@
     "system": "ccil",
     "volume_lakh": 3.3,
     "value_crore": 9421493.0
+  },
+  {
+    "date": "2018-05",
+    "system": "ccil_forex",
+    "volume_lakh": 2.3,
+    "value_crore": 4165944.0
   },
   {
     "date": "2018-05",
@@ -5059,6 +5239,12 @@
   },
   {
     "date": "2018-06",
+    "system": "ccil_forex",
+    "volume_lakh": 2.1,
+    "value_crore": 3715117.0
+  },
+  {
+    "date": "2018-06",
     "system": "credit_cards",
     "volume_lakh": 1367.3,
     "value_crore": 46629.0
@@ -5224,6 +5410,12 @@
     "system": "ccil",
     "volume_lakh": 3.1,
     "value_crore": 9522190.0
+  },
+  {
+    "date": "2018-07",
+    "system": "ccil_forex",
+    "volume_lakh": 2.1,
+    "value_crore": 3835283.0
   },
   {
     "date": "2018-07",
@@ -5395,6 +5587,12 @@
   },
   {
     "date": "2018-08",
+    "system": "ccil_forex",
+    "volume_lakh": 2.0,
+    "value_crore": 3755165.0
+  },
+  {
+    "date": "2018-08",
     "system": "credit_cards",
     "volume_lakh": 1450.4,
     "value_crore": 48368.0
@@ -5560,6 +5758,12 @@
     "system": "ccil",
     "volume_lakh": 3.1,
     "value_crore": 9339477.0
+  },
+  {
+    "date": "2018-09",
+    "system": "ccil_forex",
+    "volume_lakh": 2.0,
+    "value_crore": 3676815.0
   },
   {
     "date": "2018-09",
@@ -5731,6 +5935,12 @@
   },
   {
     "date": "2018-10",
+    "system": "ccil_forex",
+    "volume_lakh": 2.1,
+    "value_crore": 4284859.0
+  },
+  {
+    "date": "2018-10",
     "system": "credit_cards",
     "volume_lakh": 1619.7,
     "value_crore": 56596.0
@@ -5896,6 +6106,12 @@
     "system": "ccil",
     "volume_lakh": 2.5,
     "value_crore": 8996285.0
+  },
+  {
+    "date": "2018-11",
+    "system": "ccil_forex",
+    "volume_lakh": 1.6,
+    "value_crore": 3377981.0
   },
   {
     "date": "2018-11",
@@ -6067,6 +6283,12 @@
   },
   {
     "date": "2018-12",
+    "system": "ccil_forex",
+    "volume_lakh": 2.0,
+    "value_crore": 3905937.0
+  },
+  {
+    "date": "2018-12",
     "system": "credit_cards",
     "volume_lakh": 1592.2,
     "value_crore": 54638.0
@@ -6232,6 +6454,12 @@
     "system": "ccil",
     "volume_lakh": 3.1,
     "value_crore": 10083213.0
+  },
+  {
+    "date": "2019-01",
+    "system": "ccil_forex",
+    "volume_lakh": 2.0,
+    "value_crore": 3858295.0
   },
   {
     "date": "2019-01",
@@ -6403,6 +6631,12 @@
   },
   {
     "date": "2019-02",
+    "system": "ccil_forex",
+    "volume_lakh": 1.7,
+    "value_crore": 3916668.0
+  },
+  {
+    "date": "2019-02",
     "system": "credit_cards",
     "volume_lakh": 1421.3,
     "value_crore": 48859.0
@@ -6568,6 +6802,12 @@
     "system": "ccil",
     "volume_lakh": 2.8,
     "value_crore": 10314777.0
+  },
+  {
+    "date": "2019-03",
+    "system": "ccil_forex",
+    "volume_lakh": 1.9,
+    "value_crore": 4941673.0
   },
   {
     "date": "2019-03",
@@ -6739,6 +6979,12 @@
   },
   {
     "date": "2019-04",
+    "system": "ccil_forex",
+    "volume_lakh": 1.6,
+    "value_crore": 4632931.0
+  },
+  {
+    "date": "2019-04",
     "system": "credit_cards",
     "volume_lakh": 1677.9,
     "value_crore": 58050.0
@@ -6890,7 +7136,7 @@
   {
     "date": "2019-05",
     "system": "cards_outstanding",
-    "volume_lakh": 8738.5,
+    "volume_lakh": 8738.54,
     "value_crore": null
   },
   {
@@ -6920,14 +7166,14 @@
   {
     "date": "2019-05",
     "system": "credit_cards_outstanding",
-    "volume_lakh": 489.2,
+    "volume_lakh": 489.21,
     "value_crore": null
   },
   {
     "date": "2019-05",
     "system": "credit_cards_pos",
-    "volume_lakh": 1731.5,
-    "value_crore": 61258.0
+    "volume_lakh": 1731.53,
+    "value_crore": 61282.0
   },
   {
     "date": "2019-05",
@@ -6950,7 +7196,7 @@
   {
     "date": "2019-05",
     "system": "debit_cards_outstanding",
-    "volume_lakh": 8249.3,
+    "volume_lakh": 8249.34,
     "value_crore": null
   },
   {
@@ -6974,8 +7220,8 @@
   {
     "date": "2019-05",
     "system": "grand_total",
-    "volume_lakh": 26050.7,
-    "value_crore": 26928951.0
+    "volume_lakh": 26050.69,
+    "value_crore": 26928975.0
   },
   {
     "date": "2019-05",
@@ -6986,13 +7232,13 @@
   {
     "date": "2019-05",
     "system": "infra_atms",
-    "volume_lakh": 2272270.0,
+    "volume_lakh": 227227.0,
     "value_crore": null
   },
   {
     "date": "2019-05",
     "system": "infra_pos",
-    "volume_lakh": 38451110.0,
+    "volume_lakh": 3840490.0,
     "value_crore": null
   },
   {
@@ -7064,7 +7310,7 @@
   {
     "date": "2019-06",
     "system": "cards_outstanding",
-    "volume_lakh": 8862.0,
+    "volume_lakh": 8865.4,
     "value_crore": null
   },
   {
@@ -7094,14 +7340,14 @@
   {
     "date": "2019-06",
     "system": "credit_cards_outstanding",
-    "volume_lakh": 493.1,
+    "volume_lakh": 496.48,
     "value_crore": null
   },
   {
     "date": "2019-06",
     "system": "credit_cards_pos",
-    "volume_lakh": 1623.7,
-    "value_crore": 56714.0
+    "volume_lakh": 1632.33,
+    "value_crore": 56928.0
   },
   {
     "date": "2019-06",
@@ -7118,20 +7364,20 @@
   {
     "date": "2019-06",
     "system": "debit_cards_atm",
-    "volume_lakh": 7861.1,
-    "value_crore": 282854.0
+    "volume_lakh": 8004.84,
+    "value_crore": 283403.0
   },
   {
     "date": "2019-06",
     "system": "debit_cards_outstanding",
-    "volume_lakh": 8368.9,
+    "volume_lakh": 8368.92,
     "value_crore": null
   },
   {
     "date": "2019-06",
     "system": "debit_cards_pos",
-    "volume_lakh": 4065.3,
-    "value_crore": 56973.0
+    "volume_lakh": 4073.76,
+    "value_crore": 57042.0
   },
   {
     "date": "2019-06",
@@ -7148,8 +7394,8 @@
   {
     "date": "2019-06",
     "system": "grand_total",
-    "volume_lakh": 24853.6,
-    "value_crore": 26028670.0
+    "volume_lakh": 25470.1,
+    "value_crore": 26029510.0
   },
   {
     "date": "2019-06",
@@ -7160,13 +7406,13 @@
   {
     "date": "2019-06",
     "system": "infra_atms",
-    "volume_lakh": 2267570.0,
+    "volume_lakh": 226839.0,
     "value_crore": null
   },
   {
     "date": "2019-06",
     "system": "infra_pos",
-    "volume_lakh": 39910070.0,
+    "volume_lakh": 4068954.0,
     "value_crore": null
   },
   {
@@ -7237,6 +7483,12 @@
   },
   {
     "date": "2019-07",
+    "system": "cards_outstanding",
+    "volume_lakh": 8908.65,
+    "value_crore": null
+  },
+  {
+    "date": "2019-07",
     "system": "cards_total",
     "volume_lakh": 14160.95,
     "value_crore": 400256.0
@@ -7261,6 +7513,18 @@
   },
   {
     "date": "2019-07",
+    "system": "credit_cards_outstanding",
+    "volume_lakh": 502.49,
+    "value_crore": null
+  },
+  {
+    "date": "2019-07",
+    "system": "credit_cards_pos",
+    "volume_lakh": 1784.07,
+    "value_crore": 59611.0
+  },
+  {
+    "date": "2019-07",
     "system": "cts",
     "volume_lakh": 934.8,
     "value_crore": 685224.0
@@ -7270,6 +7534,24 @@
     "system": "debit_cards",
     "volume_lakh": 12368.21,
     "value_crore": 340236.0
+  },
+  {
+    "date": "2019-07",
+    "system": "debit_cards_atm",
+    "volume_lakh": 8160.01,
+    "value_crore": 282135.0
+  },
+  {
+    "date": "2019-07",
+    "system": "debit_cards_outstanding",
+    "volume_lakh": 8406.16,
+    "value_crore": null
+  },
+  {
+    "date": "2019-07",
+    "system": "debit_cards_pos",
+    "volume_lakh": 4208.2,
+    "value_crore": 58101.0
   },
   {
     "date": "2019-07",
@@ -7285,9 +7567,27 @@
   },
   {
     "date": "2019-07",
+    "system": "grand_total",
+    "volume_lakh": 26192.72,
+    "value_crore": 27481083.0
+  },
+  {
+    "date": "2019-07",
     "system": "imps",
     "volume_lakh": 1892.76,
     "value_crore": 182021.0
+  },
+  {
+    "date": "2019-07",
+    "system": "infra_atms",
+    "volume_lakh": 227629.0,
+    "value_crore": null
+  },
+  {
+    "date": "2019-07",
+    "system": "infra_pos",
+    "volume_lakh": 4252804.0,
+    "value_crore": null
   },
   {
     "date": "2019-07",
@@ -7357,6 +7657,12 @@
   },
   {
     "date": "2019-08",
+    "system": "cards_outstanding",
+    "volume_lakh": 9033.26,
+    "value_crore": null
+  },
+  {
+    "date": "2019-08",
     "system": "cards_total",
     "volume_lakh": 14234.95,
     "value_crore": 405503.0
@@ -7381,6 +7687,18 @@
   },
   {
     "date": "2019-08",
+    "system": "credit_cards_outstanding",
+    "volume_lakh": 517.65,
+    "value_crore": null
+  },
+  {
+    "date": "2019-08",
+    "system": "credit_cards_pos",
+    "volume_lakh": 1795.73,
+    "value_crore": 59601.0
+  },
+  {
+    "date": "2019-08",
     "system": "cts",
     "volume_lakh": 875.55,
     "value_crore": 635055.0
@@ -7390,6 +7708,24 @@
     "system": "debit_cards",
     "volume_lakh": 12430.65,
     "value_crore": 345492.0
+  },
+  {
+    "date": "2019-08",
+    "system": "debit_cards_atm",
+    "volume_lakh": 8142.95,
+    "value_crore": 287452.0
+  },
+  {
+    "date": "2019-08",
+    "system": "debit_cards_outstanding",
+    "volume_lakh": 8515.6,
+    "value_crore": null
+  },
+  {
+    "date": "2019-08",
+    "system": "debit_cards_pos",
+    "volume_lakh": 4287.7,
+    "value_crore": 58040.0
   },
   {
     "date": "2019-08",
@@ -7405,9 +7741,27 @@
   },
   {
     "date": "2019-08",
+    "system": "grand_total",
+    "volume_lakh": 26603.49,
+    "value_crore": 25231983.0
+  },
+  {
+    "date": "2019-08",
     "system": "imps",
     "volume_lakh": 2001.4,
     "value_crore": 188886.0
+  },
+  {
+    "date": "2019-08",
+    "system": "infra_atms",
+    "volume_lakh": 228170.0,
+    "value_crore": null
+  },
+  {
+    "date": "2019-08",
+    "system": "infra_pos",
+    "volume_lakh": 4409250.0,
+    "value_crore": null
   },
   {
     "date": "2019-08",
@@ -7477,6 +7831,12 @@
   },
   {
     "date": "2019-09",
+    "system": "cards_outstanding",
+    "volume_lakh": 8881.84,
+    "value_crore": null
+  },
+  {
+    "date": "2019-09",
     "system": "cards_total",
     "volume_lakh": 13892.43,
     "value_crore": 389350.0
@@ -7501,6 +7861,18 @@
   },
   {
     "date": "2019-09",
+    "system": "credit_cards_outstanding",
+    "volume_lakh": 525.9,
+    "value_crore": null
+  },
+  {
+    "date": "2019-09",
+    "system": "credit_cards_pos",
+    "volume_lakh": 1794.71,
+    "value_crore": 59453.0
+  },
+  {
+    "date": "2019-09",
     "system": "cts",
     "volume_lakh": 826.55,
     "value_crore": 590478.0
@@ -7510,6 +7882,24 @@
     "system": "debit_cards",
     "volume_lakh": 12089.55,
     "value_crore": 329505.0
+  },
+  {
+    "date": "2019-09",
+    "system": "debit_cards_atm",
+    "volume_lakh": 7940.22,
+    "value_crore": 273786.0
+  },
+  {
+    "date": "2019-09",
+    "system": "debit_cards_outstanding",
+    "volume_lakh": 8355.94,
+    "value_crore": null
+  },
+  {
+    "date": "2019-09",
+    "system": "debit_cards_pos",
+    "volume_lakh": 4149.34,
+    "value_crore": 55718.0
   },
   {
     "date": "2019-09",
@@ -7525,9 +7915,27 @@
   },
   {
     "date": "2019-09",
+    "system": "grand_total",
+    "volume_lakh": 25963.18,
+    "value_crore": 24409707.0
+  },
+  {
+    "date": "2019-09",
     "system": "imps",
     "volume_lakh": 2041.6,
     "value_crore": 183747.0
+  },
+  {
+    "date": "2019-09",
+    "system": "infra_atms",
+    "volume_lakh": 227886.0,
+    "value_crore": null
+  },
+  {
+    "date": "2019-09",
+    "system": "infra_pos",
+    "volume_lakh": 4589727.0,
+    "value_crore": null
   },
   {
     "date": "2019-09",
@@ -7597,6 +8005,12 @@
   },
   {
     "date": "2019-10",
+    "system": "cards_outstanding",
+    "volume_lakh": 8969.81,
+    "value_crore": null
+  },
+  {
+    "date": "2019-10",
     "system": "cards_total",
     "volume_lakh": 15176.6,
     "value_crore": 457099.0
@@ -7621,6 +8035,18 @@
   },
   {
     "date": "2019-10",
+    "system": "credit_cards_outstanding",
+    "volume_lakh": 533.59,
+    "value_crore": null
+  },
+  {
+    "date": "2019-10",
+    "system": "credit_cards_pos",
+    "volume_lakh": 2025.56,
+    "value_crore": 71106.0
+  },
+  {
+    "date": "2019-10",
     "system": "cts",
     "volume_lakh": 896.75,
     "value_crore": 659144.0
@@ -7630,6 +8056,24 @@
     "system": "debit_cards",
     "volume_lakh": 13142.81,
     "value_crore": 385582.0
+  },
+  {
+    "date": "2019-10",
+    "system": "debit_cards_atm",
+    "volume_lakh": 8592.32,
+    "value_crore": 315432.0
+  },
+  {
+    "date": "2019-10",
+    "system": "debit_cards_outstanding",
+    "volume_lakh": 8436.22,
+    "value_crore": null
+  },
+  {
+    "date": "2019-10",
+    "system": "debit_cards_pos",
+    "volume_lakh": 4550.49,
+    "value_crore": 70150.0
   },
   {
     "date": "2019-10",
@@ -7645,9 +8089,27 @@
   },
   {
     "date": "2019-10",
+    "system": "grand_total",
+    "volume_lakh": 29454.0,
+    "value_crore": 23957966.0
+  },
+  {
+    "date": "2019-10",
     "system": "imps",
     "volume_lakh": 2369.3,
     "value_crore": 212660.0
+  },
+  {
+    "date": "2019-10",
+    "system": "infra_atms",
+    "volume_lakh": 229374.0,
+    "value_crore": null
+  },
+  {
+    "date": "2019-10",
+    "system": "infra_pos",
+    "volume_lakh": 4825074.0,
+    "value_crore": null
   },
   {
     "date": "2019-10",
@@ -7735,9 +8197,39 @@
   },
   {
     "date": "2019-11",
+    "system": "cards_total",
+    "volume_lakh": 6062.09,
+    "value_crore": 137707.0
+  },
+  {
+    "date": "2019-11",
+    "system": "credit_cards",
+    "volume_lakh": 1762.12,
+    "value_crore": 60130.0
+  },
+  {
+    "date": "2019-11",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 18750.31,
+    "value_crore": 2226286.0
+  },
+  {
+    "date": "2019-11",
     "system": "cts",
     "volume_lakh": 864.86,
     "value_crore": 643678.0
+  },
+  {
+    "date": "2019-11",
+    "system": "debit_cards",
+    "volume_lakh": 4299.96,
+    "value_crore": 77577.0
+  },
+  {
+    "date": "2019-11",
+    "system": "debit_transfers",
+    "volume_lakh": 766.41,
+    "value_crore": 70199.0
   },
   {
     "date": "2019-11",
@@ -7768,6 +8260,30 @@
     "system": "netc",
     "volume_lakh": 1.77,
     "value_crore": 5.0
+  },
+  {
+    "date": "2019-11",
+    "system": "paper_total",
+    "volume_lakh": 866.12,
+    "value_crore": 644802.0
+  },
+  {
+    "date": "2019-11",
+    "system": "ppi_cards",
+    "volume_lakh": 1317.99,
+    "value_crore": 3192.0
+  },
+  {
+    "date": "2019-11",
+    "system": "ppi_total",
+    "volume_lakh": 4672.07,
+    "value_crore": 17844.0
+  },
+  {
+    "date": "2019-11",
+    "system": "rtgs",
+    "volume_lakh": 133.87,
+    "value_crore": 8679806.0
   },
   {
     "date": "2019-11",
@@ -7825,9 +8341,39 @@
   },
   {
     "date": "2019-12",
+    "system": "cards_total",
+    "volume_lakh": 6615.52,
+    "value_crore": 149688.0
+  },
+  {
+    "date": "2019-12",
+    "system": "credit_cards",
+    "volume_lakh": 2036.64,
+    "value_crore": 65736.0
+  },
+  {
+    "date": "2019-12",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 20029.92,
+    "value_crore": 2440803.0
+  },
+  {
+    "date": "2019-12",
     "system": "cts",
     "volume_lakh": 864.44,
     "value_crore": 645573.0
+  },
+  {
+    "date": "2019-12",
+    "system": "debit_cards",
+    "volume_lakh": 4578.88,
+    "value_crore": 83953.0
+  },
+  {
+    "date": "2019-12",
+    "system": "debit_transfers",
+    "volume_lakh": 790.71,
+    "value_crore": 72455.0
   },
   {
     "date": "2019-12",
@@ -7858,6 +8404,30 @@
     "system": "netc",
     "volume_lakh": 14.02,
     "value_crore": 37.0
+  },
+  {
+    "date": "2019-12",
+    "system": "paper_total",
+    "volume_lakh": 865.46,
+    "value_crore": 646583.0
+  },
+  {
+    "date": "2019-12",
+    "system": "ppi_cards",
+    "volume_lakh": 1420.8,
+    "value_crore": 3088.0
+  },
+  {
+    "date": "2019-12",
+    "system": "ppi_total",
+    "volume_lakh": 5072.36,
+    "value_crore": 18922.0
+  },
+  {
+    "date": "2019-12",
+    "system": "rtgs",
+    "volume_lakh": 136.02,
+    "value_crore": 10316937.0
   },
   {
     "date": "2019-12",
@@ -7915,9 +8485,39 @@
   },
   {
     "date": "2020-01",
+    "system": "cards_total",
+    "volume_lakh": 6654.46,
+    "value_crore": 151147.0
+  },
+  {
+    "date": "2020-01",
+    "system": "credit_cards",
+    "volume_lakh": 2017.27,
+    "value_crore": 66573.0
+  },
+  {
+    "date": "2020-01",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 21194.27,
+    "value_crore": 2454422.0
+  },
+  {
+    "date": "2020-01",
     "system": "cts",
     "volume_lakh": 886.38,
     "value_crore": 659590.0
+  },
+  {
+    "date": "2020-01",
+    "system": "debit_cards",
+    "volume_lakh": 4637.19,
+    "value_crore": 84575.0
+  },
+  {
+    "date": "2020-01",
+    "system": "debit_transfers",
+    "volume_lakh": 812.33,
+    "value_crore": 73506.0
   },
   {
     "date": "2020-01",
@@ -7948,6 +8548,30 @@
     "system": "netc",
     "volume_lakh": 25.61,
     "value_crore": 49.0
+  },
+  {
+    "date": "2020-01",
+    "system": "paper_total",
+    "volume_lakh": 887.16,
+    "value_crore": 660249.0
+  },
+  {
+    "date": "2020-01",
+    "system": "ppi_cards",
+    "volume_lakh": 1360.82,
+    "value_crore": 2878.0
+  },
+  {
+    "date": "2020-01",
+    "system": "ppi_total",
+    "volume_lakh": 5237.05,
+    "value_crore": 18286.0
+  },
+  {
+    "date": "2020-01",
+    "system": "rtgs",
+    "volume_lakh": 137.29,
+    "value_crore": 9880821.0
   },
   {
     "date": "2020-01",
@@ -8005,9 +8629,39 @@
   },
   {
     "date": "2020-02",
+    "system": "cards_total",
+    "volume_lakh": 6264.71,
+    "value_crore": 142375.0
+  },
+  {
+    "date": "2020-02",
+    "system": "credit_cards",
+    "volume_lakh": 1882.94,
+    "value_crore": 62148.0
+  },
+  {
+    "date": "2020-02",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 20409.5,
+    "value_crore": 2396212.0
+  },
+  {
+    "date": "2020-02",
     "system": "cts",
     "volume_lakh": 884.58,
     "value_crore": 659157.0
+  },
+  {
+    "date": "2020-02",
+    "system": "debit_cards",
+    "volume_lakh": 4381.77,
+    "value_crore": 80227.0
+  },
+  {
+    "date": "2020-02",
+    "system": "debit_transfers",
+    "volume_lakh": 827.05,
+    "value_crore": 73479.0
   },
   {
     "date": "2020-02",
@@ -8038,6 +8692,30 @@
     "system": "netc",
     "volume_lakh": 26.72,
     "value_crore": 53.0
+  },
+  {
+    "date": "2020-02",
+    "system": "paper_total",
+    "volume_lakh": 884.95,
+    "value_crore": 659458.0
+  },
+  {
+    "date": "2020-02",
+    "system": "ppi_cards",
+    "volume_lakh": 1243.55,
+    "value_crore": 2836.0
+  },
+  {
+    "date": "2020-02",
+    "system": "ppi_total",
+    "volume_lakh": 5026.37,
+    "value_crore": 17296.0
+  },
+  {
+    "date": "2020-02",
+    "system": "rtgs",
+    "volume_lakh": 133.16,
+    "value_crore": 8990097.0
   },
   {
     "date": "2020-02",
@@ -8095,9 +8773,39 @@
   },
   {
     "date": "2020-03",
+    "system": "cards_total",
+    "volume_lakh": 5354.85,
+    "value_crore": 115877.0
+  },
+  {
+    "date": "2020-03",
+    "system": "credit_cards",
+    "volume_lakh": 1638.57,
+    "value_crore": 50574.0
+  },
+  {
+    "date": "2020-03",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 19743.26,
+    "value_crore": 2831185.0
+  },
+  {
+    "date": "2020-03",
     "system": "cts",
     "volume_lakh": 710.01,
     "value_crore": 565046.0
+  },
+  {
+    "date": "2020-03",
+    "system": "debit_cards",
+    "volume_lakh": 3716.28,
+    "value_crore": 65303.0
+  },
+  {
+    "date": "2020-03",
+    "system": "debit_transfers",
+    "volume_lakh": 818.06,
+    "value_crore": 76126.0
   },
   {
     "date": "2020-03",
@@ -8128,6 +8836,30 @@
     "system": "netc",
     "volume_lakh": 17.88,
     "value_crore": 33.0
+  },
+  {
+    "date": "2020-03",
+    "system": "paper_total",
+    "volume_lakh": 710.34,
+    "value_crore": 565315.0
+  },
+  {
+    "date": "2020-03",
+    "system": "ppi_cards",
+    "volume_lakh": 804.25,
+    "value_crore": 2229.0
+  },
+  {
+    "date": "2020-03",
+    "system": "ppi_total",
+    "volume_lakh": 3982.85,
+    "value_crore": 15341.0
+  },
+  {
+    "date": "2020-03",
+    "system": "rtgs",
+    "volume_lakh": 118.95,
+    "value_crore": 12047221.0
   },
   {
     "date": "2020-03",
@@ -8185,9 +8917,63 @@
   },
   {
     "date": "2020-04",
+    "system": "cards_total",
+    "volume_lakh": 2863.83,
+    "value_crore": 49807.0
+  },
+  {
+    "date": "2020-04",
+    "system": "credit_cards",
+    "volume_lakh": 768.53,
+    "value_crore": 20765.0
+  },
+  {
+    "date": "2020-04",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 17950.56,
+    "value_crore": 1687713.0
+  },
+  {
+    "date": "2020-04",
     "system": "cts",
     "volume_lakh": 176.57,
     "value_crore": 163487.0
+  },
+  {
+    "date": "2020-04",
+    "system": "debit_cards",
+    "volume_lakh": 2095.3,
+    "value_crore": 29043.0
+  },
+  {
+    "date": "2020-04",
+    "system": "debit_transfers",
+    "volume_lakh": 691.42,
+    "value_crore": 56029.0
+  },
+  {
+    "date": "2020-04",
+    "system": "paper_total",
+    "volume_lakh": 176.82,
+    "value_crore": 163685.0
+  },
+  {
+    "date": "2020-04",
+    "system": "ppi_cards",
+    "volume_lakh": 244.75,
+    "value_crore": 956.0
+  },
+  {
+    "date": "2020-04",
+    "system": "ppi_total",
+    "volume_lakh": 2086.01,
+    "value_crore": 9648.0
+  },
+  {
+    "date": "2020-04",
+    "system": "rtgs",
+    "volume_lakh": 54.35,
+    "value_crore": 6443653.0
   },
   {
     "date": "2020-04",
@@ -8245,9 +9031,63 @@
   },
   {
     "date": "2020-05",
+    "system": "cards_total",
+    "volume_lakh": 3752.17,
+    "value_crore": 80274.0
+  },
+  {
+    "date": "2020-05",
+    "system": "credit_cards",
+    "volume_lakh": 1028.86,
+    "value_crore": 32225.0
+  },
+  {
+    "date": "2020-05",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 18091.78,
+    "value_crore": 2018010.0
+  },
+  {
+    "date": "2020-05",
     "system": "cts",
     "volume_lakh": 306.5,
     "value_crore": 260012.0
+  },
+  {
+    "date": "2020-05",
+    "system": "debit_cards",
+    "volume_lakh": 2723.3,
+    "value_crore": 48049.0
+  },
+  {
+    "date": "2020-05",
+    "system": "debit_transfers",
+    "volume_lakh": 672.9,
+    "value_crore": 50962.0
+  },
+  {
+    "date": "2020-05",
+    "system": "paper_total",
+    "volume_lakh": 306.77,
+    "value_crore": 260227.0
+  },
+  {
+    "date": "2020-05",
+    "system": "ppi_cards",
+    "volume_lakh": 499.7,
+    "value_crore": 1729.0
+  },
+  {
+    "date": "2020-05",
+    "system": "ppi_total",
+    "volume_lakh": 3031.9,
+    "value_crore": 12808.0
+  },
+  {
+    "date": "2020-05",
+    "system": "rtgs",
+    "volume_lakh": 90.04,
+    "value_crore": 7041869.0
   },
   {
     "date": "2020-05",
@@ -8593,9 +9433,39 @@
   },
   {
     "date": "2020-08",
+    "system": "cards_total",
+    "volume_lakh": 4914.48,
+    "value_crore": 122089.0
+  },
+  {
+    "date": "2020-08",
+    "system": "credit_cards",
+    "volume_lakh": 1425.11,
+    "value_crore": 50311.0
+  },
+  {
+    "date": "2020-08",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 23968.09,
+    "value_crore": 2556825.0
+  },
+  {
+    "date": "2020-08",
     "system": "cts",
     "volume_lakh": 519.72,
     "value_crore": 425252.0
+  },
+  {
+    "date": "2020-08",
+    "system": "debit_cards",
+    "volume_lakh": 3489.38,
+    "value_crore": 71778.0
+  },
+  {
+    "date": "2020-08",
+    "system": "debit_transfers",
+    "volume_lakh": 857.28,
+    "value_crore": 67146.0
   },
   {
     "date": "2020-08",
@@ -8626,6 +9496,30 @@
     "system": "netc",
     "volume_lakh": 45.96,
     "value_crore": 63.0
+  },
+  {
+    "date": "2020-08",
+    "system": "paper_total",
+    "volume_lakh": 519.83,
+    "value_crore": 425462.0
+  },
+  {
+    "date": "2020-08",
+    "system": "ppi_cards",
+    "volume_lakh": 964.79,
+    "value_crore": 3808.0
+  },
+  {
+    "date": "2020-08",
+    "system": "ppi_total",
+    "volume_lakh": 4932.61,
+    "value_crore": 16808.0
+  },
+  {
+    "date": "2020-08",
+    "system": "rtgs",
+    "volume_lakh": 116.77,
+    "value_crore": 7292380.0
   },
   {
     "date": "2020-08",

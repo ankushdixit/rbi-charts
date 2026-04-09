@@ -106,8 +106,10 @@ ERA2_MAP = {
     "3.2 nach dr": "nach_debit",
     "3.3 netc (linked to bank account) @": "netc",
     "3.3 netc (linked to bank account)": "netc",
+    "4 card payments": "cards_total",
     "4.1 credit cards": "credit_cards",
     "4.2 debit cards": "debit_cards",
+    "5 prepaid payment instruments": "ppi_total",
     "5.1 wallets": "wallets",
     "5.2 cards": "ppi_cards",
     "6.1 cts (npci managed)": "cts",
@@ -165,6 +167,8 @@ def _normalize_label(label: str) -> str:
     s = re.sub(r"\s+", " ", s)
     # Remove $ and # footnote markers
     s = re.sub(r"\s*[\$#\*]+\s*$", "", s)
+    # Remove parenthetical notes like "(4.1 to 4.2)" or "(5.1 to 5.2)"
+    s = re.sub(r"\s*\([\d\.\s]+to[\d\.\s]+\)", "", s)
     s = s.strip()
     return s
 
@@ -311,8 +315,8 @@ def parse_file(filepath: str) -> list[dict]:
     if not dates.get("current"):
         return []
 
-    # Select the right category map
-    cat_map = ERA1_MAP if era == 1 else ERA23_MAP
+    # Use a merged map — all label variants across all eras
+    cat_map = {**ERA1_MAP, **ERA23_MAP}
 
     # Unit conversion factors
     vol_factor = 10.0 if era == 1 else 1.0   # Million → Lakh

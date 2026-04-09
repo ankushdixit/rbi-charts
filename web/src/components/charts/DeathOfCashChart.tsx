@@ -35,8 +35,9 @@ export default function DeathOfCashChart({ data }: Props) {
     const upi = data.map((d) => toBillions(d.upi));
     const neft = data.map((d) => toBillions(d.neft));
     const imps = data.map((d) => toBillions(d.imps));
-    const cards = data.map((d) => toBillions(d.cards_total));
-    const ppi = data.map((d) => toBillions(d.ppi_total));
+    const creditCards = data.map((d) => toBillions(d.credit_cards));
+    const debitCards = data.map((d) => toBillions(d.debit_cards));
+    const wallets = data.map((d) => toBillions(d.wallets));
     const cts = data.map((d) => toBillions(d.cts));
 
     const makeSeries = (
@@ -78,7 +79,7 @@ export default function DeathOfCashChart({ data }: Props) {
         },
       },
       legend: {
-        data: ["UPI", "NEFT", "IMPS", "Cards", "PPIs", "Cheques (CTS)"],
+        data: ["UPI", "NEFT", "IMPS", "Credit Cards", "Debit Cards", "Wallets", "Cheques (CTS)"],
         bottom: 45,
         textStyle: { color: "#94a3b8", fontSize: 11 },
         itemWidth: 12,
@@ -127,8 +128,9 @@ export default function DeathOfCashChart({ data }: Props) {
         makeSeries("UPI", upi, "#3b82f6"),
         makeSeries("NEFT", neft, "#06b6d4"),
         makeSeries("IMPS", imps, "#8b5cf6"),
-        makeSeries("Cards", cards, "#f59e0b"),
-        makeSeries("PPIs", ppi, "#10b981"),
+        makeSeries("Credit Cards", creditCards, "#f59e0b"),
+        makeSeries("Debit Cards", debitCards, "#f97316"),
+        makeSeries("Wallets", wallets, "#10b981"),
         {
           name: "Cheques (CTS)",
           type: "line",
