@@ -204,16 +204,25 @@ def export_credit_card_race(df: pd.DataFrame, output_dir: str = "web/public/data
     pivot = cc_top.pivot(index="date", columns="bank", values="credit_cards").reset_index()
     pivot = pivot.sort_values("date")
 
+    def _sanitize(obj):
+        if isinstance(obj, dict):
+            return {k: _sanitize(v) for k, v in obj.items()}
+        if isinstance(obj, list):
+            return [_sanitize(v) for v in obj]
+        if isinstance(obj, float) and (obj != obj or obj == float("inf")):
+            return None
+        return obj
+
     # Export
     records = pivot.to_dict(orient="records")
     with open(os.path.join(output_dir, "credit_card_race.json"), "w") as f:
-        json.dump(records, f, indent=2, default=str)
+        json.dump(_sanitize(records), f, indent=2)
     print(f"  Exported credit_card_race.json ({len(records)} months, {len(top_banks)} banks)")
 
     # Also export full credit card data
     all_records = cc.to_dict(orient="records")
     with open(os.path.join(output_dir, "credit_cards_all.json"), "w") as f:
-        json.dump(all_records, f, indent=2, default=str)
+        json.dump(_sanitize(all_records), f, indent=2)
     print(f"  Exported credit_cards_all.json ({len(all_records)} records)")
 
     return top_banks

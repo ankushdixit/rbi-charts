@@ -425,12 +425,15 @@ def parse_all(
     return df
 
 
-def _json_serializer(obj):
-    """Handle NaN and other non-JSON-serializable values."""
-    import math
-    if isinstance(obj, float) and (math.isnan(obj) or math.isinf(obj)):
+def _sanitize_for_json(obj):
+    """Convert a Python object to JSON-safe form, replacing NaN/Inf with None."""
+    if isinstance(obj, dict):
+        return {k: _sanitize_for_json(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_sanitize_for_json(v) for v in obj]
+    if isinstance(obj, float) and (obj != obj or obj == float("inf") or obj == float("-inf")):
         return None
-    return str(obj)
+    return obj
 
 
 def export_json(df: pd.DataFrame, output_dir: str = "web/public/data"):
@@ -441,25 +444,26 @@ def export_json(df: pd.DataFrame, output_dir: str = "web/public/data"):
     monthly = df[df["date_type"] == "monthly"].copy()
     monthly = monthly.sort_values("date")
 
+    def _write(path, data):
+        with open(path, "w") as f:
+            json.dump(_sanitize_for_json(data), f, indent=2)
+
     # 1. Full dataset
     records = monthly.drop(columns=["era", "source", "date_type"]).to_dict(orient="records")
-    with open(os.path.join(output_dir, "psi_all.json"), "w") as f:
-        json.dump(records, f, indent=2, default=_json_serializer)
+    _write(os.path.join(output_dir, "psi_all.json"), records)
     print(f"  Exported psi_all.json ({len(records)} records)")
 
     # 2. UPI-specific time series
     upi = monthly[monthly["system"] == "upi"].copy()
     upi_records = upi[["date", "volume_lakh", "value_crore"]].to_dict(orient="records")
-    with open(os.path.join(output_dir, "psi_upi.json"), "w") as f:
-        json.dump(upi_records, f, indent=2, default=str)
+    _write(os.path.join(output_dir, "psi_upi.json"), upi_records)
     print(f"  Exported psi_upi.json ({len(upi_records)} records)")
 
     # 3. Payment system comparison (latest month, all systems)
     latest_date = monthly["date"].max()
     latest = monthly[monthly["date"] == latest_date].copy()
     latest_records = latest[["system", "volume_lakh", "value_crore"]].to_dict(orient="records")
-    with open(os.path.join(output_dir, "psi_latest.json"), "w") as f:
-        json.dump(latest_records, f, indent=2, default=str)
+    _write(os.path.join(output_dir, "psi_latest.json"), latest_records)
     print(f"  Exported psi_latest.json ({len(latest_records)} records, date={latest_date})")
 
     # 4. Monthly totals by major system for "Death of Cash" chart
@@ -471,8 +475,7 @@ def export_json(df: pd.DataFrame, output_dir: str = "web/public/data"):
         index="date", columns="system", values="volume_lakh", aggfunc="first"
     ).reset_index()
     pivot_records = pivot.to_dict(orient="records")
-    with open(os.path.join(output_dir, "psi_trends.json"), "w") as f:
-        json.dump(pivot_records, f, indent=2, default=str)
+    _write(os.path.join(output_dir, "psi_trends.json"), pivot_records)
     print(f"  Exported psi_trends.json ({len(pivot_records)} months)")
 
 
