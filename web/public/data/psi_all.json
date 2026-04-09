@@ -8233,6 +8233,18 @@
   },
   {
     "date": "2019-11",
+    "system": "ecs_credit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2019-11",
+    "system": "ecs_debit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2019-11",
     "system": "imps",
     "volume_lakh": 2280.75,
     "value_crore": 202904.0
@@ -8374,6 +8386,18 @@
     "system": "debit_transfers",
     "volume_lakh": 790.71,
     "value_crore": 72455.0
+  },
+  {
+    "date": "2019-12",
+    "system": "ecs_credit",
+    "volume_lakh": 0.1,
+    "value_crore": 53.0
+  },
+  {
+    "date": "2019-12",
+    "system": "ecs_debit",
+    "volume_lakh": 0.0,
+    "value_crore": null
   },
   {
     "date": "2019-12",
@@ -8521,6 +8545,18 @@
   },
   {
     "date": "2020-01",
+    "system": "ecs_credit",
+    "volume_lakh": 0.09,
+    "value_crore": 43.0
+  },
+  {
+    "date": "2020-01",
+    "system": "ecs_debit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2020-01",
     "system": "imps",
     "volume_lakh": 2595.26,
     "value_crore": 216811.0
@@ -8665,6 +8701,18 @@
   },
   {
     "date": "2020-02",
+    "system": "ecs_credit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2020-02",
+    "system": "ecs_debit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2020-02",
     "system": "imps",
     "volume_lakh": 2477.98,
     "value_crore": 214566.0
@@ -8690,7 +8738,7 @@
   {
     "date": "2020-02",
     "system": "netc",
-    "volume_lakh": 26.72,
+    "volume_lakh": 28.07,
     "value_crore": 53.0
   },
   {
@@ -8806,6 +8854,18 @@
     "system": "debit_transfers",
     "volume_lakh": 818.06,
     "value_crore": 76126.0
+  },
+  {
+    "date": "2020-03",
+    "system": "ecs_credit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2020-03",
+    "system": "ecs_debit",
+    "volume_lakh": 0.0,
+    "value_crore": null
   },
   {
     "date": "2020-03",
@@ -8953,6 +9013,42 @@
   },
   {
     "date": "2020-04",
+    "system": "ecs_credit",
+    "volume_lakh": 0.0,
+    "value_crore": 0.0
+  },
+  {
+    "date": "2020-04",
+    "system": "ecs_debit",
+    "volume_lakh": 0.0,
+    "value_crore": 0.0
+  },
+  {
+    "date": "2020-04",
+    "system": "imps",
+    "volume_lakh": 1224.75,
+    "value_crore": 121141.0
+  },
+  {
+    "date": "2020-04",
+    "system": "nach_credit",
+    "volume_lakh": 2657.23,
+    "value_crore": 89999.0
+  },
+  {
+    "date": "2020-04",
+    "system": "neft",
+    "volume_lakh": 1759.79,
+    "value_crore": 1306406.0
+  },
+  {
+    "date": "2020-04",
+    "system": "netc",
+    "volume_lakh": 3.7,
+    "value_crore": 7.0
+  },
+  {
+    "date": "2020-04",
     "system": "paper_total",
     "volume_lakh": 176.82,
     "value_crore": 163685.0
@@ -9067,6 +9163,42 @@
   },
   {
     "date": "2020-05",
+    "system": "ecs_credit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2020-05",
+    "system": "ecs_debit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2020-05",
+    "system": "imps",
+    "volume_lakh": 1666.8,
+    "value_crore": 169402.0
+  },
+  {
+    "date": "2020-05",
+    "system": "nach_credit",
+    "volume_lakh": 995.55,
+    "value_crore": 134182.0
+  },
+  {
+    "date": "2020-05",
+    "system": "neft",
+    "volume_lakh": 1929.39,
+    "value_crore": 1481750.0
+  },
+  {
+    "date": "2020-05",
+    "system": "netc",
+    "volume_lakh": 19.41,
+    "value_crore": 36.0
+  },
+  {
+    "date": "2020-05",
     "system": "paper_total",
     "volume_lakh": 306.77,
     "value_crore": 260227.0
@@ -9178,6 +9310,18 @@
     "system": "debit_transfers",
     "volume_lakh": 837.03,
     "value_crore": 70703.0
+  },
+  {
+    "date": "2020-06",
+    "system": "ecs_credit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2020-06",
+    "system": "ecs_debit",
+    "volume_lakh": 0.0,
+    "value_crore": null
   },
   {
     "date": "2020-06",
@@ -9325,6 +9469,18 @@
   },
   {
     "date": "2020-07",
+    "system": "ecs_credit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2020-07",
+    "system": "ecs_debit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2020-07",
     "system": "imps",
     "volume_lakh": 2220.99,
     "value_crore": 225775.0
@@ -9466,6 +9622,18 @@
     "system": "debit_transfers",
     "volume_lakh": 857.28,
     "value_crore": 67146.0
+  },
+  {
+    "date": "2020-08",
+    "system": "ecs_credit",
+    "volume_lakh": 0.0,
+    "value_crore": null
+  },
+  {
+    "date": "2020-08",
+    "system": "ecs_debit",
+    "volume_lakh": 0.0,
+    "value_crore": null
   },
   {
     "date": "2020-08",
