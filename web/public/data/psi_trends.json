@@ -95,7 +95,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 0.5,
     "wallets": 487.6,
     "debit_cards_payments": 1181.4
   },
@@ -115,7 +115,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 1.0,
     "wallets": 503.1,
     "debit_cards_payments": 1338.6
   },
@@ -135,7 +135,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 2.0,
     "wallets": 586.3,
     "debit_cards_payments": 1180.3
   },
@@ -155,7 +155,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 4.0,
     "wallets": 594.5,
     "debit_cards_payments": 1284.4
   },
@@ -175,7 +175,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 6.0,
     "wallets": 706.8,
     "debit_cards_payments": 1305.4
   },
@@ -195,7 +195,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 10.0,
     "wallets": 753.0,
     "debit_cards_payments": 1251.9
   },
@@ -215,7 +215,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 15.0,
     "wallets": 995.7,
     "debit_cards_payments": 1404.5
   },
@@ -235,7 +235,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 77.31,
     "wallets": 1380.9,
     "debit_cards_payments": 2347.9
   },
@@ -255,7 +255,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 139.61,
     "wallets": 2131.1,
     "debit_cards_payments": 3215.4
   },
@@ -275,7 +275,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 201.92,
     "wallets": 2616.7,
     "debit_cards_payments": 3286.2
   },
@@ -295,7 +295,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 264.22,
     "wallets": 2469.5,
     "debit_cards_payments": 2517.5
   },
@@ -315,7 +315,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 326.53,
     "wallets": 3074.5,
     "debit_cards_payments": 2711.7
   },
@@ -335,7 +335,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 388.83,
     "wallets": 3208.7,
     "debit_cards_payments": 2680.0
   },
@@ -355,7 +355,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 451.14,
     "wallets": 2417.2,
     "debit_cards_payments": 2675.1
   },
@@ -375,7 +375,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 513.45,
     "wallets": 2216.3,
     "debit_cards_payments": 2546.6
   },
@@ -395,7 +395,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 575.75,
     "wallets": 2354.6,
     "debit_cards_payments": 2544.6
   },
@@ -415,7 +415,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 638.06,
     "wallets": 2254.3,
     "debit_cards_payments": 2654.5
   },
@@ -435,7 +435,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 700.36,
     "wallets": 1994.8,
     "debit_cards_payments": 2653.0
   },
@@ -455,7 +455,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 762.67,
     "wallets": 2012.3,
     "debit_cards_payments": 2784.0
   },
@@ -475,7 +475,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 1073.52,
     "wallets": 1866.7,
     "debit_cards_payments": 2709.6
   },
@@ -495,7 +495,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 1384.38,
     "wallets": 2883.7,
     "debit_cards_payments": 2903.5
   },
@@ -515,7 +515,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 1695.23,
     "wallets": 3263.0,
     "debit_cards_payments": 2985.6
   },
@@ -535,7 +535,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 2006.09,
     "wallets": 3100.1,
     "debit_cards_payments": 2826.6
   },
@@ -555,7 +555,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 2316.94,
     "wallets": 2687.9,
     "debit_cards_payments": 3189.0
   },
@@ -575,7 +575,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 2627.8,
     "wallets": 2792.9,
     "debit_cards_payments": 3337.7
   },
@@ -595,7 +595,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 2938.65,
     "wallets": 3260.2,
     "debit_cards_payments": 3521.2
   },
@@ -615,7 +615,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 3249.5,
     "wallets": 3096.2,
     "debit_cards_payments": 2833.1
   },
@@ -635,7 +635,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 3560.36,
     "wallets": 3251.8,
     "debit_cards_payments": 3667.5
   },
@@ -655,7 +655,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 3871.21,
     "wallets": 3406.5,
     "debit_cards_payments": 3571.7
   },
@@ -675,7 +675,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 4182.07,
     "wallets": 3241.6,
     "debit_cards_payments": 3627.5
   },
@@ -695,7 +695,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 4492.92,
     "wallets": 3684.5,
     "debit_cards_payments": 3933.9
   },
@@ -715,7 +715,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 4987.86,
     "wallets": 3473.2,
     "debit_cards_payments": 3765.7
   },
@@ -735,7 +735,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 5482.8,
     "wallets": 3929.9,
     "debit_cards_payments": 3875.4
   },
@@ -755,7 +755,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 5977.73,
     "wallets": 3976.3,
     "debit_cards_payments": 3736.0
   },
@@ -775,7 +775,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 6472.67,
     "wallets": 3450.3,
     "debit_cards_payments": 3471.7
   },
@@ -795,7 +795,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 6967.61,
     "wallets": 3848.9,
     "debit_cards_payments": 4075.7
   },
@@ -815,7 +815,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 7462.55,
     "wallets": 3788.7,
     "debit_cards_payments": 4075.7
   },
@@ -835,7 +835,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 7957.48,
     "wallets": 3674.55,
     "debit_cards_payments": 4075.9
   },
@@ -855,7 +855,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 8452.42,
     "wallets": 3347.01,
     "debit_cards_payments": 4073.76
   },
@@ -875,7 +875,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 8947.36,
     "wallets": 3471.32,
     "debit_cards_payments": 4208.2
   },
@@ -895,7 +895,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 9442.3,
     "wallets": 3493.36,
     "debit_cards_payments": 4287.7
   },
@@ -915,7 +915,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 9937.23,
     "wallets": 3444.22,
     "debit_cards_payments": 4149.34
   },
@@ -935,7 +935,7 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": null,
+    "upi": 10432.17,
     "wallets": 3393.25,
     "debit_cards_payments": 4550.49
   },
