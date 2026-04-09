@@ -91,8 +91,18 @@ def parse_file(filepath: str) -> list[dict]:
     # Extract month from page content
     soup = BeautifulSoup(content, "html.parser")
     text = soup.get_text()
-    # Handle all title variants: "Month of Feb 2026", "for Feb 2016", "the Month February 2021"
+    # Handle all title variants:
+    # "Month of February 2026", "for February 2016", "the Month February 2021"
+    # "ATM & Card Statistics for February 2016"
+    # Bare: "December 2021" (no prefix)
     match = re.search(r"(?:Month of|for|the Month)\s+([\w\s,\-]+\d{4})", text)
+    if not match:
+        # Try bare month name + year
+        match = re.search(
+            r"\b((?:January|February|March|April|May|June|July|August|September|October|November|December)"
+            r"[\s,\-]*\d{4})\b",
+            text,
+        )
     if not match:
         return []
 
