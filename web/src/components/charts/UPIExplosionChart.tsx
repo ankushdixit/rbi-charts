@@ -117,17 +117,18 @@ export default function UPIExplosionChart({ data }: Props) {
           },
           markLine: {
             silent: true,
-            symbol: "none",
-            lineStyle: { color: "#334155", type: "dashed" },
-            label: {
-              color: "#64748b",
-              fontSize: 10,
-              position: "insideStartTop",
-            },
+            symbol: ["none", "none"],
+            lineStyle: { color: "#475569", type: "dashed", width: 1 },
             data: [
               {
                 xAxis: "Apr 2020",
-                label: { formatter: "COVID\nlockdown" },
+                label: {
+                  show: true,
+                  formatter: "COVID\nlockdown",
+                  color: "#94a3b8",
+                  fontSize: 11,
+                  position: "insideEndTop",
+                },
               },
             ],
           },

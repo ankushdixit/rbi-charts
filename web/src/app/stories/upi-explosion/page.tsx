@@ -54,7 +54,7 @@ export default function UPIExplosionPage() {
               ₹{latestValueLakhCr}L Cr
             </p>
             <p className="text-sm text-zinc-500">
-              ~${((latestPoint.value_crore! * 10000000) / 84 / 1e12).toFixed(0)}B USD equivalent
+              ~${Math.round(latestPoint.value_crore! / 8400)}B USD equivalent
             </p>
           </div>
           <div>
