@@ -1,0 +1,127 @@
+[
+  {
+    "system": "aeps",
+    "volume_lakh": 0.23,
+    "value_crore": 14.0
+  },
+  {
+    "system": "apbs",
+    "volume_lakh": 2119.52,
+    "value_crore": 51081.0
+  },
+  {
+    "system": "bhim_aadhaar",
+    "volume_lakh": 16.45,
+    "value_crore": 636.0
+  },
+  {
+    "system": "cards_total",
+    "volume_lakh": 5855.08,
+    "value_crore": 210427.0
+  },
+  {
+    "system": "credit_cards",
+    "volume_lakh": 4937.95,
+    "value_crore": 177292.0
+  },
+  {
+    "system": "credit_transfers_retail",
+    "volume_lakh": 219247.39,
+    "value_crore": 7793908.0
+  },
+  {
+    "system": "cts",
+    "volume_lakh": 430.51,
+    "value_crore": 579783.0
+  },
+  {
+    "system": "debit_cards",
+    "volume_lakh": 917.12,
+    "value_crore": 33135.0
+  },
+  {
+    "system": "debit_transfers",
+    "volume_lakh": 1989.09,
+    "value_crore": 235001.0
+  },
+  {
+    "system": "imps",
+    "volume_lakh": 3360.96,
+    "value_crore": 642474.0
+  },
+  {
+    "system": "nach_credit",
+    "volume_lakh": 1702.37,
+    "value_crore": 164970.0
+  },
+  {
+    "system": "nach_debit",
+    "volume_lakh": 1849.39,
+    "value_crore": 234191.0
+  },
+  {
+    "system": "neft",
+    "volume_lakh": 8122.47,
+    "value_crore": 4251141.0
+  },
+  {
+    "system": "netc",
+    "volume_lakh": 123.25,
+    "value_crore": 174.0
+  },
+  {
+    "system": "paper_total",
+    "volume_lakh": 430.51,
+    "value_crore": 579783.0
+  },
+  {
+    "system": "ppi_cards",
+    "volume_lakh": 1707.18,
+    "value_crore": 6140.0
+  },
+  {
+    "system": "ppi_total",
+    "volume_lakh": 8359.24,
+    "value_crore": 25969.0
+  },
+  {
+    "system": "rtgs",
+    "volume_lakh": 305.85,
+    "value_crore": 18859418.0
+  },
+  {
+    "system": "rtgs_customer",
+    "volume_lakh": 304.71,
+    "value_crore": 17509377.0
+  },
+  {
+    "system": "rtgs_interbank",
+    "volume_lakh": 1.14,
+    "value_crore": 1350041.0
+  },
+  {
+    "system": "total_digital",
+    "volume_lakh": 235756.65,
+    "value_crore": 27124723.0
+  },
+  {
+    "system": "total_payments",
+    "volume_lakh": 236187.16,
+    "value_crore": 27704507.0
+  },
+  {
+    "system": "total_retail",
+    "volume_lakh": 235881.31,
+    "value_crore": 8845088.0
+  },
+  {
+    "system": "upi",
+    "volume_lakh": 203941.84,
+    "value_crore": 2684229.0
+  },
+  {
+    "system": "wallets",
+    "volume_lakh": 6652.06,
+    "value_crore": 19829.0
+  }
+]
