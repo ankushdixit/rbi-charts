@@ -3,7 +3,7 @@
     "date": "2015-12",
     "system": "cards_outstanding",
     "volume_lakh": 6659.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2015-12",
@@ -27,7 +27,7 @@
     "date": "2015-12",
     "system": "credit_cards_outstanding",
     "volume_lakh": 227.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2015-12",
@@ -57,7 +57,7 @@
     "date": "2015-12",
     "system": "debit_cards_outstanding",
     "volume_lakh": 6431.9,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2015-12",
@@ -93,13 +93,13 @@
     "date": "2015-12",
     "system": "infra_atms",
     "volume_lakh": 1936220.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2015-12",
     "system": "infra_pos",
     "volume_lakh": 12454470.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2015-12",
@@ -171,7 +171,7 @@
     "date": "2016-01",
     "system": "cards_outstanding",
     "volume_lakh": 6771.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-01",
@@ -195,7 +195,7 @@
     "date": "2016-01",
     "system": "credit_cards_outstanding",
     "volume_lakh": 237.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-01",
@@ -225,7 +225,7 @@
     "date": "2016-01",
     "system": "debit_cards_outstanding",
     "volume_lakh": 6533.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-01",
@@ -261,13 +261,13 @@
     "date": "2016-01",
     "system": "infra_atms",
     "volume_lakh": 1959330.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-01",
     "system": "infra_pos",
     "volume_lakh": 13373100.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-01",
@@ -339,7 +339,7 @@
     "date": "2016-02",
     "system": "cards_outstanding",
     "volume_lakh": 6822.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-02",
@@ -363,7 +363,7 @@
     "date": "2016-02",
     "system": "credit_cards_outstanding",
     "volume_lakh": 241.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-02",
@@ -393,7 +393,7 @@
     "date": "2016-02",
     "system": "debit_cards_outstanding",
     "volume_lakh": 6580.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-02",
@@ -429,13 +429,13 @@
     "date": "2016-02",
     "system": "infra_atms",
     "volume_lakh": 1972920.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-02",
     "system": "infra_pos",
     "volume_lakh": 13633440.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-02",
@@ -507,7 +507,7 @@
     "date": "2016-03",
     "system": "cards_outstanding",
     "volume_lakh": 6863.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-03",
@@ -531,7 +531,7 @@
     "date": "2016-03",
     "system": "credit_cards_outstanding",
     "volume_lakh": 245.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-03",
@@ -561,7 +561,7 @@
     "date": "2016-03",
     "system": "debit_cards_outstanding",
     "volume_lakh": 6618.2,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-03",
@@ -597,13 +597,13 @@
     "date": "2016-03",
     "system": "infra_atms",
     "volume_lakh": 1991000.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-03",
     "system": "infra_pos",
     "volume_lakh": 13829810.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-03",
@@ -675,7 +675,7 @@
     "date": "2016-04",
     "system": "cards_outstanding",
     "volume_lakh": 6851.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-04",
@@ -699,7 +699,7 @@
     "date": "2016-04",
     "system": "credit_cards_outstanding",
     "volume_lakh": 248.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-04",
@@ -729,7 +729,7 @@
     "date": "2016-04",
     "system": "debit_cards_outstanding",
     "volume_lakh": 6602.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-04",
@@ -765,13 +765,13 @@
     "date": "2016-04",
     "system": "infra_atms",
     "volume_lakh": 2128870.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-04",
     "system": "infra_pos",
     "volume_lakh": 14007920.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-04",
@@ -843,7 +843,7 @@
     "date": "2016-05",
     "system": "cards_outstanding",
     "volume_lakh": 7432.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-05",
@@ -867,7 +867,7 @@
     "date": "2016-05",
     "system": "credit_cards_outstanding",
     "volume_lakh": 250.9,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-05",
@@ -897,7 +897,7 @@
     "date": "2016-05",
     "system": "debit_cards_outstanding",
     "volume_lakh": 7181.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-05",
@@ -933,13 +933,13 @@
     "date": "2016-05",
     "system": "infra_atms",
     "volume_lakh": 2142710.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-05",
     "system": "infra_pos",
     "volume_lakh": 14155820.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-05",
@@ -1011,7 +1011,7 @@
     "date": "2016-06",
     "system": "cards_outstanding",
     "volume_lakh": 7136.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-06",
@@ -1035,7 +1035,7 @@
     "date": "2016-06",
     "system": "credit_cards_outstanding",
     "volume_lakh": 255.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-06",
@@ -1065,7 +1065,7 @@
     "date": "2016-06",
     "system": "debit_cards_outstanding",
     "volume_lakh": 6881.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-06",
@@ -1101,13 +1101,13 @@
     "date": "2016-06",
     "system": "infra_atms",
     "volume_lakh": 2152190.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-06",
     "system": "infra_pos",
     "volume_lakh": 14294200.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-06",
@@ -1179,7 +1179,7 @@
     "date": "2016-07",
     "system": "cards_outstanding",
     "volume_lakh": 7137.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-07",
@@ -1203,7 +1203,7 @@
     "date": "2016-07",
     "system": "credit_cards_outstanding",
     "volume_lakh": 255.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-07",
@@ -1233,7 +1233,7 @@
     "date": "2016-07",
     "system": "debit_cards_outstanding",
     "volume_lakh": 6882.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-07",
@@ -1269,13 +1269,13 @@
     "date": "2016-07",
     "system": "infra_atms",
     "volume_lakh": 2157600.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-07",
     "system": "infra_pos",
     "volume_lakh": 14426530.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-07",
@@ -1347,7 +1347,7 @@
     "date": "2016-08",
     "system": "cards_outstanding",
     "volume_lakh": 7387.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-08",
@@ -1371,7 +1371,7 @@
     "date": "2016-08",
     "system": "credit_cards_outstanding",
     "volume_lakh": 263.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-08",
@@ -1401,7 +1401,7 @@
     "date": "2016-08",
     "system": "debit_cards_outstanding",
     "volume_lakh": 7123.9,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-08",
@@ -1437,13 +1437,13 @@
     "date": "2016-08",
     "system": "infra_atms",
     "volume_lakh": 2169970.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-08",
     "system": "infra_pos",
     "volume_lakh": 14967690.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-08",
@@ -1515,7 +1515,7 @@
     "date": "2016-09",
     "system": "cards_outstanding",
     "volume_lakh": 7550.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-09",
@@ -1539,7 +1539,7 @@
     "date": "2016-09",
     "system": "credit_cards_outstanding",
     "volume_lakh": 268.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-09",
@@ -1569,7 +1569,7 @@
     "date": "2016-09",
     "system": "debit_cards_outstanding",
     "volume_lakh": 7281.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-09",
@@ -1605,13 +1605,13 @@
     "date": "2016-09",
     "system": "infra_atms",
     "volume_lakh": 2185420.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-09",
     "system": "infra_pos",
     "volume_lakh": 14803650.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-09",
@@ -1683,7 +1683,7 @@
     "date": "2016-10",
     "system": "cards_outstanding",
     "volume_lakh": 7666.2,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-10",
@@ -1707,7 +1707,7 @@
     "date": "2016-10",
     "system": "credit_cards_outstanding",
     "volume_lakh": 273.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-10",
@@ -1737,7 +1737,7 @@
     "date": "2016-10",
     "system": "debit_cards_outstanding",
     "volume_lakh": 7392.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-10",
@@ -1773,13 +1773,13 @@
     "date": "2016-10",
     "system": "infra_atms",
     "volume_lakh": 2195780.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-10",
     "system": "infra_pos",
     "volume_lakh": 15120640.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-10",
@@ -1851,7 +1851,7 @@
     "date": "2016-11",
     "system": "cards_outstanding",
     "volume_lakh": 7719.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-11",
@@ -1875,7 +1875,7 @@
     "date": "2016-11",
     "system": "credit_cards_outstanding",
     "volume_lakh": 277.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-11",
@@ -1905,7 +1905,7 @@
     "date": "2016-11",
     "system": "debit_cards_outstanding",
     "volume_lakh": 7442.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-11",
@@ -1941,13 +1941,13 @@
     "date": "2016-11",
     "system": "infra_atms",
     "volume_lakh": 2201660.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-11",
     "system": "infra_pos",
     "volume_lakh": 15892630.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-11",
@@ -2019,7 +2019,7 @@
     "date": "2016-12",
     "system": "cards_outstanding",
     "volume_lakh": 7798.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-12",
@@ -2043,7 +2043,7 @@
     "date": "2016-12",
     "system": "credit_cards_outstanding",
     "volume_lakh": 280.9,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-12",
@@ -2073,7 +2073,7 @@
     "date": "2016-12",
     "system": "debit_cards_outstanding",
     "volume_lakh": 7517.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-12",
@@ -2109,13 +2109,13 @@
     "date": "2016-12",
     "system": "infra_atms",
     "volume_lakh": 2198660.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-12",
     "system": "infra_pos",
     "volume_lakh": 17054230.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2016-12",
@@ -2187,7 +2187,7 @@
     "date": "2017-01",
     "system": "cards_outstanding",
     "volume_lakh": 8468.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-01",
@@ -2211,7 +2211,7 @@
     "date": "2017-01",
     "system": "credit_cards_outstanding",
     "volume_lakh": 288.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-01",
@@ -2241,7 +2241,7 @@
     "date": "2017-01",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8179.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-01",
@@ -2277,13 +2277,13 @@
     "date": "2017-01",
     "system": "infra_atms",
     "volume_lakh": 2204020.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-01",
     "system": "infra_pos",
     "volume_lakh": 20158470.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-01",
@@ -2355,7 +2355,7 @@
     "date": "2017-02",
     "system": "cards_outstanding",
     "volume_lakh": 8690.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-02",
@@ -2379,7 +2379,7 @@
     "date": "2017-02",
     "system": "credit_cards_outstanding",
     "volume_lakh": 290.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-02",
@@ -2409,7 +2409,7 @@
     "date": "2017-02",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8399.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-02",
@@ -2445,13 +2445,13 @@
     "date": "2017-02",
     "system": "infra_atms",
     "volume_lakh": 2213020.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-02",
     "system": "infra_pos",
     "volume_lakh": 22249770.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-02",
@@ -2523,7 +2523,7 @@
     "date": "2017-03",
     "system": "cards_outstanding",
     "volume_lakh": 8847.2,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-03",
@@ -2547,7 +2547,7 @@
     "date": "2017-03",
     "system": "credit_cards_outstanding",
     "volume_lakh": 298.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-03",
@@ -2577,7 +2577,7 @@
     "date": "2017-03",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8548.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-03",
@@ -2613,13 +2613,13 @@
     "date": "2017-03",
     "system": "infra_atms",
     "volume_lakh": 2224750.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-03",
     "system": "infra_pos",
     "volume_lakh": 25287580.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-03",
@@ -2691,7 +2691,7 @@
     "date": "2017-04",
     "system": "cards_outstanding",
     "volume_lakh": 8983.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-04",
@@ -2715,7 +2715,7 @@
     "date": "2017-04",
     "system": "credit_cards_outstanding",
     "volume_lakh": 313.2,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-04",
@@ -2745,7 +2745,7 @@
     "date": "2017-04",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8670.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-04",
@@ -2781,13 +2781,13 @@
     "date": "2017-04",
     "system": "infra_atms",
     "volume_lakh": 2219590.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-04",
     "system": "infra_pos",
     "volume_lakh": 26145840.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-04",
@@ -2859,7 +2859,7 @@
     "date": "2017-05",
     "system": "cards_outstanding",
     "volume_lakh": 9108.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-05",
@@ -2883,7 +2883,7 @@
     "date": "2017-05",
     "system": "credit_cards_outstanding",
     "volume_lakh": 308.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-05",
@@ -2913,7 +2913,7 @@
     "date": "2017-05",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8800.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-05",
@@ -2949,13 +2949,13 @@
     "date": "2017-05",
     "system": "infra_atms",
     "volume_lakh": 2228130.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-05",
     "system": "infra_pos",
     "volume_lakh": 26929860.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-05",
@@ -3027,7 +3027,7 @@
     "date": "2017-06",
     "system": "cards_outstanding",
     "volume_lakh": 8253.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-06",
@@ -3051,7 +3051,7 @@
     "date": "2017-06",
     "system": "credit_cards_outstanding",
     "volume_lakh": 314.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-06",
@@ -3081,7 +3081,7 @@
     "date": "2017-06",
     "system": "debit_cards_outstanding",
     "volume_lakh": 7938.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-06",
@@ -3117,13 +3117,13 @@
     "date": "2017-06",
     "system": "infra_atms",
     "volume_lakh": 2229260.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-06",
     "system": "infra_pos",
     "volume_lakh": 27769490.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-06",
@@ -3195,7 +3195,7 @@
     "date": "2017-07",
     "system": "cards_outstanding",
     "volume_lakh": 8361.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-07",
@@ -3219,7 +3219,7 @@
     "date": "2017-07",
     "system": "credit_cards_outstanding",
     "volume_lakh": 320.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-07",
@@ -3249,7 +3249,7 @@
     "date": "2017-07",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8040.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-07",
@@ -3285,13 +3285,13 @@
     "date": "2017-07",
     "system": "infra_atms",
     "volume_lakh": 2226530.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-07",
     "system": "infra_pos",
     "volume_lakh": 28401130.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-07",
@@ -3363,7 +3363,7 @@
     "date": "2017-08",
     "system": "cards_outstanding",
     "volume_lakh": 8435.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-08",
@@ -3387,7 +3387,7 @@
     "date": "2017-08",
     "system": "credit_cards_outstanding",
     "volume_lakh": 326.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-08",
@@ -3417,7 +3417,7 @@
     "date": "2017-08",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8108.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-08",
@@ -3453,13 +3453,13 @@
     "date": "2017-08",
     "system": "infra_atms",
     "volume_lakh": 2225680.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-08",
     "system": "infra_pos",
     "volume_lakh": 28824220.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-08",
@@ -3531,7 +3531,7 @@
     "date": "2017-09",
     "system": "cards_outstanding",
     "volume_lakh": 8531.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-09",
@@ -3555,7 +3555,7 @@
     "date": "2017-09",
     "system": "credit_cards_outstanding",
     "volume_lakh": 333.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-09",
@@ -3585,7 +3585,7 @@
     "date": "2017-09",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8197.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-09",
@@ -3621,13 +3621,13 @@
     "date": "2017-09",
     "system": "infra_atms",
     "volume_lakh": 2217220.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-09",
     "system": "infra_pos",
     "volume_lakh": 29000380.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-09",
@@ -3699,7 +3699,7 @@
     "date": "2017-10",
     "system": "cards_outstanding",
     "volume_lakh": 8601.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-10",
@@ -3723,7 +3723,7 @@
     "date": "2017-10",
     "system": "credit_cards_outstanding",
     "volume_lakh": 338.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-10",
@@ -3753,7 +3753,7 @@
     "date": "2017-10",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8262.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-10",
@@ -3789,13 +3789,13 @@
     "date": "2017-10",
     "system": "infra_atms",
     "volume_lakh": 2213140.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-10",
     "system": "infra_pos",
     "volume_lakh": 29583010.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-10",
@@ -3867,7 +3867,7 @@
     "date": "2017-11",
     "system": "cards_outstanding",
     "volume_lakh": 8676.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-11",
@@ -3891,7 +3891,7 @@
     "date": "2017-11",
     "system": "credit_cards_outstanding",
     "volume_lakh": 347.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-11",
@@ -3921,7 +3921,7 @@
     "date": "2017-11",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8328.9,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-11",
@@ -3957,13 +3957,13 @@
     "date": "2017-11",
     "system": "infra_atms",
     "volume_lakh": 2213500.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-11",
     "system": "infra_pos",
     "volume_lakh": 29987330.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-11",
@@ -4035,7 +4035,7 @@
     "date": "2017-12",
     "system": "cards_outstanding",
     "volume_lakh": 8779.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-12",
@@ -4059,7 +4059,7 @@
     "date": "2017-12",
     "system": "credit_cards_outstanding",
     "volume_lakh": 355.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-12",
@@ -4089,7 +4089,7 @@
     "date": "2017-12",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8424.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-12",
@@ -4125,13 +4125,13 @@
     "date": "2017-12",
     "system": "infra_atms",
     "volume_lakh": 2218320.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-12",
     "system": "infra_pos",
     "volume_lakh": 30273820.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2017-12",
@@ -4203,7 +4203,7 @@
     "date": "2018-01",
     "system": "cards_outstanding",
     "volume_lakh": 8829.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-01",
@@ -4227,7 +4227,7 @@
     "date": "2018-01",
     "system": "credit_cards_outstanding",
     "volume_lakh": 362.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-01",
@@ -4257,7 +4257,7 @@
     "date": "2018-01",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8467.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-01",
@@ -4293,13 +4293,13 @@
     "date": "2018-01",
     "system": "infra_atms",
     "volume_lakh": 2220750.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-01",
     "system": "infra_pos",
     "volume_lakh": 30618170.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-01",
@@ -4371,7 +4371,7 @@
     "date": "2018-02",
     "system": "cards_outstanding",
     "volume_lakh": 8923.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-02",
@@ -4395,7 +4395,7 @@
     "date": "2018-02",
     "system": "credit_cards_outstanding",
     "volume_lakh": 369.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-02",
@@ -4425,7 +4425,7 @@
     "date": "2018-02",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8554.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-02",
@@ -4461,13 +4461,13 @@
     "date": "2018-02",
     "system": "infra_atms",
     "volume_lakh": 2216870.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-02",
     "system": "infra_pos",
     "volume_lakh": 30794870.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-02",
@@ -4539,7 +4539,7 @@
     "date": "2018-03",
     "system": "cards_outstanding",
     "volume_lakh": 8985.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-03",
@@ -4563,7 +4563,7 @@
     "date": "2018-03",
     "system": "credit_cards_outstanding",
     "volume_lakh": 374.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-03",
@@ -4593,7 +4593,7 @@
     "date": "2018-03",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8610.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-03",
@@ -4629,13 +4629,13 @@
     "date": "2018-03",
     "system": "infra_atms",
     "volume_lakh": 2222470.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-03",
     "system": "infra_pos",
     "volume_lakh": 31372040.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-03",
@@ -4707,7 +4707,7 @@
     "date": "2018-04",
     "system": "cards_outstanding",
     "volume_lakh": 9441.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-04",
@@ -4731,7 +4731,7 @@
     "date": "2018-04",
     "system": "credit_cards_outstanding",
     "volume_lakh": 377.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-04",
@@ -4761,7 +4761,7 @@
     "date": "2018-04",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9063.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-04",
@@ -4797,13 +4797,13 @@
     "date": "2018-04",
     "system": "infra_atms",
     "volume_lakh": 2233590.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-04",
     "system": "infra_pos",
     "volume_lakh": 31629880.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-04",
@@ -4875,7 +4875,7 @@
     "date": "2018-05",
     "system": "cards_outstanding",
     "volume_lakh": 9637.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-05",
@@ -4899,7 +4899,7 @@
     "date": "2018-05",
     "system": "credit_cards_outstanding",
     "volume_lakh": 386.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-05",
@@ -4929,7 +4929,7 @@
     "date": "2018-05",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9251.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-05",
@@ -4965,13 +4965,13 @@
     "date": "2018-05",
     "system": "infra_atms",
     "volume_lakh": 2256080.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-05",
     "system": "infra_pos",
     "volume_lakh": 32470960.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-05",
@@ -5043,7 +5043,7 @@
     "date": "2018-06",
     "system": "cards_outstanding",
     "volume_lakh": 9836.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-06",
@@ -5067,7 +5067,7 @@
     "date": "2018-06",
     "system": "credit_cards_outstanding",
     "volume_lakh": 393.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-06",
@@ -5097,7 +5097,7 @@
     "date": "2018-06",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9442.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-06",
@@ -5133,13 +5133,13 @@
     "date": "2018-06",
     "system": "infra_atms",
     "volume_lakh": 2264520.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-06",
     "system": "infra_pos",
     "volume_lakh": 33111840.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-06",
@@ -5211,7 +5211,7 @@
     "date": "2018-07",
     "system": "cards_outstanding",
     "volume_lakh": 10020.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-07",
@@ -5235,7 +5235,7 @@
     "date": "2018-07",
     "system": "credit_cards_outstanding",
     "volume_lakh": 401.2,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-07",
@@ -5265,7 +5265,7 @@
     "date": "2018-07",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9619.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-07",
@@ -5301,13 +5301,13 @@
     "date": "2018-07",
     "system": "infra_atms",
     "volume_lakh": 2277580.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-07",
     "system": "infra_pos",
     "volume_lakh": 33400290.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-07",
@@ -5379,7 +5379,7 @@
     "date": "2018-08",
     "system": "cards_outstanding",
     "volume_lakh": 10212.2,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-08",
@@ -5403,7 +5403,7 @@
     "date": "2018-08",
     "system": "credit_cards_outstanding",
     "volume_lakh": 410.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-08",
@@ -5433,7 +5433,7 @@
     "date": "2018-08",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9801.9,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-08",
@@ -5469,13 +5469,13 @@
     "date": "2018-08",
     "system": "infra_atms",
     "volume_lakh": 2284220.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-08",
     "system": "infra_pos",
     "volume_lakh": 33324840.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-08",
@@ -5547,7 +5547,7 @@
     "date": "2018-09",
     "system": "cards_outstanding",
     "volume_lakh": 10315.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-09",
@@ -5571,7 +5571,7 @@
     "date": "2018-09",
     "system": "credit_cards_outstanding",
     "volume_lakh": 417.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-09",
@@ -5601,7 +5601,7 @@
     "date": "2018-09",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9897.9,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-09",
@@ -5637,13 +5637,13 @@
     "date": "2018-09",
     "system": "infra_atms",
     "volume_lakh": 2214920.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-09",
     "system": "infra_pos",
     "volume_lakh": 33933960.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-09",
@@ -5715,7 +5715,7 @@
     "date": "2018-10",
     "system": "cards_outstanding",
     "volume_lakh": 10412.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-10",
@@ -5739,7 +5739,7 @@
     "date": "2018-10",
     "system": "credit_cards_outstanding",
     "volume_lakh": 426.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-10",
@@ -5769,7 +5769,7 @@
     "date": "2018-10",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9986.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-10",
@@ -5805,13 +5805,13 @@
     "date": "2018-10",
     "system": "infra_atms",
     "volume_lakh": 2201540.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-10",
     "system": "infra_pos",
     "volume_lakh": 34503550.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-10",
@@ -5883,7 +5883,7 @@
     "date": "2018-11",
     "system": "cards_outstanding",
     "volume_lakh": 10356.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-11",
@@ -5907,7 +5907,7 @@
     "date": "2018-11",
     "system": "credit_cards_outstanding",
     "volume_lakh": 432.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-11",
@@ -5937,7 +5937,7 @@
     "date": "2018-11",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9924.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-11",
@@ -5973,13 +5973,13 @@
     "date": "2018-11",
     "system": "infra_atms",
     "volume_lakh": 2200020.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-11",
     "system": "infra_pos",
     "volume_lakh": 35108590.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-11",
@@ -6051,7 +6051,7 @@
     "date": "2018-12",
     "system": "cards_outstanding",
     "volume_lakh": 10023.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-12",
@@ -6075,7 +6075,7 @@
     "date": "2018-12",
     "system": "credit_cards_outstanding",
     "volume_lakh": 442.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-12",
@@ -6105,7 +6105,7 @@
     "date": "2018-12",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9581.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-12",
@@ -6141,13 +6141,13 @@
     "date": "2018-12",
     "system": "infra_atms",
     "volume_lakh": 2200510.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-12",
     "system": "infra_pos",
     "volume_lakh": 35924240.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2018-12",
@@ -6219,7 +6219,7 @@
     "date": "2019-01",
     "system": "cards_outstanding",
     "volume_lakh": 9764.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-01",
@@ -6243,7 +6243,7 @@
     "date": "2019-01",
     "system": "credit_cards_outstanding",
     "volume_lakh": 451.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-01",
@@ -6273,7 +6273,7 @@
     "date": "2019-01",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9312.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-01",
@@ -6309,13 +6309,13 @@
     "date": "2019-01",
     "system": "infra_atms",
     "volume_lakh": 2218480.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-01",
     "system": "infra_pos",
     "volume_lakh": 36530100.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-01",
@@ -6387,7 +6387,7 @@
     "date": "2019-02",
     "system": "cards_outstanding",
     "volume_lakh": 9906.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-02",
@@ -6411,7 +6411,7 @@
     "date": "2019-02",
     "system": "credit_cards_outstanding",
     "volume_lakh": 460.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-02",
@@ -6441,7 +6441,7 @@
     "date": "2019-02",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9445.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-02",
@@ -6477,13 +6477,13 @@
     "date": "2019-02",
     "system": "infra_atms",
     "volume_lakh": 2217860.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-02",
     "system": "infra_pos",
     "volume_lakh": 36368510.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-02",
@@ -6555,7 +6555,7 @@
     "date": "2019-03",
     "system": "cards_outstanding",
     "volume_lakh": 9717.2,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-03",
@@ -6579,7 +6579,7 @@
     "date": "2019-03",
     "system": "credit_cards_outstanding",
     "volume_lakh": 470.9,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-03",
@@ -6609,7 +6609,7 @@
     "date": "2019-03",
     "system": "debit_cards_outstanding",
     "volume_lakh": 9246.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-03",
@@ -6645,13 +6645,13 @@
     "date": "2019-03",
     "system": "infra_atms",
     "volume_lakh": 2217030.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-03",
     "system": "infra_pos",
     "volume_lakh": 37222290.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-03",
@@ -6723,7 +6723,7 @@
     "date": "2019-04",
     "system": "cards_outstanding",
     "volume_lakh": 9327.7,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-04",
@@ -6747,7 +6747,7 @@
     "date": "2019-04",
     "system": "credit_cards_outstanding",
     "volume_lakh": 480.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-04",
@@ -6777,7 +6777,7 @@
     "date": "2019-04",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8847.8,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-04",
@@ -6813,13 +6813,13 @@
     "date": "2019-04",
     "system": "infra_atms",
     "volume_lakh": 2271640.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-04",
     "system": "infra_pos",
     "volume_lakh": 37576210.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-04",
@@ -6891,7 +6891,7 @@
     "date": "2019-05",
     "system": "cards_outstanding",
     "volume_lakh": 8738.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-05",
@@ -6915,7 +6915,7 @@
     "date": "2019-05",
     "system": "credit_cards_outstanding",
     "volume_lakh": 489.2,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-05",
@@ -6945,7 +6945,7 @@
     "date": "2019-05",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8249.3,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-05",
@@ -6981,13 +6981,13 @@
     "date": "2019-05",
     "system": "infra_atms",
     "volume_lakh": 2272270.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-05",
     "system": "infra_pos",
     "volume_lakh": 38451110.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-05",
@@ -7059,7 +7059,7 @@
     "date": "2019-06",
     "system": "cards_outstanding",
     "volume_lakh": 8862.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-06",
@@ -7083,7 +7083,7 @@
     "date": "2019-06",
     "system": "credit_cards_outstanding",
     "volume_lakh": 493.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-06",
@@ -7113,7 +7113,7 @@
     "date": "2019-06",
     "system": "debit_cards_outstanding",
     "volume_lakh": 8368.9,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-06",
@@ -7149,13 +7149,13 @@
     "date": "2019-06",
     "system": "infra_atms",
     "volume_lakh": 2267570.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-06",
     "system": "infra_pos",
     "volume_lakh": 39910070.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-06",
@@ -7227,7 +7227,7 @@
     "date": "2019-07",
     "system": "cards_outstanding",
     "volume_lakh": 89086.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-07",
@@ -7251,7 +7251,7 @@
     "date": "2019-07",
     "system": "credit_cards_outstanding",
     "volume_lakh": 5024.9,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-07",
@@ -7281,7 +7281,7 @@
     "date": "2019-07",
     "system": "debit_cards_outstanding",
     "volume_lakh": 84061.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-07",
@@ -7317,13 +7317,13 @@
     "date": "2019-07",
     "system": "infra_atms",
     "volume_lakh": 2276290.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-07",
     "system": "infra_pos",
     "volume_lakh": 42528040.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-07",
@@ -7395,7 +7395,7 @@
     "date": "2019-08",
     "system": "cards_outstanding",
     "volume_lakh": 90332.6,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-08",
@@ -7419,7 +7419,7 @@
     "date": "2019-08",
     "system": "credit_cards_outstanding",
     "volume_lakh": 5176.5,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-08",
@@ -7449,7 +7449,7 @@
     "date": "2019-08",
     "system": "debit_cards_outstanding",
     "volume_lakh": 85156.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-08",
@@ -7485,13 +7485,13 @@
     "date": "2019-08",
     "system": "infra_atms",
     "volume_lakh": 2281700.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-08",
     "system": "infra_pos",
     "volume_lakh": 44092500.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-08",
@@ -7563,7 +7563,7 @@
     "date": "2019-09",
     "system": "cards_outstanding",
     "volume_lakh": 88818.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-09",
@@ -7587,7 +7587,7 @@
     "date": "2019-09",
     "system": "credit_cards_outstanding",
     "volume_lakh": 5259.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-09",
@@ -7617,7 +7617,7 @@
     "date": "2019-09",
     "system": "debit_cards_outstanding",
     "volume_lakh": 83559.4,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-09",
@@ -7635,7 +7635,7 @@
     "date": "2019-09",
     "system": "ecs_debit",
     "volume_lakh": 0.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-09",
@@ -7653,13 +7653,13 @@
     "date": "2019-09",
     "system": "infra_atms",
     "volume_lakh": 2278860.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-09",
     "system": "infra_pos",
     "volume_lakh": 45897270.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-09",
@@ -7731,7 +7731,7 @@
     "date": "2019-10",
     "system": "cards_outstanding",
     "volume_lakh": 89698.1,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-10",
@@ -7755,7 +7755,7 @@
     "date": "2019-10",
     "system": "credit_cards_outstanding",
     "volume_lakh": 5335.9,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-10",
@@ -7785,7 +7785,7 @@
     "date": "2019-10",
     "system": "debit_cards_outstanding",
     "volume_lakh": 84362.2,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-10",
@@ -7797,13 +7797,13 @@
     "date": "2019-10",
     "system": "ecs_credit",
     "volume_lakh": 0.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-10",
     "system": "ecs_debit",
     "volume_lakh": 0.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-10",
@@ -7821,13 +7821,13 @@
     "date": "2019-10",
     "system": "infra_atms",
     "volume_lakh": 2293740.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-10",
     "system": "infra_pos",
     "volume_lakh": 48250740.0,
-    "value_crore": NaN
+    "value_crore": null
   },
   {
     "date": "2019-10",

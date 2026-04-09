@@ -1,0 +1,2486 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+     <title>Bankwise ATM/POS/Card Statistics - Reserve Bank of India</title>
+    <meta name="description" content="Bankwise ATM/POS/Card Statistics - Reserve Bank of India" />
+    <meta name="keyword" content="RBI Bankwise ATM/POS/Card Statistics" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="text/javascript" src="/js/libs/modernizr-2.5.3.min.js"></script>
+    
+</head>
+<body onload="SetTreeStyles()">
+    <form method="post" action="./ATMView.aspx?atmid=7" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE4NzA2OTA4OTBkZEyT6t2RI2OHB6CVTnG1lgtmMbxAyh2BHfmPr3+Y/aqy" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A2040FBE" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAxkBg7I5DyLWaXbwLcZBb8jlK+XrsQEVyjeDxQ0A4GYXFBwzdjZXczwplb2HKGyLlrNyH2BRDHW7ZJm+s8yUnNgi6wX7g7V+51d5y/uZ409MaU74zTCJ05u4w6h9ODXzwxkOnLtYme9ze2BdjTwJgskP6t93AkC4GhUEhJREhdaXBugERoe+4YdP6+Dm7i9UwLINzYr5zRLekLCkqLwgivbfcX9ZaEV78oETjPwNTvjRyaLpyghhgB3dOM81YQT2c+c+9xpx8VJYAtxa/muK0iXrgri3iZMqj3WZTXY2PfkXA==" />
+</div>
+    <input type="hidden" name="hdnYear" id="hdnYear" />
+    <input type="hidden" name="hdnMonth" id="hdnMonth" value="0" />
+    
+<link href="/JQuery/css/jquery-ui-1.8.18.custom2.css" rel="stylesheet" type="text/css" />
+<link href="/includes/print.css" rel="stylesheet" media="print" type="text/css" />
+
+<link href="/Styles/960.css?v=1.0" rel="stylesheet" type="text/css" />
+<link href="/Includes1/rbi.css?v=5.0" rel="Stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/libs/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/JQuery/ui/jquery.ui.revampRBI.js"></script>
+<script type="text/javascript" src="/js/ImgSaveDisable.js"></script>
+<!--<script src='//tw.netcore.co.in/smartechclient.js'></script>
+<script>
+smartech('create', 'ADGMOT35CHFLVDHBJNIG50K968AU3Q5FOE3L6REE67CQ9HGBQ58G');
+smartech('register', '4d6884e503ecf55a3339a37e98b711da');
+smartech('identify', '');
+smartech('dispatch', 1, { });
+</script>-->
+<script type="text/javascript">
+  
+//Redirect to mobile site start
+    function detectmob() {
+        if (screen.width <= 599 || screen.Height <= 975) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    if (detectmob()) {
+       window.location.href = "https://m.rbi.org.in" + window.location.pathname;
+		
+       
+    }
+ //$(document).ready(function () { //for IAAP by ni
+ //      $('.container_12').attr('role','main');
+	
+ //   });
+	//Redirect to mobile site End
+    $(document).ready(function () {
+        Search();
+	
+    });
+
+    function Search() {
+        highlightTextAutocomplete();
+        $(".autoSuggest").autocomplete({
+
+
+            source: function (request, response) {
+                var param = { keyWord: document.getElementById('txtSearch').value };
+
+                $.ajax({
+                    url: "../Home.aspx/GetKeywords",
+                    data: JSON.stringify(param),
+                    dataType: "json",
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    dataFilter: function (data) { return data; },
+                    success: function (data) {
+
+                        if (data.d.length > 0) {
+                            response($.map(data.d, function (item) {
+                                return {
+                                    value: RemoveSpecialChars(item)
+
+                                }
+                            }))
+                        }
+                        else {
+                            response([{ label: "No results found", value: ""}]);
+                        }
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        alert(textStatus);
+                    }
+                });
+            },
+
+            //            select: function (event, ui) {
+            //                if (ui.item.value != "") {
+            //                    window.open("/scripts/SearchResults.aspx?search=" + ui.item.value, '_blank');
+            //                }
+            //            },
+            minLength: 3
+
+        });
+    }
+
+    function highlightTextAutocomplete() {
+
+        var oldFn = $.ui.autocomplete.prototype._renderItem;
+
+        $.ui.autocomplete.prototype._renderItem = function (ul, item) {
+
+            var t = String(item.value).replace(
+                new RegExp(this.term, "gi"),
+                "<span class='ui-state-highlight'>$&</span>");
+            if (item.value != "") {
+                return $("<li class='borderAutocomplete'></li>")
+                  .data("item.autocomplete", item)
+                  .append("<a role='link'>" + t + "</a>")
+                  .appendTo(ul);
+            }
+
+            else {
+                return $("<li></li>")
+                  .data("item.autocomplete", item)
+                  .append("")
+                  .appendTo(ul);
+            }
+        };
+    }
+
+
+    function RemoveSpecialChars(inputText) {
+        var filteredString = inputText.replace(/[\*\^\'\!\@\$\.\#\(\)\-\?\<\>\;\"\&\+\{\}\:]/g, '');
+        //alert(filteredString);
+        return filteredString;
+    }
+    //    jQuery(document).ready(function () {
+    //        var xmlhttp;
+    //        jQuery("#txtSearch").autocomplete(
+    //                    {
+    //                        minLength: 3,
+    //                        delay: 0,
+    //                        source: function (request, response) {
+    //                            if (!xmlhttp) {
+    //                                if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+    //                                    xmlhttp = new XMLHttpRequest();
+    //                                }
+    //                                else {// code for IE6, IE5
+    //                                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    //                                }
+    //                            }
+    //                            else if (xmlhttp.readyState != 0) {
+    //                                xmlhttp.abort();
+    //                            }
+    //                            xmlhttp.onreadystatechange = function () {
+    //                                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+    //                                    fetchedKeywords = xmlhttp.responseText.split("'");
+    //                                    
+    //                                    if (fetchedKeywords.length > 10) {
+    //                                        fetchedKeywords.splice(10, fetchedKeywords.length - 10);
+    //                                    }
+    //                                    if (fetchedKeywords != "") response(fetchedKeywords);
+    //                                    else response(null);
+    //                                }
+    //                            }
+    //                            var input = document.getElementById("txtSearch").value;
+    //                            xmlhttp.open("POST", "/Webservice/KeywordSearch.ashx?q=" + input, true);
+    //                            xmlhttp.send();
+    //                        }
+    //                    });
+    //    });
+
+    function LoadSearchData(id, key) {
+        if (id == "txtSearch") {
+            if (key == 13) {
+                validateSearchText();
+                return false;
+            }
+        }
+        else validateSearchText();
+        return true;
+    }
+    function validateSearchText() {
+        if (validation()) {
+            var strloc = new String(document.location.href.toString());
+            if (strloc.indexOf("SearchResults.aspx") == -1) {//             
+                window.open("/scripts/SearchResults.aspx?search=" + document.getElementById("txtSearch").value);
+            }
+            else window.open("/scripts/SearchResults.aspx?search=" + document.getElementById("txtSearch").value, '_parent');
+        }
+    }
+    function validation() {
+        strSearch = trim(document.getElementById('txtSearch').value);
+        if (strSearch == "") { alert('Please enter the search text'); return false; }
+        else {
+            //var strFilterChars = new RegExp("[~`!@#$%^&*()_+-={}\\[\\]:/\\\\\";|'<>,.?]");
+            var strFilterChars = new RegExp("^[0-9a-zA-Z ]*$");
+            if (!strFilterChars.test(strSearch)) { alert("Please remove special characters from search text"); return false; }
+        }
+        return true;
+    }
+    function trim(value) {
+        value = value.replace(/^\s+/, '');
+        value = value.replace(/\s+$/, '');
+        return value;
+    }
+
+</script>
+
+    <style type="text/css">
+    .blink_msm1 
+{
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.blink_NewWebsite {
+        animation:blinker 1.5s linear 3;
+        color:blue;
+        font-size:1.5em;
+        margin-bottom:0px;
+        }
+    @keyframes blinker
+    {
+        50%{
+            opacity:0;
+        }
+    }
+
+.sr-only {
+position: absolute;
+left: -9999px;
+}
+</style>
+<div class="top_setting">
+    <div class="container_12">
+        <div class="grid_5 top_settings">
+            <a href="#mainsection">Skip to main content </a>
+        </div>
+        <div id="UsrFontCntr_tblThemes" style="float: right" class="grid_4 prefix_3 top_settings">
+            <ul style="margin:0px; padding:0px;">
+               <li class="fonts"> 
+                <a id="UsrFontCntr_LinkBtnSpace" title="Increase Line Spacing" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnSpace&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/letspace.png" alt="Increase Font Size" />
+                                <span id="UsrFontCntr_spanBtnSpace" class="sr-only"></span></a>                                
+            </li>
+
+            <li class="fonts">
+                <a id="UsrFontCntr_LinkBtnFontIncrease" title="Increase Font Size" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnFontIncrease&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/font-increase.gif" alt="Increase Font Size" />
+                    <span id="UsrFontCntr_spanFontIncrease" class="sr-only"></span></a>
+            </li>
+            <li class="fonts">
+                <a id="UsrFontCntr_LinkBtnFontRegular" title="Regular Font Size" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnFontRegular&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/font-reset.gif" alt="Regular Font Size" />
+                    <span id="UsrFontCntr_spanFontRegular" class="sr-only">Selected</span></a>
+            </li>
+            <li class="fonts">
+                <a id="UsrFontCntr_LinkBtnFontDecrease" title="Decrease Font Size" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnFontDecrease&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/font-decrease.gif" alt="Decrease Font Size" />
+                    <span id="UsrFontCntr_spanFontDecrease" class="sr-only"></span></a>
+            </li></ul>
+		<ul style="margin:0px;padding:0px;">
+            <li class="black">
+                <a id="UsrFontCntr_LinkBtnAccessibilty" title="Apply Dark Theme" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnAccessibilty&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/dark-theme.gif" alt="Apply Dark Theme" />
+                    <span id="UsrFontCntr_spanAccessibilty" class="sr-only"></span></a>
+            </li>
+            <li class="white">
+                <a id="UsrFontCntr_LinkBtnUndoAccessibilty" title="Apply Normal Theme" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnUndoAccessibilty&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/bright-theme.gif" alt="Apply Normal Theme" />
+                     <span id="UsrFontCntr_spanUndoAccessibilty" class="sr-only">Selected</span></a>
+            </li>
+            <li class="white">
+            <a id="UsrFontCntr_LinkBtnGreyScale" title="Apply Grey Theme" href="javascript:__doPostBack(&#39;UsrFontCntr$LinkBtnGreyScale&#39;,&#39;&#39;)" style="text-decoration:none;"><img src="/images/graytheme.gif" alt="Apply Gray Theme" />
+                                <span id="UsrFontCntr_spanGreyScale" class="sr-only"></span></a></li>
+
+            
+
+            </ul>
+		<div>
+		     <a href="#" onclick="javascript:window.print();" id="A1" title="Print This Page" style="text-decoration:none;" >
+                <img src="/images/print-icon.png" alt="Print this page" class="print" />
+		</a></div>
+            <div style="float: right">
+                <label style="margin-right: 6px;color: #000000;">
+                    Language</label>
+			<a class="link1" id="lnkhindi" title="Hindi site" style="color:#122c4d !important;" href="https://www.rbi.org.in/hindi/Home.aspx">हिंदी</a>
+			
+			</div>
+                    
+        </div>
+        <div class="clearfix">
+        </div>
+    </div>
+    
+</div>
+<div class="container_12">
+    <div class="grid_4" role="banner">
+        <div class="logo">
+            <a href="/home.aspx" title="Official website of Reserve Bank of India">
+                <img src="/images/rbi-company-logo.jpg" alt="Reserve Bank of India" title="Official website of Reserve Bank of India" /></a></div>
+    </div>
+    <div class="grid_5" align="right" role="search" style="float: right">
+        <label for="searchbox" class="search_label">
+            Search the Website</label>
+        <input name="UsrFontCntr$txtSearch" type="text" maxlength="103" id="txtSearch" class="search_box autoSuggest" title="Search the Website" aria-label="Search the Website" onkeydown="return LoadSearchData(&#39;txtSearch&#39;,event.keyCode);" placeHolder="Search" />
+        <button id="btnSearch" onclick="return LoadSearchData('btnSearch',event.keyCode);"
+            type="button" class="search_button">
+            Search</button>
+    </div>
+	<div class="grid_2" align="CENTER" role="" style="float: right">
+        <div class="logo" >
+            
+            <img src="../images/BBBP_Logo_4.jpg" alt="Beti Bachao Beti Padhao Logo" style="padding-top: 10px;">
+        </div>
+    	</div>
+    <div class="clearfix">
+    </div>
+</div>
+<!--  NAVIGATION START-->
+<nav role="navigation" aria-label="Main">
+       <div class="top-newmenu">
+		<div class="midmenu">
+        <ul>
+			  <li><a href="https://rbi.org.in/home.aspx">Home</a></li>
+			  <li><a href="/Scripts/AboutusDisplay.aspx">About Us</a></li>
+			  
+            <li class="hasSubmenu"><a href="#">Notifications <img src="/images/down.gif" alt="" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+                <ul>
+                  <li><a href="../Scripts/NotificationUser.aspx">Notifications </a></li>
+                  <li><a href="../Scripts/BS_ViewMasterDirections.aspx">Master Directions </a></li>
+                  <li><a href="../Scripts/BS_ViewMasterCirculardetails.aspx">Master Circulars </a></li> 
+                  <li><a href="../Scripts/DraftNotificationsGuildelines.aspx">Draft Notifications/Guidelines </a></li> 
+                  <li><a href="../Scripts/BS_ViewREwiseDraftDirections.aspx">Draft Directions (RE-wise)</a></li> 
+                  <li><a href="../Scripts/BS_CircularIndexDisplay.aspx">Index To RBI Circulars </a></li>
+                  <li><a href="../Scripts/BS_ViewListofstandalonecirculars.aspx">Standalone Circulars </a></li> 
+                  <li class="last"><a href="../Scripts/NotificationUserWithdrawnCircular.aspx">Circulars Withdrawn </a></li>
+                </ul>
+              </li>
+
+			  <li><a href="/Scripts/BS_PressReleaseDisplay.aspx">Press Releases</a></li>
+			  
+
+            <li class="hasSubmenu"><a href="#">Speeches & Media Interactions<img src="/images/down.gif" alt="" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+                <ul>
+                  <li><a href="/Scripts/BS_ViewSpeeches.aspx">Speeches</a></li>
+                  <li><a href="/Scripts/BS_ViewInterviews.aspx">Media Interactions</a></li>
+                  <li><a href="/Scripts/Lectures.aspx">Memorial Lectures</a></li>
+                  <li class="last"><a href="/Scripts/BS_ViewPodcast.aspx">Podcasts</a></li>
+                </ul>
+              </li>
+              
+              <li class="hasSubmenu"><a href="#">Publications <img src="/images/down.gif" alt="" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+                <ul>
+		  <li><a href="../Scripts/Publications.aspx?publication=Biennial">Biennial</a></li>
+                  <li><a href="/Scripts/Publications.aspx?publication=Annual">Annual</a></li>
+                  <li><a href="/Scripts/Publications.aspx?publication=HalfYearly">Half-Yearly</a></li>
+                  <li><a href="/Scripts/Publications.aspx?publication=Quarterly">Quarterly</a></li>
+		          <li><a href="/Scripts/Publications.aspx?publication=Bimonthly">Bi-monthly</a></li>
+                  <li><a href="/Scripts/Publications.aspx?publication=Monthly">Monthly</a></li>
+                  <li><a href="/Scripts/Publications.aspx?publication=Weekly">Weekly</a></li>
+                  <li><a href="/Scripts/Publications.aspx?publication=Occasional">Occasional</a></li>
+                   <li><a href="/Scripts/Publications.aspx?publication=Reports">Reports</a></li>
+		            <li class="last"><a href="/Scripts/OccasionalPublications.aspx?head=Working Papers">Working Papers</a></li>
+	   	            
+
+                </ul>
+              </li>
+
+			  
+              
+             <li class="hasSubmenu"><a href="#">Legal Framework <img src="/images/down.gif" alt="" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+                <ul>
+                  <li><a href="/Scripts/Act.aspx">Act </a></li>
+                   <li><a href="/Scripts/Rules.aspx">Rules </a></li>
+                    <li><a href="/Scripts/Regulations.aspx">Regulations </a></li> 
+                    <li class="last"><a href="/Scripts/Schemes.aspx">Schemes </a></li>
+                </ul>
+              </li>
+            	
+	     
+		<li class="hasSubmenu"><a href="#">Research <img src="/images/down.gif" alt="" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+	        <ul>
+                <li><a href="/Scripts/ExternalResearchSchemes.aspx">External Research Schemes</a></li>
+                <li><a href="/Scripts/OccasionalPapers.aspx">RBI Occasional Papers</a></li>
+                <li><a href="/Scripts/OccasionalPublications.aspx?head=Working%20Papers">Working Papers</a></li>
+                <li><a href="/Scripts/BS_ViewBulletin.aspx">RBI Bulletin</a></li>
+	            <li><a href="/Scripts/Project1.aspx">History</a></li>
+                <li><a href="/Scripts/Occas_DRG_Studies.aspx">DRG Studies</a></li>
+                <li><a href="/Scripts/KLEMS.aspx">KLEMS</a></li>
+		        <li class="last"><a href="/Scripts/StateStatisticsFinances.aspx">State Statistics and Finances</a></li>
+                </ul>
+           </li>
+	    
+              <li class="hasSubmenu"><a href="#">Statistics <img src="/images/down.gif" alt="" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+                <ul>
+                  <li><a href="/Scripts/Statistics.aspx">Data Releases</a></li>
+                  <li><a href="https://data.rbi.org.in" target="_blank">Database on Indian Economy</a></li>
+                  <li class="last"><a href="/scripts/FS_PDS.aspx">Public Debt Statistics</a></li>
+                </ul>
+              </li>
+
+              <li class="hasSubmenu"><a href="#">Regulatory Reporting<img src="/images/down.gif" alt="" class="downarrowclass" style="border:0; padding-left: 5px"></a>
+				 <ul>
+					<li><a href="/scripts/BS_Listofallreturns.aspx">List of Returns</a></li>
+					
+                    <li><a href="/scripts/DataDefinition.aspx">Data Definition</a>
+                        <!--<ul>
+                            <li><a href="../scripts/Assets.aspx">Assets</a></li>
+							<li><a href="../Scripts/Liabilities.aspx">Liabilities</a></li>	
+							<li><a href="../Scripts/OffBalanceSheetItems.aspx">Off-Balance Sheet Items</a></li>
+							<li><a href="../Scripts/ProfitandLossAccountItems.aspx">Profit and Loss Account Items</a></li>
+							<li><a href="../Scripts/Miscellaneous.aspx">Miscellaneous</a></li>
+                        </ul>-->
+                    </li>
+
+					<li><a href="/scripts/ValidationRules.aspx">Validation rules/ Taxonomy</a></li>
+					<li><a href="/scripts/ReportingPlaform.aspx">List of RBI Reporting Portals</a></li>
+					<li class="last"><a href="/scripts/ReportingFAQ.aspx">FAQs of RBI Reporting Portals</a></li>
+
+
+                </ul>
+             </li>
+
+
+              
+
+        </ul>
+    
+ </div>
+</div>
+</nav>
+<!--  NAVIGATION END-->
+<!--HEADER END-->
+<input type="submit" name="UsrFontCntr$btn" value="" id="btn" style="visibility: hidden; height: 0px; width: 0px;" />
+
+<script type="text/javascript">
+    function SetLink() {
+        //a.href = "https://www.rbi.org.in/hindi/Home.aspx";
+        var txt="This will lead you to Hindi (हिन्दी) language website. Are you sure you want to switch to this language?"
+        if(window.confirm(txt)==true){
+            document.cookie = 'preferLang' + '=;secure; expires=Thu, 01-Jan-70 00:00:01 GMT;path=/;';
+            window.location.replace("https://www.rbi.org.in/hindi/");
+        }
+        else return false;
+        
+    }
+
+
+// Open submenu on Enter/Space by ni
+
+/*const allMenuItems = document.querySelectorAll("nav ul li");
+allMenuItems.forEach(item => {
+item.addEventListener("focusin", (event) => {	
+		if(item.className.includes('hasSubmenu')){
+		}	
+		else{
+			const allMenuItems1 = document.querySelectorAll(".hasSubmenu");
+		allMenuItems1.forEach(item1 => {
+			item1.classList.remove('focused');
+			//if(item!==item1)
+			//rollback(item1)
+		});
+		}
+								
+		item.classList.add('focused');
+	});
+	item.addEventListener("focusout", (event) => {
+		
+		if(!item.className.includes('focused')){
+		
+		//rollback(item)
+		//item.className="hasSubmenu"
+		}
+		item.classList.remove('focused');
+	});
+});*/
+
+	const allMenuItems = document.querySelectorAll("nav ul li");
+	
+	allMenuItems.forEach(item => {
+		item.addEventListener("focusin", (event) => {	
+			const MenuText =event.target.textContent;
+			const allMenuItems1 = document.querySelectorAll(".hasSubmenu");
+			allMenuItems1.forEach(item1 => {
+				if (MenuText === 'Press Releases')
+				{	
+					//alert(MenuText);
+					item1.classList.remove('focused');
+					rollback(item1)
+					item1.classList.remove('open');
+				}
+			});
+			
+		});
+	});
+
+
+const menuItems = document.querySelectorAll(".hasSubmenu");
+menuItems.forEach(item => {
+	item.addEventListener("mouseenter", (event) => {
+		item.className="hasSubmenu open focused"
+		expandThis(item);
+	});
+	item.addEventListener("mouseleave", (event) => {		
+		rollback(item)
+		item.className="hasSubmenu"
+	});
+	item.addEventListener("focusin", (event) => {		
+		const allMenuItems = document.querySelectorAll("nav ul li");
+		allMenuItems.forEach(item1 => {
+			item1.classList.remove('focused');
+			if(item!==item1)
+			rollback(item1)
+			item1.classList.remove('open');	
+		});							
+		item.classList.add('focused');
+	});
+	item.addEventListener("focusout", (event) => {
+		
+		if(!item.className.includes('focused')){
+		
+		rollback(item)
+		item.className="hasSubmenu"
+		}
+		item.classList.remove('focused');
+		item.classList.remove('open');
+	});
+
+    item.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+		if(item.className.includes("hasSubmenu open")){
+			rollback(item)
+			item.className="hasSubmenu"
+		}
+		else{
+          	item.className="hasSubmenu open focused"
+		var ele=item.querySelectorAll("a")[0];
+		//ele.css('aria-expanded','true');
+		//var elel=item.querySelectorAll("ul")[0]; $(elel).trigger('mouseenter');
+		expandThis(item);	
+		}
+				
+        }
+	//var ctrlUl=item.querySelectorAll("ul");
+	//ctrlUl[0].css('display','block');
+    });
+	
+});
+function expandThis(menu){
+ var $targetul = $(menu).children("ul:eq(0)")
+				    if ($targetul.queue().length <= 1) //if 1 or less queued animations
+				        if (this.istopheader)
+					$targetul.css({ left: $(this).children('a').eq(0).position().left, top: $mainmenu.position().top + this._dimensions.h - 2 })
+				            
+				    if (document.all && !window.XMLHttpRequest) //detect IE6 or less, fix issue with overflow
+				        $mainmenu.find('ul').css({ overflow: (this.istopheader) ? 'hidden' : 'visible' })
+					
+					//$targetul.trigger('mouseenter');
+				    $targetul.dequeue().stop(true, true).slideDown(droplinemenu.animateduration.over)
+}
+const menuItemsf = document.querySelectorAll("nav .midmenu ul li");
+
+menuItemsf.forEach(item => {
+    item.addEventListener("keydown", (event) => {
+	//if (event.key !== "Enter" && event.key !== "Shift" ) {	
+	if(item.className.includes("last") ){
+		 if (pressedKeys['shift'] && event.key === "Tab"){}else{
+		var lastItem = document.getElementsByClassName('hasSubmenu open');
+		rollback(lastItem[0])
+		lastItem[0].className="hasSubmenu";
+		}
+	}
+	//}
+	});
+	
+	});
+	
+
+function rollback(menu){
+ var $targetul = $(menu).children("ul:eq(0)")
+$targetul.dequeue().stop(true, true).slideUp(droplinemenu.animateduration.out);
+//$targetul[0].style.display='';
+}
+ 
+
+function setLetterSpace(val) {
+    
+	
+    if (false) {
+                    document.body.setAttribute("style", "letter-spacing:1px; line-height:20px; word-spacing:2px;");
+       
+    }
+    else {
+                    document.body.removeAttribute("style");
+    }
+    return false;
+
+    
+    }
+   
+</script>
+    <div>
+        <main class="container_12">
+            <a id="mainsection" name="mainsection"></a>
+            
+            
+<nav aria-label="Breadcrumb" class="grid_12 breadcrumbs">
+<ul>
+                    <li><a href="../Home.aspx">Home</a></li>
+                    <li><a href="Statistics.aspx">Data Releases</a></li>
+                    <span id="lblNav">
+                         <li><a href="ATMView.aspx">Bankwise ATM/POS/Card Statistics</a></li>
+                    </span>
+                </ul>
+ </nav>
+
+            <div class="clear">
+            </div>
+            <div class="grid_11 omega right_blue_border">
+                <div class="text1">
+                    
+                    <h1 class="page_title">Bankwise ATM/POS/Card Statistics </h1>
+                    <div>
+                        <div id="doublescroll">
+                            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                <table class="tablebg" width="100%"><tr><td class="tableheader"><a id='ADOC_BAC062011FL' target='_blank' href='https://rbidocs.rbi.org.in/rdocs/ATM/DOCs/BAC062011FL.xls' aria-labelledby='ADOC_BAC062011FL SDOC_BAC062011FL'>
+		<img alt='Document - Bank-wise ATM/POS/Card Statistics - June 2011' style='padding: 8px;' src='../Images/xls.gif' width='16' alt="download file" height='16' border=0 align='absmiddle'></a> (<span id='SDOC_BAC062011FL' aria-hidden="true">30 kb</span>) or <a id='APDF_BAC062011FL' target='_blank' href='https://rbidocs.rbi.org.in/rdocs/ATM/PDFs/BAC062011FL.pdf' aria-labelledby='APDF_BAC062011FL SPDF_BAC062011FL'>
+			<img alt='PDF - Bank-wise ATM/POS/Card Statistics - June 2011' style='padding: 8px;' src='../Images/pdf.gif' width='16' height='16' alt='PDF document' border=0 align='absmiddle'></a> (<span id='SPDF_BAC062011FL' aria-hidden="true">13 kb</span>)</td></tr><tr><td><table width="900" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#3e72aa">
+  <tr>
+    <td colspan="16" valign="top" class="table"><p align="center"><strong>Bank wise ATM&nbsp; and Card Statistics -June 2011</strong></p></td>
+  </tr>
+  <tr>
+    <td width="26" rowspan="3" valign="top" class="table"><p align="center"><strong>Sr. No.</strong></p></td>
+    <td width="125" rowspan="3" valign="top" class="table"><p align="center"><strong>Bank    Name</strong></p></td>
+    <td colspan="2" rowspan="2" valign="top" class="table"><p align="center"><strong>Number of ATMs</strong></p></td>
+    <td colspan="2" rowspan="2" valign="top" class="table"><p align="center"><strong>Number of POS terminals</strong></p></td>
+    <td colspan="5" valign="top" class="table"><p align="center"><strong>Credit Cards</strong></p></td>
+    <td colspan="5" valign="top" class="table"><p align="center"><strong>Debit Cards</strong></p></td>
+  </tr>
+  <tr>
+    <td width="62" rowspan="2" valign="top" class="table"><p align="center"><strong>No. of out standing cards</strong></p>      </td>
+    <td colspan="2" valign="top" class="table"><p align="center"><strong>No. of Transactions (Actuals)</strong></p></td>
+    <td colspan="2" valign="top" class="table"><p align="center"><strong>Amount of transactions (Rs    Million)</strong></p></td>
+    <td width="67" rowspan="2" valign="top" class="table"><p align="center"><strong>No .of out standing cards </strong></p>      </td>
+    <td colspan="2" valign="top" class="table"><p align="center"><strong>No. of Transactions (Actuals)</strong></p></td>
+    <td colspan="2" valign="top" class="table"><p align="center"><strong>Amount of transactions (Rs    Million)</strong></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="table"><p align="center"><strong>On-site</strong></p></td>
+    <td valign="top" class="table"><p align="center"><strong>Off-site</strong></p></td>
+    <td valign="top" class="table"><p align="center"><strong>On-line</strong></p></td>
+    <td valign="top" class="table"><p align="center"><strong>Off-line</strong></p></td>
+    <td width="46" valign="top" class="table"><p align="center"><strong>at ATM</strong></p></td>
+    <td width="60" valign="top" class="table"><p align="center"><strong>at POS</strong></p></td>
+    <td width="50" valign="top" class="table"><p align="center"><strong>at ATM</strong></p></td>
+    <td width="50" valign="top" class="table"><p align="center"><strong>at POS</strong></p></td>
+    <td width="67" valign="top" class="table"><p align="center"><strong>at ATM</strong></p></td>
+    <td width="60" valign="top" class="table"><p align="center"><strong>at POS</strong></p></td>
+    <td width="57" valign="top" class="table"><p align="center"><strong>at ATM</strong></p></td>
+    <td width="57" valign="top" class="table"><p align="center"><strong>at POS</strong></p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">1</p></td>
+    <td width="125" valign="top" class="table"><p>Allahabad    Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">206</p></td>
+    <td width="39" valign="top" class="table"><p align="right">109</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1044009</p></td>
+    <td width="67" valign="top" class="table"><p align="right">438162</p></td>
+    <td width="60" valign="top" class="table"><p align="right">50052</p></td>
+    <td width="57" valign="top" class="table"><p align="right">1006.7</p></td>
+    <td width="57" valign="top" class="table"><p align="right">89.6</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">2</p></td>
+    <td width="125" valign="top" class="table"><p>Andhra    Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">470</p></td>
+    <td width="39" valign="top" class="table"><p align="right">541</p></td>
+    <td width="46" valign="top" class="table"><p align="right">2160</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">121320</p></td>
+    <td width="46" valign="top" class="table"><p align="right">6834</p></td>
+    <td width="60" valign="top" class="table"><p align="right">91260</p></td>
+    <td width="50" valign="top" class="table"><p align="right">27.3</p></td>
+    <td width="50" valign="top" class="table"><p align="right">245.6</p></td>
+    <td width="67" valign="top" class="table"><p align="right">6265758</p></td>
+    <td width="67" valign="top" class="table"><p align="right">6467004</p></td>
+    <td width="60" valign="top" class="table"><p align="right">274822</p></td>
+    <td width="57" valign="top" class="table"><p align="right">17331.6</p></td>
+    <td width="57" valign="top" class="table"><p align="right">418.6</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">3</p></td>
+    <td width="125" valign="top" class="table"><p>Bank of Baroda</p></td>
+    <td width="39" valign="top" class="table"><p align="right">1087</p></td>
+    <td width="39" valign="top" class="table"><p align="right">570</p></td>
+    <td width="46" valign="top" class="table"><p align="right">4343</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">71792</p></td>
+    <td width="46" valign="top" class="table"><p align="right">3157</p></td>
+    <td width="60" valign="top" class="table"><p align="right">71772</p></td>
+    <td width="50" valign="top" class="table"><p align="right">3</p></td>
+    <td width="50" valign="top" class="table"><p align="right">199.3</p></td>
+    <td width="67" valign="top" class="table"><p align="right">6578257</p></td>
+    <td width="67" valign="top" class="table"><p align="right">6161846</p></td>
+    <td width="60" valign="top" class="table"><p align="right">347077</p></td>
+    <td width="57" valign="top" class="table"><p align="right">22745.4</p></td>
+    <td width="57" valign="top" class="table"><p align="right">552.6</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">4</p></td>
+    <td width="125" valign="top" class="table"><p>Bank of India</p></td>
+    <td width="39" valign="top" class="table"><p align="right">774</p></td>
+    <td width="39" valign="top" class="table"><p align="right">711</p></td>
+    <td width="46" valign="top" class="table"><p align="right">1939</p></td>
+    <td width="32" valign="top" class="table"><p align="right">501</p></td>
+    <td width="62" valign="top" class="table"><p align="right">118118</p></td>
+    <td width="46" valign="top" class="table"><p align="right">9196</p></td>
+    <td width="60" valign="top" class="table"><p align="right">78758</p></td>
+    <td width="50" valign="top" class="table"><p align="right">61.3</p></td>
+    <td width="50" valign="top" class="table"><p align="right">216</p></td>
+    <td width="67" valign="top" class="table"><p align="right">7289503</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1846493</p></td>
+    <td width="60" valign="top" class="table"><p align="right">413104</p></td>
+    <td width="57" valign="top" class="table"><p align="right">6376.6</p></td>
+    <td width="57" valign="top" class="table"><p align="right">525.3</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">5</p></td>
+    <td width="125" valign="top" class="table"><p>Bank of Maharashtra</p></td>
+    <td width="39" valign="top" class="table"><p align="right">359</p></td>
+    <td width="39" valign="top" class="table"><p align="right">100</p></td>
+    <td width="46" valign="top" class="table"><p align="right">77</p></td>
+    <td width="32" valign="top" class="table"><p align="right">404</p></td>
+    <td width="62" valign="top" class="table"><p align="right">18829</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">11779</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">25.7</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2011986</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1879451</p></td>
+    <td width="60" valign="top" class="table"><p align="right">124870</p></td>
+    <td width="57" valign="top" class="table"><p align="right">5765.9</p></td>
+    <td width="57" valign="top" class="table"><p align="right">179.4</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">6</p></td>
+    <td width="125" valign="top" class="table"><p>Canara    Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">1521</p></td>
+    <td width="39" valign="top" class="table"><p align="right">969</p></td>
+    <td width="46" valign="top" class="table"><p align="right">1062</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">63008</p></td>
+    <td width="46" valign="top" class="table"><p align="right">8669</p></td>
+    <td width="60" valign="top" class="table"><p align="right">50025</p></td>
+    <td width="50" valign="top" class="table"><p align="right">34.2</p></td>
+    <td width="50" valign="top" class="table"><p align="right">116.4</p></td>
+    <td width="67" valign="top" class="table"><p align="right">6130618</p></td>
+    <td width="67" valign="top" class="table"><p align="right">6013324</p></td>
+    <td width="60" valign="top" class="table"><p align="right">434805</p></td>
+    <td width="57" valign="top" class="table"><p align="right">21859.4</p></td>
+    <td width="57" valign="top" class="table"><p align="right">826.6</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">7</p></td>
+    <td width="125" valign="top" class="table"><p>Central    Bank of India</p></td>
+    <td width="39" valign="top" class="table"><p align="right">462</p></td>
+    <td width="39" valign="top" class="table"><p align="right">644</p></td>
+    <td width="46" valign="top" class="table"><p align="right">731</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">47833</p></td>
+    <td width="46" valign="top" class="table"><p align="right">73</p></td>
+    <td width="60" valign="top" class="table"><p align="right">39486</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0.3</p></td>
+    <td width="50" valign="top" class="table"><p align="right">13.5</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2870321</p></td>
+    <td width="67" valign="top" class="table"><p align="right">5673995</p></td>
+    <td width="60" valign="top" class="table"><p align="right">60309</p></td>
+    <td width="57" valign="top" class="table"><p align="right">14291.96</p></td>
+    <td width="57" valign="top" class="table"><p align="right">147.3191</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">8</p></td>
+    <td width="125" valign="top" class="table"><p>Corporation    Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">705</p></td>
+    <td width="39" valign="top" class="table"><p align="right">545</p></td>
+    <td width="46" valign="top" class="table"><p align="right">17517</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">54020</p></td>
+    <td width="46" valign="top" class="table"><p align="right">1363</p></td>
+    <td width="60" valign="top" class="table"><p align="right">66670</p></td>
+    <td width="50" valign="top" class="table"><p align="right">6.4</p></td>
+    <td width="50" valign="top" class="table"><p align="right">156.7</p></td>
+    <td width="67" valign="top" class="table"><p align="right">4241544</p></td>
+    <td width="67" valign="top" class="table"><p align="right">3758502</p></td>
+    <td width="60" valign="top" class="table"><p align="right">245843</p></td>
+    <td width="57" valign="top" class="table"><p align="right">12303.2</p></td>
+    <td width="57" valign="top" class="table"><p align="right">401.1</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">9</p></td>
+    <td width="125" valign="top" class="table"><p>Dena Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">402</p></td>
+    <td width="39" valign="top" class="table"><p align="right">105</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1317226</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1595129</p></td>
+    <td width="60" valign="top" class="table"><p align="right">61573</p></td>
+    <td width="57" valign="top" class="table"><p align="right">5146.4</p></td>
+    <td width="57" valign="top" class="table"><p align="right">91.3</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">10</p></td>
+    <td width="125" valign="top" class="table"><p>Indian    Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">842</p></td>
+    <td width="39" valign="top" class="table"><p align="right">338</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">39568</p></td>
+    <td width="46" valign="top" class="table"><p align="right">2505</p></td>
+    <td width="60" valign="top" class="table"><p align="right">45062</p></td>
+    <td width="50" valign="top" class="table"><p align="right">9</p></td>
+    <td width="50" valign="top" class="table"><p align="right">113</p></td>
+    <td width="67" valign="top" class="table"><p align="right">6095844</p></td>
+    <td width="67" valign="top" class="table"><p align="right">8691291</p></td>
+    <td width="60" valign="top" class="table"><p align="right">356174</p></td>
+    <td width="57" valign="top" class="table"><p align="right">19355.5</p></td>
+    <td width="57" valign="top" class="table"><p align="right">441.9</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">11</p></td>
+    <td width="125" valign="top" class="table"><p>Indian    Overseas Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">763</p></td>
+    <td width="39" valign="top" class="table"><p align="right">389</p></td>
+    <td width="46" valign="top" class="table"><p align="right">571</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">35040</p></td>
+    <td width="46" valign="top" class="table"><p align="right">3279</p></td>
+    <td width="60" valign="top" class="table"><p align="right">32196</p></td>
+    <td width="50" valign="top" class="table"><p align="right">6.7</p></td>
+    <td width="50" valign="top" class="table"><p align="right">70.3</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2837948</p></td>
+    <td width="67" valign="top" class="table"><p align="right">3291204</p></td>
+    <td width="60" valign="top" class="table"><p align="right">246193</p></td>
+    <td width="57" valign="top" class="table"><p align="right">8819.9</p></td>
+    <td width="57" valign="top" class="table"><p align="right">453.6</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">12</p></td>
+    <td width="125" valign="top" class="table"><p>Oriental    Bank of Commerce</p></td>
+    <td width="39" valign="top" class="table"><p align="right">895</p></td>
+    <td width="39" valign="top" class="table"><p align="right">328</p></td>
+    <td width="46" valign="top" class="table"><p align="right">913</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2750261</p></td>
+    <td width="67" valign="top" class="table"><p align="right">4077451</p></td>
+    <td width="60" valign="top" class="table"><p align="right">73650</p></td>
+    <td width="57" valign="top" class="table"><p align="right">10297.4</p></td>
+    <td width="57" valign="top" class="table"><p align="right">118</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">13</p></td>
+    <td width="125" valign="top" class="table"><p>Punjab and Sind Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">87</p></td>
+    <td width="39" valign="top" class="table"><p align="right">4</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">51052</p></td>
+    <td width="67" valign="top" class="table"><p align="right">17386</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="57" valign="top" class="table"><p align="right">72</p></td>
+    <td width="57" valign="top" class="table"><p align="right">0</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">14</p></td>
+    <td width="125" valign="top" class="table"><p>Punjab    National Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">3066</p></td>
+    <td width="39" valign="top" class="table"><p align="right">2309</p></td>
+    <td width="46" valign="top" class="table"><p align="right">161</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">85675</p></td>
+    <td width="46" valign="top" class="table"><p align="right">2227</p></td>
+    <td width="60" valign="top" class="table"><p align="right">92940</p></td>
+    <td width="50" valign="top" class="table"><p align="right">9.6</p></td>
+    <td width="50" valign="top" class="table"><p align="right">204.2</p></td>
+    <td width="67" valign="top" class="table"><p align="right">14117288</p></td>
+    <td width="67" valign="top" class="table"><p align="right">35217573</p></td>
+    <td width="60" valign="top" class="table"><p align="right">720258</p></td>
+    <td width="57" valign="top" class="table"><p align="right">50440</p></td>
+    <td width="57" valign="top" class="table"><p align="right">825.1</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">15</p></td>
+    <td width="125" valign="top" class="table"><p>Syndicate&nbsp; Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">1026</p></td>
+    <td width="39" valign="top" class="table"><p align="right">202</p></td>
+    <td width="46" valign="top" class="table"><p align="right">393</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">63782</p></td>
+    <td width="46" valign="top" class="table"><p align="right">2023</p></td>
+    <td width="60" valign="top" class="table"><p align="right">41652</p></td>
+    <td width="50" valign="top" class="table"><p align="right">7.8</p></td>
+    <td width="50" valign="top" class="table"><p align="right">99.5</p></td>
+    <td width="67" valign="top" class="table"><p align="right">5477921</p></td>
+    <td width="67" valign="top" class="table"><p align="right">4383750</p></td>
+    <td width="60" valign="top" class="table"><p align="right">233190</p></td>
+    <td width="57" valign="top" class="table"><p align="right">15291</p></td>
+    <td width="57" valign="top" class="table"><p align="right">377.7</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">16</p></td>
+    <td width="125" valign="top" class="table"><p>UCO Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">472</p></td>
+    <td width="39" valign="top" class="table"><p align="right">205</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1358314</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1493420</p></td>
+    <td width="60" valign="top" class="table"><p align="right">71430</p></td>
+    <td width="57" valign="top" class="table"><p align="right">5702.2</p></td>
+    <td width="57" valign="top" class="table"><p align="right">144.1</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">17</p></td>
+    <td width="125" valign="top" class="table"><p>Union&nbsp; Bank of India</p></td>
+    <td width="39" valign="top" class="table"><p align="right">1860</p></td>
+    <td width="39" valign="top" class="table"><p align="right">812</p></td>
+    <td width="46" valign="top" class="table"><p align="right">2759</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">38643</p></td>
+    <td width="46" valign="top" class="table"><p align="right">728</p></td>
+    <td width="60" valign="top" class="table"><p align="right">36550</p></td>
+    <td width="50" valign="top" class="table"><p align="right">3</p></td>
+    <td width="50" valign="top" class="table"><p align="right">102.8</p></td>
+    <td width="67" valign="top" class="table"><p align="right">6787984</p></td>
+    <td width="67" valign="top" class="table"><p align="right">11683010</p></td>
+    <td width="60" valign="top" class="table"><p align="right">281096</p></td>
+    <td width="57" valign="top" class="table"><p align="right">29795.7</p></td>
+    <td width="57" valign="top" class="table"><p align="right">451.7</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">18</p></td>
+    <td width="125" valign="top" class="table"><p>United&nbsp; Bank of India</p></td>
+    <td width="39" valign="top" class="table"><p align="right">251</p></td>
+    <td width="39" valign="top" class="table"><p align="right">311</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1216069</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2029522</p></td>
+    <td width="60" valign="top" class="table"><p align="right">59063</p></td>
+    <td width="57" valign="top" class="table"><p align="right">5024.3</p></td>
+    <td width="57" valign="top" class="table"><p align="right">142.5</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">19</p></td>
+    <td width="125" valign="top" class="table"><p>Vijaya&nbsp; Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">453</p></td>
+    <td width="39" valign="top" class="table"><p align="right">99</p></td>
+    <td width="46" valign="top" class="table"><p align="right">1211</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">41279</p></td>
+    <td width="46" valign="top" class="table"><p align="right">3446</p></td>
+    <td width="60" valign="top" class="table"><p align="right">43365</p></td>
+    <td width="50" valign="top" class="table"><p align="right">18.4</p></td>
+    <td width="50" valign="top" class="table"><p align="right">144</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1464718</p></td>
+    <td width="67" valign="top" class="table"><p align="right">632140</p></td>
+    <td width="60" valign="top" class="table"><p align="right">92635</p></td>
+    <td width="57" valign="top" class="table"><p align="right">2089.2</p></td>
+    <td width="57" valign="top" class="table"><p align="right">160.7</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">20</p></td>
+    <td width="125" valign="top" class="table"><p>State    Bank of India</p></td>
+    <td width="39" valign="top" class="table"><p align="right">11132</p></td>
+    <td width="39" valign="top" class="table"><p align="right">9318</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">2068948</p></td>
+    <td width="46" valign="top" class="table"><p align="right">20134</p></td>
+    <td width="60" valign="top" class="table"><p align="right">2828490</p></td>
+    <td width="50" valign="top" class="table"><p align="right">90.3381</p></td>
+    <td width="50" valign="top" class="table"><p align="right">5524.52</p></td>
+    <td width="67" valign="top" class="table"><p align="right">76977000</p></td>
+    <td width="67" valign="top" class="table"><p align="right">141650000</p></td>
+    <td width="60" valign="top" class="table"><p align="right">4753000</p></td>
+    <td width="57" valign="top" class="table"><p align="right">387197.7</p></td>
+    <td width="57" valign="top" class="table"><p align="right">6614</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">21</p></td>
+    <td width="125" valign="top" class="table"><p>State    Bank of Bikaner &amp; Jaipur</p></td>
+    <td width="39" valign="top" class="table"><p align="right">603</p></td>
+    <td width="39" valign="top" class="table"><p align="right">419</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">3719010</p></td>
+    <td width="67" valign="top" class="table"><p align="right">7060917</p></td>
+    <td width="60" valign="top" class="table"><p align="right">48889</p></td>
+    <td width="57" valign="top" class="table"><p align="right">20494</p></td>
+    <td width="57" valign="top" class="table"><p align="right">87.8</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">22</p></td>
+    <td width="125" valign="top" class="table"><p>State    Bank of Hyderabad</p></td>
+    <td width="39" valign="top" class="table"><p align="right">997</p></td>
+    <td width="39" valign="top" class="table"><p align="right">273</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">5023440</p></td>
+    <td width="67" valign="top" class="table"><p align="right">10598468</p></td>
+    <td width="60" valign="top" class="table"><p align="right">137264</p></td>
+    <td width="57" valign="top" class="table"><p align="right">27853.6</p></td>
+    <td width="57" valign="top" class="table"><p align="right">317.6</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">23</p></td>
+    <td width="125" valign="top" class="table"><p>State    Bank of Mysore</p></td>
+    <td width="39" valign="top" class="table"><p align="right">555</p></td>
+    <td width="39" valign="top" class="table"><p align="right">208</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2046948</p></td>
+    <td width="67" valign="top" class="table"><p align="right">3055225</p></td>
+    <td width="60" valign="top" class="table"><p align="right">78933</p></td>
+    <td width="57" valign="top" class="table"><p align="right">10612.9</p></td>
+    <td width="57" valign="top" class="table"><p align="right">174.3</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">24</p></td>
+    <td width="125" valign="top" class="table"><p>State    Bank of Patiala</p></td>
+    <td width="39" valign="top" class="table"><p align="right">595</p></td>
+    <td width="39" valign="top" class="table"><p align="right">185</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2609783</p></td>
+    <td width="67" valign="top" class="table"><p align="right">4410425</p></td>
+    <td width="60" valign="top" class="table"><p align="right">42454</p></td>
+    <td width="57" valign="top" class="table"><p align="right">12114.7</p></td>
+    <td width="57" valign="top" class="table"><p align="right">91.2</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">25</p></td>
+    <td width="125" valign="top" class="table"><p>State    Bank of Travancore</p></td>
+    <td width="39" valign="top" class="table"><p align="right">617</p></td>
+    <td width="39" valign="top" class="table"><p align="right">261</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">4628004</p></td>
+    <td width="67" valign="top" class="table"><p align="right">4644755</p></td>
+    <td width="60" valign="top" class="table"><p align="right">77508</p></td>
+    <td width="57" valign="top" class="table"><p align="right">14675.1</p></td>
+    <td width="57" valign="top" class="table"><p align="right">188.4</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">26</p></td>
+    <td width="125" valign="top" class="table"><p>IDBI Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">736</p></td>
+    <td width="39" valign="top" class="table"><p align="right">723</p></td>
+    <td width="46" valign="top" class="table"><p align="right">19409</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">4634005</p></td>
+    <td width="67" valign="top" class="table"><p align="right">4880092</p></td>
+    <td width="60" valign="top" class="table"><p align="right">418693</p></td>
+    <td width="57" valign="top" class="table"><p align="right">17884.2</p></td>
+    <td width="57" valign="top" class="table"><p align="right">674.9</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">27</p></td>
+    <td width="125" valign="top" class="table"><p>Catholic    Syrian Bank Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">106</p></td>
+    <td width="39" valign="top" class="table"><p align="right">54</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">283431</p></td>
+    <td width="67" valign="top" class="table"><p align="right">148928</p></td>
+    <td width="60" valign="top" class="table"><p align="right">7353</p></td>
+    <td width="57" valign="top" class="table"><p align="right">348.5</p></td>
+    <td width="57" valign="top" class="table"><p align="right">12.8</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">28</p></td>
+    <td width="125" valign="top" class="table"><p>City    Union Bank Ltd</p></td>
+    <td width="39" valign="top" class="table"><p align="right">192</p></td>
+    <td width="39" valign="top" class="table"><p align="right">75</p></td>
+    <td width="46" valign="top" class="table"><p align="right">139</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">489588</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1017996</p></td>
+    <td width="60" valign="top" class="table"><p align="right">46931</p></td>
+    <td width="57" valign="top" class="table"><p align="right">3338.13</p></td>
+    <td width="57" valign="top" class="table"><p align="right">67.42</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">29</p></td>
+    <td width="125" valign="top" class="table"><p>Dhanalaxmi    Bank Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">168</p></td>
+    <td width="39" valign="top" class="table"><p align="right">292</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">1709</p></td>
+    <td width="46" valign="top" class="table"><p align="right">2</p></td>
+    <td width="60" valign="top" class="table"><p align="right">3645</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0.01</p></td>
+    <td width="50" valign="top" class="table"><p align="right">9.5</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1003910</p></td>
+    <td width="67" valign="top" class="table"><p align="right">362361</p></td>
+    <td width="60" valign="top" class="table"><p align="right">21652</p></td>
+    <td width="57" valign="top" class="table"><p align="right">1206.4</p></td>
+    <td width="57" valign="top" class="table"><p align="right">34.5</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">30</p></td>
+    <td width="125" valign="top" class="table"><p>Federal    Bank Limited</p></td>
+    <td width="39" valign="top" class="table"><p align="right">472</p></td>
+    <td width="39" valign="top" class="table"><p align="right">344</p></td>
+    <td width="46" valign="top" class="table"><p align="right">2082</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">3352498</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2425581</p></td>
+    <td width="60" valign="top" class="table"><p align="right">116641</p></td>
+    <td width="57" valign="top" class="table"><p align="right">8989.2</p></td>
+    <td width="57" valign="top" class="table"><p align="right">214.8</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">31</p></td>
+    <td width="125" valign="top" class="table"><p>ING Vysya    Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">216</p></td>
+    <td width="39" valign="top" class="table"><p align="right">193</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1080978</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2993296</p></td>
+    <td width="60" valign="top" class="table"><p align="right">114870</p></td>
+    <td width="57" valign="top" class="table"><p align="right">6929.297</p></td>
+    <td width="57" valign="top" class="table"><p align="right">202.924</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">32</p></td>
+    <td width="125" valign="top" class="table"><p>Jammu    &amp; Kashmir Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">278</p></td>
+    <td width="39" valign="top" class="table"><p align="right">115</p></td>
+    <td width="46" valign="top" class="table"><p align="right">2814</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">36311</p></td>
+    <td width="46" valign="top" class="table"><p align="right">1965</p></td>
+    <td width="60" valign="top" class="table"><p align="right">26548</p></td>
+    <td width="50" valign="top" class="table"><p align="right">6.71326</p></td>
+    <td width="50" valign="top" class="table"><p align="right">101.249</p></td>
+    <td width="67" valign="top" class="table"><p align="right">957858</p></td>
+    <td width="67" valign="top" class="table"><p align="right">3195680</p></td>
+    <td width="60" valign="top" class="table"><p align="right">19792</p></td>
+    <td width="57" valign="top" class="table"><p align="right">8565.518</p></td>
+    <td width="57" valign="top" class="table"><p align="right">52.15117</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">33</p></td>
+    <td width="125" valign="top" class="table"><p>Karnataka    Bank Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">196</p></td>
+    <td width="39" valign="top" class="table"><p align="right">79</p></td>
+    <td width="46" valign="top" class="table"><p align="right">254</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1274828</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1048342</p></td>
+    <td width="60" valign="top" class="table"><p align="right">91930</p></td>
+    <td width="57" valign="top" class="table"><p align="right">3321.2</p></td>
+    <td width="57" valign="top" class="table"><p align="right">134.2</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">34</p></td>
+    <td width="125" valign="top" class="table"><p>Karur    Vysya Bank Ltd</p></td>
+    <td width="39" valign="top" class="table"><p align="right">373</p></td>
+    <td width="39" valign="top" class="table"><p align="right">123</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2198689</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2966885</p></td>
+    <td width="60" valign="top" class="table"><p align="right">122550</p></td>
+    <td width="57" valign="top" class="table"><p align="right">8881.6</p></td>
+    <td width="57" valign="top" class="table"><p align="right">177.7</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">35</p></td>
+    <td width="125" valign="top" class="table"><p>Lakshmi    Vilas Bank Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">147</p></td>
+    <td width="39" valign="top" class="table"><p align="right">116</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">329637</p></td>
+    <td width="67" valign="top" class="table"><p align="right">500034</p></td>
+    <td width="60" valign="top" class="table"><p align="right">11084</p></td>
+    <td width="57" valign="top" class="table"><p align="right">1599.3</p></td>
+    <td width="57" valign="top" class="table"><p align="right">21.4</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">36</p></td>
+    <td width="125" valign="top" class="table"><p>Ratnakar    Bank Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">35</p></td>
+    <td width="39" valign="top" class="table"><p align="right">1</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">12525</p></td>
+    <td width="67" valign="top" class="table"><p align="right">33687</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="57" valign="top" class="table"><p align="right">83.76</p></td>
+    <td width="57" valign="top" class="table"><p align="right">0</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">37</p></td>
+    <td width="125" valign="top" class="table"><p>SBI Comm.    &amp; Int. Bank Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">2</p></td>
+    <td width="39" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1365</p></td>
+    <td width="67" valign="top" class="table"><p align="right">503</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="57" valign="top" class="table"><p align="right">1.3387</p></td>
+    <td width="57" valign="top" class="table"><p align="right">0</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">38</p></td>
+    <td width="125" valign="top" class="table"><p>South    Indian Bank Ltd</p></td>
+    <td width="39" valign="top" class="table"><p align="right">427</p></td>
+    <td width="39" valign="top" class="table"><p align="right">106</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1764463</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2454573</p></td>
+    <td width="60" valign="top" class="table"><p align="right">30534</p></td>
+    <td width="57" valign="top" class="table"><p align="right">2878.4</p></td>
+    <td width="57" valign="top" class="table"><p align="right">67.4</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">39</p></td>
+    <td width="125" valign="top" class="table"><p>Tamilnadu    Mercantile Bank Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">120</p></td>
+    <td width="39" valign="top" class="table"><p align="right">71</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">18</p></td>
+    <td width="62" valign="top" class="table"><p align="right">3286</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">3530</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">9.1</p></td>
+    <td width="67" valign="top" class="table"><p align="right">507310</p></td>
+    <td width="67" valign="top" class="table"><p align="right">804715</p></td>
+    <td width="60" valign="top" class="table"><p align="right">14382</p></td>
+    <td width="57" valign="top" class="table"><p align="right">3205.2</p></td>
+    <td width="57" valign="top" class="table"><p align="right">34</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">40</p></td>
+    <td width="125" valign="top" class="table"><p>Development    Credit Bank Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">78</p></td>
+    <td width="39" valign="top" class="table"><p align="right">61</p></td>
+    <td width="46" valign="top" class="table"><p align="right">967</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">228223</p></td>
+    <td width="67" valign="top" class="table"><p align="right">355662</p></td>
+    <td width="60" valign="top" class="table"><p align="right">27097</p></td>
+    <td width="57" valign="top" class="table"><p align="right">1177.9</p></td>
+    <td width="57" valign="top" class="table"><p align="right">47.6</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">41</p></td>
+    <td width="125" valign="top" class="table"><p>HDFC&nbsp; Bank Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">3068</p></td>
+    <td width="39" valign="top" class="table"><p align="right">2930</p></td>
+    <td width="46" valign="top" class="table"><p align="right">134114</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">5177786</p></td>
+    <td width="46" valign="top" class="table"><p align="right">52384</p></td>
+    <td width="60" valign="top" class="table"><p align="right">5700902</p></td>
+    <td width="50" valign="top" class="table"><p align="right">306.63</p></td>
+    <td width="50" valign="top" class="table"><p align="right">18606.5</p></td>
+    <td width="67" valign="top" class="table"><p align="right">13733568</p></td>
+    <td width="67" valign="top" class="table"><p align="right">21387996</p></td>
+    <td width="60" valign="top" class="table"><p align="right">4877210</p></td>
+    <td width="57" valign="top" class="table"><p align="right">86995.02</p></td>
+    <td width="57" valign="top" class="table"><p align="right">7128.407</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">42</p></td>
+    <td width="125" valign="top" class="table"><p>ICICI    Bank Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">2867</p></td>
+    <td width="39" valign="top" class="table"><p align="right">3558</p></td>
+    <td width="46" valign="top" class="table"><p align="right">182551</p></td>
+    <td width="32" valign="top" class="table"><p align="right">3949</p></td>
+    <td width="62" valign="top" class="table"><p align="right">3194674</p></td>
+    <td width="46" valign="top" class="table"><p align="right">8948</p></td>
+    <td width="60" valign="top" class="table"><p align="right">4153628</p></td>
+    <td width="50" valign="top" class="table"><p align="right">46.1352</p></td>
+    <td width="50" valign="top" class="table"><p align="right">9322.74</p></td>
+    <td width="67" valign="top" class="table"><p align="right">16340328</p></td>
+    <td width="67" valign="top" class="table"><p align="right">23623639</p></td>
+    <td width="60" valign="top" class="table"><p align="right">4054158</p></td>
+    <td width="57" valign="top" class="table"><p align="right">101054.1</p></td>
+    <td width="57" valign="top" class="table"><p align="right">6599.02</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">43</p></td>
+    <td width="125" valign="top" class="table"><p>IndusInd    Bank Ltd</p></td>
+    <td width="39" valign="top" class="table"><p align="right">293</p></td>
+    <td width="39" valign="top" class="table"><p align="right">340</p></td>
+    <td width="46" valign="top" class="table"><p align="right">40</p></td>
+    <td width="32" valign="top" class="table"><p align="right">40</p></td>
+    <td width="62" valign="top" class="table"><p align="right">188903</p></td>
+    <td width="46" valign="top" class="table"><p align="right">550</p></td>
+    <td width="60" valign="top" class="table"><p align="right">258533</p></td>
+    <td width="50" valign="top" class="table"><p align="right">3.24432</p></td>
+    <td width="50" valign="top" class="table"><p align="right">1015.76</p></td>
+    <td width="67" valign="top" class="table"><p align="right">676121</p></td>
+    <td width="67" valign="top" class="table"><p align="right">832038</p></td>
+    <td width="60" valign="top" class="table"><p align="right">86706</p></td>
+    <td width="57" valign="top" class="table"><p align="right">2932.4</p></td>
+    <td width="57" valign="top" class="table"><p align="right">149.4</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">44</p></td>
+    <td width="125" valign="top" class="table"><p>Kotak    Mahindra Bank Ltd</p></td>
+    <td width="39" valign="top" class="table"><p align="right">309</p></td>
+    <td width="39" valign="top" class="table"><p align="right">416</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">177539</p></td>
+    <td width="46" valign="top" class="table"><p align="right">2136</p></td>
+    <td width="60" valign="top" class="table"><p align="right">217093</p></td>
+    <td width="50" valign="top" class="table"><p align="right">19.0445</p></td>
+    <td width="50" valign="top" class="table"><p align="right">550.085</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1233012</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1995337</p></td>
+    <td width="60" valign="top" class="table"><p align="right">284238</p></td>
+    <td width="57" valign="top" class="table"><p align="right">5475.846</p></td>
+    <td width="57" valign="top" class="table"><p align="right">428.9287</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">45</p></td>
+    <td width="125" valign="top" class="table"><p>Axis Bank    Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">1784</p></td>
+    <td width="39" valign="top" class="table"><p align="right">5087</p></td>
+    <td width="46" valign="top" class="table"><p align="right">187142</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">648346</p></td>
+    <td width="46" valign="top" class="table"><p align="right">7201</p></td>
+    <td width="60" valign="top" class="table"><p align="right">589455</p></td>
+    <td width="50" valign="top" class="table"><p align="right">22.7216</p></td>
+    <td width="50" valign="top" class="table"><p align="right">1498.36</p></td>
+    <td width="67" valign="top" class="table"><p align="right">10510389</p></td>
+    <td width="67" valign="top" class="table"><p align="right">38154334</p></td>
+    <td width="60" valign="top" class="table"><p align="right">2085447</p></td>
+    <td width="57" valign="top" class="table"><p align="right">86393.3</p></td>
+    <td width="57" valign="top" class="table"><p align="right">3597.732</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">46</p></td>
+    <td width="125" valign="top" class="table"><p>Yes Bank    Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">164</p></td>
+    <td width="39" valign="top" class="table"><p align="right">97</p></td>
+    <td width="46" valign="top" class="table"><p align="right">1769</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">147411</p></td>
+    <td width="67" valign="top" class="table"><p align="right">52169</p></td>
+    <td width="60" valign="top" class="table"><p align="right">45151</p></td>
+    <td width="57" valign="top" class="table"><p align="right">214.3</p></td>
+    <td width="57" valign="top" class="table"><p align="right">76.5</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">47</p></td>
+    <td width="125" valign="top" class="table"><p>RBS (ABN    AMRO)</p></td>
+    <td width="39" valign="top" class="table"><p align="right">35</p></td>
+    <td width="39" valign="top" class="table"><p align="right">86</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">246011</p></td>
+    <td width="46" valign="top" class="table"><p align="right">1372</p></td>
+    <td width="60" valign="top" class="table"><p align="right">235563</p></td>
+    <td width="50" valign="top" class="table"><p align="right">10.4984</p></td>
+    <td width="50" valign="top" class="table"><p align="right">671.725</p></td>
+    <td width="67" valign="top" class="table"><p align="right">336010</p></td>
+    <td width="67" valign="top" class="table"><p align="right">565465</p></td>
+    <td width="60" valign="top" class="table"><p align="right">174726</p></td>
+    <td width="57" valign="top" class="table"><p align="right">2142.086</p></td>
+    <td width="57" valign="top" class="table"><p align="right">300.0731</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">48</p></td>
+    <td width="125" valign="top" class="table"><p>American    Express Bkg. Corp.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">0</p></td>
+    <td width="39" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">16026</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">572256</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">1361879</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">9572.2</p></td>
+    <td width="67" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="57" valign="top" class="table"><p align="right">0</p></td>
+    <td width="57" valign="top" class="table"><p align="right">0</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">49</p></td>
+    <td width="125" valign="top" class="table"><p>Barclays    Bank </p></td>
+    <td width="39" valign="top" class="table"><p align="right">7</p></td>
+    <td width="39" valign="top" class="table"><p align="right">31</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">304363</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">169160</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">310.2</p></td>
+    <td width="67" valign="top" class="table"><p align="right">33477</p></td>
+    <td width="67" valign="top" class="table"><p align="right">43958</p></td>
+    <td width="60" valign="top" class="table"><p align="right">15967</p></td>
+    <td width="57" valign="top" class="table"><p align="right">139.0219</p></td>
+    <td width="57" valign="top" class="table"><p align="right">27.57016</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">50</p></td>
+    <td width="125" valign="top" class="table"><p>Citibank </p></td>
+    <td width="39" valign="top" class="table"><p align="right">58</p></td>
+    <td width="39" valign="top" class="table"><p align="right">642</p></td>
+    <td width="46" valign="top" class="table"><p align="right">9993</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">2263803</p></td>
+    <td width="46" valign="top" class="table"><p align="right">28787</p></td>
+    <td width="60" valign="top" class="table"><p align="right">5129754</p></td>
+    <td width="50" valign="top" class="table"><p align="right">235.9</p></td>
+    <td width="50" valign="top" class="table"><p align="right">14912.5</p></td>
+    <td width="67" valign="top" class="table"><p align="right">2049598</p></td>
+    <td width="67" valign="top" class="table"><p align="right">3085330</p></td>
+    <td width="60" valign="top" class="table"><p align="right">1158578</p></td>
+    <td width="57" valign="top" class="table"><p align="right">10846.2</p></td>
+    <td width="57" valign="top" class="table"><p align="right">2517.3</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">51</p></td>
+    <td width="125" valign="top" class="table"><p>Deutsche    Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">12</p></td>
+    <td width="39" valign="top" class="table"><p align="right">49</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">102732</p></td>
+    <td width="67" valign="top" class="table"><p align="right">182141</p></td>
+    <td width="60" valign="top" class="table"><p align="right">70092</p></td>
+    <td width="57" valign="top" class="table"><p align="right">672.9</p></td>
+    <td width="57" valign="top" class="table"><p align="right">125.6</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">52</p></td>
+    <td width="125" valign="top" class="table"><p>DBS Ltd.</p></td>
+    <td width="39" valign="top" class="table"><p align="right">4</p></td>
+    <td width="39" valign="top" class="table"><p align="right">32</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1457</p></td>
+    <td width="67" valign="top" class="table"><p align="right">18976</p></td>
+    <td width="60" valign="top" class="table"><p align="right">1470</p></td>
+    <td width="57" valign="top" class="table"><p align="right">41.5879</p></td>
+    <td width="57" valign="top" class="table"><p align="right">2.859867</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">53</p></td>
+    <td width="125" valign="top" class="table"><p>HSBC</p></td>
+    <td width="39" valign="top" class="table"><p align="right">72</p></td>
+    <td width="39" valign="top" class="table"><p align="right">74</p></td>
+    <td width="46" valign="top" class="table"><p align="right">9142</p></td>
+    <td width="32" valign="top" class="table"><p align="right">4949</p></td>
+    <td width="62" valign="top" class="table"><p align="right">887625</p></td>
+    <td width="46" valign="top" class="table"><p align="right">3127</p></td>
+    <td width="60" valign="top" class="table"><p align="right">1065952</p></td>
+    <td width="50" valign="top" class="table"><p align="right">21.1292</p></td>
+    <td width="50" valign="top" class="table"><p align="right">2879.63</p></td>
+    <td width="67" valign="top" class="table"><p align="right">553745</p></td>
+    <td width="67" valign="top" class="table"><p align="right">429745</p></td>
+    <td width="60" valign="top" class="table"><p align="right">247892</p></td>
+    <td width="57" valign="top" class="table"><p align="right">1921.03</p></td>
+    <td width="57" valign="top" class="table"><p align="right">575.0552</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">54</p></td>
+    <td width="125" valign="top" class="table"><p>Oman    International Bank SAO</p></td>
+    <td width="39" valign="top" class="table"><p align="right">0</p></td>
+    <td width="39" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">0</p></td>
+    <td width="46" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="50" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">0</p></td>
+    <td width="67" valign="top" class="table"><p align="right">0</p></td>
+    <td width="60" valign="top" class="table"><p align="right">0</p></td>
+    <td width="57" valign="top" class="table"><p align="right">0</p></td>
+    <td width="57" valign="top" class="table"><p align="right">0</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">55</p></td>
+    <td width="125" valign="top" class="table"><p>Standard    Chartered Bank</p></td>
+    <td width="39" valign="top" class="table"><p align="right">94</p></td>
+    <td width="39" valign="top" class="table"><p align="right">223</p></td>
+    <td width="46" valign="top" class="table"><p align="right">16</p></td>
+    <td width="32" valign="top" class="table"><p align="right">0</p></td>
+    <td width="62" valign="top" class="table"><p align="right">1088975</p></td>
+    <td width="46" valign="top" class="table"><p align="right">2519</p></td>
+    <td width="60" valign="top" class="table"><p align="right">1737299</p></td>
+    <td width="50" valign="top" class="table"><p align="right">11</p></td>
+    <td width="50" valign="top" class="table"><p align="right">5220</p></td>
+    <td width="67" valign="top" class="table"><p align="right">772171</p></td>
+    <td width="67" valign="top" class="table"><p align="right">1407411</p></td>
+    <td width="60" valign="top" class="table"><p align="right">462080</p></td>
+    <td width="57" valign="top" class="table"><p align="right">4640.72</p></td>
+    <td width="57" valign="top" class="table"><p align="right">748.1846</p></td>
+  </tr>
+  <tr>
+    <td width="26" valign="top" class="table"><p align="center">&nbsp;</p></td>
+    <td width="125" valign="top" class="table"><p>Total</p></td>
+    <td width="39" valign="top" class="table"><p align="right">42513</p></td>
+    <td width="39" valign="top" class="table"><p align="right">35873</p></td>
+    <td width="46" valign="top" class="table"><p align="right">600295</p></td>
+    <td width="32" valign="top" class="table"><p align="right">9861</p></td>
+    <td width="62" valign="top" class="table"><p align="right">17659442</p></td>
+    <td width="46" valign="top" class="table"><p align="right">172625</p></td>
+    <td width="60" valign="top" class="table"><p align="right">24182946</p></td>
+    <td width="50" valign="top" class="table"><p align="right">960.364</p></td>
+    <td width="50" valign="top" class="table"><p align="right">71911.1</p></td>
+    <td width="67" valign="top" class="table"><p align="right">239520133</p></td>
+    <td width="67" valign="top" class="table"><p align="right">391737317</p></td>
+    <td width="60" valign="top" class="table"><p align="right">23891416</p></td>
+    <td width="57" valign="top" class="table"><p align="right">1098541</p></td>
+    <td width="57" valign="top" class="table"><p align="right">37838.84</p></td>
+  </tr>
+</table></td></tr></table>
+                            </table>
+                        </div>
+                        <br />
+                        <div align="right">
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="grid_1 archives alpha">
+                <span id="DateSettree_lbltree"><div class="grid_subtree archives alpha" id="treeYearMonth_PR"><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2026">2026</a></h2><div class="accordionContent month" id="2026"><ul class="accordionlist"><li><a href="#" id="20260" onclick='GetYearMonth("2026","0")'>All Months</a></li><li><a href="#" id="20261" onclick='GetYearMonth("2026","1")'>January</a></li><li><a href="#" id="20262" onclick='GetYearMonth("2026","2")'>February</a></li><li><a href="#" id="20263" onclick='GetYearMonth("2026","3")'>March</a></li><li><a href="#" id="20264" onclick='GetYearMonth("2026","4")'>April</a></li><li><a href="#" id="20265" onclick='GetYearMonth("2026","5")'>May</a></li><li><a href="#" id="20266" onclick='GetYearMonth("2026","6")'>June</a></li><li><a href="#" id="20267" onclick='GetYearMonth("2026","7")'>July</a></li><li><a href="#" id="20268" onclick='GetYearMonth("2026","8")'>August</a></li><li><a href="#" id="20269" onclick='GetYearMonth("2026","9")'>September</a></li><li><a href="#" id="202610" onclick='GetYearMonth("2026","10")'>October</a></li><li><a href="#" id="202611" onclick='GetYearMonth("2026","11")'>November</a></li><li><a href="#" id="202612" onclick='GetYearMonth("2026","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2025">2025</a></h2><div class="accordionContent month" id="2025"><ul class="accordionlist"><li><a href="#" id="20250" onclick='GetYearMonth("2025","0")'>All Months</a></li><li><a href="#" id="20251" onclick='GetYearMonth("2025","1")'>January</a></li><li><a href="#" id="20252" onclick='GetYearMonth("2025","2")'>February</a></li><li><a href="#" id="20253" onclick='GetYearMonth("2025","3")'>March</a></li><li><a href="#" id="20254" onclick='GetYearMonth("2025","4")'>April</a></li><li><a href="#" id="20255" onclick='GetYearMonth("2025","5")'>May</a></li><li><a href="#" id="20256" onclick='GetYearMonth("2025","6")'>June</a></li><li><a href="#" id="20257" onclick='GetYearMonth("2025","7")'>July</a></li><li><a href="#" id="20258" onclick='GetYearMonth("2025","8")'>August</a></li><li><a href="#" id="20259" onclick='GetYearMonth("2025","9")'>September</a></li><li><a href="#" id="202510" onclick='GetYearMonth("2025","10")'>October</a></li><li><a href="#" id="202511" onclick='GetYearMonth("2025","11")'>November</a></li><li><a href="#" id="202512" onclick='GetYearMonth("2025","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2024">2024</a></h2><div class="accordionContent month" id="2024"><ul class="accordionlist"><li><a href="#" id="20240" onclick='GetYearMonth("2024","0")'>All Months</a></li><li><a href="#" id="20241" onclick='GetYearMonth("2024","1")'>January</a></li><li><a href="#" id="20242" onclick='GetYearMonth("2024","2")'>February</a></li><li><a href="#" id="20243" onclick='GetYearMonth("2024","3")'>March</a></li><li><a href="#" id="20244" onclick='GetYearMonth("2024","4")'>April</a></li><li><a href="#" id="20245" onclick='GetYearMonth("2024","5")'>May</a></li><li><a href="#" id="20246" onclick='GetYearMonth("2024","6")'>June</a></li><li><a href="#" id="20247" onclick='GetYearMonth("2024","7")'>July</a></li><li><a href="#" id="20248" onclick='GetYearMonth("2024","8")'>August</a></li><li><a href="#" id="20249" onclick='GetYearMonth("2024","9")'>September</a></li><li><a href="#" id="202410" onclick='GetYearMonth("2024","10")'>October</a></li><li><a href="#" id="202411" onclick='GetYearMonth("2024","11")'>November</a></li><li><a href="#" id="202412" onclick='GetYearMonth("2024","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2023">2023</a></h2><div class="accordionContent month" id="2023"><ul class="accordionlist"><li><a href="#" id="20230" onclick='GetYearMonth("2023","0")'>All Months</a></li><li><a href="#" id="20231" onclick='GetYearMonth("2023","1")'>January</a></li><li><a href="#" id="20232" onclick='GetYearMonth("2023","2")'>February</a></li><li><a href="#" id="20233" onclick='GetYearMonth("2023","3")'>March</a></li><li><a href="#" id="20234" onclick='GetYearMonth("2023","4")'>April</a></li><li><a href="#" id="20235" onclick='GetYearMonth("2023","5")'>May</a></li><li><a href="#" id="20236" onclick='GetYearMonth("2023","6")'>June</a></li><li><a href="#" id="20237" onclick='GetYearMonth("2023","7")'>July</a></li><li><a href="#" id="20238" onclick='GetYearMonth("2023","8")'>August</a></li><li><a href="#" id="20239" onclick='GetYearMonth("2023","9")'>September</a></li><li><a href="#" id="202310" onclick='GetYearMonth("2023","10")'>October</a></li><li><a href="#" id="202311" onclick='GetYearMonth("2023","11")'>November</a></li><li><a href="#" id="202312" onclick='GetYearMonth("2023","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2022">2022</a></h2><div class="accordionContent month" id="2022"><ul class="accordionlist"><li><a href="#" id="20220" onclick='GetYearMonth("2022","0")'>All Months</a></li><li><a href="#" id="20221" onclick='GetYearMonth("2022","1")'>January</a></li><li><a href="#" id="20222" onclick='GetYearMonth("2022","2")'>February</a></li><li><a href="#" id="20223" onclick='GetYearMonth("2022","3")'>March</a></li><li><a href="#" id="20224" onclick='GetYearMonth("2022","4")'>April</a></li><li><a href="#" id="20225" onclick='GetYearMonth("2022","5")'>May</a></li><li><a href="#" id="20226" onclick='GetYearMonth("2022","6")'>June</a></li><li><a href="#" id="20227" onclick='GetYearMonth("2022","7")'>July</a></li><li><a href="#" id="20228" onclick='GetYearMonth("2022","8")'>August</a></li><li><a href="#" id="20229" onclick='GetYearMonth("2022","9")'>September</a></li><li><a href="#" id="202210" onclick='GetYearMonth("2022","10")'>October</a></li><li><a href="#" id="202211" onclick='GetYearMonth("2022","11")'>November</a></li><li><a href="#" id="202212" onclick='GetYearMonth("2022","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2021">2021</a></h2><div class="accordionContent month" id="2021"><ul class="accordionlist"><li><a href="#" id="20210" onclick='GetYearMonth("2021","0")'>All Months</a></li><li><a href="#" id="20211" onclick='GetYearMonth("2021","1")'>January</a></li><li><a href="#" id="20212" onclick='GetYearMonth("2021","2")'>February</a></li><li><a href="#" id="20213" onclick='GetYearMonth("2021","3")'>March</a></li><li><a href="#" id="20214" onclick='GetYearMonth("2021","4")'>April</a></li><li><a href="#" id="20215" onclick='GetYearMonth("2021","5")'>May</a></li><li><a href="#" id="20216" onclick='GetYearMonth("2021","6")'>June</a></li><li><a href="#" id="20217" onclick='GetYearMonth("2021","7")'>July</a></li><li><a href="#" id="20218" onclick='GetYearMonth("2021","8")'>August</a></li><li><a href="#" id="20219" onclick='GetYearMonth("2021","9")'>September</a></li><li><a href="#" id="202110" onclick='GetYearMonth("2021","10")'>October</a></li><li><a href="#" id="202111" onclick='GetYearMonth("2021","11")'>November</a></li><li><a href="#" id="202112" onclick='GetYearMonth("2021","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2020">2020</a></h2><div class="accordionContent month" id="2020"><ul class="accordionlist"><li><a href="#" id="20200" onclick='GetYearMonth("2020","0")'>All Months</a></li><li><a href="#" id="20201" onclick='GetYearMonth("2020","1")'>January</a></li><li><a href="#" id="20202" onclick='GetYearMonth("2020","2")'>February</a></li><li><a href="#" id="20203" onclick='GetYearMonth("2020","3")'>March</a></li><li><a href="#" id="20204" onclick='GetYearMonth("2020","4")'>April</a></li><li><a href="#" id="20205" onclick='GetYearMonth("2020","5")'>May</a></li><li><a href="#" id="20206" onclick='GetYearMonth("2020","6")'>June</a></li><li><a href="#" id="20207" onclick='GetYearMonth("2020","7")'>July</a></li><li><a href="#" id="20208" onclick='GetYearMonth("2020","8")'>August</a></li><li><a href="#" id="20209" onclick='GetYearMonth("2020","9")'>September</a></li><li><a href="#" id="202010" onclick='GetYearMonth("2020","10")'>October</a></li><li><a href="#" id="202011" onclick='GetYearMonth("2020","11")'>November</a></li><li><a href="#" id="202012" onclick='GetYearMonth("2020","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2019">2019</a></h2><div class="accordionContent month" id="2019"><ul class="accordionlist"><li><a href="#" id="20190" onclick='GetYearMonth("2019","0")'>All Months</a></li><li><a href="#" id="20191" onclick='GetYearMonth("2019","1")'>January</a></li><li><a href="#" id="20192" onclick='GetYearMonth("2019","2")'>February</a></li><li><a href="#" id="20193" onclick='GetYearMonth("2019","3")'>March</a></li><li><a href="#" id="20194" onclick='GetYearMonth("2019","4")'>April</a></li><li><a href="#" id="20195" onclick='GetYearMonth("2019","5")'>May</a></li><li><a href="#" id="20196" onclick='GetYearMonth("2019","6")'>June</a></li><li><a href="#" id="20197" onclick='GetYearMonth("2019","7")'>July</a></li><li><a href="#" id="20198" onclick='GetYearMonth("2019","8")'>August</a></li><li><a href="#" id="20199" onclick='GetYearMonth("2019","9")'>September</a></li><li><a href="#" id="201910" onclick='GetYearMonth("2019","10")'>October</a></li><li><a href="#" id="201911" onclick='GetYearMonth("2019","11")'>November</a></li><li><a href="#" id="201912" onclick='GetYearMonth("2019","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2018">2018</a></h2><div class="accordionContent month" id="2018"><ul class="accordionlist"><li><a href="#" id="20180" onclick='GetYearMonth("2018","0")'>All Months</a></li><li><a href="#" id="20181" onclick='GetYearMonth("2018","1")'>January</a></li><li><a href="#" id="20182" onclick='GetYearMonth("2018","2")'>February</a></li><li><a href="#" id="20183" onclick='GetYearMonth("2018","3")'>March</a></li><li><a href="#" id="20184" onclick='GetYearMonth("2018","4")'>April</a></li><li><a href="#" id="20185" onclick='GetYearMonth("2018","5")'>May</a></li><li><a href="#" id="20186" onclick='GetYearMonth("2018","6")'>June</a></li><li><a href="#" id="20187" onclick='GetYearMonth("2018","7")'>July</a></li><li><a href="#" id="20188" onclick='GetYearMonth("2018","8")'>August</a></li><li><a href="#" id="20189" onclick='GetYearMonth("2018","9")'>September</a></li><li><a href="#" id="201810" onclick='GetYearMonth("2018","10")'>October</a></li><li><a href="#" id="201811" onclick='GetYearMonth("2018","11")'>November</a></li><li><a href="#" id="201812" onclick='GetYearMonth("2018","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2017">2017</a></h2><div class="accordionContent month" id="2017"><ul class="accordionlist"><li><a href="#" id="20170" onclick='GetYearMonth("2017","0")'>All Months</a></li><li><a href="#" id="20171" onclick='GetYearMonth("2017","1")'>January</a></li><li><a href="#" id="20172" onclick='GetYearMonth("2017","2")'>February</a></li><li><a href="#" id="20173" onclick='GetYearMonth("2017","3")'>March</a></li><li><a href="#" id="20174" onclick='GetYearMonth("2017","4")'>April</a></li><li><a href="#" id="20175" onclick='GetYearMonth("2017","5")'>May</a></li><li><a href="#" id="20176" onclick='GetYearMonth("2017","6")'>June</a></li><li><a href="#" id="20177" onclick='GetYearMonth("2017","7")'>July</a></li><li><a href="#" id="20178" onclick='GetYearMonth("2017","8")'>August</a></li><li><a href="#" id="20179" onclick='GetYearMonth("2017","9")'>September</a></li><li><a href="#" id="201710" onclick='GetYearMonth("2017","10")'>October</a></li><li><a href="#" id="201711" onclick='GetYearMonth("2017","11")'>November</a></li><li><a href="#" id="201712" onclick='GetYearMonth("2017","12")'>December</a></li></ul></div><h2 class="year"><a href="javascript:void(0);" style="text-decoration:none;" id="divArchiveMain"  onclick="hideshow('divArchiveSub');" style="cursor: pointer;">Archives</a></h2><div  id="divArchiveSub" style="display: none;"><div class="grid_subtree archives alpha" id="treeYearMonth_PR"><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2016">2016</a></h2><div class="accordionContent month" id="2016"><ul class="accordionlist"><li><a href="#" id="20160" onclick='GetYearMonth("2016","0")'>All Months</a></li><li><a href="#" id="20161" onclick='GetYearMonth("2016","1")'>January</a></li><li><a href="#" id="20162" onclick='GetYearMonth("2016","2")'>February</a></li><li><a href="#" id="20163" onclick='GetYearMonth("2016","3")'>March</a></li><li><a href="#" id="20164" onclick='GetYearMonth("2016","4")'>April</a></li><li><a href="#" id="20165" onclick='GetYearMonth("2016","5")'>May</a></li><li><a href="#" id="20166" onclick='GetYearMonth("2016","6")'>June</a></li><li><a href="#" id="20167" onclick='GetYearMonth("2016","7")'>July</a></li><li><a href="#" id="20168" onclick='GetYearMonth("2016","8")'>August</a></li><li><a href="#" id="20169" onclick='GetYearMonth("2016","9")'>September</a></li><li><a href="#" id="201610" onclick='GetYearMonth("2016","10")'>October</a></li><li><a href="#" id="201611" onclick='GetYearMonth("2016","11")'>November</a></li><li><a href="#" id="201612" onclick='GetYearMonth("2016","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2015">2015</a></h2><div class="accordionContent month" id="2015"><ul class="accordionlist"><li><a href="#" id="20150" onclick='GetYearMonth("2015","0")'>All Months</a></li><li><a href="#" id="20151" onclick='GetYearMonth("2015","1")'>January</a></li><li><a href="#" id="20152" onclick='GetYearMonth("2015","2")'>February</a></li><li><a href="#" id="20153" onclick='GetYearMonth("2015","3")'>March</a></li><li><a href="#" id="20154" onclick='GetYearMonth("2015","4")'>April</a></li><li><a href="#" id="20155" onclick='GetYearMonth("2015","5")'>May</a></li><li><a href="#" id="20156" onclick='GetYearMonth("2015","6")'>June</a></li><li><a href="#" id="20157" onclick='GetYearMonth("2015","7")'>July</a></li><li><a href="#" id="20158" onclick='GetYearMonth("2015","8")'>August</a></li><li><a href="#" id="20159" onclick='GetYearMonth("2015","9")'>September</a></li><li><a href="#" id="201510" onclick='GetYearMonth("2015","10")'>October</a></li><li><a href="#" id="201511" onclick='GetYearMonth("2015","11")'>November</a></li><li><a href="#" id="201512" onclick='GetYearMonth("2015","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2014">2014</a></h2><div class="accordionContent month" id="2014"><ul class="accordionlist"><li><a href="#" id="20140" onclick='GetYearMonth("2014","0")'>All Months</a></li><li><a href="#" id="20141" onclick='GetYearMonth("2014","1")'>January</a></li><li><a href="#" id="20142" onclick='GetYearMonth("2014","2")'>February</a></li><li><a href="#" id="20143" onclick='GetYearMonth("2014","3")'>March</a></li><li><a href="#" id="20144" onclick='GetYearMonth("2014","4")'>April</a></li><li><a href="#" id="20145" onclick='GetYearMonth("2014","5")'>May</a></li><li><a href="#" id="20146" onclick='GetYearMonth("2014","6")'>June</a></li><li><a href="#" id="20147" onclick='GetYearMonth("2014","7")'>July</a></li><li><a href="#" id="20148" onclick='GetYearMonth("2014","8")'>August</a></li><li><a href="#" id="20149" onclick='GetYearMonth("2014","9")'>September</a></li><li><a href="#" id="201410" onclick='GetYearMonth("2014","10")'>October</a></li><li><a href="#" id="201411" onclick='GetYearMonth("2014","11")'>November</a></li><li><a href="#" id="201412" onclick='GetYearMonth("2014","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2013">2013</a></h2><div class="accordionContent month" id="2013"><ul class="accordionlist"><li><a href="#" id="20130" onclick='GetYearMonth("2013","0")'>All Months</a></li><li><a href="#" id="20131" onclick='GetYearMonth("2013","1")'>January</a></li><li><a href="#" id="20132" onclick='GetYearMonth("2013","2")'>February</a></li><li><a href="#" id="20133" onclick='GetYearMonth("2013","3")'>March</a></li><li><a href="#" id="20134" onclick='GetYearMonth("2013","4")'>April</a></li><li><a href="#" id="20135" onclick='GetYearMonth("2013","5")'>May</a></li><li><a href="#" id="20136" onclick='GetYearMonth("2013","6")'>June</a></li><li><a href="#" id="20137" onclick='GetYearMonth("2013","7")'>July</a></li><li><a href="#" id="20138" onclick='GetYearMonth("2013","8")'>August</a></li><li><a href="#" id="20139" onclick='GetYearMonth("2013","9")'>September</a></li><li><a href="#" id="201310" onclick='GetYearMonth("2013","10")'>October</a></li><li><a href="#" id="201311" onclick='GetYearMonth("2013","11")'>November</a></li><li><a href="#" id="201312" onclick='GetYearMonth("2013","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2012">2012</a></h2><div class="accordionContent month" id="2012"><ul class="accordionlist"><li><a href="#" id="20120" onclick='GetYearMonth("2012","0")'>All Months</a></li><li><a href="#" id="20121" onclick='GetYearMonth("2012","1")'>January</a></li><li><a href="#" id="20122" onclick='GetYearMonth("2012","2")'>February</a></li><li><a href="#" id="20123" onclick='GetYearMonth("2012","3")'>March</a></li><li><a href="#" id="20124" onclick='GetYearMonth("2012","4")'>April</a></li><li><a href="#" id="20125" onclick='GetYearMonth("2012","5")'>May</a></li><li><a href="#" id="20126" onclick='GetYearMonth("2012","6")'>June</a></li><li><a href="#" id="20127" onclick='GetYearMonth("2012","7")'>July</a></li><li><a href="#" id="20128" onclick='GetYearMonth("2012","8")'>August</a></li><li><a href="#" id="20129" onclick='GetYearMonth("2012","9")'>September</a></li><li><a href="#" id="201210" onclick='GetYearMonth("2012","10")'>October</a></li><li><a href="#" id="201211" onclick='GetYearMonth("2012","11")'>November</a></li><li><a href="#" id="201212" onclick='GetYearMonth("2012","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2011">2011</a></h2><div class="accordionContent month" id="2011"><ul class="accordionlist"><li><a href="#" id="20110" onclick='GetYearMonth("2011","0")'>All Months</a></li><li><a href="#" id="20111" onclick='GetYearMonth("2011","1")'>January</a></li><li><a href="#" id="20112" onclick='GetYearMonth("2011","2")'>February</a></li><li><a href="#" id="20113" onclick='GetYearMonth("2011","3")'>March</a></li><li><a href="#" id="20114" onclick='GetYearMonth("2011","4")'>April</a></li><li><a href="#" id="20115" onclick='GetYearMonth("2011","5")'>May</a></li><li><a href="#" id="20116" onclick='GetYearMonth("2011","6")'>June</a></li><li><a href="#" id="20117" onclick='GetYearMonth("2011","7")'>July</a></li><li><a href="#" id="20118" onclick='GetYearMonth("2011","8")'>August</a></li><li><a href="#" id="20119" onclick='GetYearMonth("2011","9")'>September</a></li><li><a href="#" id="201110" onclick='GetYearMonth("2011","10")'>October</a></li><li><a href="#" id="201111" onclick='GetYearMonth("2011","11")'>November</a></li><li><a href="#" id="201112" onclick='GetYearMonth("2011","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2010">2010</a></h2><div class="accordionContent month" id="2010"><ul class="accordionlist"><li><a href="#" id="20100" onclick='GetYearMonth("2010","0")'>All Months</a></li><li><a href="#" id="20101" onclick='GetYearMonth("2010","1")'>January</a></li><li><a href="#" id="20102" onclick='GetYearMonth("2010","2")'>February</a></li><li><a href="#" id="20103" onclick='GetYearMonth("2010","3")'>March</a></li><li><a href="#" id="20104" onclick='GetYearMonth("2010","4")'>April</a></li><li><a href="#" id="20105" onclick='GetYearMonth("2010","5")'>May</a></li><li><a href="#" id="20106" onclick='GetYearMonth("2010","6")'>June</a></li><li><a href="#" id="20107" onclick='GetYearMonth("2010","7")'>July</a></li><li><a href="#" id="20108" onclick='GetYearMonth("2010","8")'>August</a></li><li><a href="#" id="20109" onclick='GetYearMonth("2010","9")'>September</a></li><li><a href="#" id="201010" onclick='GetYearMonth("2010","10")'>October</a></li><li><a href="#" id="201011" onclick='GetYearMonth("2010","11")'>November</a></li><li><a href="#" id="201012" onclick='GetYearMonth("2010","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2009">2009</a></h2><div class="accordionContent month" id="2009"><ul class="accordionlist"><li><a href="#" id="20090" onclick='GetYearMonth("2009","0")'>All Months</a></li><li><a href="#" id="20091" onclick='GetYearMonth("2009","1")'>January</a></li><li><a href="#" id="20092" onclick='GetYearMonth("2009","2")'>February</a></li><li><a href="#" id="20093" onclick='GetYearMonth("2009","3")'>March</a></li><li><a href="#" id="20094" onclick='GetYearMonth("2009","4")'>April</a></li><li><a href="#" id="20095" onclick='GetYearMonth("2009","5")'>May</a></li><li><a href="#" id="20096" onclick='GetYearMonth("2009","6")'>June</a></li><li><a href="#" id="20097" onclick='GetYearMonth("2009","7")'>July</a></li><li><a href="#" id="20098" onclick='GetYearMonth("2009","8")'>August</a></li><li><a href="#" id="20099" onclick='GetYearMonth("2009","9")'>September</a></li><li><a href="#" id="200910" onclick='GetYearMonth("2009","10")'>October</a></li><li><a href="#" id="200911" onclick='GetYearMonth("2009","11")'>November</a></li><li><a href="#" id="200912" onclick='GetYearMonth("2009","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2008">2008</a></h2><div class="accordionContent month" id="2008"><ul class="accordionlist"><li><a href="#" id="20080" onclick='GetYearMonth("2008","0")'>All Months</a></li><li><a href="#" id="20081" onclick='GetYearMonth("2008","1")'>January</a></li><li><a href="#" id="20082" onclick='GetYearMonth("2008","2")'>February</a></li><li><a href="#" id="20083" onclick='GetYearMonth("2008","3")'>March</a></li><li><a href="#" id="20084" onclick='GetYearMonth("2008","4")'>April</a></li><li><a href="#" id="20085" onclick='GetYearMonth("2008","5")'>May</a></li><li><a href="#" id="20086" onclick='GetYearMonth("2008","6")'>June</a></li><li><a href="#" id="20087" onclick='GetYearMonth("2008","7")'>July</a></li><li><a href="#" id="20088" onclick='GetYearMonth("2008","8")'>August</a></li><li><a href="#" id="20089" onclick='GetYearMonth("2008","9")'>September</a></li><li><a href="#" id="200810" onclick='GetYearMonth("2008","10")'>October</a></li><li><a href="#" id="200811" onclick='GetYearMonth("2008","11")'>November</a></li><li><a href="#" id="200812" onclick='GetYearMonth("2008","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2007">2007</a></h2><div class="accordionContent month" id="2007"><ul class="accordionlist"><li><a href="#" id="20070" onclick='GetYearMonth("2007","0")'>All Months</a></li><li><a href="#" id="20071" onclick='GetYearMonth("2007","1")'>January</a></li><li><a href="#" id="20072" onclick='GetYearMonth("2007","2")'>February</a></li><li><a href="#" id="20073" onclick='GetYearMonth("2007","3")'>March</a></li><li><a href="#" id="20074" onclick='GetYearMonth("2007","4")'>April</a></li><li><a href="#" id="20075" onclick='GetYearMonth("2007","5")'>May</a></li><li><a href="#" id="20076" onclick='GetYearMonth("2007","6")'>June</a></li><li><a href="#" id="20077" onclick='GetYearMonth("2007","7")'>July</a></li><li><a href="#" id="20078" onclick='GetYearMonth("2007","8")'>August</a></li><li><a href="#" id="20079" onclick='GetYearMonth("2007","9")'>September</a></li><li><a href="#" id="200710" onclick='GetYearMonth("2007","10")'>October</a></li><li><a href="#" id="200711" onclick='GetYearMonth("2007","11")'>November</a></li><li><a href="#" id="200712" onclick='GetYearMonth("2007","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2006">2006</a></h2><div class="accordionContent month" id="2006"><ul class="accordionlist"><li><a href="#" id="20060" onclick='GetYearMonth("2006","0")'>All Months</a></li><li><a href="#" id="20061" onclick='GetYearMonth("2006","1")'>January</a></li><li><a href="#" id="20062" onclick='GetYearMonth("2006","2")'>February</a></li><li><a href="#" id="20063" onclick='GetYearMonth("2006","3")'>March</a></li><li><a href="#" id="20064" onclick='GetYearMonth("2006","4")'>April</a></li><li><a href="#" id="20065" onclick='GetYearMonth("2006","5")'>May</a></li><li><a href="#" id="20066" onclick='GetYearMonth("2006","6")'>June</a></li><li><a href="#" id="20067" onclick='GetYearMonth("2006","7")'>July</a></li><li><a href="#" id="20068" onclick='GetYearMonth("2006","8")'>August</a></li><li><a href="#" id="20069" onclick='GetYearMonth("2006","9")'>September</a></li><li><a href="#" id="200610" onclick='GetYearMonth("2006","10")'>October</a></li><li><a href="#" id="200611" onclick='GetYearMonth("2006","11")'>November</a></li><li><a href="#" id="200612" onclick='GetYearMonth("2006","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2005">2005</a></h2><div class="accordionContent month" id="2005"><ul class="accordionlist"><li><a href="#" id="20050" onclick='GetYearMonth("2005","0")'>All Months</a></li><li><a href="#" id="20051" onclick='GetYearMonth("2005","1")'>January</a></li><li><a href="#" id="20052" onclick='GetYearMonth("2005","2")'>February</a></li><li><a href="#" id="20053" onclick='GetYearMonth("2005","3")'>March</a></li><li><a href="#" id="20054" onclick='GetYearMonth("2005","4")'>April</a></li><li><a href="#" id="20055" onclick='GetYearMonth("2005","5")'>May</a></li><li><a href="#" id="20056" onclick='GetYearMonth("2005","6")'>June</a></li><li><a href="#" id="20057" onclick='GetYearMonth("2005","7")'>July</a></li><li><a href="#" id="20058" onclick='GetYearMonth("2005","8")'>August</a></li><li><a href="#" id="20059" onclick='GetYearMonth("2005","9")'>September</a></li><li><a href="#" id="200510" onclick='GetYearMonth("2005","10")'>October</a></li><li><a href="#" id="200511" onclick='GetYearMonth("2005","11")'>November</a></li><li><a href="#" id="200512" onclick='GetYearMonth("2005","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2004">2004</a></h2><div class="accordionContent month" id="2004"><ul class="accordionlist"><li><a href="#" id="20040" onclick='GetYearMonth("2004","0")'>All Months</a></li><li><a href="#" id="20041" onclick='GetYearMonth("2004","1")'>January</a></li><li><a href="#" id="20042" onclick='GetYearMonth("2004","2")'>February</a></li><li><a href="#" id="20043" onclick='GetYearMonth("2004","3")'>March</a></li><li><a href="#" id="20044" onclick='GetYearMonth("2004","4")'>April</a></li><li><a href="#" id="20045" onclick='GetYearMonth("2004","5")'>May</a></li><li><a href="#" id="20046" onclick='GetYearMonth("2004","6")'>June</a></li><li><a href="#" id="20047" onclick='GetYearMonth("2004","7")'>July</a></li><li><a href="#" id="20048" onclick='GetYearMonth("2004","8")'>August</a></li><li><a href="#" id="20049" onclick='GetYearMonth("2004","9")'>September</a></li><li><a href="#" id="200410" onclick='GetYearMonth("2004","10")'>October</a></li><li><a href="#" id="200411" onclick='GetYearMonth("2004","11")'>November</a></li><li><a href="#" id="200412" onclick='GetYearMonth("2004","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2003">2003</a></h2><div class="accordionContent month" id="2003"><ul class="accordionlist"><li><a href="#" id="20030" onclick='GetYearMonth("2003","0")'>All Months</a></li><li><a href="#" id="20031" onclick='GetYearMonth("2003","1")'>January</a></li><li><a href="#" id="20032" onclick='GetYearMonth("2003","2")'>February</a></li><li><a href="#" id="20033" onclick='GetYearMonth("2003","3")'>March</a></li><li><a href="#" id="20034" onclick='GetYearMonth("2003","4")'>April</a></li><li><a href="#" id="20035" onclick='GetYearMonth("2003","5")'>May</a></li><li><a href="#" id="20036" onclick='GetYearMonth("2003","6")'>June</a></li><li><a href="#" id="20037" onclick='GetYearMonth("2003","7")'>July</a></li><li><a href="#" id="20038" onclick='GetYearMonth("2003","8")'>August</a></li><li><a href="#" id="20039" onclick='GetYearMonth("2003","9")'>September</a></li><li><a href="#" id="200310" onclick='GetYearMonth("2003","10")'>October</a></li><li><a href="#" id="200311" onclick='GetYearMonth("2003","11")'>November</a></li><li><a href="#" id="200312" onclick='GetYearMonth("2003","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2002">2002</a></h2><div class="accordionContent month" id="2002"><ul class="accordionlist"><li><a href="#" id="20020" onclick='GetYearMonth("2002","0")'>All Months</a></li><li><a href="#" id="20021" onclick='GetYearMonth("2002","1")'>January</a></li><li><a href="#" id="20022" onclick='GetYearMonth("2002","2")'>February</a></li><li><a href="#" id="20023" onclick='GetYearMonth("2002","3")'>March</a></li><li><a href="#" id="20024" onclick='GetYearMonth("2002","4")'>April</a></li><li><a href="#" id="20025" onclick='GetYearMonth("2002","5")'>May</a></li><li><a href="#" id="20026" onclick='GetYearMonth("2002","6")'>June</a></li><li><a href="#" id="20027" onclick='GetYearMonth("2002","7")'>July</a></li><li><a href="#" id="20028" onclick='GetYearMonth("2002","8")'>August</a></li><li><a href="#" id="20029" onclick='GetYearMonth("2002","9")'>September</a></li><li><a href="#" id="200210" onclick='GetYearMonth("2002","10")'>October</a></li><li><a href="#" id="200211" onclick='GetYearMonth("2002","11")'>November</a></li><li><a href="#" id="200212" onclick='GetYearMonth("2002","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2001">2001</a></h2><div class="accordionContent month" id="2001"><ul class="accordionlist"><li><a href="#" id="20010" onclick='GetYearMonth("2001","0")'>All Months</a></li><li><a href="#" id="20011" onclick='GetYearMonth("2001","1")'>January</a></li><li><a href="#" id="20012" onclick='GetYearMonth("2001","2")'>February</a></li><li><a href="#" id="20013" onclick='GetYearMonth("2001","3")'>March</a></li><li><a href="#" id="20014" onclick='GetYearMonth("2001","4")'>April</a></li><li><a href="#" id="20015" onclick='GetYearMonth("2001","5")'>May</a></li><li><a href="#" id="20016" onclick='GetYearMonth("2001","6")'>June</a></li><li><a href="#" id="20017" onclick='GetYearMonth("2001","7")'>July</a></li><li><a href="#" id="20018" onclick='GetYearMonth("2001","8")'>August</a></li><li><a href="#" id="20019" onclick='GetYearMonth("2001","9")'>September</a></li><li><a href="#" id="200110" onclick='GetYearMonth("2001","10")'>October</a></li><li><a href="#" id="200111" onclick='GetYearMonth("2001","11")'>November</a></li><li><a href="#" id="200112" onclick='GetYearMonth("2001","12")'>December</a></li></ul></div><h2 class="accordionButton year" ><a href="#" onclick="event.preventDefault()" style="text-decoration:none;" aria-expanded="false"  id="btn2000">2000</a></h2><div class="accordionContent month" id="2000"><ul class="accordionlist"><li><a href="#" id="20000" onclick='GetYearMonth("2000","0")'>All Months</a></li><li><a href="#" id="20001" onclick='GetYearMonth("2000","1")'>January</a></li><li><a href="#" id="20002" onclick='GetYearMonth("2000","2")'>February</a></li><li><a href="#" id="20003" onclick='GetYearMonth("2000","3")'>March</a></li><li><a href="#" id="20004" onclick='GetYearMonth("2000","4")'>April</a></li><li><a href="#" id="20005" onclick='GetYearMonth("2000","5")'>May</a></li><li><a href="#" id="20006" onclick='GetYearMonth("2000","6")'>June</a></li><li><a href="#" id="20007" onclick='GetYearMonth("2000","7")'>July</a></li><li><a href="#" id="20008" onclick='GetYearMonth("2000","8")'>August</a></li><li><a href="#" id="20009" onclick='GetYearMonth("2000","9")'>September</a></li><li><a href="#" id="200010" onclick='GetYearMonth("2000","10")'>October</a></li><li><a href="#" id="200011" onclick='GetYearMonth("2000","11")'>November</a></li><li><a href="#" id="200012" onclick='GetYearMonth("2000","12")'>December</a></li></ul></div></div></div></span>
+<style type="text/css"> /*added by ni*/
+.year a
+{
+    text-transform:none;
+    margin:0px;
+    /*color:Black;*/
+    font-size:12px;
+    text-decoration:none;
+    padding: 3px 4px 5px 2px;
+    }
+#DateSettree_lbltree h2
+{
+    margin-top:0px;
+}
+.month ul li a {
+    padding: 3px 4px 7px 2px;
+}
+
+.accordionContent ul.accordionlist li {
+    
+    min-height: 24px;
+}
+</style>
+
+
+
+            </div>
+        </main>
+    </div>
+    <div class="clearfix">
+    </div>
+    <a href="#top" class="scrollToTop" id="backToTop">Top</a>
+<div id="backDiv" style=" text-align:center;" >
+<a href="javascript:history.back()" class="paraheader">Back to previous page</a>
+</div>
+<footer class="footer">
+
+<div class="footer">
+  <div class="container_12">
+
+
+    <!--<div class="grid_9" style="width: 833px !important; ">
+      <h4><span class="blue">More</span> Links :</h4>
+      <div class="grid_2 alpha" style="width:150px !important">
+        <ul class="footerlist">
+          
+          <li><a target="_blank" href="https://www.rbi.org.in/FinancialEducation/">Financial Education</a></li>https://www.rbi.org.in/commonperson/English/Scripts/Home.aspx
+	      <li><a target="_blank" href="https://ncfe.org.in/e-lms">E-LMS</a></li>
+	      <li><a target="_blank" href="https://rbikehtahai.rbi.org.in/">RBI Kehta Hai</a></li>
+          <li><a href="/Scripts/FAQDisplay.aspx">FAQs</a></li>
+         
+          <li><a href="/Scripts/IFSCMICRDetails.aspx">IFSC/MICR Codes</a></li>
+        </ul>
+      </div>
+      <div class="grid_2 omega" style="width:150px !important;">
+        <ul class="footerlist">
+          <li><a href="/Scripts/BS_ViewTenders.aspx">Tenders</a></li>
+          <li><a target="_blank" href="https://opportunities.rbi.org.in/scripts/index.aspx">Opportunities<font>@</font>RBI</a></li>
+          <li><a href="/Scripts/HolidayMatrixDisplay.aspx">Bank Holidays</a></li>
+          <li><a href="/Scripts/BS_ViewForms.aspx">Forms</a></li>
+          <li><a href="https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894">COVID-19 Measures</a></li>
+            
+        </ul>
+      </div>
+      <div class="grid_2 alpha omega" style="width:254px !important;">
+        <ul class="footerlist">
+          <li><a href="/Scripts/EventsDisplay.aspx">Events</a></li>
+         
+          <li><a href="/Scripts/rbi_clarification.aspx">RBI Clarifications</a></li>
+	  <li><a href="/Scripts/Righttoinfoact.aspx">Right to Information Act</a></li>
+            <li><a href="/Scripts/OtherLinks.aspx">Important Websites</a></li>
+	  <li><a href="https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh30122022.pdf">RBI's Core Purpose, Values and Vision <img src="../Images/pdf.gif" width="12" height="12" alt="PDF document" border="0" align="absmiddle" style="padding-bottom: 4px;"> 1257 kb</a></li>
+        </ul>
+      </div>
+      <div class="grid_2" style="width:215px !important;">
+        <ul class="footerlist">
+          
+          <li><a href="/Scripts/CitiChart.aspx">Citizen's Charter</a></li>
+          <li><a href="/Scripts/Timlines.aspx">Timelines for Regulatory Approvals</a></li>
+          <li><a href="/Scripts/Complaints.aspx">Complaints</a></li>
+	  <li><a href="https://shabdavali.rbi.org.in/">Banking Glossary</a></li>
+          <li><a href="/Scripts/helpdesk.aspx">Contact Us</a></li>
+	  
+        </ul>
+      </div>
+    </div>-->
+      <div class="grid_9" style="width: 833px !important; ">
+          <!--<h4><span class="blue">More</span> Links :</h4>-->
+          <h2><span class="blue">More</span> Links :</h2>
+          <!--<div class="grid_2 alpha" style="width:170px !important">
+              <ul class="footerlist">
+                  <li><a href="/Scripts/HolidayMatrixDisplay.aspx">Bank Holidays</a></li>
+                  <li><a href="https://shabdavali.rbi.org.in/">Banking Glossary</a></li>
+                  <li><a href="/Scripts/CitiChart.aspx">Citizen's Charter</a></li>
+                  <li><a href="/Scripts/Complaints.aspx">Complaints</a></li>
+                  <li><a href="/Scripts/helpdesk.aspx">Contact Us</a></li>
+              </ul>
+          </div>
+          <div class="grid_2 omega" style="width:180px !important;">
+              <ul class="footerlist">
+                  <li><a href="https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894">COVID-19 Measures</a></li>
+                  <li><a target="_blank" href="https://ncfe.org.in/e-lms">E-LMS</a></li>
+                  <li><a href="/Scripts/EventsDisplay.aspx">Events</a></li>
+                  <li><a href="/Scripts/FAQDisplay.aspx">FAQs</a></li>
+                  <li><a target="_blank" href="https://www.rbi.org.in/FinancialEducation/">Financial Education</a></li>
+          </div>
+          <div class="grid_2 alpha omega" style="width:180px !important;">
+              <ul class="footerlist">
+                  <li><a href="/Scripts/BS_ViewForms.aspx">Forms</a></li>
+                  <li><a href="/Scripts/IFSCMICRDetails.aspx">IFSC/MICR Codes</a></li>
+                  <li><a href="/Scripts/OtherLinks.aspx">Important Websites</a></li>
+                  <li><a target="_blank" href="https://opportunities.rbi.org.in/scripts/index.aspx">Opportunities<span>@</span>RBI</a></li>
+                  <li><a href="/Scripts/rbi_clarification.aspx">RBI Clarifications</a></li>
+              </ul>
+          </div>
+          <div class="grid_2" style="width:254px !important;">
+              <ul class="footerlist">
+
+                  <li><a target="_blank" href="https://rbikehtahai.rbi.org.in/">RBI Kehta Hai</a></li>
+                  <li><a href="https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh30122022.pdf">RBI's Core Purpose, Values and Vision <img src="../Images/pdf.gif" width="12" height="12" alt="PDF document" border="0" align="absmiddle" style="padding-bottom: 4px;"> 1257 kb</a></li>
+                  <li><a href="/Scripts/Righttoinfoact.aspx">Right to Information Act</a></li>
+                  <li><a href="/Scripts/BS_ViewTenders.aspx">Tenders</a></li>
+                  <li><a href="/Scripts/Timlines.aspx">Timelines for Regulatory Approvals</a></li>
+              </ul>
+          </div>-->
+		<ul class="footerlist" style="column-count:4">
+                  <li ><a href="/Scripts/HolidayMatrixDisplay.aspx">Bank Holidays</a></li>
+                  <li ><a href="https://shabdavali.rbi.org.in/">Banking Glossary</a></li>
+                  <li ><a href="/Scripts/CitiChart.aspx">Citizen's Charter</a></li>
+                  <li ><a href="/Scripts/Complaints.aspx">Complaints</a></li>
+                  <li ><a href="/Scripts/helpdesk.aspx">Contact Us</a></li>
+  		<li ><a href="https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894">COVID-19 Measures</a></li>
+                  <li ><a target="_blank" href="https://ncfe.org.in/e-lms">E-LMS</a></li>
+                  <li ><a href="/Scripts/EventsDisplay.aspx">Events</a></li>
+                  <li ><a href="/Scripts/FAQDisplay.aspx">FAQs</a></li>
+                  <li ><a target="_blank" href="https://www.rbi.org.in/FinancialEducation/">Financial Education</a></li>
+		<li ><a href="/Scripts/BS_ViewForms.aspx">Forms</a></li>
+                  <li ><a href="/Scripts/IFSCMICRDetails.aspx">IFSC/MICR Codes</a></li>
+                  <li><a href="/Scripts/OtherLinks.aspx">Important Websites</a></li>
+                  <li><a target="_blank" href="https://opportunities.rbi.org.in/scripts/index.aspx">Opportunities<span>@</span>RBI</a></li>
+                  <li><a href="/Scripts/rbi_clarification.aspx">RBI Clarifications</a></li>
+ 		<li><a target="_blank" href="https://rbikehtahai.rbi.org.in/">RBI Kehta Hai</a></li>
+                  <li><a href="https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh30122022.pdf">RBI's Core Purpose, Values and Vision <!--<img src="../Images/pdf.gif" width="12" height="12" alt="PDF document" border="0" align="absmiddle" style="padding-bottom: 4px;"> (1257 kb)--></a></li>
+                  <li><a href="/Scripts/Righttoinfoact.aspx">Right to Information Act</a></li>
+                  <li><a href="/Scripts/BS_ViewTenders.aspx">Tenders</a></li>
+                  <!--<li><a href="/Scripts/Timlines.aspx">Timelines for Regulatory Approvals</a></li>--><!--https://www.rbi.org.in/commonperson/English/Scripts/Home.aspx-->
+              </ul>
+      </div>
+
+    <div class="grid_3" style="width:197px !important">
+      <!--<h4><span class="blue">Follow</span> RBI </h4>-->
+        <h2><span class="blue">Follow</span> RBI</h2>
+      <ul class="footerlist">
+        <!--<li><a href="/Scripts/rss.aspx"><img src="/images/rss-icon.png" alt="Subscribe to RSS" class="rss"/>RSS</a></li>-->
+
+          <li style="float: left;background: url(/images/footer_list_arrow.gif) left 8px no-repeat;"><a href="/Scripts/rss.aspx"><img src="/images/rss-icon.png" alt="" class="rss">RSS</a></li>
+
+        <!--<li><a href="https://twitter.com/RBI" target="_blank" class="twitter"><img src="/images/Twitter_New.png" width="14px" height="14px" alt="Follow RBI on Twitter" class="videos" />Twitter</a></li>-->
+          <li>
+              <a href="https://twitter.com/RBI" target="_blank" class="twitter">
+                  <img src="/images/Twitter_New.png" width="14px" height="14px" alt="" class="videos" style="padding-left: 18%;">Twitter
+              </a>
+          </li>
+
+        <!--<li><a href="https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA" class="videos" target="_blank"><img src="/images/videos-icon.png" alt="Check RBI Videos" class="videos"/>Videos</a></li>-->
+
+          <li style="float: left;"><a href="https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA" class="videos" target="_blank"><img src="/images/youtube.png" alt="" class="videos">YouTube</a></li>
+
+          <li>
+              <a href="https://instagram.com/reservebankofindia" class="videos" target="_blank">
+                  <img src="/images/Instagram.jpg" width="14px" height="14px" alt="" class="videos" style="padding-left: 5%;">Instagram
+              </a>
+          </li>
+          <li style="float: left;"><a href="https://www.facebook.com/RBIsays" class="videos" target="_blank"><img src="/images/Facebook.jpg" width="14px" height="14px" alt="" class="videos">Facebook</a></li>
+          <li>
+              <a href="https://www.linkedin.com/company/reservebankofindia" class="videos" target="_blank">
+                  <img src="/images/LinkedinIcon1.png" alt="" class="" style="padding-left: 4%;width: 17px;background: bottom no-repeat;display: block;float: left;margin: 2px 3px 0 1px;">LinkedIn
+              </a>
+          </li>
+	<li>
+   	 Download Mobile App<br> 
+   	 <a href="https://play.google.com/store/apps/details?id=com.reservebankofindia&pli=1" target="_blank"><img src="/images/Android.png" alt="" class="rss" style="width:17px" >Play Store</a><br>
+	<a href="https://apps.apple.com/us/app/reserve-bank-of-india/id1154394549?ls=1" target="_blank"><img src="/images/IOS.png" alt="" class="rss" style="width:18px;height:17px">App Store</a>
+	</li>
+
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <div class="copyright">
+    <div class="container_12">
+     <div class="grid_6 pull_left">&copy; Reserve Bank of India. All Rights Reserved. </div>
+        <div class="grid_5 pull_right"><a href="/Scripts/sitemap.aspx">Sitemap</a> <span aria-hidden="true">|</span> <a href="/Scripts/Disclaimer.aspx">Disclaimer</a></div>
+        <div class="clearfix"></div>
+
+        <div class="grid_6 pull_left">Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in</div>
+        <div class="grid_5 pull_right">Website last updated date: Apr 09, 2026</div>
+        <div class="clearfix"></div>
+        <div class="grid_6 pull_left">Supports: Google Chrome 125+ | Firefox 126+ | Microsoft Edge Version 125+ | Safari 17+</div>
+        <div class="grid_5 pull_right"><a href="https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf">Accessibility Statement</a><span aria-hidden="true"> |</span><a href="/scripts/ScreenReader.aspx" title="Information related to screen reader">Screen Reader</a></div>
+        <div class="clearfix"></div>
+    </div>
+  </div>
+  
+
+<!--Welcome note-->
+
+ <!-- <div id="boxesWN">
+  <div id="dialogWN" class="window" style="top:100px;">
+  <div> <img width="60" height="60" src="/images/Rbinote.jpeg" alt="Rbi note" /> </div>
+   <table class="WelcomeNote" >
+   <tr>
+   <td style="float:right;">
+
+   April 14, 2015
+   </td>
+   </tr>
+    <tr>
+  
+    <td >
+    
+   Dear All
+    </td>
+    </tr>
+     <tr>
+     <td >
+     
+  Welcome to the refurbished site of the Reserve Bank of India. 
+    </td>
+   
+    </tr>
+    <tr>
+    <td >
+    
+  The two most important features of the site are: One, in addition to the default site, the refurbished site also has all the information bifurcated functionwise; two, a much improved search – well, at least we think so but you be the judge. 
+    </td>
+   
+    </tr>
+
+      <tr>
+    <td>
+   With this makeover, we also take a small step into social media. We will now use Twitter (albeit one way) to send out alerts on the announcements we make and YouTube to place in public domain our press conferences, interviews of our top management, events, such as, town halls and of course, some films aimed at consumer literacy.  
+    </td>
+   
+    </tr>
+    <tr>
+    <td>
+    The site can be accessed through most browsers and devices; it also meets accessibility standards. 
+    </td>
+    </tr>
+    <tr>
+    <td>
+    Please save the url of the refurbished site in your favourites as we will give up the existing site shortly and register or re-register yourselves for receiving RSS feeds for uninterrupted alerts from the Reserve Bank. 
+    </td>
+    </tr>
+    <tr>
+    <td>
+    Do feel free to give us your feedback by clicking on the feedback button on the right hand corner of the refurbished site. 
+    </td>
+    </tr>
+    <tr>
+    <td>
+    Thank you for your continued support.<br /><br />
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <strong>
+    Department of Communication <br />
+Reserve Bank of India</strong>
+
+    </td>
+    </tr>
+	<tr><td id="popupfootWN"><a href="#" class="close agree" style="float:right" >Next</a></td></tr>
+    </table>-->
+   <!-- <div id="popupfootWN"> <a href="#" class="close agree" style="float:right" >Next</a>    </div>--><!--<img src="../images/button_close.gif" alt="Close" class="close agree" />-->
+ <!-- </div>
+  <div id="maskWN" style="width:100% !important"></div>-->
+
+<!--<div id="feedbackbtn"><a href="#"><div align="center" class="feedbacktext">Feedback</div></a></div>-->
+
+</div>
+</div>
+</footer>
+<!--<script type="text/javascript" src="/js/URLchange.js"></script>-->
+<!-- For live comment out below line.-->
+
+<script src="/js/ReplaceURL.js" type="text/javascript"></script>
+<script src="/js/jquery.cookie.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+
+
+    //this is for floating TOP link
+    
+    $(document).ready(function () {
+
+        var offset = 230;
+        var duration = 500;
+
+
+        jQuery(window).scroll(function () {
+            if (jQuery(this).scrollTop() > offset) {
+                jQuery('.scrollToTop').fadeIn(duration);
+                // $('#backToTop').css('right', (diffWidth / 2) - 6);
+            } else {
+                jQuery('.scrollToTop').fadeOut(duration);
+                //  $('#backToTop').css('right', (diffWidth / 2) - 6);
+            }
+        });
+
+        //        $('a[href*=#]:not([href=#])').click(function () {
+
+        //            if (location.pathname.replace(/^\//, '') == window.location.pathname.replace(/^\//, '') && location.hostname == window.location.hostname) {
+
+        //                var target = $(this.hash);
+        //                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        //                if (target.length) {
+        //                    $('html,body').animate({
+        //                        scrollTop: target.offset().top
+        //                    }, 800);
+        //                    return false;
+        //                }
+        //            }
+        //        });
+	$('.page_title').attr('tabindex','-1');//for IAAP point 5 by ni
+        $('.scrollToTop').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 800);
+		$('.page_title').focus(); //for IAAP point 5 by ni
+            return false;
+        });
+	
+//Added by ni
+
+	if(!window.location.href.includes("Home.aspx") && !window.location.href.includes("home.aspx"))
+{ 
+if( window.location.href.includes(".aspx")){
+var div= document.getElementById('backDiv');
+	div.removeAttribute("hidden");}
+else{
+var div1= document.getElementById('backDiv');
+	div1.setAttribute("hidden","true");}
+}
+else{
+
+
+	var div1= document.getElementById('backDiv');
+	div1.setAttribute("hidden","true");}
+    });
+
+
+    //Below code is for floating left panel and floating tree structure
+    //first if condition is for functionwise pages and 2nd one for rest all
+    $(window).scroll(function () {
+
+        if ($('div.banner2').length) {
+
+            if ($(window).scrollTop() >= 265) {
+                $('#menubar').css("position", "fixed");
+                $('#menubar').css("width", "240px");
+                $('#menubar').css("margin-top", "-281px");
+                $('.content_area').css("margin-left", "252px");
+
+                $('.sidebar_nav').css("position", "fixed");
+                $('.sidebar_nav').css("margin-top", "-200px");
+                $('.sidebar_nav').css("width", "236px");
+
+
+              //  $('#DateSettree_lbltree').css('position', 'fixed');
+              //  $('#DateSettree_lbltree').css('margin-top', '-281px');
+
+            }
+
+            else {
+                $('#menubar').css("position", "");
+                $('#menubar').css("width", "");
+                $('#menubar').css("margin-top", "");
+                $('.content_area').css("margin-left", "");
+
+                $('.sidebar_nav').css("position", "");
+                $('.sidebar_nav').css("margin-top", "");
+                $('.sidebar_nav').css("width", "");
+
+
+
+          //      $('#DateSettree_lbltree').css('position', '');
+          //      $('#DateSettree_lbltree').css('margin-top', '');
+            }
+
+        }
+
+        else if ($(window).scrollTop() >= 185) {
+            $('#menubar').css("position", "fixed");
+            $('#menubar').css("width", "240px");
+            $('#menubar').css("margin-top", "-200px");
+            $('.content_area').css("margin-left", "252px");
+
+            $('.sidebar_nav').css("position", "fixed");
+            $('.sidebar_nav').css("margin-top", "-200px");
+            $('.sidebar_nav').css("width", "236px");
+
+
+          //  $('#DateSettree_lbltree').css('position', 'fixed');
+          //  $('#DateSettree_lbltree').css('margin-top', '-200px');
+
+        }
+
+        else {
+            $('#menubar').css("position", "");
+            $('#menubar').css("width", "");
+            $('#menubar').css("margin-top", "");
+            $('.content_area').css("margin-left", "");
+
+            $('.sidebar_nav').css("position", "");
+            $('.sidebar_nav').css("margin-top", "");
+            $('.sidebar_nav').css("width", "");
+
+
+        //    $('#DateSettree_lbltree').css('position', '');
+        //    $('#DateSettree_lbltree').css('margin-top', '');
+        }
+//        if ($(window).scrollTop() >= 235) {
+
+//            $('#DateSettree_lbltree').css('height', '183px');
+//            $('#DateSettree_lbltree').css('overflow-y', 'scroll');
+//            $('#DateSettree_lbltree').css('width', '100px');
+
+//        }
+//        else {
+//            $('#DateSettree_lbltree').css('height', '');
+//            $('#DateSettree_lbltree').css('overflow-y', '');
+//            $('#DateSettree_lbltree').css('width', '');
+
+//        }
+
+       
+    });
+	
+       // $(window).unload(function () {
+       //     $.cookies.del('feedback_Cookie'); 
+       // });
+    $(document).ready(function () {
+	
+	
+		  $('.window .close').click(function (e) {
+            //Cancel the link behavior
+            e.preventDefault();
+            $.cookie('feedback_Cookie', 'Yes', { expires: 365, path: '/' });
+            $('#maskWN').hide();
+            $('.window').hide();
+            var scroll = $(window).scrollTop();
+            $("html").scrollTop(scroll);
+        });
+		
+		 $('#maskWN').click(function () {
+            $(this).hide();
+            $.cookie('feedback_Cookie', 'Yes', { expires: 365, path: '/' });
+            $('.window').hide();
+
+        });
+
+        //        if ($.cookie('feedback_Cookie') == null) {
+        //            var id = '#dialog';
+
+        //            //Get the screen height and width
+        //            var maskHeight = $(document).height();
+        //            var maskWidth = $(window).width();
+        //           
+
+        //            //Set heigth and width to mask to fill up the whole screen
+        //            $('#mask').css({ 'width': '100%', 'height': '100%','position':'fixed' });
+
+        //            //transition effect
+        //            $('#mask').fadeIn(500);
+        //            $('#mask').fadeTo("slow", 0.9);
+
+        //            //Get the window height and width
+        //            var winH = $(window).height();
+        //            var winW = $(window).width();
+
+        //            //Set the popup window to center
+        //            $(id).css('top', winH / 2 - $(id).height() / 2);
+        //            $(id).css('left', winW / 2 - $(id).width() / 2);
+
+        //            //transition effect
+        //            $(id).fadeIn(2000);
+
+
+
+        //        }
+//        $('blockquote p').css('margin','auto');
+//        $('blockquote blockquote blockquote p').contents().contents().unwrap();
+//        $('blockquote blockquote blockquote').contents().unwrap();
+//        $('blockquote blockquote').contents().unwrap();
+//        $('blockquote').contents().unwrap();
+        
+
+        //if close button is clicked
+        $('.window .close').click(function (e) {
+            //Cancel the link behavior
+            e.preventDefault();
+            $.cookie('feedback_Cookie', 'Yes', { expires: 365, path: '/' });
+            $('#mask').hide();
+            $('.window').hide();
+            var scroll = $(window).scrollTop();
+            $("html").scrollTop(scroll);
+        });
+
+        //if mask is clicked
+        $('#mask').click(function () {
+            $(this).hide();
+            $('.window').hide();
+        });
+        $('#feedbackbtn').click(function () {
+            var id = '#dialog';
+
+            //Get the screen height and width
+            var maskHeight = $(document).height();
+            var maskWidth = $(window).width();
+
+            //Set heigth and width to mask to fill up the whole screen
+            //$('#mask').css({ 'width': maskWidth, 'height': maskHeight });
+            $('#mask').css({ 'width': '100%', 'height': '100%', 'position': 'fixed' });
+
+            //transition effect
+            $('#mask').fadeIn(500);
+            $('#mask').fadeTo("slow", 0.9);
+
+            //Get the window height and width
+            var winH = $(window).height();
+            var winW = $(window).width();
+
+            //Set the popup window to center
+            $(id).css('top', winH / 2 - $(id).height() / 2);
+            $(id).css('left', winW / 2 - $(id).width() / 2);
+
+            //transition effect
+            $(id).fadeIn(2000);
+        });
+
+        $('.submit').click(function () {
+            var Name = $("[id*=txtFeedbackName]").val();
+            var Email = $("[id*=txtFeedbackEmail]").val();
+            var Comments = $("[id*=txtFeedbackComments]").val();
+            if (Name == "") {
+
+                alert("Please enter your name");
+                $("[id*=txtFeedbackName]").focus();
+                return false;
+            }
+            else if (Email == "") {
+                alert("Please enter your email");
+                $("[id*=txtFeedbackEmail]").focus();
+                return false;
+            }
+            else if (Email != "" && !ValidateEmail(Email)) {
+                alert("Please enter a valid email address");
+                $("[id*=txtFeedbackEmail]").focus();
+                return false;
+            }
+
+            else if (Comments == "") {
+
+                alert("Please enter some comments");
+                $("[id*=txtFeedbackComments]").focus();
+                return false;
+            }
+
+            else {
+                $('[id*=Button1]').attr('disabled', 'disabled');
+
+                var param = { Name: Name, EmailID: Email, Comments: Comments };
+                $.ajax({
+                    type: "POST",
+                    url: "../Home.aspx/SaveFeedback",
+                    data: JSON.stringify(param),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+
+                    success: function (response) {
+
+                        if (response.d == "0") {
+                            alert("Thank you for your feedback");
+                            $.cookie('feedback_Cookie', 'Yes', { expires: 365, path: '/' });
+                            $('#mask').hide();
+                            $('.window').hide();
+                            $('[id*=Button1]').removeAttr('disabled');
+                            $("[id*=txtFeedbackName]").val("");
+                            $("[id*=txtFeedbackEmail]").val("");
+                            $("[id*=txtFeedbackComments]").val("");
+                        }
+                        else {
+                            alert("Please try again");
+                            $('[id*=Button1]').removeAttr('disabled');
+
+
+                        }
+
+                    }
+                });
+            }
+
+        });
+
+        function ValidateEmail(email) {
+            var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            return expr.test(email);
+        };
+
+        //        $('#divArchiveMain').click(function () {
+        //            
+        //            if ($(window).scrollTop() >= 235) {
+
+        //                $('#DateSettree_lbltree').css('height', '181px');
+        //                $('#DateSettree_lbltree').css('overflow-y', 'scroll');
+        //                $('#DateSettree_lbltree').css('width', '100px');
+
+        //            }
+        //            else {
+        //                $('#DateSettree_lbltree').css('height', '');
+        //                $('#DateSettree_lbltree').css('overflow-y', '');
+        //                $('#DateSettree_lbltree').css('width', '');
+
+        //            }
+        //        });
+
+        $('a.style1').each(function () {
+
+            var $this = $(this);
+            var aHref = $this.attr('class');
+            $this.attr('class', aHref.replace('style1', 'links'));
+        });
+
+		
+   });
+
+//added by ni
+  function isExternal(url) {
+       if(url=='#' || url=='javascript:void(0);' || url.includes('javascript')||url=='' )
+	{ return false;} 
+	else
+    	return (url.indexOf("rbi.org.in")==-1)
+    }
+    document.addEventListener("click", function () {
+	
+        if (event.target.tagName.toLowerCase() === "a") {
+            if (isExternal(event.target.href)) {
+
+                if (confirm("You are being redirected to an external website that opens in a new tab. Please note that Reserve Bank of India will not be held responsible for external websites content in any manner.")) {
+
+                    return;
+                }
+
+                else {
+                   
+                    event.preventDefault();
+                    return;
+                }
+            }
+        }
+	else if (event.target.tagName.toLowerCase() === "img") {
+		$(event.target).preventDefault;		
+		if($(event.target).parent('a').length){
+			 if (isExternal($(event.target).parent('a').prop('href'))) {
+                		if (confirm("You are being redirected to an external website that opens in a new tab. Please note that Reserve Bank of India will not be held responsible for external websites content in any manner.")) {
+                    		return;
+               		 }
+
+                	else {                   
+                    		event.preventDefault();
+                    		return;
+                	}
+		}
+	}}
+    });
+
+
+</script>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61369961-1', 'auto');
+  ga('send', 'pageview');
+
+$('.tablebg').attr('role','presentation');
+$('.brd-ptable1').attr('role','presentation');
+$('html').attr('lang', 'en');
+
+$('#doublescroll').children('table').filter(':first').attr("role", "presentation");
+$('.page_title').nextAll('table').first().attr("role", "presentation");
+
+//document.getElementsByClassName('tableheader');
+//$(window).on('load',function(){
+document.addEventListener('DOMContentLoaded', function(){
+$('.tableheader b').each(function () {
+		var curEle= $(this);
+           $(curEle).replaceWith("<h2 class='dop_header'>"+$(curEle).html()+"</h2>")
+        });
+ });
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+setLetterSpace(false);//]]>
+</script>
+</form>
+</body>
+</html>
+<script type="text/javascript" src="/js/plugins.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+<script type="text/javascript" src="/js/Scroll.js"></script>
+<script type="text/javascript" language="javascript">
+    function GetYearMonth(year, month) {
+        document.getElementById("hdnYear").value = year;
+        document.getElementById("hdnMonth").value = month;
+        document.getElementById("btn").click();
+    }
+    //Implemented onlick for 'archives' link in tree structure
+    function hideshow(divArchive) {
+        if (!document.getElementById(divArchive))
+            return
+        if (document.getElementById(divArchive).style.display == "block")
+            document.getElementById(divArchive).style.display = "none"
+        else
+            document.getElementById(divArchive).style.display = "block"
+    }
+    function SetTreeStyles() {
+        var strYear = document.getElementById("hdnYear").value;
+        var strMonth = document.getElementById("hdnMonth").value
+        if (strYear != "") {
+            var toDay = new Date();
+            document.getElementById("btn" + strYear).setAttribute("class", "accordionButton year active_year");
+            document.getElementById(strYear).style.display = "block";
+            if (strMonth) document.getElementById(strYear + strMonth).setAttribute("class", "active");
+            if (toDay.getFullYear() - 9 > parseInt(strYear)) { document.getElementById("divArchiveSub").style.display = "block" }
+        }
+    }
+</script>
+<script type="text/javascript" language="javascript">
+    //alert('hi');
+    //DoubleScroll(document.getElementById('doublescroll', 12));
+    DoubleScrollWithTree(document.getElementById('doublescroll'));
+</script>
+<script id="f5_cspm">(function(){var f5_cspm={f5_p:'DABKMPKECEFCFLHFAAIKJKNEHDAFEKDJKNLAGFPHCJGEOIHHKGKHIIMOBPNJFAMJOIPBIJKKAABCJGKKGECAPCDDAAHJHGCGLHGOFFMJOHBMAJFAMDDMBCIFKIOAJKNA',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0184420833aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/;'+'';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;'+';';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

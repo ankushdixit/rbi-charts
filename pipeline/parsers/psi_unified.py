@@ -419,6 +419,14 @@ def parse_all(
     return df
 
 
+def _json_serializer(obj):
+    """Handle NaN and other non-JSON-serializable values."""
+    import math
+    if isinstance(obj, float) and (math.isnan(obj) or math.isinf(obj)):
+        return None
+    return str(obj)
+
+
 def export_json(df: pd.DataFrame, output_dir: str = "web/public/data"):
     """Export parsed PSI data as JSON files for the frontend."""
     os.makedirs(output_dir, exist_ok=True)
@@ -430,7 +438,7 @@ def export_json(df: pd.DataFrame, output_dir: str = "web/public/data"):
     # 1. Full dataset
     records = monthly.drop(columns=["era", "source", "date_type"]).to_dict(orient="records")
     with open(os.path.join(output_dir, "psi_all.json"), "w") as f:
-        json.dump(records, f, indent=2, default=str)
+        json.dump(records, f, indent=2, default=_json_serializer)
     print(f"  Exported psi_all.json ({len(records)} records)")
 
     # 2. UPI-specific time series
