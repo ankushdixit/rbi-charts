@@ -91,7 +91,8 @@ def parse_file(filepath: str) -> list[dict]:
     # Extract month from page content
     soup = BeautifulSoup(content, "html.parser")
     text = soup.get_text()
-    match = re.search(r"(?:Month of|for)\s+([\w\s,\-]+\d{4})", text)
+    # Handle all title variants: "Month of Feb 2026", "for Feb 2016", "the Month February 2021"
+    match = re.search(r"(?:Month of|for|the Month)\s+([\w\s,\-]+\d{4})", text)
     if not match:
         return []
 
@@ -106,48 +107,108 @@ def parse_file(filepath: str) -> list[dict]:
     main = max(tables, key=lambda t: t.shape[0])
     num_cols = main.shape[1]
 
+    # Detect if first column is Sr.No. or Bank Name
+    has_sr_no = False
+    for i in range(min(5, len(main))):
+        col0 = str(main.iloc[i, 0]).strip().lower()
+        if 'sr' in col0:
+            has_sr_no = True
+            break
+
+    # Determine bank column
+    bank_col = 1 if has_sr_no else 0
+
+    # Find credit cards outstanding column by scanning headers
+    # Look for the column where both "Credit Cards" and "outstanding" appear
+    cc_col = None
+    dc_col = None
+    for c in range(num_cols):
+        header_text = " ".join(
+            str(main.iloc[i, c]).lower() for i in range(min(5, len(main)))
+        )
+        if "credit card" in header_text and "outstanding" in header_text:
+            cc_col = c
+        elif "debit card" in header_text and "outstanding" in header_text:
+            dc_col = c
+
+    # If header-based detection didn't find "outstanding" text,
+    # look for column where header says "Credit Cards" and is followed by
+    # transaction columns (meaning this col is the outstanding count)
+    if cc_col is None:
+        for c in range(num_cols):
+            for i in range(min(5, len(main))):
+                val = str(main.iloc[i, c]).strip()
+                if val == "Credit Cards":
+                    # Check if next header row for this col says "No. of outstanding"
+                    for j in range(i + 1, min(i + 3, len(main))):
+                        sub = str(main.iloc[j, c]).lower()
+                        if "outstanding" in sub or "no. of outstanding" in sub:
+                            cc_col = c
+                            break
+                    if cc_col:
+                        break
+            if cc_col:
+                break
+
+    # Final fallback using verified column positions
+    if cc_col is None:
+        if num_cols >= 28:
+            cc_col = 8   # verified for IDs 133-180
+        elif num_cols >= 16 and has_sr_no:
+            cc_col = 6   # verified for IDs 2-114 (16 cols with Sr.No.)
+        elif num_cols == 17 and not has_sr_no:
+            cc_col = 7   # verified for IDs 115-132 (17 cols no Sr.No.)
+        elif num_cols == 15 and not has_sr_no:
+            cc_col = 5   # verified for IDs 108-110 (15 cols no Sr.No.)
+
     records = []
     for i in range(len(main)):
-        sr = str(main.iloc[i, 0]).strip()
-        if not sr.isdigit():
-            continue
+        if has_sr_no:
+            sr = str(main.iloc[i, 0]).strip()
+            if not sr.isdigit():
+                continue
+        else:
+            # No Sr.No. — identify bank rows by checking if value looks like a bank name
+            bank_candidate = str(main.iloc[i, bank_col]).strip()
+            if not bank_candidate or bank_candidate == "nan":
+                continue
+            # Skip header/section rows
+            if any(kw in bank_candidate.lower() for kw in [
+                "bank name", "scheduled", "public sector", "private sector",
+                "foreign bank", "small finance", "payments bank", "regional rural",
+                "note", "total", "grand", "source", "atm",
+            ]):
+                continue
+            # Must have numeric data in at least one column
+            has_numeric = False
+            for c in range(bank_col + 1, min(bank_col + 5, num_cols)):
+                v = str(main.iloc[i, c]).strip().replace(",", "")
+                if v.isdigit():
+                    has_numeric = True
+                    break
+            if not has_numeric:
+                continue
 
-        bank_raw = str(main.iloc[i, 1]).strip()
+        bank_raw = str(main.iloc[i, bank_col]).strip()
         if not bank_raw or bank_raw == "nan":
             continue
 
         bank = _normalize_bank(bank_raw)
 
-        if num_cols >= 28:
-            # New format (2022+): 28 columns
-            rec = {
-                "date": date,
-                "bank": bank,
-                "bank_raw": bank_raw,
-                "atms_onsite": _to_int(main.iloc[i, 2]),
-                "atms_offsite": _to_int(main.iloc[i, 3]),
-                "pos_terminals": _to_int(main.iloc[i, 4]),
-                "credit_cards": _to_int(main.iloc[i, 8]),
-                "debit_cards": _to_int(main.iloc[i, 9]),
-            }
-        else:
-            # Old format (pre-2022): 16 columns
-            # Col 2: ATMs on-site, Col 3: ATMs off-site
-            # Col 4: PoS on-line, Col 5: PoS off-line
-            # Col 6: Credit Cards Outstanding
-            # Col 7: CC Txns at ATM, Col 8: CC Txns at POS
-            # Col 9: CC Amount at ATM, Col 10: CC Amount at POS
-            # Col 11: Debit Cards Outstanding
-            rec = {
-                "date": date,
-                "bank": bank,
-                "bank_raw": bank_raw,
-                "atms_onsite": _to_int(main.iloc[i, 2]),
-                "atms_offsite": _to_int(main.iloc[i, 3]),
-                "pos_terminals": _to_int(main.iloc[i, 4]),
-                "credit_cards": _to_int(main.iloc[i, 6]),
-                "debit_cards": _to_int(main.iloc[i, 11]) if main.shape[1] > 11 else None,
-            }
+        atm_onsite_col = bank_col + 1
+        atm_offsite_col = bank_col + 2
+        pos_col = bank_col + 3
+
+        rec = {
+            "date": date,
+            "bank": bank,
+            "bank_raw": bank_raw,
+            "atms_onsite": _to_int(main.iloc[i, atm_onsite_col]),
+            "atms_offsite": _to_int(main.iloc[i, atm_offsite_col]),
+            "pos_terminals": _to_int(main.iloc[i, pos_col]),
+            "credit_cards": _to_int(main.iloc[i, cc_col]) if cc_col is not None else None,
+            "debit_cards": _to_int(main.iloc[i, dc_col]) if dc_col is not None else None,
+        }
 
         # Only keep rows with at least some data
         if rec["credit_cards"] or rec["debit_cards"] or rec["atms_onsite"]:

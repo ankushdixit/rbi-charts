@@ -1,263 +1,303 @@
 [
   {
     "date": "2014-02",
-    "bank": "AMERICAN EXPRESS BKG. CORP.",
-    "credit_cards": 648106.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "AXIS BANK",
-    "credit_cards": 1331175.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "BANK OF AMERICA",
-    "credit_cards": 405.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "BANK OF BARODA",
-    "credit_cards": 136688.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "BANK OF INDIA",
-    "credit_cards": 130315.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "BANK OF MAHARASHTRA",
-    "credit_cards": 26016.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "CANARA BANK",
-    "credit_cards": 133339.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "CENTRAL BANK OF INDIA",
-    "credit_cards": 50599.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "CITIBANK",
-    "credit_cards": 2412173.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "DEVELOPMENT CREDIT BANK",
-    "credit_cards": 3190.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "DHANALAXMI BANK",
-    "credit_cards": 3487.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "HDFC BANK",
-    "credit_cards": 5093927.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "HSBC",
-    "credit_cards": 491400.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "ICICI BANK",
-    "credit_cards": 3178293.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "INDIAN BANK",
+    "bank": "10",
     "credit_cards": 62052.0
   },
   {
     "date": "2014-02",
-    "bank": "INDIAN OVERSEAS BANK",
+    "bank": "11",
     "credit_cards": 47453.0
   },
   {
     "date": "2014-02",
-    "bank": "INDUSIND BANK",
-    "credit_cards": 272618.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "ING VYSYA BANK",
-    "credit_cards": 1626.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "JAMMU & KASHMIR BANK",
-    "credit_cards": 37233.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "KOTAK MAHINDRA BANK",
-    "credit_cards": 423680.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "PUNJAB NATIONAL BANK",
+    "bank": "14",
     "credit_cards": 125734.0
   },
   {
     "date": "2014-02",
-    "bank": "RATNAKAR BANK",
-    "credit_cards": 138276.0
+    "bank": "15",
+    "credit_cards": 68694.0
   },
   {
     "date": "2014-02",
-    "bank": "STANDARD CHARTERED BANK",
-    "credit_cards": 1173043.0
+    "bank": "17",
+    "credit_cards": 58923.0
   },
   {
     "date": "2014-02",
-    "bank": "STATE BANK OF INDIA",
+    "bank": "19",
+    "credit_cards": 52424.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "2",
+    "credit_cards": 131185.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "22",
     "credit_cards": 2828880.0
   },
   {
     "date": "2014-02",
-    "bank": "TAMILNAD MERCANTILE BANK",
+    "bank": "29",
+    "credit_cards": 3487.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "3",
+    "credit_cards": 84264.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "31",
+    "credit_cards": 1626.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "32",
+    "credit_cards": 37233.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "36",
+    "credit_cards": 138276.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "38",
     "credit_cards": 6284.0
   },
   {
     "date": "2014-02",
-    "bank": "UNION BANK OF INDIA",
-    "credit_cards": 270013.0
+    "bank": "39",
+    "credit_cards": 3190.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "4",
+    "credit_cards": 130315.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "40",
+    "credit_cards": 5093927.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "41",
+    "credit_cards": 3178293.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "42",
+    "credit_cards": 272618.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "43",
+    "credit_cards": 423680.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "44",
+    "credit_cards": 1331175.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "46",
+    "credit_cards": 648106.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "47",
+    "credit_cards": 405.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "49",
+    "credit_cards": 2412173.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "5",
+    "credit_cards": 26016.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "52",
+    "credit_cards": 491400.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "54",
+    "credit_cards": 1173043.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "6",
+    "credit_cards": 64645.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "7",
+    "credit_cards": 50599.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "8",
+    "credit_cards": 79905.0
   },
   {
     "date": "2014-03",
-    "bank": "AMERICAN EXPRESS BKG. CORP.",
-    "credit_cards": 651546.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "AXIS BANK",
-    "credit_cards": 1384836.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "BANK OF AMERICA",
-    "credit_cards": 408.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "BANK OF BARODA",
-    "credit_cards": 131968.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "BANK OF INDIA",
-    "credit_cards": 130426.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "BANK OF MAHARASHTRA",
-    "credit_cards": 27073.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "CANARA BANK",
-    "credit_cards": 137106.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "CENTRAL BANK OF INDIA",
-    "credit_cards": 52272.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "CITIBANK",
-    "credit_cards": 2418941.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "DEVELOPMENT CREDIT BANK",
-    "credit_cards": 3276.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "DHANALAXMI BANK",
-    "credit_cards": 3682.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "HDFC BANK",
-    "credit_cards": 5137406.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "HSBC",
-    "credit_cards": 494067.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "ICICI BANK",
-    "credit_cards": 3180205.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "INDIAN BANK",
+    "bank": "10",
     "credit_cards": 63149.0
   },
   {
     "date": "2014-03",
-    "bank": "INDIAN OVERSEAS BANK",
+    "bank": "11",
     "credit_cards": 47774.0
   },
   {
     "date": "2014-03",
-    "bank": "INDUSIND BANK",
-    "credit_cards": 277338.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "ING VYSYA BANK",
-    "credit_cards": 1879.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "JAMMU & KASHMIR BANK",
-    "credit_cards": 37929.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "KOTAK MAHINDRA BANK",
-    "credit_cards": 435120.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "PUNJAB NATIONAL BANK",
+    "bank": "14",
     "credit_cards": 126568.0
   },
   {
     "date": "2014-03",
-    "bank": "RATNAKAR BANK",
-    "credit_cards": 138426.0
+    "bank": "15",
+    "credit_cards": 68948.0
   },
   {
     "date": "2014-03",
-    "bank": "STANDARD CHARTERED BANK",
-    "credit_cards": 1163198.0
+    "bank": "17",
+    "credit_cards": 60186.0
   },
   {
     "date": "2014-03",
-    "bank": "STATE BANK OF INDIA",
+    "bank": "19",
+    "credit_cards": 56420.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "2",
+    "credit_cards": 132096.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "22",
     "credit_cards": 2858116.0
   },
   {
     "date": "2014-03",
-    "bank": "TAMILNAD MERCANTILE BANK",
+    "bank": "29",
+    "credit_cards": 3682.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "3",
+    "credit_cards": 75548.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "31",
+    "credit_cards": 1879.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "32",
+    "credit_cards": 37929.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "36",
+    "credit_cards": 138426.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "38",
     "credit_cards": 6308.0
   },
   {
     "date": "2014-03",
-    "bank": "UNION BANK OF INDIA",
-    "credit_cards": 272550.0
+    "bank": "39",
+    "credit_cards": 3276.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "4",
+    "credit_cards": 130426.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "40",
+    "credit_cards": 5137406.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "41",
+    "credit_cards": 3180205.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "42",
+    "credit_cards": 277338.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "43",
+    "credit_cards": 435120.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "44",
+    "credit_cards": 1384836.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "46",
+    "credit_cards": 651546.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "47",
+    "credit_cards": 408.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "49",
+    "credit_cards": 2418941.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "5",
+    "credit_cards": 27073.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "52",
+    "credit_cards": 494067.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "54",
+    "credit_cards": 1163198.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "6",
+    "credit_cards": 68158.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "7",
+    "credit_cards": 52272.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "8",
+    "credit_cards": 80268.0
   },
   {
     "date": "2014-04",
@@ -9658,6 +9698,3306 @@
     "date": "2020-01",
     "bank": "YES BANK",
     "credit_cards": 827061.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1694323.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "AXIS BANK",
+    "credit_cards": 6916566.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 27367.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 458202.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 166498.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "CANARA BANK",
+    "credit_cards": 570363.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 88296.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "CITI BANK",
+    "credit_cards": 2796864.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 6759.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "DCB BANK",
+    "credit_cards": 26535.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6140.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "HDFC BANK",
+    "credit_cards": 14394269.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 863798.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "ICICI BANK",
+    "credit_cards": 8971011.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "IDBI",
+    "credit_cards": 36114.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "INDIAN BANK",
+    "credit_cards": 110512.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60116.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1332592.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 137846.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2974.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2315950.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 345980.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2619278.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1390110.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 10458089.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 26071.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 464029.0
+  },
+  {
+    "date": "2020-02",
+    "bank": "YES BANK",
+    "credit_cards": 871438.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1693175.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "AXIS BANK",
+    "credit_cards": 6985774.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 27795.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 467879.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 164223.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "CANARA BANK",
+    "credit_cards": 583803.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 87470.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "CITI BANK",
+    "credit_cards": 2793766.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 6715.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "DCB BANK",
+    "credit_cards": 26463.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6140.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "HDFC BANK",
+    "credit_cards": 14499647.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 873411.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "ICICI BANK",
+    "credit_cards": 9110690.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "IDBI",
+    "credit_cards": 36372.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "INDIAN BANK",
+    "credit_cards": 110927.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60116.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1354206.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 138619.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2861.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2324280.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 346663.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2681336.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1450691.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 10547502.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 28454.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 462673.0
+  },
+  {
+    "date": "2020-03",
+    "bank": "YES BANK",
+    "credit_cards": 873454.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1670934.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "AXIS BANK",
+    "credit_cards": 6903188.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 27627.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 468264.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 164103.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "CANARA BANK",
+    "credit_cards": 580453.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 87266.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "CITI BANK",
+    "credit_cards": 2773588.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 6677.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "DCB BANK",
+    "credit_cards": 7780.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6102.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "HDFC BANK",
+    "credit_cards": 14487555.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 871492.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "ICICI BANK",
+    "credit_cards": 9090119.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "IDBI",
+    "credit_cards": 36220.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "INDIAN BANK",
+    "credit_cards": 103284.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60116.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1342871.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 70503.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2857.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2323580.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 354379.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2627886.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1441904.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 10499091.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 28889.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 456775.0
+  },
+  {
+    "date": "2020-04",
+    "bank": "YES BANK",
+    "credit_cards": 866642.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1658151.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "AXIS BANK",
+    "credit_cards": 6829149.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 27450.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 467364.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 159525.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "CANARA BANK",
+    "credit_cards": 575852.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 69477.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "CITI BANK",
+    "credit_cards": 2751483.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 6634.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "DCB BANK",
+    "credit_cards": 7467.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6091.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "HDFC BANK",
+    "credit_cards": 14485661.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 870316.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "ICICI BANK",
+    "credit_cards": 9091370.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "IDBI",
+    "credit_cards": 36148.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "INDIAN BANK",
+    "credit_cards": 103378.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60182.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1339774.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 73322.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2850.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2321597.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 354557.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2608889.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1426222.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 10503381.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 28959.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 456381.0
+  },
+  {
+    "date": "2020-05",
+    "bank": "YES BANK",
+    "credit_cards": 858269.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1645244.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "AXIS BANK",
+    "credit_cards": 6811762.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 27392.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 450146.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 163933.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "CANARA BANK",
+    "credit_cards": 577594.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 69082.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "CITI BANK",
+    "credit_cards": 2739294.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 6634.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "DCB BANK",
+    "credit_cards": 8690.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6051.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "HDFC BANK",
+    "credit_cards": 14570896.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 870856.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "ICICI BANK",
+    "credit_cards": 9066788.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "IDBI",
+    "credit_cards": 36064.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "IDFC BANK",
+    "credit_cards": 862.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "INDIAN BANK",
+    "credit_cards": 103445.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60237.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1352725.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 77268.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2834.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2315363.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 355209.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2609962.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1411222.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 10602103.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 29769.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 457201.0
+  },
+  {
+    "date": "2020-06",
+    "bank": "YES BANK",
+    "credit_cards": 860407.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1632171.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "AXIS BANK",
+    "credit_cards": 6835217.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 27225.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 452681.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 165903.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "CANARA BANK",
+    "credit_cards": 596430.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 67162.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "CITI BANK",
+    "credit_cards": 2736661.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 5144.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "DCB BANK",
+    "credit_cards": 8433.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6036.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "HDFC BANK",
+    "credit_cards": 14696665.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 870856.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "ICICI BANK",
+    "credit_cards": 9119964.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "IDBI",
+    "credit_cards": 36048.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "IDFC BANK",
+    "credit_cards": 3168.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "INDIAN BANK",
+    "credit_cards": 103539.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60334.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1368022.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 80604.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2823.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2303722.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 357303.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2622743.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1409559.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 10708235.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 31764.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 457073.0
+  },
+  {
+    "date": "2020-07",
+    "bank": "YES BANK",
+    "credit_cards": 866562.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1623460.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "AXIS BANK",
+    "credit_cards": 6665340.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 27040.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 466160.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 166878.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "CANARA BANK",
+    "credit_cards": 615839.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 61002.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "CITI BANK",
+    "credit_cards": 2739475.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 5087.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "DCB BANK",
+    "credit_cards": 6554.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6014.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "HDFC BANK",
+    "credit_cards": 14804724.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 853452.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "ICICI BANK",
+    "credit_cards": 9181160.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "IDBI",
+    "credit_cards": 36197.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "IDFC BANK",
+    "credit_cards": 6941.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "INDIAN BANK",
+    "credit_cards": 103428.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60451.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1403101.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 78004.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2823.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2309322.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 358968.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2653709.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1408591.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 10823143.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 32511.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 457232.0
+  },
+  {
+    "date": "2020-08",
+    "bank": "YES BANK",
+    "credit_cards": 873991.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1613316.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "AXIS BANK",
+    "credit_cards": 6873311.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 26739.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 489879.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 170058.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 77.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "CANARA BANK",
+    "credit_cards": 716309.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 57555.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "CITI BANK",
+    "credit_cards": 2739129.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 4868.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "DCB BANK",
+    "credit_cards": 6367.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 5982.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "HDFC BANK",
+    "credit_cards": 14979028.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 872333.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "ICICI BANK",
+    "credit_cards": 9272833.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "IDBI",
+    "credit_cards": 36534.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "IDFC BANK",
+    "credit_cards": 14014.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "INDIAN BANK",
+    "credit_cards": 103354.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60484.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1430766.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 77914.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2745.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2314940.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 360889.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2713931.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1435772.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 11008947.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 32649.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 457281.0
+  },
+  {
+    "date": "2020-09",
+    "bank": "YES BANK",
+    "credit_cards": 816208.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1602513.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "AXIS BANK",
+    "credit_cards": 6902336.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 26462.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 507911.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 169946.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 2169.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "CANARA BANK",
+    "credit_cards": 721912.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 50848.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "CITI BANK",
+    "credit_cards": 2737277.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 4729.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "DCB BANK",
+    "credit_cards": 6166.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 5957.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "HDFC BANK",
+    "credit_cards": 15173420.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 873294.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "ICICI BANK",
+    "credit_cards": 9501579.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "IDBI",
+    "credit_cards": 36777.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "IDFC BANK",
+    "credit_cards": 20058.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "INDIAN BANK",
+    "credit_cards": 103830.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60699.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1456305.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 81317.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2720.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2321367.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 361925.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2783632.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1433479.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 11148749.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 32774.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 457961.0
+  },
+  {
+    "date": "2020-10",
+    "bank": "YES BANK",
+    "credit_cards": 831722.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1612527.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "AXIS BANK",
+    "credit_cards": 6884437.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 26357.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 523479.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 171813.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 7547.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "CANARA BANK",
+    "credit_cards": 722666.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 21526.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "CITI BANK",
+    "credit_cards": 2731766.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 4560.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "DCB BANK",
+    "credit_cards": 5994.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 5981.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "HDFC BANK",
+    "credit_cards": 15386822.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 865581.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "ICICI BANK",
+    "credit_cards": 9710535.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "IDBI",
+    "credit_cards": 36893.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "IDFC BANK",
+    "credit_cards": 41936.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "INDIAN BANK",
+    "credit_cards": 104503.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60740.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1481934.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 80796.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2703.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2331935.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 365275.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2858282.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1437793.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 11295428.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 32894.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 459156.0
+  },
+  {
+    "date": "2020-11",
+    "bank": "YES BANK",
+    "credit_cards": 841129.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1595234.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "AXIS BANK",
+    "credit_cards": 6872099.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 25900.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 543093.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 168609.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 9671.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "CANARA BANK",
+    "credit_cards": 735570.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "CITI BANK",
+    "credit_cards": 2694148.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 4409.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "DCB BANK",
+    "credit_cards": 5806.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 5972.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "HDFC BANK",
+    "credit_cards": 15308843.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 858034.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "ICICI BANK",
+    "credit_cards": 9911510.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "IDBI",
+    "credit_cards": 36870.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "IDFC BANK",
+    "credit_cards": 56799.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "INDIAN BANK",
+    "credit_cards": 105257.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60740.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1504599.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 82291.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2641.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2343088.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 363873.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2821749.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1440923.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 11490041.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 33011.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 460728.0
+  },
+  {
+    "date": "2020-12",
+    "bank": "YES BANK",
+    "credit_cards": 855620.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1563330.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "AXIS BANK",
+    "credit_cards": 6937596.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 25767.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 569299.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 168813.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 17321.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "CANARA BANK",
+    "credit_cards": 749386.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "CITI BANK",
+    "credit_cards": 2654271.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 3321.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "DCB BANK",
+    "credit_cards": 5666.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 5969.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "HDFC BANK",
+    "credit_cards": 15254839.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 857132.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "ICICI BANK",
+    "credit_cards": 10177593.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "IDBI",
+    "credit_cards": 37071.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "IDFC BANK",
+    "credit_cards": 113268.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "INDIAN BANK",
+    "credit_cards": 108940.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60894.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1540136.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 82643.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2630.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2357365.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 365695.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2850249.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 72410.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1453417.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 11641581.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 33132.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 500726.0
+  },
+  {
+    "date": "2021-01",
+    "bank": "YES BANK",
+    "credit_cards": 878842.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1559155.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "AXIS BANK",
+    "credit_cards": 7036379.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 25603.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 594959.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 168711.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 22420.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "CANARA BANK",
+    "credit_cards": 760950.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "CITI BANK",
+    "credit_cards": 2645784.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 3221.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "DCB BANK",
+    "credit_cards": 5485.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 5930.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "HDFC BANK",
+    "credit_cards": 15197803.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 857691.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "ICICI BANK",
+    "credit_cards": 10376124.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "IDBI",
+    "credit_cards": 37289.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "IDFC BANK",
+    "credit_cards": 173601.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "INDIAN BANK",
+    "credit_cards": 126691.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 60894.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1506654.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 83445.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2615.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2379210.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 368836.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2891695.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 91627.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1463859.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 11741211.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 33277.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 500463.0
+  },
+  {
+    "date": "2021-02",
+    "bank": "YES BANK",
+    "credit_cards": 914879.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1532327.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "AXIS BANK",
+    "credit_cards": 7145409.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 25201.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 644537.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 169025.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 44250.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "CANARA BANK",
+    "credit_cards": 772849.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "CITI BANK",
+    "credit_cards": 2633713.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 3119.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "DCB BANK",
+    "credit_cards": 5351.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6042.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "HDFC BANK",
+    "credit_cards": 14985844.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 859248.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "ICICI BANK",
+    "credit_cards": 10584421.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "IDBI",
+    "credit_cards": 37627.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "IDFC BANK",
+    "credit_cards": 232552.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "INDIAN BANK",
+    "credit_cards": 133374.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 61119.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1528137.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 84828.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2611.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2409874.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 305763.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 2961742.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 118182.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1477756.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 11821564.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 33411.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 471266.0
+  },
+  {
+    "date": "2021-03",
+    "bank": "YES BANK",
+    "credit_cards": 946628.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1510711.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "AXIS BANK",
+    "credit_cards": 7201899.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 24955.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 613316.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 168232.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 44906.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "CANARA BANK",
+    "credit_cards": 770790.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "CITI BANK",
+    "credit_cards": 2621899.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 2898.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "DCB BANK",
+    "credit_cards": 5256.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6006.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "HDFC BANK",
+    "credit_cards": 14919419.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 857437.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "ICICI BANK",
+    "credit_cards": 10726990.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "IDBI",
+    "credit_cards": 37622.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "IDFC BANK",
+    "credit_cards": 294775.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "INDIAN BANK",
+    "credit_cards": 133736.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 61133.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1547554.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 85324.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2577.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2306505.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 309234.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 3005473.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 122605.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1473401.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 11927267.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 33484.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 469195.0
+  },
+  {
+    "date": "2021-04",
+    "bank": "YES BANK",
+    "credit_cards": 963196.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1494955.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "AXIS BANK",
+    "credit_cards": 7127964.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 24632.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 616026.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 167116.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 51392.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "CANARA BANK",
+    "credit_cards": 767799.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "CITI BANK",
+    "credit_cards": 2611076.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 2885.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "DCB BANK",
+    "credit_cards": 5121.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 5917.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "FEDERAL BANK",
+    "credit_cards": 10919.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "HDFC BANK",
+    "credit_cards": 14858375.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 854339.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "ICICI BANK",
+    "credit_cards": 10873007.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "IDBI",
+    "credit_cards": 37514.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "IDFC BANK",
+    "credit_cards": 348395.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "INDIAN BANK",
+    "credit_cards": 133993.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 61209.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1561346.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 84854.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2523.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2314271.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 311190.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 3032670.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 136267.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1454013.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 11957378.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 33277.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 469801.0
+  },
+  {
+    "date": "2021-05",
+    "bank": "YES BANK",
+    "credit_cards": 967351.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1482771.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "AXIS BANK",
+    "credit_cards": 7136582.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 24399.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 620571.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 166779.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 56911.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "CANARA BANK",
+    "credit_cards": 823483.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "CITI BANK",
+    "credit_cards": 2603989.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 2449.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "DCB BANK",
+    "credit_cards": 4977.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 5864.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "FEDERAL BANK",
+    "credit_cards": 14803.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "HDFC BANK",
+    "credit_cards": 14828277.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 850899.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "ICICI BANK",
+    "credit_cards": 11034268.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "IDBI",
+    "credit_cards": 37455.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "IDFC BANK",
+    "credit_cards": 386801.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "INDIAN BANK",
+    "credit_cards": 134757.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 61400.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1569485.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 84887.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2495.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2355745.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 310936.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 3075234.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 152255.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1435534.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 12044135.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 33710.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 468534.0
+  },
+  {
+    "date": "2021-06",
+    "bank": "YES BANK",
+    "credit_cards": 986610.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1469540.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "AXIS BANK",
+    "credit_cards": 7229303.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 24195.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 635425.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 166382.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 60431.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "CANARA BANK",
+    "credit_cards": 873308.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "CITI BANK",
+    "credit_cards": 2599024.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 2381.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "DCB BANK",
+    "credit_cards": 4817.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 5984.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "FEDERAL BANK",
+    "credit_cards": 20687.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "HDFC BANK",
+    "credit_cards": 14763662.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 849997.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "ICICI BANK",
+    "credit_cards": 11239598.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "IDBI",
+    "credit_cards": 37604.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "IDFC BANK",
+    "credit_cards": 425260.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "INDIAN BANK",
+    "credit_cards": 134971.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 62688.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1590723.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 84660.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2460.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2388819.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 311102.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 3069339.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 167923.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "SOUTH INDIAN BANK",
+    "credit_cards": 98.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1418562.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 12242481.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 33779.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 474576.0
+  },
+  {
+    "date": "2021-07",
+    "bank": "YES BANK",
+    "credit_cards": 999495.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1457544.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "AXIS BANK",
+    "credit_cards": 7311922.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 23928.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 679271.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 166124.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 63302.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "CANARA BANK",
+    "credit_cards": 882577.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "CITI BANK",
+    "credit_cards": 2593999.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 2335.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "DCB BANK",
+    "credit_cards": 4690.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6021.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "FEDERAL BANK",
+    "credit_cards": 20687.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "HDFC BANK",
+    "credit_cards": 14742862.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 810571.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "ICICI BANK",
+    "credit_cards": 11458682.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "IDBI",
+    "credit_cards": 37739.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "IDFC BANK",
+    "credit_cards": 457015.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "INDIAN BANK",
+    "credit_cards": 135271.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 66016.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1618262.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 85245.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2422.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2419203.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 311612.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 3007187.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 182167.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "SOUTH INDIAN BANK",
+    "credit_cards": 2139.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1403863.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 12405068.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 31150.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 513108.0
+  },
+  {
+    "date": "2021-08",
+    "bank": "YES BANK",
+    "credit_cards": 997181.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1446690.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "AXIS BANK",
+    "credit_cards": 7514459.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 23647.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 708681.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 166174.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 70028.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "CANARA BANK",
+    "credit_cards": 876835.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "CITI BANK",
+    "credit_cards": 2589548.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 2269.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "DCB BANK",
+    "credit_cards": 4517.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6248.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "FEDERAL BANK",
+    "credit_cards": 27499.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "HDFC BANK",
+    "credit_cards": 14987119.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 808054.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "ICICI BANK",
+    "credit_cards": 11692310.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "IDBI",
+    "credit_cards": 38042.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "IDFC BANK",
+    "credit_cards": 496494.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "INDIAN BANK",
+    "credit_cards": 139164.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 67536.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1654486.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 85204.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 2395.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2440182.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 313106.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 3097513.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 196643.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "SOUTH INDIAN BANK",
+    "credit_cards": 3250.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1390974.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 12579943.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 31109.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 521568.0
+  },
+  {
+    "date": "2021-09",
+    "bank": "YES BANK",
+    "credit_cards": 994374.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1440682.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "AXIS BANK",
+    "credit_cards": 7733992.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 23334.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 731148.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 165940.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 72338.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "CANARA BANK",
+    "credit_cards": 878416.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "CITI BANK",
+    "credit_cards": 2583507.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 2160.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "DCB BANK",
+    "credit_cards": 4383.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6521.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "FEDERAL BANK",
+    "credit_cards": 38724.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "HDFC BANK",
+    "credit_cards": 15245404.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 805757.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "ICICI BANK",
+    "credit_cards": 11970499.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "IDBI",
+    "credit_cards": 38465.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "IDFC BANK",
+    "credit_cards": 539988.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "INDIAN BANK",
+    "credit_cards": 147326.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 68408.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1682111.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 84080.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 4718.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2540992.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 315726.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 3248436.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 205966.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "SOUTH INDIAN BANK",
+    "credit_cards": 5834.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1376450.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 12763894.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 31082.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 522594.0
+  },
+  {
+    "date": "2021-10",
+    "bank": "YES BANK",
+    "credit_cards": 1017016.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "AMERICAN EXPRESS",
+    "credit_cards": 1424811.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "AXIS BANK",
+    "credit_cards": 7905885.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 23095.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 746931.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 166010.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 73540.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "CANARA BANK",
+    "credit_cards": 888385.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "CITI BANK",
+    "credit_cards": 2574692.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 2109.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "DCB BANK",
+    "credit_cards": 4233.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 6763.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "FEDERAL BANK",
+    "credit_cards": 49898.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "HDFC BANK",
+    "credit_cards": 15547505.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "HONGKONG AND SHANGHAI BKG CORPN",
+    "credit_cards": 802665.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "ICICI BANK",
+    "credit_cards": 12126038.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "IDBI",
+    "credit_cards": 38990.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "IDFC BANK",
+    "credit_cards": 587998.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "INDIAN BANK",
+    "credit_cards": 152832.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 69120.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 1712460.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 84151.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 5167.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 2632392.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 319224.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 3388005.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 232853.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "SOUTH INDIAN BANK",
+    "credit_cards": 9085.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1362512.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 12968393.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 31165.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 525021.0
+  },
+  {
+    "date": "2021-11",
+    "bank": "YES BANK",
+    "credit_cards": 1037147.0
   },
   {
     "date": "2022-03",
