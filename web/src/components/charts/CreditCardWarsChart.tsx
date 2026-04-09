@@ -46,9 +46,10 @@ const SHORT_NAMES: Record<string, string> = {
 
 const MILESTONES = [
   { date: "Dec 2020", label: "RBI bans HDFC\nnew cards" },
-  { date: "Aug 2021", label: "Ban\nlifted" },
+  { date: "Aug 2021", label: "HDFC ban\nlifted" },
   { date: "Aug 2022", label: "Unused cards\ndeactivated" },
   { date: "Mar 2023", label: "Axis acquires\nCiti cards" },
+  { date: "Apr 2024", label: "RBI bans Kotak\nnew cards" },
 ];
 
 export default function CreditCardWarsChart({ data }: Props) {
