@@ -3565,6 +3565,146 @@
     "credit_cards": 34885.0
   },
   {
+    "date": "2013-07",
+    "bank": "10",
+    "credit_cards": 54839.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "11",
+    "credit_cards": 45158.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "14",
+    "credit_cards": 119265.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "15",
+    "credit_cards": 67683.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "17",
+    "credit_cards": 48767.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "19",
+    "credit_cards": 40958.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "2",
+    "credit_cards": 128744.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "20",
+    "credit_cards": 2676095.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "29",
+    "credit_cards": 2371.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "3",
+    "credit_cards": 69913.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "32",
+    "credit_cards": 34934.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "38",
+    "credit_cards": 6098.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "39",
+    "credit_cards": 2808.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "4",
+    "credit_cards": 115673.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "40",
+    "credit_cards": 5467159.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "41",
+    "credit_cards": 2981900.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "42",
+    "credit_cards": 243752.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "43",
+    "credit_cards": 364510.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "44",
+    "credit_cards": 1131877.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "46",
+    "credit_cards": 86777.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "47",
+    "credit_cards": 634191.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "49",
+    "credit_cards": 2385961.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "5",
+    "credit_cards": 20010.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "52",
+    "credit_cards": 505014.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "53",
+    "credit_cards": 1365659.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "6",
+    "credit_cards": 63446.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "7",
+    "credit_cards": 56564.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "8",
+    "credit_cards": 62172.0
+  },
+  {
     "date": "2013-08",
     "bank": "10",
     "credit_cards": 55828.0
@@ -3848,6 +3988,401 @@
     "date": "2013-09",
     "bank": "8",
     "credit_cards": 78435.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "10",
+    "credit_cards": 57831.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "11",
+    "credit_cards": 45975.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "14",
+    "credit_cards": 122247.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "15",
+    "credit_cards": 68048.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "17",
+    "credit_cards": 50155.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "19",
+    "credit_cards": 61848.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "2",
+    "credit_cards": 129760.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "20",
+    "credit_cards": 2738488.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "29",
+    "credit_cards": 2914.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "3",
+    "credit_cards": 70478.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "32",
+    "credit_cards": 35868.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "38",
+    "credit_cards": 6146.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "39",
+    "credit_cards": 2980.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "4",
+    "credit_cards": 116753.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "40",
+    "credit_cards": 5078034.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "41",
+    "credit_cards": 3042232.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "42",
+    "credit_cards": 258438.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "43",
+    "credit_cards": 392842.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "44",
+    "credit_cards": 1227538.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "46",
+    "credit_cards": 82749.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "47",
+    "credit_cards": 641210.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "49",
+    "credit_cards": 2399652.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "5",
+    "credit_cards": 22385.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "52",
+    "credit_cards": 500132.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "53",
+    "credit_cards": 1223747.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "6",
+    "credit_cards": 63651.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "7",
+    "credit_cards": 57524.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "8",
+    "credit_cards": 78684.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "10",
+    "credit_cards": 59266.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "11",
+    "credit_cards": 46282.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "14",
+    "credit_cards": 123397.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "15",
+    "credit_cards": 68148.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "17",
+    "credit_cards": 50575.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "19",
+    "credit_cards": 54914.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "2",
+    "credit_cards": 130597.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "20",
+    "credit_cards": 2758042.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "29",
+    "credit_cards": 3028.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "3",
+    "credit_cards": 71063.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "32",
+    "credit_cards": 36228.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "38",
+    "credit_cards": 6162.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "39",
+    "credit_cards": 3060.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "4",
+    "credit_cards": 122841.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "40",
+    "credit_cards": 5117856.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "41",
+    "credit_cards": 3094705.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "42",
+    "credit_cards": 261871.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "43",
+    "credit_cards": 392552.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "44",
+    "credit_cards": 1308672.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "46",
+    "credit_cards": 80937.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "47",
+    "credit_cards": 642336.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "49",
+    "credit_cards": 2397347.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "5",
+    "credit_cards": 23237.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "52",
+    "credit_cards": 495543.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "53",
+    "credit_cards": 1196950.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "6",
+    "credit_cards": 63586.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "7",
+    "credit_cards": 58921.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "8",
+    "credit_cards": 78960.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
+    "credit_cards": 641696.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "AXIS BANK",
+    "credit_cards": 1310816.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 133704.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 123207.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 23237.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "CANARA BANK",
+    "credit_cards": 131790.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 59494.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "CITIBANK",
+    "credit_cards": 2400887.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 3068.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 3108.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "HDFC BANK",
+    "credit_cards": 5070574.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "HSBC",
+    "credit_cards": 491715.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "ICICI BANK",
+    "credit_cards": 3108352.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "INDIAN BANK",
+    "credit_cards": 59266.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 46627.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 264831.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 36776.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 402724.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 124276.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1204851.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2777392.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 6173.0
+  },
+  {
+    "date": "2013-12",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 261572.0
   },
   {
     "date": "2014-01",
@@ -20003,6 +20538,171 @@
     "date": "2023-05",
     "bank": "YES BANK",
     "credit_cards": 1449755.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "AMERICAN EXPRESS BANKING CORPORATION",
+    "credit_cards": 1350680.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "AU SMALL FINANCE BANK",
+    "credit_cards": 612215.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "AXIS BANK",
+    "credit_cards": 12509723.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 2006637.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 74827.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "BANK OF MAHARASHTRA",
+    "credit_cards": 33045.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "CANARA BANK",
+    "credit_cards": 661344.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "CITI BANK",
+    "credit_cards": 164045.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "CITY UNION BANK",
+    "credit_cards": 9768.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "CSB BANK",
+    "credit_cards": 21721.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "DBS INDIA BANK",
+    "credit_cards": 320464.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "DHANALAKSHMI BANK",
+    "credit_cards": 9322.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "FEDERAL BANK",
+    "credit_cards": 655511.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "HDFC BANK",
+    "credit_cards": 18351008.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "HSBC",
+    "credit_cards": 664317.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "ICICI BANK",
+    "credit_cards": 14802557.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "IDBI BANK",
+    "credit_cards": 44736.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "IDFC FIRST BANK",
+    "credit_cards": 1678367.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "INDIAN BANK",
+    "credit_cards": 170135.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 81061.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 2394461.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "JAMMU AND KASHMIR BANK",
+    "credit_cards": 102634.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "KARUR VYSYA BANK",
+    "credit_cards": 11068.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 5216456.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 340119.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "RBL BANK",
+    "credit_cards": 4613266.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "SBM BANK INDIA",
+    "credit_cards": 948971.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "SOUTH INDIAN BANK",
+    "credit_cards": 247224.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1040847.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 17343335.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 34233.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 671751.0
+  },
+  {
+    "date": "2023-06",
+    "bank": "YES BANK",
+    "credit_cards": 1496508.0
   },
   {
     "date": "2023-07",

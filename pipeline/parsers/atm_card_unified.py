@@ -64,9 +64,16 @@ def _parse_month(text: str) -> str | None:
     text = text.lower().strip()
     for m_name, m_num in months.items():
         if m_name in text:
+            # Try 4-digit year first
             year_match = re.search(r"20\d{2}", text)
             if year_match:
                 return f"{year_match.group()}-{m_num}"
+            # Try 2-digit year (e.g. "June-23" = June 2023)
+            year_match2 = re.search(r"[\-\s](\d{2})\b", text)
+            if year_match2:
+                short_year = int(year_match2.group(1))
+                full_year = 2000 + short_year
+                return f"{full_year}-{m_num}"
     return None
 
 
@@ -97,10 +104,10 @@ def parse_file(filepath: str) -> list[dict]:
     # Bare: "December 2021" (no prefix)
     match = re.search(r"(?:Month of|for|the Month)\s+([\w\s,\-]+\d{4})", text)
     if not match:
-        # Try bare month name + year
+        # Try bare month name + year (2 or 4 digit)
         match = re.search(
             r"\b((?:January|February|March|April|May|June|July|August|September|October|November|December)"
-            r"[\s,\-]*\d{4})\b",
+            r"[\s,\-]*\d{2,4})\b",
             text,
         )
     if not match:
