@@ -34,18 +34,46 @@ export default function DeathOfCashChart({ data }: Props) {
     const toBillions = (v: number | null | undefined) =>
       v != null && !isNaN(v) ? +(v / 10000).toFixed(4) : null;
 
-    const series = SERIES_CONFIG.map(({ key, name, color }) => ({
-      name,
-      type: "line" as const,
-      stack: "total",
-      data: data.map((d) => toBillions(d[key])),
-      smooth: true,
-      symbol: "none",
-      lineStyle: { width: 0, color },
-      itemStyle: { color },
-      areaStyle: { color, opacity: 0.85 },
-      emphasis: { focus: "series" as const },
-    }));
+    const milestones = [
+      { date: "Apr 2016", label: "UPI\nlaunches" },
+      { date: "Nov 2016", label: "Demon-\netization" },
+      { date: "Apr 2020", label: "COVID\nlockdown" },
+    ];
+
+    const markLineConfig = {
+      silent: true,
+      symbol: ["none", "none"],
+      lineStyle: { color: "#475569", type: "dashed" as const, width: 1 },
+      data: milestones.map((m) => ({
+        xAxis: m.date,
+        label: {
+          show: true,
+          formatter: m.label,
+          color: "#94a3b8",
+          fontSize: 10,
+          position: "insideEndTop" as const,
+        },
+      })),
+    };
+
+    const series = SERIES_CONFIG.map(({ key, name, color }, idx) => {
+      const base = {
+        name,
+        type: "line" as const,
+        stack: "total",
+        data: data.map((d) => toBillions(d[key])),
+        smooth: true,
+        symbol: "none",
+        lineStyle: { width: 0, color },
+        itemStyle: { color },
+        areaStyle: { color, opacity: 0.85 },
+        emphasis: { focus: "series" as const },
+      };
+      if (idx === 0) {
+        return { ...base, markLine: markLineConfig };
+      }
+      return base;
+    });
 
     return {
       tooltip: {
