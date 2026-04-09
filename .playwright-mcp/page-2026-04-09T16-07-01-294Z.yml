@@ -1,0 +1,464 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link "Skip to main content" [ref=e6] [cursor=pointer]:
+        - /url: "#mainsection"
+      - generic [ref=e7]:
+        - list:
+          - listitem [ref=e8]:
+            - link "Increase Font Size" [ref=e9] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnSpace','')
+              - img "Increase Font Size" [ref=e10]
+          - listitem [ref=e11]:
+            - link "Increase Font Size" [ref=e12] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontIncrease','')
+              - img "Increase Font Size" [ref=e13]
+          - listitem [ref=e14]:
+            - link "Regular Font Size Selected" [ref=e15] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontRegular','')
+              - img "Regular Font Size" [ref=e16]
+              - generic [ref=e17]: Selected
+          - listitem [ref=e18]:
+            - link "Decrease Font Size" [ref=e19] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontDecrease','')
+              - img "Decrease Font Size" [ref=e20]
+        - list:
+          - listitem [ref=e21] [cursor=pointer]:
+            - link "Apply Dark Theme" [ref=e22]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnAccessibilty','')
+              - img "Apply Dark Theme" [ref=e23]
+          - listitem [ref=e24] [cursor=pointer]:
+            - link "Apply Normal Theme Selected" [ref=e25]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnUndoAccessibilty','')
+              - img "Apply Normal Theme" [ref=e26]
+              - generic [ref=e27]: Selected
+          - listitem [ref=e28] [cursor=pointer]:
+            - link "Apply Gray Theme" [ref=e29]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnGreyScale','')
+              - img "Apply Gray Theme" [ref=e30]
+        - generic:
+          - link "Print this page":
+            - /url: "#"
+            - img "Print this page" [ref=e31] [cursor=pointer]
+        - generic [ref=e32]:
+          - text: Language
+          - link "हिंदी" [ref=e33] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/hindi/Home.aspx
+    - generic [ref=e35]:
+      - banner [ref=e36]:
+        - link "Reserve Bank of India" [ref=e38] [cursor=pointer]:
+          - /url: /home.aspx
+          - img "Reserve Bank of India" [ref=e39]
+      - search [ref=e40]:
+        - text: Search the Website
+        - textbox "Search the Website" [ref=e41]:
+          - /placeholder: Search
+        - button "Search" [ref=e42] [cursor=pointer]
+      - img "Beti Bachao Beti Padhao Logo" [ref=e45]
+    - navigation "Main":
+      - generic [ref=e47]:
+        - generic:
+          - list:
+            - listitem [ref=e48]:
+              - link "Home" [ref=e49] [cursor=pointer]:
+                - /url: https://rbi.org.in/home.aspx
+            - listitem [ref=e50]:
+              - link "About Us" [ref=e51] [cursor=pointer]:
+                - /url: /Scripts/AboutusDisplay.aspx
+            - listitem [ref=e52]:
+              - link "Notifications" [ref=e53] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e54]:
+              - link "Press Releases" [ref=e55] [cursor=pointer]:
+                - /url: /Scripts/BS_PressReleaseDisplay.aspx
+            - listitem [ref=e56]:
+              - link "Speeches & Media Interactions" [ref=e57] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e58]:
+              - link "Publications" [ref=e59] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e60]:
+              - link "Legal Framework" [ref=e61] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e62]:
+              - link "Research" [ref=e63] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e64]:
+              - link "Statistics" [ref=e65] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e66]:
+              - link "Regulatory Reporting" [ref=e67] [cursor=pointer]:
+                - /url: "#"
+    - main [ref=e69]:
+      - navigation "Breadcrumb" [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "Home" [ref=e73] [cursor=pointer]:
+              - /url: ../Home.aspx
+          - listitem [ref=e74]:
+            - link "Data Releases" [ref=e75] [cursor=pointer]:
+              - /url: Statistics.aspx
+      - generic [ref=e77]:
+        - heading "Payment System Indicators" [level=1] [ref=e78]
+        - generic [ref=e80]:
+          - heading "February - 2026" [level=2] [ref=e81]
+          - link "Payment System Indicators - February 2026" [ref=e82] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=57
+          - link "Document - Payment System Indicators - February 2026 495 kb" [ref=e83] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSIFEBRUARY2026333326F3AFFA4F31A222A7A242B54F42.XLSX
+            - img "Document - Payment System Indicators - February 2026" [ref=e84]
+          - text: 495 kb
+          - link "PDF - Payment System Indicators - February 2026 513 kb" [ref=e85] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSIFEBRUARY2026333326F3AFFA4F31A222A7A242B54F42.PDF
+            - img "PDF - Payment System Indicators - February 2026" [ref=e86]
+          - text: 513 kb
+          - heading "January - 2026" [level=2] [ref=e87]
+          - link "Payment System Indicators - January 2026" [ref=e88] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=56
+          - link "Document - Payment System Indicators - January 2026 492 kb" [ref=e89] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSIJANUARY20269E6B9450001843A8B45C397C8C90F7DD.XLSX
+            - img "Document - Payment System Indicators - January 2026" [ref=e90]
+          - text: 492 kb
+          - link "PDF - Payment System Indicators - January 2026 514 kb" [ref=e91] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSIJANUARY20269E6B9450001843A8B45C397C8C90F7DD.PDF
+            - img "PDF - Payment System Indicators - January 2026" [ref=e92]
+          - text: 514 kb
+          - heading "December - 2025" [level=2] [ref=e93]
+          - link "Payment System Indicators - December 2025" [ref=e94] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=55
+          - link "Document - Payment System Indicators - December 2025 492 kb" [ref=e95] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSIDECEMBER2025773DD2CE9DBA42A1B3A1473C9E67A638.XLSX
+            - img "Document - Payment System Indicators - December 2025" [ref=e96]
+          - text: 492 kb
+          - link "PDF - Payment System Indicators - December 2025 435 kb" [ref=e97] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSIDECEMBER2025773DD2CE9DBA42A1B3A1473C9E67A638.PDF
+            - img "PDF - Payment System Indicators - December 2025" [ref=e98]
+          - text: 435 kb
+          - heading "November - 2025" [level=2] [ref=e99]
+          - link "Payment System Indicators - November 2025" [ref=e100] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=54
+          - link "Document - Payment System Indicators - November 2025 493 kb" [ref=e101] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSINOVEMBER2025F3C36563A3A9490C8A780F848C96E32E.XLSX
+            - img "Document - Payment System Indicators - November 2025" [ref=e102]
+          - text: 493 kb
+          - link "PDF - Payment System Indicators - November 2025 430 kb" [ref=e103] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSINOVEMBER2025F3C36563A3A9490C8A780F848C96E32E.PDF
+            - img "PDF - Payment System Indicators - November 2025" [ref=e104]
+          - text: 430 kb
+          - heading "October - 2025" [level=2] [ref=e105]
+          - link "Payment System Indicators - October 2025" [ref=e106] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=53
+          - link "Document - Payment System Indicators - October 2025 492 kb" [ref=e107] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSIOCTOBER20255937C762A8E04D62AB943A69170959ED.XLSX
+            - img "Document - Payment System Indicators - October 2025" [ref=e108]
+          - text: 492 kb
+          - link "PDF - Payment System Indicators - October 2025 430 kb" [ref=e109] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSIOCTOBER20255937C762A8E04D62AB943A69170959ED.PDF
+            - img "PDF - Payment System Indicators - October 2025" [ref=e110]
+          - text: 430 kb
+          - heading "September - 2025" [level=2] [ref=e111]
+          - link "Payment System Indicators - September 2025" [ref=e112] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=52
+          - link "Document - Payment System Indicators - September 2025 494 kb" [ref=e113] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSISEPTEMBER20258A442C5802534790AFD24217FAA566F8.XLSX
+            - img "Document - Payment System Indicators - September 2025" [ref=e114]
+          - text: 494 kb
+          - link "PDF - Payment System Indicators - September 2025 119 kb" [ref=e115] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSISEPTEMBER20258A442C5802534790AFD24217FAA566F8.PDF
+            - img "PDF - Payment System Indicators - September 2025" [ref=e116]
+          - text: 119 kb
+          - heading "August - 2025" [level=2] [ref=e117]
+          - link "Payment System Indicators - August 2025" [ref=e118] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=51
+          - link "Document - Payment System Indicators - August 2025 491 kb" [ref=e119] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSIAUGUST20253E4CD7C42FAE4896B92ABF9DD425B33D.XLSX
+            - img "Document - Payment System Indicators - August 2025" [ref=e120]
+          - text: 491 kb
+          - link "PDF - Payment System Indicators - August 2025 129 kb" [ref=e121] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSIAUGUST20253E4CD7C42FAE4896B92ABF9DD425B33D.PDF
+            - img "PDF - Payment System Indicators - August 2025" [ref=e122]
+          - text: 129 kb
+          - heading "July - 2025" [level=2] [ref=e123]
+          - link "Payment System Indicators - July 2025" [ref=e124] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=50
+          - link "Document - Payment System Indicators - July 2025 491 kb" [ref=e125] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSIJULY2025A66B453678F744F1929AD60E01D52FE1.XLSX
+            - img "Document - Payment System Indicators - July 2025" [ref=e126]
+          - text: 491 kb
+          - link "PDF - Payment System Indicators - July 2025 217 kb" [ref=e127] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSIJULY2025A66B453678F744F1929AD60E01D52FE1.PDF
+            - img "PDF - Payment System Indicators - July 2025" [ref=e128]
+          - text: 217 kb
+          - heading "June - 2025" [level=2] [ref=e129]
+          - link "Payment System Indicators - June 2025" [ref=e130] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=49
+          - link "Document - Payment System Indicators - June 2025 363 kb" [ref=e131] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSIJUNE22072025163AC61C242448A18AFBD0F1E9B2A234.XLSX
+            - img "Document - Payment System Indicators - June 2025" [ref=e132]
+          - text: 363 kb
+          - link "PDF - Payment System Indicators - June 2025 127 kb" [ref=e133] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSIJUNE22072025163AC61C242448A18AFBD0F1E9B2A234.PDF
+            - img "PDF - Payment System Indicators - June 2025" [ref=e134]
+          - text: 127 kb
+          - heading "May - 2025" [level=2] [ref=e135]
+          - link "Payment System Indicators - May 2025" [ref=e136] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=48
+          - link "Document - Payment System Indicators - May 2025 362 kb" [ref=e137] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSIMAY230620259566FCD300264D77A56496EF2BE96E39.XLSX
+            - img "Document - Payment System Indicators - May 2025" [ref=e138]
+          - text: 362 kb
+          - link "PDF - Payment System Indicators - May 2025 123 kb" [ref=e139] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSIMAY230620259566FCD300264D77A56496EF2BE96E39.PDF
+            - img "PDF - Payment System Indicators - May 2025" [ref=e140]
+          - text: 123 kb
+          - heading "April - 2025" [level=2] [ref=e141]
+          - link "Payment System Indicators - April 2025" [ref=e142] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=47
+          - link "Document - Payment System Indicators - April 2025 491 kb" [ref=e143] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSIAPRIL22052025865581C238FB4B5780610A00492F7BF7.XLSX
+            - img "Document - Payment System Indicators - April 2025" [ref=e144]
+          - text: 491 kb
+          - link "PDF - Payment System Indicators - April 2025 126 kb" [ref=e145] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSIAPRIL22052025865581C238FB4B5780610A00492F7BF7.PDF
+            - img "PDF - Payment System Indicators - April 2025" [ref=e146]
+          - text: 126 kb
+          - heading "March - 2025" [level=2] [ref=e147]
+          - link "Payment System Indicators - March 2025" [ref=e148] [cursor=pointer]:
+            - /url: PSIUserView.aspx?Id=46
+          - link "Document - Payment System Indicators - March 2025 492 kb" [ref=e149] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PSIMARCH24042025B392941E3F7346759B014AEEC4E572DB.XLSX
+            - img "Document - Payment System Indicators - March 2025" [ref=e150]
+          - text: 492 kb
+          - link "PDF - Payment System Indicators - March 2025 127 kb" [ref=e151] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PSIMARCH24042025B392941E3F7346759B014AEEC4E572DB.PDF
+            - img "PDF - Payment System Indicators - March 2025" [ref=e152]
+          - text: 127 kb
+      - generic [ref=e154]:
+        - list:
+          - listitem [ref=e155]:
+            - link "2026" [ref=e156] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e157]:
+            - link "2025" [ref=e158] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e159]:
+            - link "2024" [ref=e160] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e161]:
+            - link "2023" [ref=e162] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e163]:
+            - link "2022" [ref=e164] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e165]:
+            - link "2021" [ref=e166] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e167]:
+            - link "2020" [ref=e168] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e169]:
+            - link "2019" [ref=e170] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e171]:
+            - link "2018" [ref=e172] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e173]:
+            - link "2017" [ref=e174] [cursor=pointer]:
+              - /url: "#"
+          - heading "Archives" [level=2] [ref=e175]:
+            - link "Archives" [active] [ref=e176] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - generic:
+            - generic:
+              - list:
+                - listitem [ref=e257]:
+                  - link "2016" [ref=e258] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e259]:
+                  - link "2015" [ref=e260] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e261]:
+                  - link "2014" [ref=e262] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e263]:
+                  - link "2013" [ref=e264] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e265]:
+                  - link "2012" [ref=e266] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e267]:
+                  - link "2011" [ref=e268] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e269]:
+                  - link "2010" [ref=e270] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e271]:
+                  - link "2009" [ref=e272] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e273]:
+                  - link "2008" [ref=e274] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e275]:
+                  - link "2007" [ref=e276] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e277]:
+                  - link "2006" [ref=e278] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e279]:
+                  - link "2005" [ref=e280] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e281]:
+                  - link "2004" [ref=e282] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e283]:
+                  - link "2003" [ref=e284] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e285]:
+                  - link "2002" [ref=e286] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e287]:
+                  - link "2001" [ref=e288] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e289]:
+                  - link "2000" [ref=e290] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e291]:
+                  - link "1999" [ref=e292] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e293]:
+                  - link "1998" [ref=e294] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e295]:
+                  - link "1997" [ref=e296] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e297]:
+                  - link "1996" [ref=e298] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e299]:
+                  - link "1995" [ref=e300] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e301]:
+                  - link "1994" [ref=e302] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e303]:
+                  - link "1993" [ref=e304] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e305]:
+                  - link "1992" [ref=e306] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e307]:
+                  - link "1991" [ref=e308] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e309]:
+                  - link "1990" [ref=e310] [cursor=pointer]:
+                    - /url: "#"
+    - link "Back to previous page" [ref=e178] [cursor=pointer]:
+      - /url: javascript:history.back()
+    - contentinfo [ref=e179]:
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - heading "More Links :" [level=2] [ref=e183]
+            - list [ref=e184]:
+              - listitem [ref=e185]:
+                - link "Bank Holidays" [ref=e186] [cursor=pointer]:
+                  - /url: /Scripts/HolidayMatrixDisplay.aspx
+              - listitem [ref=e187]:
+                - link "Banking Glossary" [ref=e188] [cursor=pointer]:
+                  - /url: https://shabdavali.rbi.org.in/
+              - listitem [ref=e189]:
+                - link "Citizen's Charter" [ref=e190] [cursor=pointer]:
+                  - /url: /Scripts/CitiChart.aspx
+              - listitem [ref=e191]:
+                - link "Complaints" [ref=e192] [cursor=pointer]:
+                  - /url: /Scripts/Complaints.aspx
+              - listitem [ref=e193]:
+                - link "Contact Us" [ref=e194] [cursor=pointer]:
+                  - /url: /Scripts/helpdesk.aspx
+              - listitem [ref=e195]:
+                - link "COVID-19 Measures" [ref=e196] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894
+              - listitem [ref=e197]:
+                - link "E-LMS" [ref=e198] [cursor=pointer]:
+                  - /url: https://ncfe.org.in/e-lms
+              - listitem [ref=e199]:
+                - link "Events" [ref=e200] [cursor=pointer]:
+                  - /url: /Scripts/EventsDisplay.aspx
+              - listitem [ref=e201]:
+                - link "FAQs" [ref=e202] [cursor=pointer]:
+                  - /url: /Scripts/FAQDisplay.aspx
+              - listitem [ref=e203]:
+                - link "Financial Education" [ref=e204] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/FinancialEducation/
+              - listitem [ref=e205]:
+                - link "Forms" [ref=e206] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewForms.aspx
+              - listitem [ref=e207]:
+                - link "IFSC/MICR Codes" [ref=e208] [cursor=pointer]:
+                  - /url: /Scripts/IFSCMICRDetails.aspx
+              - listitem [ref=e209]:
+                - link "Important Websites" [ref=e210] [cursor=pointer]:
+                  - /url: /Scripts/OtherLinks.aspx
+              - listitem [ref=e211]:
+                - link "Opportunities@RBI" [ref=e212] [cursor=pointer]:
+                  - /url: https://opportunities.rbi.org.in/scripts/index.aspx
+              - listitem [ref=e213]:
+                - link "RBI Clarifications" [ref=e214] [cursor=pointer]:
+                  - /url: /Scripts/rbi_clarification.aspx
+              - listitem [ref=e215]:
+                - link "RBI Kehta Hai" [ref=e216] [cursor=pointer]:
+                  - /url: https://rbikehtahai.rbi.org.in/
+              - listitem [ref=e217]:
+                - link "RBI's Core Purpose, Values and Vision" [ref=e218] [cursor=pointer]:
+                  - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh30122022.pdf
+              - listitem [ref=e219]:
+                - link "Right to Information Act" [ref=e220] [cursor=pointer]:
+                  - /url: /Scripts/Righttoinfoact.aspx
+              - listitem [ref=e221]:
+                - link "Tenders" [ref=e222] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewTenders.aspx
+          - generic [ref=e223]:
+            - heading "Follow RBI" [level=2] [ref=e224]
+            - list [ref=e225]:
+              - listitem [ref=e226]:
+                - link "RSS" [ref=e227] [cursor=pointer]:
+                  - /url: /Scripts/rss.aspx
+              - listitem [ref=e228]:
+                - link "Twitter" [ref=e229] [cursor=pointer]:
+                  - /url: https://twitter.com/RBI
+              - listitem [ref=e230]:
+                - link "YouTube" [ref=e231] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA
+              - listitem [ref=e232]:
+                - link "Instagram" [ref=e233] [cursor=pointer]:
+                  - /url: https://instagram.com/reservebankofindia
+              - listitem [ref=e234]:
+                - link "Facebook" [ref=e235] [cursor=pointer]:
+                  - /url: https://www.facebook.com/RBIsays
+              - listitem [ref=e236]:
+                - link "LinkedIn" [ref=e237] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/reservebankofindia
+              - listitem [ref=e238]:
+                - text: Download Mobile App
+                - link "Play Store" [ref=e239] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.reservebankofindia&pli=1
+                - link "App Store" [ref=e240] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/reserve-bank-of-india/id1154394549?ls=1
+        - generic [ref=e243]:
+          - generic [ref=e244]: © Reserve Bank of India. All Rights Reserved.
+          - generic [ref=e245]:
+            - link "Sitemap" [ref=e246] [cursor=pointer]:
+              - /url: /Scripts/sitemap.aspx
+            - text: "|"
+            - link "Disclaimer" [ref=e247] [cursor=pointer]:
+              - /url: /Scripts/Disclaimer.aspx
+          - generic [ref=e249]: Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in
+          - generic [ref=e250]: "Website last updated date: Apr 09, 2026"
+          - generic [ref=e252]: "Supports: Google Chrome 125+ | Firefox 126+ | Microsoft Edge Version 125+ | Safari 17+"
+          - generic [ref=e253]:
+            - link "Accessibility Statement" [ref=e254] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf
+            - text: "|"
+            - link "Screen Reader" [ref=e255] [cursor=pointer]:
+              - /url: /scripts/ScreenReader.aspx
+  - status

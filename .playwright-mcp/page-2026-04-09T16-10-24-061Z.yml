@@ -1,0 +1,358 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link "Skip to main content" [ref=e6] [cursor=pointer]:
+        - /url: "#mainsection"
+      - generic [ref=e7]:
+        - list:
+          - listitem [ref=e8]:
+            - link "Increase Font Size" [ref=e9] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnSpace','')
+              - img "Increase Font Size" [ref=e10]
+          - listitem [ref=e11]:
+            - link "Increase Font Size" [ref=e12] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontIncrease','')
+              - img "Increase Font Size" [ref=e13]
+          - listitem [ref=e14]:
+            - link "Regular Font Size Selected" [ref=e15] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontRegular','')
+              - img "Regular Font Size" [ref=e16]
+              - generic [ref=e17]: Selected
+          - listitem [ref=e18]:
+            - link "Decrease Font Size" [ref=e19] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontDecrease','')
+              - img "Decrease Font Size" [ref=e20]
+        - list:
+          - listitem [ref=e21] [cursor=pointer]:
+            - link "Apply Dark Theme" [ref=e22]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnAccessibilty','')
+              - img "Apply Dark Theme" [ref=e23]
+          - listitem [ref=e24] [cursor=pointer]:
+            - link "Apply Normal Theme Selected" [ref=e25]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnUndoAccessibilty','')
+              - img "Apply Normal Theme" [ref=e26]
+              - generic [ref=e27]: Selected
+          - listitem [ref=e28] [cursor=pointer]:
+            - link "Apply Gray Theme" [ref=e29]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnGreyScale','')
+              - img "Apply Gray Theme" [ref=e30]
+        - generic:
+          - link "Print this page":
+            - /url: "#"
+            - img "Print this page" [ref=e31] [cursor=pointer]
+        - generic [ref=e32]:
+          - text: Language
+          - link "हिंदी" [ref=e33] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/hindi/Home.aspx
+    - generic [ref=e35]:
+      - banner [ref=e36]:
+        - link "Reserve Bank of India" [ref=e38] [cursor=pointer]:
+          - /url: /home.aspx
+          - img "Reserve Bank of India" [ref=e39]
+      - search [ref=e40]:
+        - text: Search the Website
+        - textbox "Search the Website" [ref=e41]:
+          - /placeholder: Search
+        - button "Search" [ref=e42] [cursor=pointer]
+      - img "Beti Bachao Beti Padhao Logo" [ref=e45]
+    - navigation "Main":
+      - generic [ref=e47]:
+        - generic:
+          - list:
+            - listitem [ref=e48]:
+              - link "Home" [ref=e49] [cursor=pointer]:
+                - /url: https://rbi.org.in/home.aspx
+            - listitem [ref=e50]:
+              - link "About Us" [ref=e51] [cursor=pointer]:
+                - /url: /Scripts/AboutusDisplay.aspx
+            - listitem [ref=e52]:
+              - link "Notifications" [ref=e53] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e54]:
+              - link "Press Releases" [ref=e55] [cursor=pointer]:
+                - /url: /Scripts/BS_PressReleaseDisplay.aspx
+            - listitem [ref=e56]:
+              - link "Speeches & Media Interactions" [ref=e57] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e58]:
+              - link "Publications" [ref=e59] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e60]:
+              - link "Legal Framework" [ref=e61] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e62]:
+              - link "Research" [ref=e63] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e64]:
+              - link "Statistics" [ref=e65] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e66]:
+              - link "Regulatory Reporting" [ref=e67] [cursor=pointer]:
+                - /url: "#"
+    - main [ref=e69]:
+      - navigation "Breadcrumb" [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "Home" [ref=e73] [cursor=pointer]:
+              - /url: ../Home.aspx
+          - listitem [ref=e74]:
+            - link "Data Releases" [ref=e75] [cursor=pointer]:
+              - /url: Statistics.aspx
+      - generic [ref=e77]:
+        - heading "Bank-wise NEFT/RTGS/Mobile Banking/Internet Banking Statistics" [level=1] [ref=e78]
+        - generic [ref=e79]:
+          - table
+          - heading "February - 2026" [level=2] [ref=e80]
+          - link "Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - February 2026" [ref=e81] [cursor=pointer]:
+            - /url: NEFTUserView.aspx?Id=214
+          - link "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - February 2026 122 kb" [ref=e82] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/DOCs/NEFTRTGSFEB2634BBDA78EAE94D019A6F04D55A6B094A.XLSX
+            - img "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - February 2026" [ref=e83]
+          - text: 122 kb
+          - link "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - February 2026 918 kb" [ref=e84] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/PDFs/NEFTRTGSFEB2634BBDA78EAE94D019A6F04D55A6B094A.PDF
+            - img "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - February 2026" [ref=e85]
+          - text: 918 kb
+          - heading "January - 2026" [level=2] [ref=e86]
+          - link "Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - January 2026 (Revised)" [ref=e87] [cursor=pointer]:
+            - /url: NEFTUserView.aspx?Id=213
+          - link "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - January 2026 (<font color=\"Red\">Revised</font>) 129 kb" [ref=e88] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/DOCs/NEFTRTGS2026D1D1C71B5FF0486E9DB5E68FDFDFCC3A.XLSX
+            - img "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - January 2026 (<font color=\"Red\">Revised</font>)" [ref=e89]
+          - text: 129 kb
+          - link "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - January 2026 (<font color=\"Red\">Revised</font>) 977 kb" [ref=e90] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/PDFs/NEFTRTGS2026D1D1C71B5FF0486E9DB5E68FDFDFCC3A.PDF
+            - img "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - January 2026 (<font color=\"Red\">Revised</font>)" [ref=e91]
+          - text: 977 kb
+          - heading "December - 2025" [level=2] [ref=e92]
+          - link "Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - December 2025" [ref=e93] [cursor=pointer]:
+            - /url: NEFTUserView.aspx?Id=212
+          - link "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - December 2025 119 kb" [ref=e94] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/DOCs/NEFTRTGSDEC202506277199F5B34AECB402FD77D7CB781D.XLSX
+            - img "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - December 2025" [ref=e95]
+          - text: 119 kb
+          - link "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - December 2025 1124 kb" [ref=e96] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/PDFs/NEFTRTGSDEC202506277199F5B34AECB402FD77D7CB781D.PDF
+            - img "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - December 2025" [ref=e97]
+          - text: 1124 kb
+          - heading "November - 2025" [level=2] [ref=e98]
+          - link "Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - November 2025 (Revised)" [ref=e99] [cursor=pointer]:
+            - /url: NEFTUserView.aspx?Id=211
+          - 'link "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - November 2025 (<span style=\"color: red\">Revised</span>) 132 kb" [ref=e100] [cursor=pointer]':
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/DOCs/NEFTRTGSNOV202542D1F24A3E01432D855209BEE5F1A037.XLSX
+            - 'img "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - November 2025 (<span style=\"color: red\">Revised</span>)" [ref=e101]'
+          - text: 132 kb
+          - 'link "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - November 2025 (<span style=\"color: red\">Revised</span>) 949 kb" [ref=e102] [cursor=pointer]':
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/PDFs/NEFTRTGSNOV202542D1F24A3E01432D855209BEE5F1A037.PDF
+            - 'img "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - November 2025 (<span style=\"color: red\">Revised</span>)" [ref=e103]'
+          - text: 949 kb
+          - heading "October - 2025" [level=2] [ref=e104]
+          - link "Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - October 2025 (Revised)" [ref=e105] [cursor=pointer]:
+            - /url: NEFTUserView.aspx?Id=210
+          - 'link "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - October 2025 (<span style=\"color: red\">Revised</span>) 133 kb" [ref=e106] [cursor=pointer]':
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/DOCs/NEFTRTGSOCT202500525D9695804072A96486C06D03064B.XLSX
+            - 'img "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - October 2025 (<span style=\"color: red\">Revised</span>)" [ref=e107]'
+          - text: 133 kb
+          - 'link "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - October 2025 (<span style=\"color: red\">Revised</span>) 228 kb" [ref=e108] [cursor=pointer]':
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/PDFs/NEFTRTGSOCT202500525D9695804072A96486C06D03064B.PDF
+            - 'img "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - October 2025 (<span style=\"color: red\">Revised</span>)" [ref=e109]'
+          - text: 228 kb
+          - heading "September - 2025" [level=2] [ref=e110]
+          - link "Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - September 2025 (Revised)" [ref=e111] [cursor=pointer]:
+            - /url: NEFTUserView.aspx?Id=209
+          - 'link "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - September 2025 (<span style=\"color: red\">Revised</span>) 121 kb" [ref=e112] [cursor=pointer]':
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/DOCs/NEFTRTGSSEP2025745940D556864A68A6BCD372476668ED.XLSX
+            - 'img "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - September 2025 (<span style=\"color: red\">Revised</span>)" [ref=e113]'
+          - text: 121 kb
+          - 'link "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - September 2025 (<span style=\"color: red\">Revised</span>) 923 kb" [ref=e114] [cursor=pointer]':
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/PDFs/NEFTRTGSSEP2025745940D556864A68A6BCD372476668ED.PDF
+            - 'img "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - September 2025 (<span style=\"color: red\">Revised</span>)" [ref=e115]'
+          - text: 923 kb
+          - heading "August - 2025" [level=2] [ref=e116]
+          - link "Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - August 2025 (Revised)" [ref=e117] [cursor=pointer]:
+            - /url: NEFTUserView.aspx?Id=208
+          - 'link "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - August 2025 (<span style=\"color: red\">Revised</span>) 124 kb" [ref=e118] [cursor=pointer]':
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/DOCs/NEFTRTGSAUG202558FEA406568B4AB882B4AC196D982135.XLSX
+            - 'img "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - August 2025 (<span style=\"color: red\">Revised</span>)" [ref=e119]'
+          - text: 124 kb
+          - 'link "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - August 2025 (<span style=\"color: red\">Revised</span>) 1263 kb" [ref=e120] [cursor=pointer]':
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/PDFs/NEFTRTGSAUG202558FEA406568B4AB882B4AC196D982135.PDF
+            - 'img "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - August 2025 (<span style=\"color: red\">Revised</span>)" [ref=e121]'
+          - text: 1263 kb
+          - heading "July - 2025" [level=2] [ref=e122]
+          - link "Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - July 2025 (Revised)" [ref=e123] [cursor=pointer]:
+            - /url: NEFTUserView.aspx?Id=207
+          - 'link "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - July 2025 (<span style=\"color: red\">Revised</span>) 1526 kb" [ref=e124] [cursor=pointer]':
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/DOCs/NEFTRTGSJULY2025E549614F7D2049C3BBCBDEDC7B06C0D7.XLSX
+            - 'img "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - July 2025 (<span style=\"color: red\">Revised</span>)" [ref=e125]'
+          - text: 1526 kb
+          - 'link "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - July 2025 (<span style=\"color: red\">Revised</span>) 227 kb" [ref=e126] [cursor=pointer]':
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/PDFs/NEFTRTGSJULY2025E549614F7D2049C3BBCBDEDC7B06C0D7.PDF
+            - 'img "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - July 2025 (<span style=\"color: red\">Revised</span>)" [ref=e127]'
+          - text: 227 kb
+          - heading "June - 2025" [level=2] [ref=e128]
+          - link "Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - June 2025 (Revised)" [ref=e129] [cursor=pointer]:
+            - /url: NEFTUserView.aspx?Id=206
+          - link "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - June 2025 (<font color=\"Red\">Revised</font>) 129 kb" [ref=e130] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/DOCs/RTGSNEFTJUNE20255972D772D10A4F73A28DEE4B672E6F04.XLSX
+            - img "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - June 2025 (<font color=\"Red\">Revised</font>)" [ref=e131]
+          - text: 129 kb
+          - link "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - June 2025 (<font color=\"Red\">Revised</font>) 423 kb" [ref=e132] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/PDFs/RTGSNEFTJUNE20255972D772D10A4F73A28DEE4B672E6F04.PDF
+            - img "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - June 2025 (<font color=\"Red\">Revised</font>)" [ref=e133]
+          - text: 423 kb
+          - heading "May - 2025" [level=2] [ref=e134]
+          - link "Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - May 2025 (Revised)" [ref=e135] [cursor=pointer]:
+            - /url: NEFTUserView.aspx?Id=205
+          - link "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - May 2025 (<font color=\"Red\">Revised</font>) 122 kb" [ref=e136] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/DOCs/RTGSNEFTMAY202571FD25B2F9DF4B00897663B724A7656A.XLSX
+            - img "Document - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - May 2025 (<font color=\"Red\">Revised</font>)" [ref=e137]
+          - text: 122 kb
+          - link "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - May 2025 (<font color=\"Red\">Revised</font>) 160 kb" [ref=e138] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/NEFT/PDFs/RTGSNEFTMAY202571FD25B2F9DF4B00897663B724A7656A.PDF
+            - img "PDF - Bankwise Volumes in NEFT/RTGS/Mobile Transactions/Internet Banking Transactions - May 2025 (<font color=\"Red\">Revised</font>)" [ref=e139]
+          - text: 160 kb
+      - generic [ref=e141]:
+        - heading "2026" [level=2] [ref=e142] [cursor=pointer]:
+          - link "2026" [ref=e143]:
+            - /url: "#"
+        - heading "2025" [level=2] [ref=e144] [cursor=pointer]:
+          - link "2025" [ref=e145]:
+            - /url: "#"
+        - heading "2024" [level=2] [ref=e146] [cursor=pointer]:
+          - link "2024" [ref=e147]:
+            - /url: "#"
+        - heading "2023" [level=2] [ref=e148] [cursor=pointer]:
+          - link "2023" [ref=e149]:
+            - /url: "#"
+        - heading "2022" [level=2] [ref=e150] [cursor=pointer]:
+          - link "2022" [ref=e151]:
+            - /url: "#"
+        - heading "2021" [level=2] [ref=e152] [cursor=pointer]:
+          - link "2021" [ref=e153]:
+            - /url: "#"
+        - heading "2020" [level=2] [ref=e154] [cursor=pointer]:
+          - link "2020" [ref=e155]:
+            - /url: "#"
+        - heading "2019" [level=2] [ref=e156] [cursor=pointer]:
+          - link "2019" [ref=e157]:
+            - /url: "#"
+        - heading "2018" [level=2] [ref=e158] [cursor=pointer]:
+          - link "2018" [ref=e159]:
+            - /url: "#"
+        - heading "2017" [level=2] [ref=e160] [cursor=pointer]:
+          - link "2017" [ref=e161]:
+            - /url: "#"
+        - heading "Archives" [level=2] [ref=e162]:
+          - link "Archives" [ref=e163] [cursor=pointer]:
+            - /url: javascript:void(0);
+    - link "Back to previous page" [ref=e165] [cursor=pointer]:
+      - /url: javascript:history.back()
+    - contentinfo [ref=e166]:
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - heading "More Links :" [level=2] [ref=e170]
+            - list [ref=e171]:
+              - listitem [ref=e172]:
+                - link "Bank Holidays" [ref=e173] [cursor=pointer]:
+                  - /url: /Scripts/HolidayMatrixDisplay.aspx
+              - listitem [ref=e174]:
+                - link "Banking Glossary" [ref=e175] [cursor=pointer]:
+                  - /url: https://shabdavali.rbi.org.in/
+              - listitem [ref=e176]:
+                - link "Citizen's Charter" [ref=e177] [cursor=pointer]:
+                  - /url: /Scripts/CitiChart.aspx
+              - listitem [ref=e178]:
+                - link "Complaints" [ref=e179] [cursor=pointer]:
+                  - /url: /Scripts/Complaints.aspx
+              - listitem [ref=e180]:
+                - link "Contact Us" [ref=e181] [cursor=pointer]:
+                  - /url: /Scripts/helpdesk.aspx
+              - listitem [ref=e182]:
+                - link "COVID-19 Measures" [ref=e183] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894
+              - listitem [ref=e184]:
+                - link "E-LMS" [ref=e185] [cursor=pointer]:
+                  - /url: https://ncfe.org.in/e-lms
+              - listitem [ref=e186]:
+                - link "Events" [ref=e187] [cursor=pointer]:
+                  - /url: /Scripts/EventsDisplay.aspx
+              - listitem [ref=e188]:
+                - link "FAQs" [ref=e189] [cursor=pointer]:
+                  - /url: /Scripts/FAQDisplay.aspx
+              - listitem [ref=e190]:
+                - link "Financial Education" [ref=e191] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/FinancialEducation/
+              - listitem [ref=e192]:
+                - link "Forms" [ref=e193] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewForms.aspx
+              - listitem [ref=e194]:
+                - link "IFSC/MICR Codes" [ref=e195] [cursor=pointer]:
+                  - /url: /Scripts/IFSCMICRDetails.aspx
+              - listitem [ref=e196]:
+                - link "Important Websites" [ref=e197] [cursor=pointer]:
+                  - /url: /Scripts/OtherLinks.aspx
+              - listitem [ref=e198]:
+                - link "Opportunities@RBI" [ref=e199] [cursor=pointer]:
+                  - /url: https://opportunities.rbi.org.in/scripts/index.aspx
+              - listitem [ref=e200]:
+                - link "RBI Clarifications" [ref=e201] [cursor=pointer]:
+                  - /url: /Scripts/rbi_clarification.aspx
+              - listitem [ref=e202]:
+                - link "RBI Kehta Hai" [ref=e203] [cursor=pointer]:
+                  - /url: https://rbikehtahai.rbi.org.in/
+              - listitem [ref=e204]:
+                - link "RBI's Core Purpose, Values and Vision" [ref=e205] [cursor=pointer]:
+                  - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh30122022.pdf
+              - listitem [ref=e206]:
+                - link "Right to Information Act" [ref=e207] [cursor=pointer]:
+                  - /url: /Scripts/Righttoinfoact.aspx
+              - listitem [ref=e208]:
+                - link "Tenders" [ref=e209] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewTenders.aspx
+          - generic [ref=e210]:
+            - heading "Follow RBI" [level=2] [ref=e211]
+            - list [ref=e212]:
+              - listitem [ref=e213]:
+                - link "RSS" [ref=e214] [cursor=pointer]:
+                  - /url: /Scripts/rss.aspx
+              - listitem [ref=e215]:
+                - link "Twitter" [ref=e216] [cursor=pointer]:
+                  - /url: https://twitter.com/RBI
+              - listitem [ref=e217]:
+                - link "YouTube" [ref=e218] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA
+              - listitem [ref=e219]:
+                - link "Instagram" [ref=e220] [cursor=pointer]:
+                  - /url: https://instagram.com/reservebankofindia
+              - listitem [ref=e221]:
+                - link "Facebook" [ref=e222] [cursor=pointer]:
+                  - /url: https://www.facebook.com/RBIsays
+              - listitem [ref=e223]:
+                - link "LinkedIn" [ref=e224] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/reservebankofindia
+              - listitem [ref=e225]:
+                - text: Download Mobile App
+                - link "Play Store" [ref=e226] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.reservebankofindia&pli=1
+                - link "App Store" [ref=e227] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/reserve-bank-of-india/id1154394549?ls=1
+        - generic [ref=e230]:
+          - generic [ref=e231]: © Reserve Bank of India. All Rights Reserved.
+          - generic [ref=e232]:
+            - link "Sitemap" [ref=e233] [cursor=pointer]:
+              - /url: /Scripts/sitemap.aspx
+            - text: "|"
+            - link "Disclaimer" [ref=e234] [cursor=pointer]:
+              - /url: /Scripts/Disclaimer.aspx
+          - generic [ref=e236]: Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in
+          - generic [ref=e237]: "Website last updated date: Apr 09, 2026"
+          - generic [ref=e239]: "Supports: Google Chrome 125+ | Firefox 126+ | Microsoft Edge Version 125+ | Safari 17+"
+          - generic [ref=e240]:
+            - link "Accessibility Statement" [ref=e241] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf
+            - text: "|"
+            - link "Screen Reader" [ref=e242] [cursor=pointer]:
+              - /url: /scripts/ScreenReader.aspx
+  - status

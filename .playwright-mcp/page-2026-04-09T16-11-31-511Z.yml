@@ -1,0 +1,597 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link "Skip to main content" [ref=e6] [cursor=pointer]:
+        - /url: "#mainsection"
+      - generic [ref=e7]:
+        - list:
+          - listitem [ref=e8]:
+            - link "Increase Font Size" [ref=e9] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnSpace','')
+              - img "Increase Font Size" [ref=e10]
+          - listitem [ref=e11]:
+            - link "Increase Font Size" [ref=e12] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontIncrease','')
+              - img "Increase Font Size" [ref=e13]
+          - listitem [ref=e14]:
+            - link "Regular Font Size Selected" [ref=e15] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontRegular','')
+              - img "Regular Font Size" [ref=e16]
+              - generic [ref=e17]: Selected
+          - listitem [ref=e18]:
+            - link "Decrease Font Size" [ref=e19] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontDecrease','')
+              - img "Decrease Font Size" [ref=e20]
+        - list:
+          - listitem [ref=e21] [cursor=pointer]:
+            - link "Apply Dark Theme" [ref=e22]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnAccessibilty','')
+              - img "Apply Dark Theme" [ref=e23]
+          - listitem [ref=e24] [cursor=pointer]:
+            - link "Apply Normal Theme Selected" [ref=e25]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnUndoAccessibilty','')
+              - img "Apply Normal Theme" [ref=e26]
+              - generic [ref=e27]: Selected
+          - listitem [ref=e28] [cursor=pointer]:
+            - link "Apply Gray Theme" [ref=e29]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnGreyScale','')
+              - img "Apply Gray Theme" [ref=e30]
+        - generic:
+          - link "Print this page":
+            - /url: "#"
+            - img "Print this page" [ref=e31] [cursor=pointer]
+        - generic [ref=e32]:
+          - text: Language
+          - link "हिंदी" [ref=e33] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/hindi/Home.aspx
+    - generic [ref=e35]:
+      - banner [ref=e36]:
+        - link "Reserve Bank of India" [ref=e38] [cursor=pointer]:
+          - /url: /home.aspx
+          - img "Reserve Bank of India" [ref=e39]
+      - search [ref=e40]:
+        - text: Search the Website
+        - textbox "Search the Website" [ref=e41]:
+          - /placeholder: Search
+        - button "Search" [ref=e42] [cursor=pointer]
+      - img "Beti Bachao Beti Padhao Logo" [ref=e45]
+    - navigation "Main":
+      - generic [ref=e47]:
+        - generic:
+          - list:
+            - listitem [ref=e48]:
+              - link "Home" [ref=e49] [cursor=pointer]:
+                - /url: https://rbi.org.in/home.aspx
+            - listitem [ref=e50]:
+              - link "About Us" [ref=e51] [cursor=pointer]:
+                - /url: /Scripts/AboutusDisplay.aspx
+            - listitem [ref=e52]:
+              - link "Notifications" [ref=e53] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e54]:
+              - link "Press Releases" [ref=e55] [cursor=pointer]:
+                - /url: /Scripts/BS_PressReleaseDisplay.aspx
+            - listitem [ref=e56]:
+              - link "Speeches & Media Interactions" [ref=e57] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e58]:
+              - link "Publications" [ref=e59] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e60]:
+              - link "Legal Framework" [ref=e61] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e62]:
+              - link "Research" [ref=e63] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e64]:
+              - link "Statistics" [ref=e65] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e66]:
+              - link "Regulatory Reporting" [ref=e67] [cursor=pointer]:
+                - /url: "#"
+    - generic [ref=e68]:
+      - main [ref=e69]:
+        - navigation "Breadcrumb" [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Home" [ref=e73] [cursor=pointer]:
+                - /url: ../Home.aspx
+            - listitem [ref=e74]:
+              - link "Press Releases" [ref=e75] [cursor=pointer]:
+                - /url: BS_PressReleaseDisplay.aspx
+        - generic [ref=e77]:
+          - heading "Press Releases" [level=1] [ref=e78]
+          - generic [ref=e80]:
+            - heading "Apr 09, 2026" [level=2] [ref=e81]: Apr 09, 2026
+            - link "RBI invites public comments on Discussion Paper - Exploring safeguards in digital payments to curb frauds" [ref=e82] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62535
+            - link "PDF - RBI invites public comments on Discussion Paper - Exploring safeguards in digital payments to curb frauds 139 kb" [ref=e83] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR574B8436F451E4489BAE1FC2C08816AA2F.PDF
+              - img "PDF - RBI invites public comments on Discussion Paper - Exploring safeguards in digital payments to curb frauds" [ref=e84]
+            - text: 139 kb
+            - link "RBI releases Circular on Guidelines to facilitate faster cross-border inward payments" [ref=e85] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62532
+            - link "PDF - RBI releases Circular on Guidelines to facilitate faster cross-border inward payments 288 kb" [ref=e86] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR56FC3996D6AE5E467A8A7229F0132084EE.PDF
+              - img "PDF - RBI releases Circular on Guidelines to facilitate faster cross-border inward payments" [ref=e87]
+            - text: 288 kb
+            - link "Auction of State Government Securities" [ref=e88] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62530
+            - link "PDF - Auction of State Government Securities 444 kb" [ref=e89] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR559EB3712A8A764C3189811B297976917B.PDF
+              - img "PDF - Auction of State Government Securities" [ref=e90]
+            - text: 444 kb
+            - 'link "Foreign Exchange Turnover Data: February 23, 2026 – February 27, 2026" [ref=e91] [cursor=pointer]':
+              - /url: BS_PressReleaseDisplay.aspx?prid=62534
+            - 'link "PDF - Foreign Exchange Turnover Data: February 23, 2026 – February 27, 2026 160 kb" [ref=e92] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR54AB64C1B48AB549068DCAC4B593A0B390.PDF
+              - 'img "PDF - Foreign Exchange Turnover Data: February 23, 2026 – February 27, 2026" [ref=e93]'
+            - text: 160 kb
+            - 'link "Foreign Exchange Turnover Data: February 16, 2026 – February 20, 2026" [ref=e94] [cursor=pointer]':
+              - /url: BS_PressReleaseDisplay.aspx?prid=62533
+            - 'link "PDF - Foreign Exchange Turnover Data: February 16, 2026 – February 20, 2026 191 kb" [ref=e95] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR533A5B8DB058644F5897638726BDE65A91.PDF
+              - 'img "PDF - Foreign Exchange Turnover Data: February 16, 2026 – February 20, 2026" [ref=e96]'
+            - text: 191 kb
+            - 'link "Foreign Exchange Turnover Data: February 09, 2026 – February 13, 2026" [ref=e97] [cursor=pointer]':
+              - /url: BS_PressReleaseDisplay.aspx?prid=62531
+            - 'link "PDF - Foreign Exchange Turnover Data: February 09, 2026 – February 13, 2026 160 kb" [ref=e98] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR52EDBFADFF32864686B876B17C84A11A91.PDF
+              - 'img "PDF - Foreign Exchange Turnover Data: February 09, 2026 – February 13, 2026" [ref=e99]'
+            - text: 160 kb
+            - 'link "Foreign Exchange Turnover Data: February 02, 2026 – February 06, 2026" [ref=e100] [cursor=pointer]':
+              - /url: BS_PressReleaseDisplay.aspx?prid=62529
+            - 'link "PDF - Foreign Exchange Turnover Data: February 02, 2026 – February 06, 2026 193 kb" [ref=e101] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR513E4EA37FD35648C48CC029669DA7AE5F.PDF
+              - 'img "PDF - Foreign Exchange Turnover Data: February 02, 2026 – February 06, 2026" [ref=e102]'
+            - text: 193 kb
+            - link "Underwriting Auction for sale of Government Security for ₹34,000 crore on April 10, 2026" [ref=e103] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62528
+            - link "PDF - Underwriting Auction for sale of Government Security for ₹34,000 crore on April 10, 2026 247 kb" [ref=e104] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR50D3228EA2B615430C9999A038D3A2DB8F.PDF
+              - img "PDF - Underwriting Auction for sale of Government Security for ₹34,000 crore on April 10, 2026" [ref=e105]
+            - text: 247 kb
+            - link "Money Market Operations as on April 08, 2026" [ref=e106] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62527
+            - link "PDF - Money Market Operations as on April 08, 2026 325 kb" [ref=e107] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR49MMOA710AC93A1F34409B9AA158151607E1E.PDF
+              - img "PDF - Money Market Operations as on April 08, 2026" [ref=e108]
+            - text: 325 kb
+            - heading "Apr 08, 2026" [level=2] [ref=e109]: Apr 08, 2026
+            - link "RBI Issues Draft Directions for ‘Trade Receivables Discounting System’" [ref=e110] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62526
+            - link "PDF - RBI Issues Draft Directions for ‘Trade Receivables Discounting System’ 290 kb" [ref=e111] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR48D7FCFA63429D439E9D1D89508B2AD104.PDF
+              - img "PDF - RBI Issues Draft Directions for ‘Trade Receivables Discounting System’" [ref=e112]
+            - text: 290 kb
+            - link "RBI invites comments on Draft “Reserve Bank of India (Governance) Amendment Directions, 2026”" [ref=e113] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62525
+            - link "PDF - RBI invites comments on Draft “Reserve Bank of India (Governance) Amendment Directions, 2026” 251 kb" [ref=e114] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR4797B85E7D64DE49E692001E567BB29964.PDF
+              - img "PDF - RBI invites comments on Draft “Reserve Bank of India (Governance) Amendment Directions, 2026”" [ref=e115]
+            - text: 251 kb
+            - link "Consolidation of Supervisory Instructions - Drafts for Comments" [ref=e116] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62521
+            - link "PDF - Consolidation of Supervisory Instructions - Drafts for Comments 312 kb" [ref=e117] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR4387D06D37993C4B9DA519A56D174EBD1E.PDF
+              - img "PDF - Consolidation of Supervisory Instructions - Drafts for Comments" [ref=e118]
+            - text: 312 kb
+            - link "RBI invites public comments on the draft Amendment Directions on ‘Investment Fluctuation Reserve’" [ref=e119] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62522
+            - link "PDF - RBI invites public comments on the draft Amendment Directions on ‘Investment Fluctuation Reserve’ 300 kb" [ref=e120] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR44137A02A68DE140319D3E1BAE15EC5138.PDF
+              - img "PDF - RBI invites public comments on the draft Amendment Directions on ‘Investment Fluctuation Reserve’" [ref=e121]
+            - text: 300 kb
+            - link "RBI invites public comments on Draft Amendment Directions on ‘Review of guidelines on inclusion of quarterly profits to Common Equity Tier 1 (CET1) capital for computation of Capital to Risk weighted Assets Ratio (CRAR) for Banks’" [ref=e122] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62523
+            - link "PDF - RBI invites public comments on Draft Amendment Directions on ‘Review of guidelines on inclusion of quarterly profits to Common Equity Tier 1 (CET1) capital for computation of Capital to Risk weighted Assets Ratio (CRAR) for Banks’ 297 kb" [ref=e123] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR45E04DFE6A69F44DDAAAB7BBD55A2378CC.PDF
+              - img "PDF - RBI invites public comments on Draft Amendment Directions on ‘Review of guidelines on inclusion of quarterly profits to Common Equity Tier 1 (CET1) capital for computation of Capital to Risk weighted Assets Ratio (CRAR) for Banks’" [ref=e124]
+            - text: 297 kb
+            - link "RBI releases the results of Forward Looking Surveys" [ref=e125] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62524
+            - link "PDF - RBI releases the results of Forward Looking Surveys 347 kb" [ref=e126] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR4674440DDFD2644FF895930103E0ADA6BC.PDF
+              - img "PDF - RBI releases the results of Forward Looking Surveys" [ref=e127]
+            - text: 347 kb
+            - 'link "Treasury Bills: Full Auction Result" [ref=e128] [cursor=pointer]':
+              - /url: BS_PressReleaseDisplay.aspx?prid=62520
+            - 'link "PDF - Treasury Bills: Full Auction Result 284 kb" [ref=e129] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR42F9B3CD9CEDEF4DA7B502E82F9180202A.PDF
+              - 'img "PDF - Treasury Bills: Full Auction Result" [ref=e130]'
+            - text: 284 kb
+            - link "RBI cancels Certificate of Registration of 54 NBFCs" [ref=e131] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62519
+            - link "PDF - RBI cancels Certificate of Registration of 54 NBFCs 335 kb" [ref=e132] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR41821C6794F59B4AB1A0E5887254D09D5E.PDF
+              - img "PDF - RBI cancels Certificate of Registration of 54 NBFCs" [ref=e133]
+            - text: 335 kb
+            - link "16 NBFCs surrender their Certificate of Registration to the RBI" [ref=e134] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62518
+            - link "PDF - 16 NBFCs surrender their Certificate of Registration to the RBI 312 kb" [ref=e135] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR40A7FC04B2CA1B4C1084DC080AB759C828.PDF
+              - img "PDF - 16 NBFCs surrender their Certificate of Registration to the RBI" [ref=e136]
+            - text: 312 kb
+            - 'link "91-Day, 182-Day and 364-Day T-Bill Auction Result: Cut-off" [ref=e137] [cursor=pointer]':
+              - /url: BS_PressReleaseDisplay.aspx?prid=62517
+            - 'link "PDF - 91-Day, 182-Day and 364-Day T-Bill Auction Result: Cut-off 279 kb" [ref=e138] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR397EA726AC77664A0589DBAF9F052922A8.PDF
+              - 'img "PDF - 91-Day, 182-Day and 364-Day T-Bill Auction Result: Cut-off" [ref=e139]'
+            - text: 279 kb
+            - link "Statement on Developmental and Regulatory Policies" [ref=e140] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62516
+            - link "PDF - Statement on Developmental and Regulatory Policies 203 kb" [ref=e141] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR385D71D4FFF59D42D382378B358EDD645A.PDF
+              - img "PDF - Statement on Developmental and Regulatory Policies" [ref=e142]
+            - text: 203 kb
+            - 'link "Governor’s Statement: April 08, 2026" [ref=e143] [cursor=pointer]':
+              - /url: BS_PressReleaseDisplay.aspx?prid=62515
+            - 'link "PDF - Governor’s Statement: April 08, 2026 435 kb" [ref=e144] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR37F51ECB4682364FFBB7BC60382CE58007.PDF
+              - 'img "PDF - Governor’s Statement: April 08, 2026" [ref=e145]'
+            - text: 435 kb
+            - link "Monetary Policy Statement, 2026-27 Resolution of the Monetary Policy Committee April 6 to 8, 2026" [ref=e146] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62514
+            - link "PDF - Monetary Policy Statement, 2026-27 Resolution of the Monetary Policy Committee April 6 to 8, 2026 373 kb" [ref=e147] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR36179ED854C2504530A4E69A95E76CF144.PDF
+              - img "PDF - Monetary Policy Statement, 2026-27 Resolution of the Monetary Policy Committee April 6 to 8, 2026" [ref=e148]
+            - text: 373 kb
+            - link "Money Market Operations as on April 07, 2026" [ref=e149] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62513
+            - link "PDF - Money Market Operations as on April 07, 2026 324 kb" [ref=e150] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR35MMOEC0949DF252C4A479C51FF0277A9D22E.PDF
+              - img "PDF - Money Market Operations as on April 07, 2026" [ref=e151]
+            - text: 324 kb
+            - heading "Apr 07, 2026" [level=2] [ref=e152]: Apr 07, 2026
+            - link "State Government Securities - Full Auction Result" [ref=e153] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62512
+            - link "PDF - State Government Securities - Full Auction Result 414 kb" [ref=e154] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR34F9AB0652D5534546A4C15102A2CF3CFD.PDF
+              - img "PDF - State Government Securities - Full Auction Result" [ref=e155]
+            - text: 414 kb
+            - link "Result of Yield/Price Based Auction of State Government Securities" [ref=e156] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62511
+            - link "PDF - Result of Yield/Price Based Auction of State Government Securities 289 kb" [ref=e157] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR33A8EFB04B81E84B5AA70FE5C563E9A3FC.PDF
+              - img "PDF - Result of Yield/Price Based Auction of State Government Securities" [ref=e158]
+            - text: 289 kb
+            - link "Money Market Operations as on April 06, 2026" [ref=e159] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62510
+            - link "PDF - Money Market Operations as on April 06, 2026 324 kb" [ref=e160] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR32MMO25794EAEEB664AFBBCA082FE39D31E68.PDF
+              - img "PDF - Money Market Operations as on April 06, 2026" [ref=e161]
+            - text: 324 kb
+            - heading "Apr 06, 2026" [level=2] [ref=e162]: Apr 06, 2026
+            - link "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – The Baghat Urban Co-operative Bank Limited, Solan - Extension of Period" [ref=e163] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62509
+            - link "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – The Baghat Urban Co-operative Bank Limited, Solan - Extension of Period 290 kb" [ref=e164] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR3145651ECB001A45EF80DA10F95EE47FB2.PDF
+              - img "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – The Baghat Urban Co-operative Bank Limited, Solan - Extension of Period" [ref=e165]
+            - text: 290 kb
+            - link "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Ramgarhia Co-operative Bank Ltd., New Delhi – Extension of Period" [ref=e166] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62508
+            - link "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Ramgarhia Co-operative Bank Ltd., New Delhi – Extension of Period 326 kb" [ref=e167] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR301F33342388AA4DCD8CC78FC9849BE345.PDF
+              - img "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Ramgarhia Co-operative Bank Ltd., New Delhi – Extension of Period" [ref=e168]
+            - text: 326 kb
+            - link "Auction of Government of India Dated Security" [ref=e169] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62507
+            - link "PDF - Auction of Government of India Dated Security 433 kb" [ref=e170] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR29CD83DAAD9B3C47B4AAD446F0442094A8.PDF
+              - img "PDF - Auction of Government of India Dated Security" [ref=e171]
+            - text: 433 kb
+            - link "RBI imposes monetary penalty on Dr. Panjabrao Deshmukh Urban Cooperative Bank Ltd., Amravati, Maharashtra" [ref=e172] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62506
+            - link "PDF - RBI imposes monetary penalty on Dr. Panjabrao Deshmukh Urban Cooperative Bank Ltd., Amravati, Maharashtra 401 kb" [ref=e173] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR28C8F48644B34B47CCBE034A3B831DE7B1.PDF
+              - img "PDF - RBI imposes monetary penalty on Dr. Panjabrao Deshmukh Urban Cooperative Bank Ltd., Amravati, Maharashtra" [ref=e174]
+            - text: 401 kb
+            - link "RBI invites comments on the Draft “Reserve Bank of India (Branch Authorisation) Amendment Directions, 2026”" [ref=e175] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62505
+            - link "PDF - RBI invites comments on the Draft “Reserve Bank of India (Branch Authorisation) Amendment Directions, 2026” 330 kb" [ref=e176] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR27C552B5394F8F46F5A0F665D2ABD9CFED.PDF
+              - img "PDF - RBI invites comments on the Draft “Reserve Bank of India (Branch Authorisation) Amendment Directions, 2026”" [ref=e177]
+            - text: 330 kb
+            - link "RBI cancels the licence of The Shirpur Merchants’ Co-operative Bank Ltd., Shirpur" [ref=e178] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62504
+            - link "PDF - RBI cancels the licence of The Shirpur Merchants’ Co-operative Bank Ltd., Shirpur 352 kb" [ref=e179] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR262094B1A9ECCE46B99B14BB2A5D587F4C.PDF
+              - img "PDF - RBI cancels the licence of The Shirpur Merchants’ Co-operative Bank Ltd., Shirpur" [ref=e180]
+            - text: 352 kb
+            - link "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Sadbhav Nagrik Sahakari Bank Maryadit, Chhatarpur, Madhya Pradesh – Extension of Period" [ref=e181] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62503
+            - link "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Sadbhav Nagrik Sahakari Bank Maryadit, Chhatarpur, Madhya Pradesh – Extension of Period 293 kb" [ref=e182] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR252054593976A648BB83B1ECC0FE54FFA1.PDF
+              - img "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Sadbhav Nagrik Sahakari Bank Maryadit, Chhatarpur, Madhya Pradesh – Extension of Period" [ref=e183]
+            - text: 293 kb
+            - link "Money Market Operations as on April 05, 2026" [ref=e184] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62502
+            - link "PDF - Money Market Operations as on April 05, 2026 327 kb" [ref=e185] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR24MMOEC96C21FF5DD42D4B02C343B8214EEDC.PDF
+              - img "PDF - Money Market Operations as on April 05, 2026" [ref=e186]
+            - text: 327 kb
+            - link "Money Market Operations as on April 04, 2026" [ref=e187] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62501
+            - link "PDF - Money Market Operations as on April 04, 2026 329 kb" [ref=e188] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR23MMOE09BF61E9CAF44269678D6F611D1AC99.PDF
+              - img "PDF - Money Market Operations as on April 04, 2026" [ref=e189]
+            - text: 329 kb
+            - link "Money Market Operations as on April 03, 2026" [ref=e190] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62500
+            - link "PDF - Money Market Operations as on April 03, 2026 329 kb" [ref=e191] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR22MMO6C4C680919CE4E18887CF39288D8A289.PDF
+              - img "PDF - Money Market Operations as on April 03, 2026" [ref=e192]
+            - text: 329 kb
+            - link "Money Market Operations as on April 02, 2026" [ref=e193] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62499
+            - link "PDF - Money Market Operations as on April 02, 2026 327 kb" [ref=e194] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR21MMO1B5801ADDA564154B0C2EDC81FD42570.PDF
+              - img "PDF - Money Market Operations as on April 02, 2026" [ref=e195]
+            - text: 327 kb
+            - heading "Apr 03, 2026" [level=2] [ref=e196]: Apr 03, 2026
+            - link "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract" [ref=e197] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62498
+            - link "PDF - Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract 430 kb" [ref=e198] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR20WSS3F5F1AB3712145C595892CC9BBB7B0ED.PDF
+              - img "PDF - Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract" [ref=e199]
+            - text: 430 kb
+            - link "Auction of State Government Securities" [ref=e200] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62497
+            - link "PDF - Auction of State Government Securities 203 kb" [ref=e201] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR19BD28196D176C4964A1C1E727002EF7AA.PDF
+              - img "PDF - Auction of State Government Securities" [ref=e202]
+            - text: 203 kb
+            - heading "Apr 02, 2026" [level=2] [ref=e203]: Apr 02, 2026
+            - link "Indicative Calendar of Market Borrowings by State Governments/ Union Territories for the Quarter April – June 2026" [ref=e204] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62496
+            - link "PDF - Indicative Calendar of Market Borrowings by State Governments/ Union Territories for the Quarter April – June 2026 268 kb" [ref=e205] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1721BF67BB90484A46A5E26ECF1F612FE1.PDF
+              - img "PDF - Indicative Calendar of Market Borrowings by State Governments/ Union Territories for the Quarter April – June 2026" [ref=e206]
+            - text: 268 kb
+            - link "Auction of 91-Day, 182-Day and 364-Day Treasury Bills" [ref=e207] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62495
+            - link "PDF - Auction of 91-Day, 182-Day and 364-Day Treasury Bills 409 kb" [ref=e208] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR162AE2D8DFD9A44FD4A3E98BA458DF68F7.PDF
+              - img "PDF - Auction of 91-Day, 182-Day and 364-Day Treasury Bills" [ref=e209]
+            - text: 409 kb
+            - link "Rate of Interest on Government of India Floating Rate Bond 2028" [ref=e210] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62494
+            - link "PDF - Rate of Interest on Government of India Floating Rate Bond 2028 258 kb" [ref=e211] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR15D1B62EB496B4461FA9191B91C9996BBD.PDF
+              - img "PDF - Rate of Interest on Government of India Floating Rate Bond 2028" [ref=e212]
+            - text: 258 kb
+            - link "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 (As Applicable to Co-operative Societies) – The Industrial Co-operative Bank Ltd., Guwahati – Extension of period" [ref=e213] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62493
+            - link "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 (As Applicable to Co-operative Societies) – The Industrial Co-operative Bank Ltd., Guwahati – Extension of period 326 kb" [ref=e214] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR15003FDD63374A4F84AE3BC0ABCA648865.PDF
+              - img "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 (As Applicable to Co-operative Societies) – The Industrial Co-operative Bank Ltd., Guwahati – Extension of period" [ref=e215]
+            - text: 326 kb
+            - link "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Samarth Urban Co-operative Bank Ltd., Osmanabad (Maharashtra) – Extension of Period" [ref=e216] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62492
+            - link "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Samarth Urban Co-operative Bank Ltd., Osmanabad (Maharashtra) – Extension of Period 293 kb" [ref=e217] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR146E60B967DC2E4348A76BCAC838C52127.PDF
+              - img "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Samarth Urban Co-operative Bank Ltd., Osmanabad (Maharashtra) – Extension of Period" [ref=e218]
+            - text: 293 kb
+            - link "Government Stock - Full Auction Results" [ref=e219] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62491
+            - link "PDF - Government Stock - Full Auction Results 293 kb" [ref=e220] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR131A56E7397C804A769F24F12618C7AED1.PDF
+              - img "PDF - Government Stock - Full Auction Results" [ref=e221]
+            - text: 293 kb
+            - link "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Samarth Sahakari Bank Ltd., Solapur, Dist. Solapur, Maharashtra – Extension of Period" [ref=e222] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62490
+            - link "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Samarth Sahakari Bank Ltd., Solapur, Dist. Solapur, Maharashtra – Extension of Period 171 kb" [ref=e223] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR12E02042026B6388894FA424206AB074EDC5427D8C1.PDF
+              - img "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Samarth Sahakari Bank Ltd., Solapur, Dist. Solapur, Maharashtra – Extension of Period" [ref=e224]
+            - text: 171 kb
+            - 'link "Government Stock - Auction Results: Cut-off" [ref=e225] [cursor=pointer]':
+              - /url: BS_PressReleaseDisplay.aspx?prid=62489
+            - 'link "PDF - Government Stock - Auction Results: Cut-off 252 kb" [ref=e226] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR113C5BEDCBA38D4690A34DD12D8D669DB9.PDF
+              - 'img "PDF - Government Stock - Auction Results: Cut-off" [ref=e227]'
+            - text: 252 kb
+            - link "Result of Underwriting Auction conducted on April 02, 2026" [ref=e228] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62488
+            - link "PDF - Result of Underwriting Auction conducted on April 02, 2026 280 kb" [ref=e229] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR100B2E6B8AA4494029B0D820ED0A309C7B.PDF
+              - img "PDF - Result of Underwriting Auction conducted on April 02, 2026" [ref=e230]
+            - text: 280 kb
+            - link "Money Market Operations as on April 01, 2026" [ref=e231] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62486
+            - link "PDF - Money Market Operations as on April 01, 2026 322 kb" [ref=e232] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR9MMOB332DFCF28F149039EF2C7D3F1FF6DD4.PDF
+              - img "PDF - Money Market Operations as on April 01, 2026" [ref=e233]
+            - text: 322 kb
+            - link "Money Market Operations as on March 31, 2026" [ref=e234] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62487
+            - link "PDF - Money Market Operations as on March 31, 2026 323 kb" [ref=e235] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR8MMO0729BAC903E14CBAA385514E412AB538.PDF
+              - img "PDF - Money Market Operations as on March 31, 2026" [ref=e236]
+            - text: 323 kb
+            - heading "Apr 01, 2026" [level=2] [ref=e237]: Apr 01, 2026
+            - link "Processing of Applications Received Under the Citizen’s Charter – Status as on March 31, 2026" [ref=e238] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62485
+            - link "PDF - Processing of Applications Received Under the Citizen’s Charter – Status as on March 31, 2026 323 kb" [ref=e239] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR74EF7477F2A7A467E81BC7953AEF34FEE.PDF
+              - img "PDF - Processing of Applications Received Under the Citizen’s Charter – Status as on March 31, 2026" [ref=e240]
+            - text: 323 kb
+            - link "Withdrawal of ₹2000 Denomination Banknotes – Status" [ref=e241] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62484
+            - link "PDF - Withdrawal of ₹2000 Denomination Banknotes – Status 345 kb" [ref=e242] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR6DFA5AD53D2D0414FAAB8D898975C40AA.PDF
+              - img "PDF - Withdrawal of ₹2000 Denomination Banknotes – Status" [ref=e243]
+            - text: 345 kb
+            - link "RBI imposes monetary penalty on Exclusive Capital Limited" [ref=e244] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62483
+            - link "PDF - RBI imposes monetary penalty on Exclusive Capital Limited 202 kb" [ref=e245] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR0538F9E2DD838F481EAF1477E7916B712B.PDF
+              - img "PDF - RBI imposes monetary penalty on Exclusive Capital Limited" [ref=e246]
+            - text: 202 kb
+            - link "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Innovative Co-operative Urban Bank Limited, Delhi – Extension of Period" [ref=e247] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62482
+            - link "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Innovative Co-operative Urban Bank Limited, Delhi – Extension of Period 201 kb" [ref=e248] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR4D0EFBC0432E145C889B0C92E72085E67.PDF
+              - img "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Innovative Co-operative Urban Bank Limited, Delhi – Extension of Period" [ref=e249]
+            - text: 201 kb
+            - link "Underwriting Auction for sale of Government Securities for ₹29,000 crore on April 02, 2026" [ref=e250] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62481
+            - link "PDF - Underwriting Auction for sale of Government Securities for ₹29,000 crore on April 02, 2026 178 kb" [ref=e251] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR0297F103B16E694C269C591176ECD543B6.PDF
+              - img "PDF - Underwriting Auction for sale of Government Securities for ₹29,000 crore on April 02, 2026" [ref=e252]
+            - text: 178 kb
+            - link "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – The Bhavani Sahakari Bank Ltd., Mumbai – Extension of Period" [ref=e253] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62480
+            - link "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – The Bhavani Sahakari Bank Ltd., Mumbai – Extension of Period 326 kb" [ref=e254] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2DD488AA0FFA3D42FABD83AB6AF183CF2E.PDF
+              - img "PDF - Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – The Bhavani Sahakari Bank Ltd., Mumbai – Extension of Period" [ref=e255]
+            - text: 326 kb
+            - link "Money Market Operations as on March 30, 2026" [ref=e256] [cursor=pointer]:
+              - /url: BS_PressReleaseDisplay.aspx?prid=62479
+            - link "PDF - Money Market Operations as on March 30, 2026 327 kb" [ref=e257] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1MMO37DFB3A8831F49B69C751ABC48493D45.PDF
+              - img "PDF - Money Market Operations as on March 30, 2026" [ref=e258]
+            - text: 327 kb
+        - generic [ref=e260]:
+          - heading "2026" [level=2] [ref=e261] [cursor=pointer]:
+            - link "2026" [ref=e262]:
+              - /url: "#"
+          - heading "2025" [level=2] [ref=e263] [cursor=pointer]:
+            - link "2025" [ref=e264]:
+              - /url: "#"
+          - heading "2024" [level=2] [ref=e265] [cursor=pointer]:
+            - link "2024" [ref=e266]:
+              - /url: "#"
+          - heading "2023" [level=2] [ref=e267] [cursor=pointer]:
+            - link "2023" [ref=e268]:
+              - /url: "#"
+          - heading "2022" [level=2] [ref=e269] [cursor=pointer]:
+            - link "2022" [ref=e270]:
+              - /url: "#"
+          - heading "2021" [level=2] [ref=e271] [cursor=pointer]:
+            - link "2021" [ref=e272]:
+              - /url: "#"
+          - heading "2020" [level=2] [ref=e273] [cursor=pointer]:
+            - link "2020" [ref=e274]:
+              - /url: "#"
+          - heading "2019" [level=2] [ref=e275] [cursor=pointer]:
+            - link "2019" [ref=e276]:
+              - /url: "#"
+          - heading "2018" [level=2] [ref=e277] [cursor=pointer]:
+            - link "2018" [ref=e278]:
+              - /url: "#"
+          - heading "2017" [level=2] [ref=e279] [cursor=pointer]:
+            - link "2017" [ref=e280]:
+              - /url: "#"
+          - heading "Archives" [level=2] [ref=e281]:
+            - link "Archives" [ref=e282] [cursor=pointer]:
+              - /url: javascript:void(0);
+      - link "Back to previous page" [ref=e284] [cursor=pointer]:
+        - /url: javascript:history.back()
+      - contentinfo [ref=e285]:
+        - generic [ref=e286]:
+          - generic [ref=e287]:
+            - generic [ref=e288]:
+              - heading "More Links :" [level=2] [ref=e289]
+              - list [ref=e290]:
+                - listitem [ref=e291]:
+                  - link "Bank Holidays" [ref=e292] [cursor=pointer]:
+                    - /url: /Scripts/HolidayMatrixDisplay.aspx
+                - listitem [ref=e293]:
+                  - link "Banking Glossary" [ref=e294] [cursor=pointer]:
+                    - /url: https://shabdavali.rbi.org.in/
+                - listitem [ref=e295]:
+                  - link "Citizen's Charter" [ref=e296] [cursor=pointer]:
+                    - /url: /Scripts/CitiChart.aspx
+                - listitem [ref=e297]:
+                  - link "Complaints" [ref=e298] [cursor=pointer]:
+                    - /url: /Scripts/Complaints.aspx
+                - listitem [ref=e299]:
+                  - link "Contact Us" [ref=e300] [cursor=pointer]:
+                    - /url: /Scripts/helpdesk.aspx
+                - listitem [ref=e301]:
+                  - link "COVID-19 Measures" [ref=e302] [cursor=pointer]:
+                    - /url: https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894
+                - listitem [ref=e303]:
+                  - link "E-LMS" [ref=e304] [cursor=pointer]:
+                    - /url: https://ncfe.org.in/e-lms
+                - listitem [ref=e305]:
+                  - link "Events" [ref=e306] [cursor=pointer]:
+                    - /url: /Scripts/EventsDisplay.aspx
+                - listitem [ref=e307]:
+                  - link "FAQs" [ref=e308] [cursor=pointer]:
+                    - /url: /Scripts/FAQDisplay.aspx
+                - listitem [ref=e309]:
+                  - link "Financial Education" [ref=e310] [cursor=pointer]:
+                    - /url: https://www.rbi.org.in/FinancialEducation/
+                - listitem [ref=e311]:
+                  - link "Forms" [ref=e312] [cursor=pointer]:
+                    - /url: /Scripts/BS_ViewForms.aspx
+                - listitem [ref=e313]:
+                  - link "IFSC/MICR Codes" [ref=e314] [cursor=pointer]:
+                    - /url: /Scripts/IFSCMICRDetails.aspx
+                - listitem [ref=e315]:
+                  - link "Important Websites" [ref=e316] [cursor=pointer]:
+                    - /url: /Scripts/OtherLinks.aspx
+                - listitem [ref=e317]:
+                  - link "Opportunities@RBI" [ref=e318] [cursor=pointer]:
+                    - /url: https://opportunities.rbi.org.in/scripts/index.aspx
+                - listitem [ref=e319]:
+                  - link "RBI Clarifications" [ref=e320] [cursor=pointer]:
+                    - /url: /Scripts/rbi_clarification.aspx
+                - listitem [ref=e321]:
+                  - link "RBI Kehta Hai" [ref=e322] [cursor=pointer]:
+                    - /url: https://rbikehtahai.rbi.org.in/
+                - listitem [ref=e323]:
+                  - link "RBI's Core Purpose, Values and Vision" [ref=e324] [cursor=pointer]:
+                    - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh30122022.pdf
+                - listitem [ref=e325]:
+                  - link "Right to Information Act" [ref=e326] [cursor=pointer]:
+                    - /url: /Scripts/Righttoinfoact.aspx
+                - listitem [ref=e327]:
+                  - link "Tenders" [ref=e328] [cursor=pointer]:
+                    - /url: /Scripts/BS_ViewTenders.aspx
+            - generic [ref=e329]:
+              - heading "Follow RBI" [level=2] [ref=e330]
+              - list [ref=e331]:
+                - listitem [ref=e332]:
+                  - link "RSS" [ref=e333] [cursor=pointer]:
+                    - /url: /Scripts/rss.aspx
+                - listitem [ref=e334]:
+                  - link "Twitter" [ref=e335] [cursor=pointer]:
+                    - /url: https://twitter.com/RBI
+                - listitem [ref=e336]:
+                  - link "YouTube" [ref=e337] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA
+                - listitem [ref=e338]:
+                  - link "Instagram" [ref=e339] [cursor=pointer]:
+                    - /url: https://instagram.com/reservebankofindia
+                - listitem [ref=e340]:
+                  - link "Facebook" [ref=e341] [cursor=pointer]:
+                    - /url: https://www.facebook.com/RBIsays
+                - listitem [ref=e342]:
+                  - link "LinkedIn" [ref=e343] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/reservebankofindia
+                - listitem [ref=e344]:
+                  - text: Download Mobile App
+                  - link "Play Store" [ref=e345] [cursor=pointer]:
+                    - /url: https://play.google.com/store/apps/details?id=com.reservebankofindia&pli=1
+                  - link "App Store" [ref=e346] [cursor=pointer]:
+                    - /url: https://apps.apple.com/us/app/reserve-bank-of-india/id1154394549?ls=1
+          - generic [ref=e349]:
+            - generic [ref=e350]: © Reserve Bank of India. All Rights Reserved.
+            - generic [ref=e351]:
+              - link "Sitemap" [ref=e352] [cursor=pointer]:
+                - /url: /Scripts/sitemap.aspx
+              - text: "|"
+              - link "Disclaimer" [ref=e353] [cursor=pointer]:
+                - /url: /Scripts/Disclaimer.aspx
+            - generic [ref=e355]: Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in
+            - generic [ref=e356]: "Website last updated date: Apr 09, 2026"
+            - generic [ref=e358]: "Supports: Google Chrome 125+ | Firefox 126+ | Microsoft Edge Version 125+ | Safari 17+"
+            - generic [ref=e359]:
+              - link "Accessibility Statement" [ref=e360] [cursor=pointer]:
+                - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf
+              - text: "|"
+              - link "Screen Reader" [ref=e361] [cursor=pointer]:
+                - /url: /scripts/ScreenReader.aspx
+  - status

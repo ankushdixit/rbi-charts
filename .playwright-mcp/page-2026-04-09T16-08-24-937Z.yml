@@ -1,0 +1,267 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link "Skip to main content" [ref=e6] [cursor=pointer]:
+        - /url: "#mainsection"
+      - generic [ref=e7]:
+        - list:
+          - listitem [ref=e8]:
+            - link "Increase Font Size" [ref=e9] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnSpace','')
+              - img "Increase Font Size" [ref=e10]
+          - listitem [ref=e11]:
+            - link "Increase Font Size" [ref=e12] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontIncrease','')
+              - img "Increase Font Size" [ref=e13]
+          - listitem [ref=e14]:
+            - link "Regular Font Size Selected" [ref=e15] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontRegular','')
+              - img "Regular Font Size" [ref=e16]
+              - generic [ref=e17]: Selected
+          - listitem [ref=e18]:
+            - link "Decrease Font Size" [ref=e19] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontDecrease','')
+              - img "Decrease Font Size" [ref=e20]
+        - list:
+          - listitem [ref=e21] [cursor=pointer]:
+            - link "Apply Dark Theme" [ref=e22]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnAccessibilty','')
+              - img "Apply Dark Theme" [ref=e23]
+          - listitem [ref=e24] [cursor=pointer]:
+            - link "Apply Normal Theme Selected" [ref=e25]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnUndoAccessibilty','')
+              - img "Apply Normal Theme" [ref=e26]
+              - generic [ref=e27]: Selected
+          - listitem [ref=e28] [cursor=pointer]:
+            - link "Apply Gray Theme" [ref=e29]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnGreyScale','')
+              - img "Apply Gray Theme" [ref=e30]
+        - generic:
+          - link "Print this page":
+            - /url: "#"
+            - img "Print this page" [ref=e31] [cursor=pointer]
+        - generic [ref=e32]:
+          - text: Language
+          - link "हिंदी" [ref=e33] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/hindi/Home.aspx
+    - generic [ref=e35]:
+      - banner [ref=e36]:
+        - link "Reserve Bank of India" [ref=e38] [cursor=pointer]:
+          - /url: /home.aspx
+          - img "Reserve Bank of India" [ref=e39]
+      - search [ref=e40]:
+        - text: Search the Website
+        - textbox "Search the Website" [ref=e41]:
+          - /placeholder: Search
+        - button "Search" [ref=e42] [cursor=pointer]
+      - img "Beti Bachao Beti Padhao Logo" [ref=e45]
+    - navigation "Main":
+      - generic [ref=e47]:
+        - generic:
+          - list:
+            - listitem [ref=e48]:
+              - link "Home" [ref=e49] [cursor=pointer]:
+                - /url: https://rbi.org.in/home.aspx
+            - listitem [ref=e50]:
+              - link "About Us" [ref=e51] [cursor=pointer]:
+                - /url: /Scripts/AboutusDisplay.aspx
+            - listitem [ref=e52]:
+              - link "Notifications" [ref=e53] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e54]:
+              - link "Press Releases" [ref=e55] [cursor=pointer]:
+                - /url: /Scripts/BS_PressReleaseDisplay.aspx
+            - listitem [ref=e56]:
+              - link "Speeches & Media Interactions" [ref=e57] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e58]:
+              - link "Publications" [ref=e59] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e60]:
+              - link "Legal Framework" [ref=e61] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e62]:
+              - link "Research" [ref=e63] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e64]:
+              - link "Statistics" [ref=e65] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e66]:
+              - link "Regulatory Reporting" [ref=e67] [cursor=pointer]:
+                - /url: "#"
+    - main [ref=e69]:
+      - navigation "Breadcrumb" [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "Home" [ref=e73] [cursor=pointer]:
+              - /url: ../Home.aspx
+          - listitem [ref=e74]:
+            - link "Data Releases" [ref=e75] [cursor=pointer]:
+              - /url: Statistics.aspx
+          - listitem [ref=e77]:
+            - link "Payment System Indicators" [ref=e78] [cursor=pointer]:
+              - /url: PSIUserView.aspx
+      - generic [ref=e80]:
+        - heading "Payment System Indicators" [level=1] [ref=e81]
+        - generic [ref=e83]:
+          - link "Document - Payment System Indicators - June 2021 96 kb" [ref=e84] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/DOCs/PAYMENTSJUNE202136ECF4FA4B9C441196CFB964810295DE.XLSX
+            - img "Document - Payment System Indicators - June 2021" [ref=e85]
+          - text: (96 kb) or
+          - link "PDF - Payment System Indicators - June 2021 207 kb" [ref=e86] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/PSI/PDFs/PAYMENTSJUNE202136ECF4FA4B9C441196CFB964810295DE.PDF
+            - img "PDF - Payment System Indicators - June 2021" [ref=e87]
+          - text: (207 kb) Payment System Indicators - June 2021 PART I - Payment System Indicators - Payment & Settlement System Statistics Volume (lakh) Value (₹ crore) FY 2020-21 2020 June 2021 2021 FY 2020-21 2020 June 2021 2021 May June May June 1 2 4 1 2 4 A. Settlement Systems Financial Market Infrastructures (FMIs) 1 CCIL Operated Systems 27.97 2.23 2.08 2.90 161943141 13383223 14652880 17144527 1.1 Govt. Securities Clearing 11.55 1.01 0.89 1.01 110634315 9590341 9966087 11317988 1.1.1 Outright 6.28 0.54 0.47 0.51 10032187 928567 710624 774292 1.1.2 Repo 2.84 0.27 0.23 0.27 43751173 4244619 4280973 4653921 1.1.3 Tri-party Repo 2.43 0.21 0.19 0.23 56850956 4417155 4974490 5889775 1.2 Forex Clearing 16.04 1.19 1.14 1.82 48903961 3658697 4424858 5408999 1.3 Rupee Derivatives @ 0.38 0.02 0.05 0.07 2404865 134185 261935 417541 B. Payment Systems I Financial Market Infrastructures (FMIs) 1 Credit Transfers - RTGS 1591.92 119.68 123.34 154.14 105599849 8651978 8366599 10196989 1.1 Customer Transactions 1573.47 118.09 122.28 152.92 91008367 7641700 7211162 8887546 1.2 Interbank Transactions 18.45 1.59 1.07 1.22 14591482 1010278 1155437 1309444 II Retail 2 Credit Transfers - Retail 317851.82 20341.65 33866.22 36684.40 33522150 2499421 2707637 3029728 2.1 AePS (Fund Transfers) @ 11.32 0.89 0.96 1.06 623 47 59 64 2.2 APBS $ 14372.99 1371.10 1343.10 1148.34 112747 11767 16261 8143 2.3 IMPS 32783.47 1989.12 2798.61 3038.45 2941500 206951 266289 284111 2.4 NACH Cr $ 16449.51 1337.21 1866.34 1498.12 1232714 112236 116463 92266 2.5 NEFT 30927.89 2274.01 2565.39 2923.27 25130910 1906586 1819459 2097771 2.6 UPI @ 223306.64 13369.31 25291.82 28075.16 4103658 261835 489106 547373 2.6.1 of which USSD @ 10.45 0.85 1.01 1.03 172 15 16 16 3 Debit Transfers and Direct Debits 10440.40 837.03 936.41 981.70 872399 70703 70589 86759 3.1 BHIM Aadhaar Pay @ 160.84 14.67 17.29 17.66 2580 186 422 417 3.2 NACH Dr $ 9629.61 788.94 857.30 878.73 868906 70492 70069 86215 3.3 NETC (linked to bank account) @ 649.96 33.42 61.82 85.31 913 25 98 128 4 Card Payments 57,841.30 4,250.89 3,980.67 4,563.57 12,93,080 90,484 96,102 1,14,340 4.1 Credit Cards 17,641.06 1,248.55 1,344.73 1,547.01 6,30,414 42,773 52,014 62,746 4.1.1 PoS based $ 8688.81 588.58 509.46 690.40 280769 19293 18477 23977 4.1.2 Others $ 8952.25 659.97 835.27 856.61 349645 23479 33537 38769 4.2 Debit Cards 40,200.24 3,002.34 2,635.94 3,016.56 662667 47711 44088 51594 4.2.1 PoS based $ 20805.24 1475.38 1197.18 1564.91 378044 25788 23019 29293 4.2.2 Others $ 19395.00 1526.95 1438.76 1451.65 284623 21923 21070 22300 5 Prepaid Payment Instruments 49,392.26 3,546.66 3,848.74 4,586.00 197695 14494 21509 18780 5.1 Wallets 39987.01 2905.67 3180.18 3911.95 152065 12132 14626 16088 5.2 Cards 9,405.25 640.98 668.56 674.05 45630 2362 6883 2692 5.2.1 PoS based $ 437.31 35.36 32.74 44.69 11639 710 1303 552 5.2.2 Others $ 8967.94 605.62 635.82 629.36 33992 1652 5580 2140 6 Paper-based Instruments 6,703.70 496.68 366.69 511.38 5627189 401666 341794 477430 6.1 CTS (NPCI Managed) 6702.53 496.37 366.69 511.38 5625941 401441 341794 477430 6.2 Others 1.17 0.32 0.00 0.00 1249 225 0 0 Total - Retail Payments (2+3+4+5+6) 4,42,229.48 29,472.90 42,998.73 47,327.04 41512514 3076769 3237632 3727036 Total Payments (1+2+3+4+5+6) 4,43,821.40 29,592.58 43,122.08 47,481.18 147112363 11728746 11604231 13924026 Total Digital Payments (1+2+3+4+5) 4,37,117.70 29,095.89 42,755.39 46,969.80 141485173 11327080 11262437 13446596
+          - text: PART II - Payment Modes and Channels Volume (lakh) Value (₹ crore) FY 2020-21 2020 June 2021 2021 FY 2020-21 2020 June 2021 2021 May June May June 1 2 4 1 2 4 A. Other Payment Channels 1 Mobile Payments (mobile app based) 255451.57 16188.00 29734.31 32126.98 9179707 599381 898224 1033422 1.1 Intra-bank $ 25,220.34 1,423.94 2,528.93 2,829.58 18,71,236 1,18,965 1,74,307 1,96,264 1.2 Inter-bank $ 2,30,231.22 14,764.06 27,205.39 29,297.41 73,08,472 4,80,416 7,23,917 8,37,159 2 Internet Payments (Netbanking / internet browser based) @ 32493.63 2431.49 2336.06 2703.43 4,15,81,497 31,23,215 29,53,188 34,68,700 2.1 Intra-bank @ 6,886.15 533.60 492.39 545.84 2,06,01,554 15,29,247 12,90,828 15,01,183 2.2 Inter-bank @ 25,607.48 1,897.89 1,843.67 2,157.60 2,09,79,943 15,93,967 16,62,360 19,67,517 B. ATMs 3. Cash Withdrawal at ATMs $ 60,905.79 4,716.58 4,169.98 4,739.69 2889825 229517 202854 228900 3.1 Using Credit Cards $ 51.41 3.23 3.65 4.31 2560 163 187 219 3.2 Using Debit Cards $ 60602.23 4698.45 4142.63 4735.38 2878025 228734 201978 228681 3.3 Using Pre-paid Cards $ 252.15 14.91 23.69 21.91 9239 620 690 734 4. Cash Withdrawal at PoS $ 394.60 29.42 20.81 7.03 1532 116 122 44 4.1 Using Debit Cards $ 353.33 27.82 18.08 7.03 1483 114 102 44 4.2 Using Pre-paid Cards $ 41.27 1.60 2.73 0.84 49 3 19 15 5. Cash Withdrawal at Micro ATMs @ 9460.43 990.75 824.36 856.89 225420 19749 24138 24187 5.1 AePS @ 9460.43 990.75 824.36 856.89 225420 19749 24138 24187
+          - text: "PART III - Payment Infrastructures (lakh) As on March 2021 2020 June 2021 2021 May June 1 2 3 4 Payment System Infrastructures 1 Number of Cards 9,602.51 9,027.03 9,647.02 9,688.24 1.1 Credit Cards 620.49 572.89 623.93 628.15 1.2 Debit Cards 8,982.02 8,454.14 9,023.09 9,060.08 2 Number of PPIs @ 21,952.60 19,008.07 22,609.29 22,947.96 2.1 Wallets @ 20,052.10 17,553.64 20,542.99 20,864.68 2.2 Cards @ 1,900.51 1,454.43 2,066.30 2,083.28 3 Number of ATMs 2.39 2.34 2.40 2.40 3.1 Bank owned ATMs $ 2.14 2.10 2.15 2.14 3.2 White Label ATMs $ 0.25 0.24 0.26 0.26 4 Number of Micro ATMs @ 4.04 2.96 4.25 4.54 5 Number of PoS Terminals 47.20 43.26 45.20 45.93 6 Bharat QR @ 35.70 21.51 48.63 49.33 7 UPI QR * 925.22 - 981.82 1018.06 @: New inclusion w.e.f. November 2019"
+          - text: "$ : Inclusion separately initiated from November 2019 - would have been part of other items hitherto."
+          - text: "*: New inclusion w.e.f. September 2020; Includes only static UPI QR Code"
+          - text: "Note : 1. Data is provisional."
+          - text: 2. ECS (Debit and Credit) has been merged with NACH with effect from January 31, 2020.
+          - text: 3. The data from November 2019 onwards for card payments (Debit/Credit cards) and Prepaid Payment Instruments (PPIs) may not be comparable with earlier months/ periods, as more granular data is being published along with revision in data definitions.
+          - text: 4. Only domestic financial transactions are considered. The new format captures e-commerce transactions; transactions using FASTags, digital bill payments and card-to-card transfer through ATMs, etc.. Also, failed transactions, chargebacks, reversals, expired cards/ wallets, are excluded.
+      - generic [ref=e89]:
+        - list:
+          - listitem [ref=e90]:
+            - link "2026" [ref=e91] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e92]:
+            - link "2025" [ref=e93] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e94]:
+            - link "2024" [ref=e95] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e96]:
+            - link "2023" [ref=e97] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e98]:
+            - link "2022" [ref=e99] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e100]:
+            - link "2021" [ref=e101] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e102]:
+            - link "2020" [ref=e103] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e104]:
+            - link "2019" [ref=e105] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e106]:
+            - link "2018" [ref=e107] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e108]:
+            - link "2017" [ref=e109] [cursor=pointer]:
+              - /url: "#"
+          - heading "Archives" [level=2] [ref=e110]:
+            - link "Archives" [ref=e111] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - link "Back to previous page" [ref=e113] [cursor=pointer]:
+      - /url: javascript:history.back()
+    - contentinfo [ref=e114]:
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - heading "More Links :" [level=2] [ref=e118]
+            - list [ref=e119]:
+              - listitem [ref=e120]:
+                - link "Bank Holidays" [ref=e121] [cursor=pointer]:
+                  - /url: /Scripts/HolidayMatrixDisplay.aspx
+              - listitem [ref=e122]:
+                - link "Banking Glossary" [ref=e123] [cursor=pointer]:
+                  - /url: https://shabdavali.rbi.org.in/
+              - listitem [ref=e124]:
+                - link "Citizen's Charter" [ref=e125] [cursor=pointer]:
+                  - /url: /Scripts/CitiChart.aspx
+              - listitem [ref=e126]:
+                - link "Complaints" [ref=e127] [cursor=pointer]:
+                  - /url: /Scripts/Complaints.aspx
+              - listitem [ref=e128]:
+                - link "Contact Us" [ref=e129] [cursor=pointer]:
+                  - /url: /Scripts/helpdesk.aspx
+              - listitem [ref=e130]:
+                - link "COVID-19 Measures" [ref=e131] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894
+              - listitem [ref=e132]:
+                - link "E-LMS" [ref=e133] [cursor=pointer]:
+                  - /url: https://ncfe.org.in/e-lms
+              - listitem [ref=e134]:
+                - link "Events" [ref=e135] [cursor=pointer]:
+                  - /url: /Scripts/EventsDisplay.aspx
+              - listitem [ref=e136]:
+                - link "FAQs" [ref=e137] [cursor=pointer]:
+                  - /url: /Scripts/FAQDisplay.aspx
+              - listitem [ref=e138]:
+                - link "Financial Education" [ref=e139] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/FinancialEducation/
+              - listitem [ref=e140]:
+                - link "Forms" [ref=e141] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewForms.aspx
+              - listitem [ref=e142]:
+                - link "IFSC/MICR Codes" [ref=e143] [cursor=pointer]:
+                  - /url: /Scripts/IFSCMICRDetails.aspx
+              - listitem [ref=e144]:
+                - link "Important Websites" [ref=e145] [cursor=pointer]:
+                  - /url: /Scripts/OtherLinks.aspx
+              - listitem [ref=e146]:
+                - link "Opportunities@RBI" [ref=e147] [cursor=pointer]:
+                  - /url: https://opportunities.rbi.org.in/scripts/index.aspx
+              - listitem [ref=e148]:
+                - link "RBI Clarifications" [ref=e149] [cursor=pointer]:
+                  - /url: /Scripts/rbi_clarification.aspx
+              - listitem [ref=e150]:
+                - link "RBI Kehta Hai" [ref=e151] [cursor=pointer]:
+                  - /url: https://rbikehtahai.rbi.org.in/
+              - listitem [ref=e152]:
+                - link "RBI's Core Purpose, Values and Vision" [ref=e153] [cursor=pointer]:
+                  - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh30122022.pdf
+              - listitem [ref=e154]:
+                - link "Right to Information Act" [ref=e155] [cursor=pointer]:
+                  - /url: /Scripts/Righttoinfoact.aspx
+              - listitem [ref=e156]:
+                - link "Tenders" [ref=e157] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewTenders.aspx
+          - generic [ref=e158]:
+            - heading "Follow RBI" [level=2] [ref=e159]
+            - list [ref=e160]:
+              - listitem [ref=e161]:
+                - link "RSS" [ref=e162] [cursor=pointer]:
+                  - /url: /Scripts/rss.aspx
+              - listitem [ref=e163]:
+                - link "Twitter" [ref=e164] [cursor=pointer]:
+                  - /url: https://twitter.com/RBI
+              - listitem [ref=e165]:
+                - link "YouTube" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA
+              - listitem [ref=e167]:
+                - link "Instagram" [ref=e168] [cursor=pointer]:
+                  - /url: https://instagram.com/reservebankofindia
+              - listitem [ref=e169]:
+                - link "Facebook" [ref=e170] [cursor=pointer]:
+                  - /url: https://www.facebook.com/RBIsays
+              - listitem [ref=e171]:
+                - link "LinkedIn" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/reservebankofindia
+              - listitem [ref=e173]:
+                - text: Download Mobile App
+                - link "Play Store" [ref=e174] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.reservebankofindia&pli=1
+                - link "App Store" [ref=e175] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/reserve-bank-of-india/id1154394549?ls=1
+        - generic [ref=e178]:
+          - generic [ref=e179]: © Reserve Bank of India. All Rights Reserved.
+          - generic [ref=e180]:
+            - link "Sitemap" [ref=e181] [cursor=pointer]:
+              - /url: /Scripts/sitemap.aspx
+            - text: "|"
+            - link "Disclaimer" [ref=e182] [cursor=pointer]:
+              - /url: /Scripts/Disclaimer.aspx
+          - generic [ref=e184]: Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in
+          - generic [ref=e185]: "Website last updated date: Apr 09, 2026"
+          - generic [ref=e187]: "Supports: Google Chrome 125+ | Firefox 126+ | Microsoft Edge Version 125+ | Safari 17+"
+          - generic [ref=e188]:
+            - link "Accessibility Statement" [ref=e189] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf
+            - text: "|"
+            - link "Screen Reader" [ref=e190] [cursor=pointer]:
+              - /url: /scripts/ScreenReader.aspx
+  - status

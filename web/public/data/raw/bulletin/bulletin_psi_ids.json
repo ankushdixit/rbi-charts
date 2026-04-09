@@ -1,0 +1,560 @@
+[
+  {
+    "year": 2016,
+    "month": 4,
+    "month_name": "April",
+    "bulletin_date": "Date \u00a0:\u00a0Apr 11, 2016",
+    "table_label": "43. Payment System Indicators",
+    "id": 16213,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16213"
+  },
+  {
+    "year": 2016,
+    "month": 5,
+    "month_name": "May",
+    "bulletin_date": "Date \u00a0:\u00a0May 10, 2016",
+    "table_label": "43. Payment System Indicators",
+    "id": 16272,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16272"
+  },
+  {
+    "year": 2016,
+    "month": 6,
+    "month_name": "June",
+    "bulletin_date": "Date \u00a0:\u00a0Jun 10, 2016",
+    "table_label": "43. Payment System Indicators",
+    "id": 16328,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16328"
+  },
+  {
+    "year": 2016,
+    "month": 7,
+    "month_name": "July",
+    "bulletin_date": "Date \u00a0:\u00a0Jul 11, 2016",
+    "table_label": "43. Payment System Indicators",
+    "id": 16383,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16383"
+  },
+  {
+    "year": 2016,
+    "month": 8,
+    "month_name": "August",
+    "bulletin_date": "Date \u00a0:\u00a0Aug 10, 2016",
+    "table_label": "43. Payment System Indicators",
+    "id": 16440,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16440"
+  },
+  {
+    "year": 2016,
+    "month": 9,
+    "month_name": "September",
+    "bulletin_date": "Date \u00a0:\u00a0Sep 10, 2016",
+    "table_label": "43. Payment System Indicators",
+    "id": 16496,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16496"
+  },
+  {
+    "year": 2016,
+    "month": 10,
+    "month_name": "October",
+    "bulletin_date": "Date \u00a0:\u00a0Oct 10, 2016",
+    "table_label": "43. Payment System Indicators",
+    "id": 16557,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16557"
+  },
+  {
+    "year": 2016,
+    "month": 11,
+    "month_name": "November",
+    "bulletin_date": "Date \u00a0:\u00a0Nov 10, 2016",
+    "table_label": "43. Payment System Indicators",
+    "id": 16609,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16609"
+  },
+  {
+    "year": 2016,
+    "month": 12,
+    "month_name": "December",
+    "bulletin_date": "Date \u00a0:\u00a0Dec 10, 2016",
+    "table_label": "43. Payment System Indicators",
+    "id": 16659,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16659"
+  },
+  {
+    "year": 2017,
+    "month": 1,
+    "month_name": "January",
+    "bulletin_date": "Date \u00a0:\u00a0Jan 10, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 16714,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16714"
+  },
+  {
+    "year": 2017,
+    "month": 2,
+    "month_name": "February",
+    "bulletin_date": "Date \u00a0:\u00a0Feb 10, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 16768,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16768"
+  },
+  {
+    "year": 2017,
+    "month": 3,
+    "month_name": "March",
+    "bulletin_date": "Date \u00a0:\u00a0Mar 10, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 16820,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16820"
+  },
+  {
+    "year": 2017,
+    "month": 4,
+    "month_name": "April",
+    "bulletin_date": "Date \u00a0:\u00a0Apr 10, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 16871,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16871"
+  },
+  {
+    "year": 2017,
+    "month": 5,
+    "month_name": "May",
+    "bulletin_date": "Date \u00a0:\u00a0May 09, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 16922,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16922"
+  },
+  {
+    "year": 2017,
+    "month": 6,
+    "month_name": "June",
+    "bulletin_date": "Date \u00a0:\u00a0Jun 12, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 16980,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=16980"
+  },
+  {
+    "year": 2017,
+    "month": 7,
+    "month_name": "July",
+    "bulletin_date": "Date \u00a0:\u00a0Jul 10, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 17034,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17034"
+  },
+  {
+    "year": 2017,
+    "month": 8,
+    "month_name": "August",
+    "bulletin_date": "Date \u00a0:\u00a0Aug 10, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 17086,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17086"
+  },
+  {
+    "year": 2017,
+    "month": 9,
+    "month_name": "September",
+    "bulletin_date": "Date \u00a0:\u00a0Sep 11, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 17137,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17137"
+  },
+  {
+    "year": 2017,
+    "month": 10,
+    "month_name": "October",
+    "bulletin_date": "Date \u00a0:\u00a0Oct 10, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 17193,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17193"
+  },
+  {
+    "year": 2017,
+    "month": 11,
+    "month_name": "November",
+    "bulletin_date": "Date \u00a0:\u00a0Nov 08, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 17245,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17245"
+  },
+  {
+    "year": 2017,
+    "month": 12,
+    "month_name": "December",
+    "bulletin_date": "Date \u00a0:\u00a0Dec 11, 2017",
+    "table_label": "43. Payment System Indicators",
+    "id": 17302,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17302"
+  },
+  {
+    "year": 2018,
+    "month": 1,
+    "month_name": "January",
+    "bulletin_date": "Date \u00a0:\u00a0Jan 10, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17358,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17358"
+  },
+  {
+    "year": 2018,
+    "month": 2,
+    "month_name": "February",
+    "bulletin_date": "Date \u00a0:\u00a0Feb 10, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17416,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17416"
+  },
+  {
+    "year": 2018,
+    "month": 3,
+    "month_name": "March",
+    "bulletin_date": "Date \u00a0:\u00a0Mar 10, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17470,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17470"
+  },
+  {
+    "year": 2018,
+    "month": 4,
+    "month_name": "April",
+    "bulletin_date": "Date \u00a0:\u00a0Apr 10, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17530,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17530"
+  },
+  {
+    "year": 2018,
+    "month": 5,
+    "month_name": "May",
+    "bulletin_date": "Date \u00a0:\u00a0May 10, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17583,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17583"
+  },
+  {
+    "year": 2018,
+    "month": 6,
+    "month_name": "June",
+    "bulletin_date": "Date \u00a0:\u00a0Jun 11, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17638,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17638"
+  },
+  {
+    "year": 2018,
+    "month": 7,
+    "month_name": "July",
+    "bulletin_date": "Date \u00a0:\u00a0Jul 10, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17691,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17691"
+  },
+  {
+    "year": 2018,
+    "month": 8,
+    "month_name": "August",
+    "bulletin_date": "Date \u00a0:\u00a0Aug 10, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17747,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17747"
+  },
+  {
+    "year": 2018,
+    "month": 9,
+    "month_name": "September",
+    "bulletin_date": "Date \u00a0:\u00a0Sep 11, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17805,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17805"
+  },
+  {
+    "year": 2018,
+    "month": 10,
+    "month_name": "October",
+    "bulletin_date": "Date \u00a0:\u00a0Oct 11, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17869,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17869"
+  },
+  {
+    "year": 2018,
+    "month": 11,
+    "month_name": "November",
+    "bulletin_date": "Date \u00a0:\u00a0Nov 14, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17927,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17927"
+  },
+  {
+    "year": 2018,
+    "month": 12,
+    "month_name": "December",
+    "bulletin_date": "Date \u00a0:\u00a0Dec 11, 2018",
+    "table_label": "43. Payment System Indicators",
+    "id": 17983,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=17983"
+  },
+  {
+    "year": 2019,
+    "month": 1,
+    "month_name": "January",
+    "bulletin_date": "Date \u00a0:\u00a0Jan 10, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18040,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18040"
+  },
+  {
+    "year": 2019,
+    "month": 2,
+    "month_name": "February",
+    "bulletin_date": "Date \u00a0:\u00a0Feb 13, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18101,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18101"
+  },
+  {
+    "year": 2019,
+    "month": 3,
+    "month_name": "March",
+    "bulletin_date": "Date \u00a0:\u00a0Mar 12, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18157,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18157"
+  },
+  {
+    "year": 2019,
+    "month": 4,
+    "month_name": "April",
+    "bulletin_date": "Date \u00a0:\u00a0Apr 11, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18218,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18218"
+  },
+  {
+    "year": 2019,
+    "month": 5,
+    "month_name": "May",
+    "bulletin_date": "Date \u00a0:\u00a0May 11, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18277,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18277"
+  },
+  {
+    "year": 2019,
+    "month": 6,
+    "month_name": "June",
+    "bulletin_date": "Date \u00a0:\u00a0Jun 11, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18334,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18334"
+  },
+  {
+    "year": 2019,
+    "month": 7,
+    "month_name": "July",
+    "bulletin_date": "Date \u00a0:\u00a0Jul 11, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18395,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18395"
+  },
+  {
+    "year": 2019,
+    "month": 8,
+    "month_name": "August",
+    "bulletin_date": "Date \u00a0:\u00a0Aug 14, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18454,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18454"
+  },
+  {
+    "year": 2019,
+    "month": 9,
+    "month_name": "September",
+    "bulletin_date": "Date \u00a0:\u00a0Sep 12, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18512,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18512"
+  },
+  {
+    "year": 2019,
+    "month": 10,
+    "month_name": "October",
+    "bulletin_date": "Date \u00a0:\u00a0Oct 11, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18573,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18573"
+  },
+  {
+    "year": 2019,
+    "month": 11,
+    "month_name": "November",
+    "bulletin_date": "Date \u00a0:\u00a0Nov 11, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18628,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18628"
+  },
+  {
+    "year": 2019,
+    "month": 12,
+    "month_name": "December",
+    "bulletin_date": "Date \u00a0:\u00a0Dec 11, 2019",
+    "table_label": "43. Payment System Indicators",
+    "id": 18690,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18690"
+  },
+  {
+    "year": 2020,
+    "month": 1,
+    "month_name": "January",
+    "bulletin_date": "Date \u00a0:\u00a0Jan 11, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 18750,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18750"
+  },
+  {
+    "year": 2020,
+    "month": 2,
+    "month_name": "February",
+    "bulletin_date": "Date \u00a0:\u00a0Feb 11, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 18810,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18810"
+  },
+  {
+    "year": 2020,
+    "month": 3,
+    "month_name": "March",
+    "bulletin_date": "Date \u00a0:\u00a0Mar 11, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 18867,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18867"
+  },
+  {
+    "year": 2020,
+    "month": 4,
+    "month_name": "April",
+    "bulletin_date": "Date \u00a0:\u00a0Apr 13, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 18925,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18925"
+  },
+  {
+    "year": 2020,
+    "month": 5,
+    "month_name": "May",
+    "bulletin_date": "Date \u00a0:\u00a0May 14, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 18981,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=18981"
+  },
+  {
+    "year": 2020,
+    "month": 6,
+    "month_name": "June",
+    "bulletin_date": "Date \u00a0:\u00a0Jun 10, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 19041,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=19041"
+  },
+  {
+    "year": 2020,
+    "month": 7,
+    "month_name": "July",
+    "bulletin_date": "Date \u00a0:\u00a0Jul 13, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 19703,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=19703"
+  },
+  {
+    "year": 2020,
+    "month": 8,
+    "month_name": "August",
+    "bulletin_date": "Date \u00a0:\u00a0Aug 13, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 19764,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=19764"
+  },
+  {
+    "year": 2020,
+    "month": 9,
+    "month_name": "September",
+    "bulletin_date": "Date \u00a0:\u00a0Sep 11, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 19821,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=19821"
+  },
+  {
+    "year": 2020,
+    "month": 10,
+    "month_name": "October",
+    "bulletin_date": "Date \u00a0:\u00a0Oct 12, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 19882,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=19882"
+  },
+  {
+    "year": 2020,
+    "month": 11,
+    "month_name": "November",
+    "bulletin_date": "Date \u00a0:\u00a0Nov 11, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 19943,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=19943"
+  },
+  {
+    "year": 2020,
+    "month": 12,
+    "month_name": "December",
+    "bulletin_date": "Date \u00a0:\u00a0Dec 24, 2020",
+    "table_label": "43. Payment System Indicators",
+    "id": 20008,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=20008"
+  },
+  {
+    "year": 2021,
+    "month": 1,
+    "month_name": "January",
+    "bulletin_date": "Date \u00a0:\u00a0Jan 21, 2021",
+    "table_label": "43. Payment System Indicators",
+    "id": 20066,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=20066"
+  },
+  {
+    "year": 2021,
+    "month": 2,
+    "month_name": "February",
+    "bulletin_date": "Date \u00a0:\u00a0Feb 28, 2021",
+    "table_label": "43. Payment System Indicators",
+    "id": 20129,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=20129"
+  },
+  {
+    "year": 2021,
+    "month": 3,
+    "month_name": "March",
+    "bulletin_date": "Date \u00a0:\u00a0Mar 19, 2021",
+    "table_label": "43. Payment System Indicators",
+    "id": 20187,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=20187"
+  },
+  {
+    "year": 2021,
+    "month": 4,
+    "month_name": "April",
+    "bulletin_date": "Date \u00a0:\u00a0Apr 26, 2021",
+    "table_label": "43. Payment System Indicators",
+    "id": 20249,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=20249"
+  },
+  {
+    "year": 2021,
+    "month": 5,
+    "month_name": "May",
+    "bulletin_date": "Date \u00a0:\u00a0May 17, 2021",
+    "table_label": "43. Payment System Indicators",
+    "id": 20307,
+    "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=20307"
+  }
+]

@@ -1,0 +1,379 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link "Skip to main content" [ref=e6] [cursor=pointer]:
+        - /url: "#mainsection"
+      - generic [ref=e7]:
+        - list:
+          - listitem [ref=e8]:
+            - link "Increase Font Size" [ref=e9] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnSpace','')
+              - img "Increase Font Size" [ref=e10]
+          - listitem [ref=e11]:
+            - link "Increase Font Size" [ref=e12] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontIncrease','')
+              - img "Increase Font Size" [ref=e13]
+          - listitem [ref=e14]:
+            - link "Regular Font Size Selected" [ref=e15] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontRegular','')
+              - img "Regular Font Size" [ref=e16]
+              - generic [ref=e17]: Selected
+          - listitem [ref=e18]:
+            - link "Decrease Font Size" [ref=e19] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontDecrease','')
+              - img "Decrease Font Size" [ref=e20]
+        - list:
+          - listitem [ref=e21] [cursor=pointer]:
+            - link "Apply Dark Theme" [ref=e22]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnAccessibilty','')
+              - img "Apply Dark Theme" [ref=e23]
+          - listitem [ref=e24] [cursor=pointer]:
+            - link "Apply Normal Theme Selected" [ref=e25]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnUndoAccessibilty','')
+              - img "Apply Normal Theme" [ref=e26]
+              - generic [ref=e27]: Selected
+          - listitem [ref=e28] [cursor=pointer]:
+            - link "Apply Gray Theme" [ref=e29]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnGreyScale','')
+              - img "Apply Gray Theme" [ref=e30]
+        - generic:
+          - link "Print this page":
+            - /url: "#"
+            - img "Print this page" [ref=e31] [cursor=pointer]
+        - generic [ref=e32]:
+          - text: Language
+          - link "हिंदी" [ref=e33] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/hindi/Home.aspx
+    - generic [ref=e35]:
+      - banner [ref=e36]:
+        - link "Reserve Bank of India" [ref=e38] [cursor=pointer]:
+          - /url: /home.aspx
+          - img "Reserve Bank of India" [ref=e39]
+      - search [ref=e40]:
+        - text: Search the Website
+        - textbox "Search the Website" [ref=e41]:
+          - /placeholder: Search
+        - button "Search" [ref=e42] [cursor=pointer]
+      - img "Beti Bachao Beti Padhao Logo" [ref=e45]
+    - navigation "Main":
+      - generic [ref=e47]:
+        - generic:
+          - list:
+            - listitem [ref=e48]:
+              - link "Home" [ref=e49] [cursor=pointer]:
+                - /url: https://rbi.org.in/home.aspx
+            - listitem [ref=e50]:
+              - link "About Us" [ref=e51] [cursor=pointer]:
+                - /url: /Scripts/AboutusDisplay.aspx
+            - listitem [ref=e52]:
+              - link "Notifications" [ref=e53] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e54]:
+              - link "Press Releases" [ref=e55] [cursor=pointer]:
+                - /url: /Scripts/BS_PressReleaseDisplay.aspx
+            - listitem [ref=e56]:
+              - link "Speeches & Media Interactions" [ref=e57] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e58]:
+              - link "Publications" [ref=e59] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e60]:
+              - link "Legal Framework" [ref=e61] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e62]:
+              - link "Research" [ref=e63] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e64]:
+              - link "Statistics" [ref=e65] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e66]:
+              - link "Regulatory Reporting" [ref=e67] [cursor=pointer]:
+                - /url: "#"
+    - main [ref=e68]:
+      - navigation "Breadcrumb" [ref=e69]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "Home" [ref=e72] [cursor=pointer]:
+              - /url: ../Home.aspx
+          - listitem [ref=e73]: Data Releases
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - text: This Section provides data on various aspects of Indian economy, banking and finance. While the current data defined as data for the past one year is available at the links provided below, researchers may also access data series available in the
+          - link "Database on Indian Economy" [ref=e77] [cursor=pointer]:
+            - /url: https://data.rbi.org.in
+          - text: link available on this page.
+        - heading "Data Releases" [level=2] [ref=e78]
+        - generic [ref=e79]:
+          - text: Daily
+          - link "LAF Result" [ref=e80] [cursor=pointer]:
+            - /url: BS_LAF_Search.aspx
+          - link "Money Market Operations" [ref=e81] [cursor=pointer]:
+            - /url: BS_ViewMMO.aspx
+          - link "Reference Rate" [ref=e82] [cursor=pointer]:
+            - /url: BS_DisplayReferenceRate.aspx
+          - link "Settlement Data of Payment Systems" [ref=e83] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/content/docs/PSDDP04062020.xlsx
+          - text: Weekly
+          - link "Currency in Circulation" [ref=e84] [cursor=pointer]:
+            - /url: BS_CurrencyCirculationDetails.aspx
+          - link "Data on Reserve Money" [ref=e85] [cursor=pointer]:
+            - /url: Data_ReserveMoney.aspx
+          - link "Foreign Exchange Turnover Data" [ref=e86] [cursor=pointer]:
+            - /url: BS_ForeignExchangeDisplay.aspx
+          - link "NSDP" [ref=e87] [cursor=pointer]:
+            - /url: BS_NSDPDisplay.aspx
+          - link "Weekly Statistical Supplement - Extract" [ref=e88] [cursor=pointer]:
+            - /url: BS_ViewWSSExtract.aspx
+          - link "Weekly Statistical Supplement" [ref=e89] [cursor=pointer]:
+            - /url: BS_ViewWSS.aspx
+          - text: Fortnightly
+          - link "Data on Money Supply" [ref=e90] [cursor=pointer]:
+            - /url: Data_MSupply.aspx
+          - link "Scheduled Bank's Statement of Position in India" [ref=e91] [cursor=pointer]:
+            - /url: BS_StatisticsDisplay.aspx
+          - text: Monthly
+          - link "Bank-wise ATM/POS/Card Statistics" [ref=e92] [cursor=pointer]:
+            - /url: ATMView.aspx
+          - link "Bank-wise NEFT/RTGS/Mobile Banking/Internet Banking Statistics" [ref=e93] [cursor=pointer]:
+            - /url: NEFTView.aspx
+          - link "Data on Overseas Investment" [ref=e94] [cursor=pointer]:
+            - /url: Data_Overseas_Investment.aspx
+          - link "Data on Sectoral Deployment of Bank Credit" [ref=e95] [cursor=pointer]:
+            - /url: Data_Sectoral_Deployment.aspx
+          - link "Disposal of Soiled Banknotes" [ref=e96] [cursor=pointer]:
+            - /url: ../Scripts/BS_DisposalSoiledBanknotesDetails.aspx
+          - link "Entity-wise PPI Statistics" [ref=e97] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/Scripts/PPIStatisticsView.aspx
+          - link "Entity-wise TReDS Statistics" [ref=e98] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/Scripts/TReDSStatisticsView.aspx
+          - link "Entity-wise UPI/IMPS/NETC/NFS/AePS/CTS/BBPS Statistics" [ref=e99] [cursor=pointer]:
+            - /url: EntityWiseRetailStatistics.aspx
+          - link "External Commercial Borrowings" [ref=e100] [cursor=pointer]:
+            - /url: ECBView.aspx
+          - link "India's International Trade in Services" [ref=e101] [cursor=pointer]:
+            - /url: ../Scripts/Pr_DataRelease.aspx?SectionID=352&DateFilter=Year
+          - link "Lending and Deposit Rates of Scheduled Commercial Banks" [ref=e102] [cursor=pointer]:
+            - /url: ../Scripts/Pr_DataRelease.aspx?SectionID=369&DateFilter=Year
+          - link "Payment System Indicators" [ref=e103] [cursor=pointer]:
+            - /url: PSIUserView.aspx
+          - link "Pictorial Representation of Trends in Payment Systems" [ref=e104] [cursor=pointer]:
+            - /url: TrendsPSIuserview.aspx
+          - link "RBI Bulletin - Current Statistics" [ref=e105] [cursor=pointer]:
+            - /url: BS_ViewBulletin.aspx
+          - text: Bi-monthly
+          - link "Urban Consumer Confidence Survey" [ref=e106] [cursor=pointer]:
+            - /url: ../scripts/BimonthlyPublications.aspx?head=Urban Consumer Confidence Survey - Bi-monthly
+          - link "Inflation Expectations Survey of Households" [ref=e107] [cursor=pointer]:
+            - /url: ../scripts/BimonthlyPublications.aspx?head=Inflation Expectations Survey of Households - Bi-monthly
+          - link "Survey of Professional Forecasters" [ref=e108] [cursor=pointer]:
+            - /url: ../scripts/BimonthlyPublications.aspx?head=Survey of Professional Forecasters - Bi-monthly
+          - link "Rural Consumer Confidence Survey" [ref=e109] [cursor=pointer]:
+            - /url: ../scripts/BimonthlyPublications.aspx?head=Rural Consumer Confidence Survey - Bi-monthly
+          - text: Quarterly
+          - link "Balance of Payments" [ref=e110] [cursor=pointer]:
+            - /url: ../scripts/SDDS_ViewDetails.aspx?Id=5&IndexTitle=Balance of Payment
+          - link "Bank Lending Survey" [ref=e111] [cursor=pointer]:
+            - /url: "QuarterlyPublications.aspx?head=Bank Lending Survey "
+          - link "Disaggregated data on India's Invisibles" [ref=e112] [cursor=pointer]:
+            - /url: Data_IndiasInvisibles.aspx
+          - link "Foreign Trade Statistics" [ref=e113] [cursor=pointer]:
+            - /url: Data_ForeignStatistics.aspx
+          - link "Household Financial Savings" [ref=e114] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/Scripts/QuarterlyPublications.aspx?head=Household+Financial+Savings
+          - link "India's External Debt" [ref=e115] [cursor=pointer]:
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=355&DateFilter=Year
+          - link "India's International Investment Position (IIP)" [ref=e116] [cursor=pointer]:
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=356&DateFilter=Year&Part=Annual
+          - link "Industrial Outlook Survey" [ref=e117] [cursor=pointer]:
+            - /url: QuarterlyPublications.aspx?head=Quarterly Industrial Outlook Survey
+          - link "Performance of Private Corporate Business Sector" [ref=e118] [cursor=pointer]:
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=360&DateFilter=Year
+          - link "Quarterly Basic Statistical Return (BSR)-1 on Credit by Scheduled Commercial Banks - (Excluding Regional Rural Banks)" [ref=e119] [cursor=pointer]:
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=354&DateFilter=YearMonth_PR
+          - link "Quarterly Basic Statistical Return (BSR)-2 on Deposits with Scheduled Commercial Banks - (Excluding Regional Rural Banks)" [ref=e120] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/scripts/Pr_DataRelease.aspx?SectionID=382&DateFilter=Year
+          - link "Quarterly Order Books, Inventories and Capacity Utilisation Survey" [ref=e121] [cursor=pointer]:
+            - /url: QuarterlyPublications.aspx?head=Quarterly Order Books, Inventories and Capacity Utilisation Survey
+          - 'link "Quarterly Statistics on Deposits and Credit of Scheduled Commercial Banks: Press Releases" [ref=e122] [cursor=pointer]':
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=358&DateFilter=Year
+          - link "Services and Infrastructure Outlook Survey" [ref=e123] [cursor=pointer]:
+            - /url: QuarterlyPublications.aspx?head=Services and Infrastructure Outlook Survey
+          - link "Sources of Variation in foreign Exchange Reserves in India" [ref=e124] [cursor=pointer]:
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=357&DateFilter=Year
+          - link "State wise and Region wise Deployment of ATMs" [ref=e125] [cursor=pointer]:
+            - /url: StateRegionATMView.aspx
+          - link "Survey of Professional Forecasters - Results" [ref=e126] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/Scripts/QuarterlyPublications.aspx?head=Survey%20of%20Professional%20Forecasters
+          - text: Half Yearly
+          - link "Report on Management of Foreign Exchange Reserves" [ref=e127] [cursor=pointer]:
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=359&DateFilter=Year
+          - text: Annual
+          - link "A Profile of Banks" [ref=e128] [cursor=pointer]:
+            - /url: AnnualPublications.aspx?head=A%20Profile%20of%20Banks
+          - link "Aggregate deposits and gross bank credit of all scheduled commercial banks as on the last Friday" [ref=e129] [cursor=pointer]:
+            - /url: AnnualPublications.aspx?head=Aggregate Deposits and Gross Bank Credit of All Scheduled Commercial Banks as on last Friday of December 1997
+          - link "Annual Accounts Data of Scheduled Commercial Banks (1989-90 to 2000-2001)" [ref=e130] [cursor=pointer]:
+            - /url: Foreword.aspx
+          - link "Annual Survey on Foreign Liabilities and Assets for the Mutual Fund Companies" [ref=e131] [cursor=pointer]:
+            - /url: Pr_DataRelease.aspx?SectionID=373&DateFilter=Year
+          - link "Annual Census on Foreign Liabilities and Assets of Indian Companies" [ref=e132] [cursor=pointer]:
+            - /url: AnnualPublications.aspx?head=Annual Census on Foreign Liabilities and Assets of Indian Companies
+          - link "Basic Statistical Returns of Scheduled Commercial Banks in India" [ref=e133] [cursor=pointer]:
+            - /url: AnnualPublications.aspx?head=Basic Statistical Returns
+          - link "Annual Basic Statistical Return (BSR)-1 on Credit by Scheduled Commercial Banks - (Including Regional Rural Banks)" [ref=e134] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/Scripts/Pr_DataRelease.aspx?SectionID=376&DateFilter=Year
+          - link "Annual Basic Statistical Return (BSR)-2 on Deposits with Scheduled Commercial Banks - (Including Regional Rural Banks)" [ref=e135] [cursor=pointer]:
+            - /url: AnnualPublications.aspx?head=Basic Statistical Return BSR 2 - Deposits with Scheduled Commercial Banks SCBS
+          - link "Branch Banking Statistics" [ref=e136] [cursor=pointer]:
+            - /url: AnnualPublications.aspx?head=Branch Banking Statistics
+          - link "Composition and Ownership Pattern of Deposits with Scheduled Commercial Banks" [ref=e137] [cursor=pointer]:
+            - /url: Pr_DataRelease.aspx?SectionID=365&DateFilter=Year
+          - link "Finances of Foreign Direct Investment Companies" [ref=e138] [cursor=pointer]:
+            - /url: Pr_DataRelease.aspx?SectionID=363&DateFilter=Year
+          - link "Finances of Non-Government Non-Financial Private Limited Companies" [ref=e139] [cursor=pointer]:
+            - /url: Pr_DataRelease.aspx?SectionID=362&DateFilter=Year
+          - link "Finances of Non-Government Non-Financial Public Limited Companies" [ref=e140] [cursor=pointer]:
+            - /url: Pr_DataRelease.aspx?SectionID=366&DateFilter=Year
+          - link "Financial Stocks and Flow of Funds Accounts of the Indian Economy" [ref=e141] [cursor=pointer]:
+            - /url: FlowofFundsAccounts.aspx
+          - link "Handbook of Statistics on Indian Economy" [ref=e142] [cursor=pointer]:
+            - /url: AnnualPublications.aspx?head=Handbook of Statistics on Indian Economy
+          - link "India's International Investment Position (IIP)" [ref=e143] [cursor=pointer]:
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=356&DateFilter=Year&Part=Quarterly
+          - link "Performance of Non-Government Non-Banking Financial and Investment Companies" [ref=e144] [cursor=pointer]:
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=361&DateFilter=Year
+          - link "Performance of Private Corporate Business Sector" [ref=e145] [cursor=pointer]:
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=378&DateFilter=Year
+          - link "SDDS - Advance Release Calendar" [ref=e146] [cursor=pointer]:
+            - /url: ../scripts/SDDSview.aspx
+          - link "Survey on Computer Software and Information Technology Enabled Services Exports" [ref=e147] [cursor=pointer]:
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=364&DateFilter=Year
+          - link "Survey on International Trade in Banking Services" [ref=e148] [cursor=pointer]:
+            - /url: ../scripts/Pr_DataRelease.aspx?SectionID=367&DateFilter=Year
+          - link "Statistical Tables Relating to Banks in India" [ref=e149] [cursor=pointer]:
+            - /url: AnnualPublications.aspx?head=Statistical Tables Relating to Banks in India
+          - text: Occasional
+          - link "Banking Statistics 1972 - 1995 (Summary Tables)" [ref=e150] [cursor=pointer]:
+            - /url: AnnualPublications.aspx?fromdate=05/21/1998&todate=05/22/1998&head=banking%20statistics
+          - link "Central bank survey of foreign exchange and derivatives market activity in BIS" [ref=e151] [cursor=pointer]:
+            - /url: Bispublications.aspx
+          - link "Electronic Payment Systems - Representative Data" [ref=e152] [cursor=pointer]:
+            - /url: Pr_DataRelease.aspx?SectionID=368&DateFilter=YearMonth
+          - link "India's External Debt Outstanding" [ref=e153] [cursor=pointer]:
+            - /url: SDDS_ViewDetails.aspx?ID=14
+          - link "International Banking Statistics of India" [ref=e154] [cursor=pointer]:
+            - /url: ../Scripts/Pr_DataRelease.aspx?SectionID=353&DateFilter=Year
+          - link "Selected Banking Indicators 1947-1997" [ref=e155] [cursor=pointer]:
+            - /url: BankingIndicatorsDisplay.aspx
+          - link "Survey on Foreign Collaboration in Indian Industry (FCS)" [ref=e156] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/Scripts/Pr_DataRelease.aspx?SectionID=383&DateFilter=Year
+    - link "Back to previous page" [ref=e158] [cursor=pointer]:
+      - /url: javascript:history.back()
+    - contentinfo [ref=e159]:
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - heading "More Links :" [level=2] [ref=e163]
+            - list [ref=e164]:
+              - listitem [ref=e165]:
+                - link "Bank Holidays" [ref=e166] [cursor=pointer]:
+                  - /url: /Scripts/HolidayMatrixDisplay.aspx
+              - listitem [ref=e167]:
+                - link "Banking Glossary" [ref=e168] [cursor=pointer]:
+                  - /url: https://shabdavali.rbi.org.in/
+              - listitem [ref=e169]:
+                - link "Citizen's Charter" [ref=e170] [cursor=pointer]:
+                  - /url: /Scripts/CitiChart.aspx
+              - listitem [ref=e171]:
+                - link "Complaints" [ref=e172] [cursor=pointer]:
+                  - /url: /Scripts/Complaints.aspx
+              - listitem [ref=e173]:
+                - link "Contact Us" [ref=e174] [cursor=pointer]:
+                  - /url: /Scripts/helpdesk.aspx
+              - listitem [ref=e175]:
+                - link "COVID-19 Measures" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894
+              - listitem [ref=e177]:
+                - link "E-LMS" [ref=e178] [cursor=pointer]:
+                  - /url: https://ncfe.org.in/e-lms
+              - listitem [ref=e179]:
+                - link "Events" [ref=e180] [cursor=pointer]:
+                  - /url: /Scripts/EventsDisplay.aspx
+              - listitem [ref=e181]:
+                - link "FAQs" [ref=e182] [cursor=pointer]:
+                  - /url: /Scripts/FAQDisplay.aspx
+              - listitem [ref=e183]:
+                - link "Financial Education" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/FinancialEducation/
+              - listitem [ref=e185]:
+                - link "Forms" [ref=e186] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewForms.aspx
+              - listitem [ref=e187]:
+                - link "IFSC/MICR Codes" [ref=e188] [cursor=pointer]:
+                  - /url: /Scripts/IFSCMICRDetails.aspx
+              - listitem [ref=e189]:
+                - link "Important Websites" [ref=e190] [cursor=pointer]:
+                  - /url: /Scripts/OtherLinks.aspx
+              - listitem [ref=e191]:
+                - link "Opportunities@RBI" [ref=e192] [cursor=pointer]:
+                  - /url: https://opportunities.rbi.org.in/scripts/index.aspx
+              - listitem [ref=e193]:
+                - link "RBI Clarifications" [ref=e194] [cursor=pointer]:
+                  - /url: /Scripts/rbi_clarification.aspx
+              - listitem [ref=e195]:
+                - link "RBI Kehta Hai" [ref=e196] [cursor=pointer]:
+                  - /url: https://rbikehtahai.rbi.org.in/
+              - listitem [ref=e197]:
+                - link "RBI's Core Purpose, Values and Vision" [ref=e198] [cursor=pointer]:
+                  - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh30122022.pdf
+              - listitem [ref=e199]:
+                - link "Right to Information Act" [ref=e200] [cursor=pointer]:
+                  - /url: /Scripts/Righttoinfoact.aspx
+              - listitem [ref=e201]:
+                - link "Tenders" [ref=e202] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewTenders.aspx
+          - generic [ref=e203]:
+            - heading "Follow RBI" [level=2] [ref=e204]
+            - list [ref=e205]:
+              - listitem [ref=e206]:
+                - link "RSS" [ref=e207] [cursor=pointer]:
+                  - /url: /Scripts/rss.aspx
+              - listitem [ref=e208]:
+                - link "Twitter" [ref=e209] [cursor=pointer]:
+                  - /url: https://twitter.com/RBI
+              - listitem [ref=e210]:
+                - link "YouTube" [ref=e211] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA
+              - listitem [ref=e212]:
+                - link "Instagram" [ref=e213] [cursor=pointer]:
+                  - /url: https://instagram.com/reservebankofindia
+              - listitem [ref=e214]:
+                - link "Facebook" [ref=e215] [cursor=pointer]:
+                  - /url: https://www.facebook.com/RBIsays
+              - listitem [ref=e216]:
+                - link "LinkedIn" [ref=e217] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/reservebankofindia
+              - listitem [ref=e218]:
+                - text: Download Mobile App
+                - link "Play Store" [ref=e219] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.reservebankofindia&pli=1
+                - link "App Store" [ref=e220] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/reserve-bank-of-india/id1154394549?ls=1
+        - generic [ref=e223]:
+          - generic [ref=e224]: © Reserve Bank of India. All Rights Reserved.
+          - generic [ref=e225]:
+            - link "Sitemap" [ref=e226] [cursor=pointer]:
+              - /url: /Scripts/sitemap.aspx
+            - text: "|"
+            - link "Disclaimer" [ref=e227] [cursor=pointer]:
+              - /url: /Scripts/Disclaimer.aspx
+          - generic [ref=e229]: Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in
+          - generic [ref=e230]: "Website last updated date: Apr 09, 2026"
+          - generic [ref=e232]: "Supports: Google Chrome 125+ | Firefox 126+ | Microsoft Edge Version 125+ | Safari 17+"
+          - generic [ref=e233]:
+            - link "Accessibility Statement" [ref=e234] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf
+            - text: "|"
+            - link "Screen Reader" [ref=e235] [cursor=pointer]:
+              - /url: /scripts/ScreenReader.aspx
+  - status

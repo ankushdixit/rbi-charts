@@ -1,0 +1,919 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link "Skip to main content" [ref=e6] [cursor=pointer]:
+        - /url: "#mainsection"
+      - generic [ref=e7]:
+        - list:
+          - listitem [ref=e8]:
+            - link "Increase Font Size" [ref=e9] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnSpace','')
+              - img "Increase Font Size" [ref=e10]
+          - listitem [ref=e11]:
+            - link "Increase Font Size" [ref=e12] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontIncrease','')
+              - img "Increase Font Size" [ref=e13]
+          - listitem [ref=e14]:
+            - link "Regular Font Size Selected" [ref=e15] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontRegular','')
+              - img "Regular Font Size" [ref=e16]
+              - generic [ref=e17]: Selected
+          - listitem [ref=e18]:
+            - link "Decrease Font Size" [ref=e19] [cursor=pointer]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnFontDecrease','')
+              - img "Decrease Font Size" [ref=e20]
+        - list:
+          - listitem [ref=e21] [cursor=pointer]:
+            - link "Apply Dark Theme" [ref=e22]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnAccessibilty','')
+              - img "Apply Dark Theme" [ref=e23]
+          - listitem [ref=e24] [cursor=pointer]:
+            - link "Apply Normal Theme Selected" [ref=e25]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnUndoAccessibilty','')
+              - img "Apply Normal Theme" [ref=e26]
+              - generic [ref=e27]: Selected
+          - listitem [ref=e28] [cursor=pointer]:
+            - link "Apply Gray Theme" [ref=e29]:
+              - /url: javascript:__doPostBack('UsrFontCntr$LinkBtnGreyScale','')
+              - img "Apply Gray Theme" [ref=e30]
+        - generic:
+          - link "Print this page":
+            - /url: "#"
+            - img "Print this page" [ref=e31] [cursor=pointer]
+        - generic [ref=e32]:
+          - text: Language
+          - link "हिंदी" [ref=e33] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/hindi/Home.aspx
+    - generic [ref=e35]:
+      - banner [ref=e36]:
+        - link "Reserve Bank of India" [ref=e38] [cursor=pointer]:
+          - /url: /home.aspx
+          - img "Reserve Bank of India" [ref=e39]
+      - search [ref=e40]:
+        - text: Search the Website
+        - textbox "Search the Website" [ref=e41]:
+          - /placeholder: Search
+        - button "Search" [ref=e42] [cursor=pointer]
+      - img "Beti Bachao Beti Padhao Logo" [ref=e45]
+    - navigation "Main":
+      - generic [ref=e47]:
+        - generic:
+          - list:
+            - listitem [ref=e48]:
+              - link "Home" [ref=e49] [cursor=pointer]:
+                - /url: https://rbi.org.in/home.aspx
+            - listitem [ref=e50]:
+              - link "About Us" [ref=e51] [cursor=pointer]:
+                - /url: /Scripts/AboutusDisplay.aspx
+            - listitem [ref=e52]:
+              - link "Notifications" [ref=e53] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e54]:
+              - link "Press Releases" [ref=e55] [cursor=pointer]:
+                - /url: /Scripts/BS_PressReleaseDisplay.aspx
+            - listitem [ref=e56]:
+              - link "Speeches & Media Interactions" [ref=e57] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e58]:
+              - link "Publications" [ref=e59] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e60]:
+              - link "Legal Framework" [ref=e61] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e62]:
+              - link "Research" [ref=e63] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e64]:
+              - link "Statistics" [ref=e65] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e66]:
+              - link "Regulatory Reporting" [ref=e67] [cursor=pointer]:
+                - /url: "#"
+    - main [ref=e69]:
+      - navigation "Breadcrumb" [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "Home" [ref=e73] [cursor=pointer]:
+              - /url: ../Home.aspx
+          - listitem [ref=e74]:
+            - link "Publications" [ref=e75] [cursor=pointer]:
+              - /url: Publications.aspx
+          - listitem [ref=e77]:
+            - link "RBI Bulletin" [ref=e78] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx
+      - list [ref=e81]:
+        - listitem [ref=e82] [cursor=pointer]:
+          - link "Governor’s Statement" [ref=e83]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl00$lnkBulletinHead','')
+        - listitem [ref=e84] [cursor=pointer]:
+          - link "Speeches" [ref=e85]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl01$lnkBulletinHead','')
+        - listitem [ref=e86] [cursor=pointer]:
+          - link "Articles" [ref=e87]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl02$lnkBulletinHead','')
+        - listitem [ref=e88] [cursor=pointer]:
+          - link "Report" [ref=e89]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl03$lnkBulletinHead','')
+        - listitem [ref=e90] [cursor=pointer]:
+          - link "Current Statistics General" [ref=e91]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl04$lnkBulletinHead','')
+        - listitem [ref=e92] [cursor=pointer]:
+          - link "Reserve Bank of India" [ref=e93]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl05$lnkBulletinHead','')
+        - listitem [ref=e94] [cursor=pointer]:
+          - link "Money and Banking" [ref=e95]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl06$lnkBulletinHead','')
+        - listitem [ref=e96] [cursor=pointer]:
+          - link "Prices and Production" [ref=e97]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl07$lnkBulletinHead','')
+        - listitem [ref=e98] [cursor=pointer]:
+          - link "Government Accounts and Treasury Bills" [ref=e99]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl08$lnkBulletinHead','')
+        - listitem [ref=e100] [cursor=pointer]:
+          - link "Financial Markets" [ref=e101]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl09$lnkBulletinHead','')
+        - listitem [ref=e102] [cursor=pointer]:
+          - link "External Sector" [ref=e103]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl10$lnkBulletinHead','')
+        - listitem [ref=e104] [cursor=pointer]:
+          - link "Payment and Settlement Systems" [ref=e105]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl11$lnkBulletinHead','')
+        - listitem [ref=e106] [cursor=pointer]:
+          - link "Occasional Series" [ref=e107]:
+            - /url: javascript:__doPostBack('rptBulletinHead$ctl12$lnkBulletinHead','')
+      - generic [ref=e109]:
+        - heading "RBI Bulletin" [level=1] [ref=e110]
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - heading "Search Archives" [level=2] [ref=e113]
+            - generic [ref=e114]: Section
+            - combobox "Section" [ref=e115]:
+              - option "Select Section" [selected]
+              - 'option "No. 1 : Selected Economic Indicators"'
+              - 'option "No. 2 : Reserve Bank of India"'
+              - 'option "No. 3 : All Scheduled Banks - Business in India"'
+              - 'option "No. 4 : All Scheduled Commercial Banks - Business in India Business in India"'
+              - 'option "No. 5 : Scheduled Commercial Banks Investments in Commercial Paper, Bonds, Debentures, Shares, Etc."'
+              - 'option "No. 6 : State Co-Operative Banks - Maintaining Accounts with the Reserve Bank of India"'
+              - 'option "No. 7 : Reserve Banks Accommodation to Scheduled Commercial Banks"'
+              - 'option "No. 8 : Cheque Clearances - Centres Managed by Reserve Bank of India"'
+              - 'option "No. 9 : Cheque Clearances - Centres Managed by Agencies other than Reserve Bank of India"'
+              - 'option "No. 10 : Money Stock Measures"'
+              - 'option "No. 11 : Sources of Money Stock (M3)"'
+              - 'option "No. 11A : Commercial Bank Survey"'
+              - 'option "No. 11B : Monetary Survey"'
+              - 'option "No. 11C : Reserve Bank of India Survey"'
+              - 'option "No. 11D: Liquidity Aggregates (Outstanding Amounts)"'
+              - 'option "No. 12 : Reserve Money and its Components"'
+              - 'option "No. 13 : Sources of Reserve Money"'
+              - 'option "No. 14 : Daily Call Money Rates"'
+              - 'option "No. 15 : Average Daily Turnover in Call Money Market"'
+              - 'option "No. 16 : Issue of Certificates of Deposits by Scheduled Commercial Banks"'
+              - 'option "No. 17 : Issue of Commercial Paper* by Companies"'
+              - 'option "No. 18 : Union Government Accounts at a Glance"'
+              - 'option "No. 19 : Government of India : 91-Day Treasury Bills"'
+              - 'option "No. 20 : Auctions of 14-Day Government of India Treasury Bills"'
+              - 'option "No. 21 : Auctions of 91-Day Government of India Treasury Bills"'
+              - 'option "No. 22 : Auctions of 182-Day Government of India Treasury Bills"'
+              - 'option "No. 23 : Auctions of 364-Day Government of India Treasury Bills"'
+              - 'option "No. 24 : Turnover in Government Securities Market (Face Value) at Mumbai"'
+              - 'option "No. 25 : Repo / Reverse Repo Auctions under Liquidity Adjustment Facility"'
+              - 'option "No. 26 : Open Market Operations of Reserve Bank of India"'
+              - 'option "No. 27 A : Secondary Market Outright Transactions in Government Dated Securities (Face Value)"'
+              - 'option "No. 27 B : Secondary Market Outright Transactions in Treasury Bills (Face Value)"'
+              - 'option "No. 28 : Redemption Yield on Government of India Securities Based on SGL Transactions"'
+              - 'option "No. 29 : Group - Wise Index Numbers of Industrial Production"'
+              - 'option "No. 30 : Index Number of Industrial Production (Use - Based Classification)"'
+              - 'option "No. 31 : New Capital Issues by Non-Government Public Limited Companies"'
+              - 'option "No. 32 : Index Numbers of Ordinary Share Prices"'
+              - 'option "No. 33 : Volume in Corporate Debt Traded at NSE"'
+              - 'option "No. 34 : Assistance Sanctioned and Disbursed by All-India Financial Institutions"'
+              - 'option "No. 35 : Bullion Prices ( Spot ) - Mumbai"'
+              - 'option "No. 36 : Consumer Price Index Numbers for Industrial Workers - All-India and Selected Centres (Base : 1982 = 100)"'
+              - 'option "No. 37 : Consumer Price Index Numbers for Urban Non-Manual Employees - All-India and Selected Centres (Base : 1984 - 85 = 100)"'
+              - 'option "No. 38 : Consumer Price Index Numbers for Agricultural / Rural Labourers"'
+              - 'option "No. 39 : Index Numbers of Wholesale Prices in India - by Groups and Sub-Groups (Averages)"'
+              - 'option "No. 40 : Index Numbers of Wholesale Prices in India - by Groups and Sub-Groups (Month-end / Year-end)"'
+              - 'option "No. 41 : Foreign Trade (Annual and Monthly)"'
+              - 'option "No. 42 : India Overall Balance of Payments in Rupees"'
+              - 'option "No. 43 : India Overall Balance of Payments in Dollars"'
+              - 'option "No. 44 : Foreign Exchange Reserves"'
+              - 'option "No. 45 : Outstanding Balances under Various Non-Resident Indian Deposit Schemes"'
+              - 'option "No. 46 : Foreign Investment Inflows"'
+              - 'option "No. 47 : Daily Foreign Exchange Spot Rates"'
+              - 'option "No. 48 : Sale / Purchase of US Dollar by the Reserve Bank of India"'
+              - 'option "No. 49 : Turnover in Foreign Exchange Market"'
+              - 'option "No. 50 : Indices of Real Effective Exchange Rate (REER) and Nominal Effective Exchange Rate (NEER) of the Indian Rupee"'
+              - 'option "No. 51 : Indices of Real Effective Exchange Rate (REER) and Nominal Effective Exchange Rate (NEER) of the Indian Rupee"'
+              - 'option "No 52 : Savings Deposits with Commercial Banks"'
+              - 'option "No. 53 : Short and Medium Term Advances of The Nabard to The State Co-operative Banks"'
+              - 'option "No. 54 : Small Savings"'
+              - 'option "No.55: Details of Central Government Market Borrowings"'
+              - 'option "No. 56 : Combined Receipts and Disbursements of The Central and State Governments"'
+            - button "Go" [ref=e116] [cursor=pointer]
+          - generic [ref=e117]:
+            - 'heading "Date : May 17, 2021" [level=2] [ref=e118]'
+            - text: Reserve Bank of India Bulletin - May 2021
+            - link "PDF - Reserve Bank of India Bulletin - May 2021 8267 kb" [ref=e119] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/0BULLTEINMAY202116BE1918A0D5480BB7DEA3558A4526C8.PDF
+              - img "PDF - Reserve Bank of India Bulletin - May 2021" [ref=e120]
+            - text: 8267 kb
+            - link "Contents" [ref=e121] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20257
+            - link "PDF - Contents 157 kb" [ref=e122] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/01CT_170520215B1D71283F9A4F1DA62F3E57A893A303.PDF
+              - img "PDF - Contents" [ref=e123]
+            - text: 157 kb
+            - link "Editorial Committee" [ref=e124] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20258
+            - link "PDF - Editorial Committee 170 kb" [ref=e125] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/02EC_17052021A1192E1300874BCC821F9900055CCABB.PDF
+              - img "PDF - Editorial Committee" [ref=e126]
+            - text: 170 kb
+            - heading "Governor’s Statement" [level=2] [ref=e127]
+            - link "Governor’s Statement - Shaktikanta Das" [ref=e128] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20259
+            - link "PDF - Governor’s Statement - Shaktikanta Das 213 kb" [ref=e129] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/03GS_17052021468B41FD228B47309B44301130ADF169.PDF
+              - img "PDF - Governor’s Statement - Shaktikanta Das" [ref=e130]
+            - text: 213 kb
+            - heading "Speeches" [level=2] [ref=e131]
+            - link "Open Banking in India - M. Rajeshwar Rao" [ref=e132] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20260
+            - link "PDF - Open Banking in India - M. Rajeshwar Rao 208 kb" [ref=e133] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/01SP_170520210603BF5000A54466AB160A1F9AF9F404.PDF
+              - img "PDF - Open Banking in India - M. Rajeshwar Rao" [ref=e134]
+            - text: 208 kb
+            - heading "Articles" [level=2] [ref=e135]
+            - link "State of the Economy" [ref=e136] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20261
+            - link "PDF - State of the Economy 5398 kb" [ref=e137] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/01AR_17052021F5CAB41E85DF44D0A657ED90F2651A54.PDF
+              - img "PDF - State of the Economy" [ref=e138]
+            - text: 5398 kb
+            - 'link "Performance of NBFCs during the Pandemic: A Snapshot" [ref=e139] [cursor=pointer]':
+              - /url: BS_ViewBulletin.aspx?Id=20262
+            - 'link "PDF - Performance of NBFCs during the Pandemic: A Snapshot 1115 kb" [ref=e140] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/02AR_170520215F32D2ACABF74814BB1702A45A1853CC.PDF
+              - 'img "PDF - Performance of NBFCs during the Pandemic: A Snapshot" [ref=e141]'
+            - text: 1115 kb
+            - heading "Report" [level=2] [ref=e142]
+            - link "Report of the Advisory Committee on Ways and Means Advances to State Governments" [ref=e143] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20263
+            - link "PDF - Report of the Advisory Committee on Ways and Means Advances to State Governments 899 kb" [ref=e144] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/01REPORT_17052021177E512DA2EC4B8B9FD6BAD2547D300E.PDF
+              - img "PDF - Report of the Advisory Committee on Ways and Means Advances to State Governments" [ref=e145]
+            - text: 899 kb
+            - heading "Current Statistics General" [level=2] [ref=e146]
+            - link "1. Select Economic Indicators" [ref=e147] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20264
+            - link "Document - 1. Select Economic Indicators 12 kb" [ref=e148] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/1T_17052021081AACCA286742C1867A2489848FD9FA.XLSX
+              - img "Document - 1. Select Economic Indicators" [ref=e149]
+            - text: 12 kb
+            - link "PDF - 1. Select Economic Indicators 284 kb" [ref=e150] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/1T_17052021081AACCA286742C1867A2489848FD9FA.PDF
+              - img "PDF - 1. Select Economic Indicators" [ref=e151]
+            - text: 284 kb
+            - heading "Reserve Bank of India" [level=2] [ref=e152]
+            - link "2. RBI – Liabilities and Assets" [ref=e153] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20265
+            - link "Document - 2. RBI – Liabilities and Assets 11 kb" [ref=e154] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/2T_170520212DB9B31CCB294A0196BE90EDAD6AD2EC.XLSX
+              - img "Document - 2. RBI – Liabilities and Assets" [ref=e155]
+            - text: 11 kb
+            - link "PDF - 2. RBI – Liabilities and Assets 265 kb" [ref=e156] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/2T_170520212DB9B31CCB294A0196BE90EDAD6AD2EC.PDF
+              - img "PDF - 2. RBI – Liabilities and Assets" [ref=e157]
+            - text: 265 kb
+            - link "3. Liquidity Operations by RBI" [ref=e158] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20266
+            - link "Document - 3. Liquidity Operations by RBI 12 kb" [ref=e159] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/3T_17052021F7AD4930C314448F941163D0AB305F86.XLSX
+              - img "Document - 3. Liquidity Operations by RBI" [ref=e160]
+            - text: 12 kb
+            - link "PDF - 3. Liquidity Operations by RBI 319 kb" [ref=e161] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/3T_17052021F7AD4930C314448F941163D0AB305F86.PDF
+              - img "PDF - 3. Liquidity Operations by RBI" [ref=e162]
+            - text: 319 kb
+            - link "4. Sale/Purchase of U.S. Dollar by the RBI" [ref=e163] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20267
+            - link "Document - 4. Sale/Purchase of U.S. Dollar by the RBI 9 kb" [ref=e164] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/4T_170520211E924FD7FAAB45A586C3707678BFB008.XLSX
+              - img "Document - 4. Sale/Purchase of U.S. Dollar by the RBI" [ref=e165]
+            - text: 9 kb
+            - link "PDF - 4. Sale/Purchase of U.S. Dollar by the RBI 213 kb" [ref=e166] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/4T_170520211E924FD7FAAB45A586C3707678BFB008.PDF
+              - img "PDF - 4. Sale/Purchase of U.S. Dollar by the RBI" [ref=e167]
+            - text: 213 kb
+            - link "4A. Maturity Breakdown (by Residual Maturity) of Outstanding Forwards of RBI (US$ Million)" [ref=e168] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20268
+            - link "Document - 4A. Maturity Breakdown (by Residual Maturity) of Outstanding Forwards of RBI (US$ Million) 8 kb" [ref=e169] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/4AT_17052021A0CAD9ED30764D4D85E9FA544E7B15CB.XLSX
+              - img "Document - 4A. Maturity Breakdown (by Residual Maturity) of Outstanding Forwards of RBI (US$ Million)" [ref=e170]
+            - text: 8 kb
+            - link "PDF - 4A. Maturity Breakdown (by Residual Maturity) of Outstanding Forwards of RBI (US$ Million) 262 kb" [ref=e171] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/4AT_17052021A0CAD9ED30764D4D85E9FA544E7B15CB.PDF
+              - img "PDF - 4A. Maturity Breakdown (by Residual Maturity) of Outstanding Forwards of RBI (US$ Million)" [ref=e172]
+            - text: 262 kb
+            - link "5. RBI's Standing Facilities" [ref=e173] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20269
+            - link "Document - 5. RBIs Standing Facilities 9 kb" [ref=e174] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/5T_1705202167BCFEA950324B06A550908A6081F627.XLSX
+              - img "Document - 5. RBIs Standing Facilities" [ref=e175]
+            - text: 9 kb
+            - link "PDF - 5. RBIs Standing Facilities 262 kb" [ref=e176] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/5T_1705202167BCFEA950324B06A550908A6081F627.PDF
+              - img "PDF - 5. RBIs Standing Facilities" [ref=e177]
+            - text: 262 kb
+            - heading "Money and Banking" [level=2] [ref=e178]
+            - link "6. Money Stock Measures" [ref=e179] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20270
+            - link "Document - 6. Money Stock Measures 9 kb" [ref=e180] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/6T_17052021B8F3086B9D0E4BF2A2266E7369531DE7.XLSX
+              - img "Document - 6. Money Stock Measures" [ref=e181]
+            - text: 9 kb
+            - link "PDF - 6. Money Stock Measures 255 kb" [ref=e182] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/6T_17052021B8F3086B9D0E4BF2A2266E7369531DE7.PDF
+              - img "PDF - 6. Money Stock Measures" [ref=e183]
+            - text: 255 kb
+            - link "7. Sources of Money Stock (M3)" [ref=e184] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20271
+            - link "Document - 7. Sources of Money Stock (M3) 11 kb" [ref=e185] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/7T_1705202160D03790BA9F41DBB3CBF4A28A534065.XLSX
+              - img "Document - 7. Sources of Money Stock (M3)" [ref=e186]
+            - text: 11 kb
+            - link "PDF - 7. Sources of Money Stock (M3) 256 kb" [ref=e187] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/7T_1705202160D03790BA9F41DBB3CBF4A28A534065.PDF
+              - img "PDF - 7. Sources of Money Stock (M3)" [ref=e188]
+            - text: 256 kb
+            - link "8. Monetary Survey" [ref=e189] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20272
+            - link "Document - 8. Monetary Survey 10 kb" [ref=e190] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/8T_17052021EB0EA058E9A441FB81A94632714F3332.XLSX
+              - img "Document - 8. Monetary Survey" [ref=e191]
+            - text: 10 kb
+            - link "PDF - 8. Monetary Survey 266 kb" [ref=e192] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/8T_17052021EB0EA058E9A441FB81A94632714F3332.PDF
+              - img "PDF - 8. Monetary Survey" [ref=e193]
+            - text: 266 kb
+            - link "9. Liquidity Aggregates" [ref=e194] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20273
+            - link "Document - 9. Liquidity Aggregates 9 kb" [ref=e195] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/9T_17052021FD9E9D5317FC4B4FB82E0CCFC5E3145F.XLSX
+              - img "Document - 9. Liquidity Aggregates" [ref=e196]
+            - text: 9 kb
+            - link "PDF - 9. Liquidity Aggregates 266 kb" [ref=e197] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/9T_17052021FD9E9D5317FC4B4FB82E0CCFC5E3145F.PDF
+              - img "PDF - 9. Liquidity Aggregates" [ref=e198]
+            - text: 266 kb
+            - link "10. Reserve Bank of India Survey" [ref=e199] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20274
+            - link "Document - 10. Reserve Bank of India Survey 10 kb" [ref=e200] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/10T_1705202111CB59E397C4437ABC08253CC4FFBC9E.XLSX
+              - img "Document - 10. Reserve Bank of India Survey" [ref=e201]
+            - text: 10 kb
+            - link "PDF - 10. Reserve Bank of India Survey 266 kb" [ref=e202] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/10T_1705202111CB59E397C4437ABC08253CC4FFBC9E.PDF
+              - img "PDF - 10. Reserve Bank of India Survey" [ref=e203]
+            - text: 266 kb
+            - link "11. Reserve Money – Components and Sources" [ref=e204] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20275
+            - link "Document - 11. Reserve Money – Components and Sources 10 kb" [ref=e205] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/11T_17052021BB10AF087F804DD38615F7D859698F87.XLSX
+              - img "Document - 11. Reserve Money – Components and Sources" [ref=e206]
+            - text: 10 kb
+            - link "PDF - 11. Reserve Money – Components and Sources 266 kb" [ref=e207] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/11T_17052021BB10AF087F804DD38615F7D859698F87.PDF
+              - img "PDF - 11. Reserve Money – Components and Sources" [ref=e208]
+            - text: 266 kb
+            - link "12. Commercial Bank Survey" [ref=e209] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20276
+            - link "Document - 12. Commercial Bank Survey 10 kb" [ref=e210] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/12T_1705202156B0E668B59945C6AE799D1FFEB39DDA.XLSX
+              - img "Document - 12. Commercial Bank Survey" [ref=e211]
+            - text: 10 kb
+            - link "PDF - 12. Commercial Bank Survey 265 kb" [ref=e212] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/12T_1705202156B0E668B59945C6AE799D1FFEB39DDA.PDF
+              - img "PDF - 12. Commercial Bank Survey" [ref=e213]
+            - text: 265 kb
+            - link "13. Scheduled Commercial Banks' Investments" [ref=e214] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20277
+            - link "Document - 13. Scheduled Commercial Banks Investments 9 kb" [ref=e215] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/13T_170520214C1AAF249EC24F0F8017B64437CBE739.XLSX
+              - img "Document - 13. Scheduled Commercial Banks Investments" [ref=e216]
+            - text: 9 kb
+            - link "PDF - 13. Scheduled Commercial Banks Investments 265 kb" [ref=e217] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/13T_170520214C1AAF249EC24F0F8017B64437CBE739.PDF
+              - img "PDF - 13. Scheduled Commercial Banks Investments" [ref=e218]
+            - text: 265 kb
+            - link "14. Business in India – All Scheduled Banks and All Scheduled Commercial Banks" [ref=e219] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20278
+            - link "Document - 14. Business in India – All Scheduled Banks and All Scheduled Commercial Banks 11 kb" [ref=e220] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/14T_170520216473B9BCAD214949828AF5DAB7792DA1.XLSX
+              - img "Document - 14. Business in India – All Scheduled Banks and All Scheduled Commercial Banks" [ref=e221]
+            - text: 11 kb
+            - link "PDF - 14. Business in India – All Scheduled Banks and All Scheduled Commercial Banks 263 kb" [ref=e222] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/14T_170520216473B9BCAD214949828AF5DAB7792DA1.PDF
+              - img "PDF - 14. Business in India – All Scheduled Banks and All Scheduled Commercial Banks" [ref=e223]
+            - text: 263 kb
+            - link "15. Deployment of Gross Bank Credit by Major Sectors" [ref=e224] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20279
+            - link "Document - 15. Deployment of Gross Bank Credit by Major Sectors 13 kb" [ref=e225] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/15T_170520217D295C33C5C446D1B70280EB96BC2D2E.XLSX
+              - img "Document - 15. Deployment of Gross Bank Credit by Major Sectors" [ref=e226]
+            - text: 13 kb
+            - link "PDF - 15. Deployment of Gross Bank Credit by Major Sectors 330 kb" [ref=e227] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/15T_170520217D295C33C5C446D1B70280EB96BC2D2E.PDF
+              - img "PDF - 15. Deployment of Gross Bank Credit by Major Sectors" [ref=e228]
+            - text: 330 kb
+            - link "16. Industry-wise Deployment of Gross Bank Credit" [ref=e229] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20280
+            - link "Document - 16. Industry-wise Deployment of Gross Bank Credit 11 kb" [ref=e230] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/16T_17052021AD44C8D7A3BD48F19A19649D7F18EB38.XLSX
+              - img "Document - 16. Industry-wise Deployment of Gross Bank Credit" [ref=e231]
+            - text: 11 kb
+            - link "PDF - 16. Industry-wise Deployment of Gross Bank Credit 311 kb" [ref=e232] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/16T_17052021AD44C8D7A3BD48F19A19649D7F18EB38.PDF
+              - img "PDF - 16. Industry-wise Deployment of Gross Bank Credit" [ref=e233]
+            - text: 311 kb
+            - link "17. State Co-operative Banks Maintaining Accounts with the Reserve Bank of India" [ref=e234] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20281
+            - link "Document - 17. State Co-operative Banks Maintaining Accounts with the Reserve Bank of India 11 kb" [ref=e235] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/17T_170520211D2D74E089024B11BD70E19699BBE24E.XLSX
+              - img "Document - 17. State Co-operative Banks Maintaining Accounts with the Reserve Bank of India" [ref=e236]
+            - text: 11 kb
+            - link "PDF - 17. State Co-operative Banks Maintaining Accounts with the Reserve Bank of India 313 kb" [ref=e237] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/17T_170520211D2D74E089024B11BD70E19699BBE24E.PDF
+              - img "PDF - 17. State Co-operative Banks Maintaining Accounts with the Reserve Bank of India" [ref=e238]
+            - text: 313 kb
+            - heading "Prices and Production" [level=2] [ref=e239]
+            - 'link "18. Consumer Price Index (Base: 2012=100)" [ref=e240] [cursor=pointer]':
+              - /url: BS_ViewBulletin.aspx?Id=20282
+            - 'link "Document - 18. Consumer Price Index (Base: 2012=100) 11 kb" [ref=e241] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/18T_17052021B3974B6747F547E0BCBC8C823F8F7FC5.XLSX
+              - 'img "Document - 18. Consumer Price Index (Base: 2012=100)" [ref=e242]'
+            - text: 11 kb
+            - 'link "PDF - 18. Consumer Price Index (Base: 2012=100) 272 kb" [ref=e243] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/18T_17052021B3974B6747F547E0BCBC8C823F8F7FC5.PDF
+              - 'img "PDF - 18. Consumer Price Index (Base: 2012=100)" [ref=e244]'
+            - text: 272 kb
+            - link "19. Other Consumer Price Indices" [ref=e245] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20283
+            - link "Document - 19. Other Consumer Price Indices 8 kb" [ref=e246] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/19T_1705202120894D9C2CCA44ABBA40DA7F5481CE50.XLSX
+              - img "Document - 19. Other Consumer Price Indices" [ref=e247]
+            - text: 8 kb
+            - link "PDF - 19. Other Consumer Price Indices 272 kb" [ref=e248] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/19T_1705202120894D9C2CCA44ABBA40DA7F5481CE50.PDF
+              - img "PDF - 19. Other Consumer Price Indices" [ref=e249]
+            - text: 272 kb
+            - link "20. Monthly Average Price of Gold and Silver in Mumbai" [ref=e250] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20284
+            - link "Document - 20. Monthly Average Price of Gold and Silver in Mumbai 8 kb" [ref=e251] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/20T_17052021CFD409C09C0A4818AD8CD8AB0E0B15C2.XLSX
+              - img "Document - 20. Monthly Average Price of Gold and Silver in Mumbai" [ref=e252]
+            - text: 8 kb
+            - link "PDF - 20. Monthly Average Price of Gold and Silver in Mumbai 272 kb" [ref=e253] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/20T_17052021CFD409C09C0A4818AD8CD8AB0E0B15C2.PDF
+              - img "PDF - 20. Monthly Average Price of Gold and Silver in Mumbai" [ref=e254]
+            - text: 272 kb
+            - link "21. Wholesale Price Index" [ref=e255] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20285
+            - link "Document - 21. Wholesale Price Index 24 kb" [ref=e256] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/21T_17052021F7492B01E94D4DDDB801AAA693E518E2.XLSX
+              - img "Document - 21. Wholesale Price Index" [ref=e257]
+            - text: 24 kb
+            - link "PDF - 21. Wholesale Price Index 355 kb" [ref=e258] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/21T_17052021F7492B01E94D4DDDB801AAA693E518E2.PDF
+              - img "PDF - 21. Wholesale Price Index" [ref=e259]
+            - text: 355 kb
+            - 'link "22. Index of Industrial Production (Base: 2011-12=100)" [ref=e260] [cursor=pointer]':
+              - /url: BS_ViewBulletin.aspx?Id=20286
+            - 'link "Document - 22. Index of Industrial Production (Base: 2011-12=100) 9 kb" [ref=e261] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/22T_1705202153874AB55FF4428792BDD4807066B610.XLSX
+              - 'img "Document - 22. Index of Industrial Production (Base: 2011-12=100)" [ref=e262]'
+            - text: 9 kb
+            - 'link "PDF - 22. Index of Industrial Production (Base: 2011-12=100) 313 kb" [ref=e263] [cursor=pointer]':
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/22T_1705202153874AB55FF4428792BDD4807066B610.PDF
+              - 'img "PDF - 22. Index of Industrial Production (Base: 2011-12=100)" [ref=e264]'
+            - text: 313 kb
+            - heading "Government Accounts and Treasury Bills" [level=2] [ref=e265]
+            - link "23. Union Government Accounts at a Glance" [ref=e266] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20287
+            - link "Document - 23. Union Government Accounts at a Glance 9 kb" [ref=e267] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/23T_17052021F1C8140F82CD4BE797B0FCFE905BF43F.XLSX
+              - img "Document - 23. Union Government Accounts at a Glance" [ref=e268]
+            - text: 9 kb
+            - link "PDF - 23. Union Government Accounts at a Glance 313 kb" [ref=e269] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/23T_17052021F1C8140F82CD4BE797B0FCFE905BF43F.PDF
+              - img "PDF - 23. Union Government Accounts at a Glance" [ref=e270]
+            - text: 313 kb
+            - link "24. Treasury Bills – Ownership Pattern" [ref=e271] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20288
+            - link "Document - 24. Treasury Bills – Ownership Pattern 10 kb" [ref=e272] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/24T_1705202176EB85EB14654C1CADC8A97832FD845F.XLSX
+              - img "Document - 24. Treasury Bills – Ownership Pattern" [ref=e273]
+            - text: 10 kb
+            - link "PDF - 24. Treasury Bills – Ownership Pattern 270 kb" [ref=e274] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/24T_1705202176EB85EB14654C1CADC8A97832FD845F.PDF
+              - img "PDF - 24. Treasury Bills – Ownership Pattern" [ref=e275]
+            - text: 270 kb
+            - link "25. Auctions of Treasury Bills" [ref=e276] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20289
+            - link "Document - 25. Auctions of Treasury Bills 10 kb" [ref=e277] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/25T_1705202107F7286BA8DE447C9C68EE336B069FA0.XLSX
+              - img "Document - 25. Auctions of Treasury Bills" [ref=e278]
+            - text: 10 kb
+            - link "PDF - 25. Auctions of Treasury Bills 270 kb" [ref=e279] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/25T_1705202107F7286BA8DE447C9C68EE336B069FA0.PDF
+              - img "PDF - 25. Auctions of Treasury Bills" [ref=e280]
+            - text: 270 kb
+            - heading "Financial Markets" [level=2] [ref=e281]
+            - link "26. Daily Call Money Rates" [ref=e282] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20290
+            - link "Document - 26. Daily Call Money Rates 9 kb" [ref=e283] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/26T_17052021109E396C94EE4690978C3E627DD988CA.XLSX
+              - img "Document - 26. Daily Call Money Rates" [ref=e284]
+            - text: 9 kb
+            - link "PDF - 26. Daily Call Money Rates 249 kb" [ref=e285] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/26T_17052021109E396C94EE4690978C3E627DD988CA.PDF
+              - img "PDF - 26. Daily Call Money Rates" [ref=e286]
+            - text: 249 kb
+            - link "27. Certificates of Deposit" [ref=e287] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20291
+            - link "Document - 27. Certificates of Deposit 8 kb" [ref=e288] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/27T_17052021D7594711CD7745EDBDDA994E950A324D.XLSX
+              - img "Document - 27. Certificates of Deposit" [ref=e289]
+            - text: 8 kb
+            - link "PDF - 27. Certificates of Deposit 296 kb" [ref=e290] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/27T_17052021D7594711CD7745EDBDDA994E950A324D.PDF
+              - img "PDF - 27. Certificates of Deposit" [ref=e291]
+            - text: 296 kb
+            - link "28. Commercial Paper" [ref=e292] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20292
+            - link "Document - 28. Commercial Paper 8 kb" [ref=e293] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/28T_1705202145712F3C151A4230A3E6FE70CEB1AC0E.XLSX
+              - img "Document - 28. Commercial Paper" [ref=e294]
+            - text: 8 kb
+            - link "PDF - 28. Commercial Paper 296 kb" [ref=e295] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/28T_1705202145712F3C151A4230A3E6FE70CEB1AC0E.PDF
+              - img "PDF - 28. Commercial Paper" [ref=e296]
+            - text: 296 kb
+            - link "29. Average Daily Turnover in Select Financial Markets" [ref=e297] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20293
+            - link "Document - 29. Average Daily Turnover in Select Financial Markets 10 kb" [ref=e298] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/29T_17052021C201EFE81D744ACDB5B3F827436A9483.XLSX
+              - img "Document - 29. Average Daily Turnover in Select Financial Markets" [ref=e299]
+            - text: 10 kb
+            - link "PDF - 29. Average Daily Turnover in Select Financial Markets 296 kb" [ref=e300] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/29T_17052021C201EFE81D744ACDB5B3F827436A9483.PDF
+              - img "PDF - 29. Average Daily Turnover in Select Financial Markets" [ref=e301]
+            - text: 296 kb
+            - link "30. New Capital Issues by Non-Government Public Limited Companies" [ref=e302] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20294
+            - link "Document - 30. New Capital Issues by Non-Government Public Limited Companies 10 kb" [ref=e303] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/30T_1705202142A7F37797F54E7C8CD485757DECFEBA.XLSX
+              - img "Document - 30. New Capital Issues by Non-Government Public Limited Companies" [ref=e304]
+            - text: 10 kb
+            - link "PDF - 30. New Capital Issues by Non-Government Public Limited Companies 308 kb" [ref=e305] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/30T_1705202142A7F37797F54E7C8CD485757DECFEBA.PDF
+              - img "PDF - 30. New Capital Issues by Non-Government Public Limited Companies" [ref=e306]
+            - text: 308 kb
+            - heading "External Sector" [level=2] [ref=e307]
+            - link "31. Foreign Trade" [ref=e308] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20295
+            - link "Document - 31. Foreign Trade 9 kb" [ref=e309] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/31T_17052021EEBA6FF9ABCD439E8A9EB265EF9D6D8F.XLSX
+              - img "Document - 31. Foreign Trade" [ref=e310]
+            - text: 9 kb
+            - link "PDF - 31. Foreign Trade 341 kb" [ref=e311] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/31T_17052021EEBA6FF9ABCD439E8A9EB265EF9D6D8F.PDF
+              - img "PDF - 31. Foreign Trade" [ref=e312]
+            - text: 341 kb
+            - link "32. Foreign Exchange Reserves" [ref=e313] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20296
+            - link "Document - 32. Foreign Exchange Reserves 9 kb" [ref=e314] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/32T_17052021A3A3C742E5844F6E8E4044092B48FF12.XLSX
+              - img "Document - 32. Foreign Exchange Reserves" [ref=e315]
+            - text: 9 kb
+            - link "PDF - 32. Foreign Exchange Reserves 341 kb" [ref=e316] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/32T_17052021A3A3C742E5844F6E8E4044092B48FF12.PDF
+              - img "PDF - 32. Foreign Exchange Reserves" [ref=e317]
+            - text: 341 kb
+            - link "33. NRI Deposits" [ref=e318] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20297
+            - link "Document - 33. NRI Deposits 8 kb" [ref=e319] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/33T_17052021332970C13ADA42A4994FDD6E1C6E52C9.XLSX
+              - img "Document - 33. NRI Deposits" [ref=e320]
+            - text: 8 kb
+            - link "PDF - 33. NRI Deposits 341 kb" [ref=e321] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/33T_17052021332970C13ADA42A4994FDD6E1C6E52C9.PDF
+              - img "PDF - 33. NRI Deposits" [ref=e322]
+            - text: 341 kb
+            - link "34. Foreign Investment Inflows" [ref=e323] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20298
+            - link "Document - 34. Foreign Investment Inflows 10 kb" [ref=e324] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/34T_1705202154AB615A18F94AB9BAC466A47B53FC17.XLSX
+              - img "Document - 34. Foreign Investment Inflows" [ref=e325]
+            - text: 10 kb
+            - link "PDF - 34. Foreign Investment Inflows 290 kb" [ref=e326] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/34T_1705202154AB615A18F94AB9BAC466A47B53FC17.PDF
+              - img "PDF - 34. Foreign Investment Inflows" [ref=e327]
+            - text: 290 kb
+            - link "35. Outward Remittances under the Liberalised Remittance Scheme (LRS) for Resident Individuals" [ref=e328] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20299
+            - link "Document - 35. Outward Remittances under the Liberalised Remittance Scheme (LRS) for Resident Individuals 9 kb" [ref=e329] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/35T_17052021CDE090D4C7FF4C01AF1C93BE08AEA53E.XLSX
+              - img "Document - 35. Outward Remittances under the Liberalised Remittance Scheme (LRS) for Resident Individuals" [ref=e330]
+            - text: 9 kb
+            - link "PDF - 35. Outward Remittances under the Liberalised Remittance Scheme (LRS) for Resident Individuals 290 kb" [ref=e331] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/35T_17052021CDE090D4C7FF4C01AF1C93BE08AEA53E.PDF
+              - img "PDF - 35. Outward Remittances under the Liberalised Remittance Scheme (LRS) for Resident Individuals" [ref=e332]
+            - text: 290 kb
+            - link "36. Indices of Nominal Effective Exchange Rate (NEER) and Real Effective Exchange Rate (REER) of the Indian Rupee" [ref=e333] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20300
+            - link "Document - 36. Indices of Nominal Effective Exchange Rate (NEER) and Real Effective Exchange Rate (REER) of the Indian Rupee 9 kb" [ref=e334] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/36T_170520216500EDA314FC4C0EA10FC080525812CC.XLSX
+              - img "Document - 36. Indices of Nominal Effective Exchange Rate (NEER) and Real Effective Exchange Rate (REER) of the Indian Rupee" [ref=e335]
+            - text: 9 kb
+            - link "PDF - 36. Indices of Nominal Effective Exchange Rate (NEER) and Real Effective Exchange Rate (REER) of the Indian Rupee 284 kb" [ref=e336] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/36T_170520216500EDA314FC4C0EA10FC080525812CC.PDF
+              - img "PDF - 36. Indices of Nominal Effective Exchange Rate (NEER) and Real Effective Exchange Rate (REER) of the Indian Rupee" [ref=e337]
+            - text: 284 kb
+            - link "37. External Commercial Borrowings (ECBs) - Registrations" [ref=e338] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20301
+            - link "Document - 37. External Commercial Borrowings (ECBs) - Registrations 9 kb" [ref=e339] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/37T_17052021024203111EA041BAA20290716723AA4C.XLSX
+              - img "Document - 37. External Commercial Borrowings (ECBs) - Registrations" [ref=e340]
+            - text: 9 kb
+            - link "PDF - 37. External Commercial Borrowings (ECBs) - Registrations 284 kb" [ref=e341] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/37T_17052021024203111EA041BAA20290716723AA4C.PDF
+              - img "PDF - 37. External Commercial Borrowings (ECBs) - Registrations" [ref=e342]
+            - text: 284 kb
+            - link "38. India’s Overall Balance of Payments (US $ Million)" [ref=e343] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20302
+            - link "Document - 38. India’s Overall Balance of Payments (US $ Million) 12 kb" [ref=e344] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/38T_170520213F4851557984473796ECD407B41A875C.XLSX
+              - img "Document - 38. India’s Overall Balance of Payments (US $ Million)" [ref=e345]
+            - text: 12 kb
+            - link "PDF - 38. India’s Overall Balance of Payments (US $ Million) 259 kb" [ref=e346] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/38T_170520213F4851557984473796ECD407B41A875C.PDF
+              - img "PDF - 38. India’s Overall Balance of Payments (US $ Million)" [ref=e347]
+            - text: 259 kb
+            - link "39. India's Overall Balance of Payments (₹ Crore)" [ref=e348] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20303
+            - link "Document - 39. Indias Overall Balance of Payments (₹ Crore) 12 kb" [ref=e349] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/39T_1705202149B9F68813ED4B0497C26F881616BEB5.XLSX
+              - img "Document - 39. Indias Overall Balance of Payments (₹ Crore)" [ref=e350]
+            - text: 12 kb
+            - link "PDF - 39. Indias Overall Balance of Payments (₹ Crore) 266 kb" [ref=e351] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/39T_1705202149B9F68813ED4B0497C26F881616BEB5.PDF
+              - img "PDF - 39. Indias Overall Balance of Payments (₹ Crore)" [ref=e352]
+            - text: 266 kb
+            - link "40. Standard Presentation of BoP in India as per BPM6 (US $ Million)" [ref=e353] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20304
+            - link "Document - 40. Standard Presentation of BoP in India as per BPM6 (US $ Million) 13 kb" [ref=e354] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/40T_17052021FACDC1CB6D814E999FF3B1BE8BC883B6.XLSX
+              - img "Document - 40. Standard Presentation of BoP in India as per BPM6 (US $ Million)" [ref=e355]
+            - text: 13 kb
+            - link "PDF - 40. Standard Presentation of BoP in India as per BPM6 (US $ Million) 263 kb" [ref=e356] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/40T_17052021FACDC1CB6D814E999FF3B1BE8BC883B6.PDF
+              - img "PDF - 40. Standard Presentation of BoP in India as per BPM6 (US $ Million)" [ref=e357]
+            - text: 263 kb
+            - link "41. Standard Presentation of BoP in India as per BPM6 (₹ Crore)" [ref=e358] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20305
+            - link "Document - 41. Standard Presentation of BoP in India as per BPM6 (₹ Crore) 13 kb" [ref=e359] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/41T_17052021186780C9F6E24505BA71AF938AB13211.XLSX
+              - img "Document - 41. Standard Presentation of BoP in India as per BPM6 (₹ Crore)" [ref=e360]
+            - text: 13 kb
+            - link "PDF - 41. Standard Presentation of BoP in India as per BPM6 (₹ Crore) 270 kb" [ref=e361] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/41T_17052021186780C9F6E24505BA71AF938AB13211.PDF
+              - img "PDF - 41. Standard Presentation of BoP in India as per BPM6 (₹ Crore)" [ref=e362]
+            - text: 270 kb
+            - link "42. International Investment Position" [ref=e363] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20306
+            - link "Document - 42. International Investment Position 9 kb" [ref=e364] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/42T_17052021B14A5E2ED4574AEFA30E8A9DDE9B5228.XLSX
+              - img "Document - 42. International Investment Position" [ref=e365]
+            - text: 9 kb
+            - link "PDF - 42. International Investment Position 250 kb" [ref=e366] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/42T_17052021B14A5E2ED4574AEFA30E8A9DDE9B5228.PDF
+              - img "PDF - 42. International Investment Position" [ref=e367]
+            - text: 250 kb
+            - heading "Payment and Settlement Systems" [level=2] [ref=e368]
+            - link "43. Payment System Indicators" [ref=e369] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20307
+            - link "Document - 43. Payment System Indicators 19 kb" [ref=e370] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/43T_170520212D3F3B863C1B4BB492327059558F2553.XLSX
+              - img "Document - 43. Payment System Indicators" [ref=e371]
+            - text: 19 kb
+            - link "PDF - 43. Payment System Indicators 284 kb" [ref=e372] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/43T_170520212D3F3B863C1B4BB492327059558F2553.PDF
+              - img "PDF - 43. Payment System Indicators" [ref=e373]
+            - text: 284 kb
+            - heading "Occasional Series" [level=2] [ref=e374]
+            - link "44. Small Savings" [ref=e375] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20308
+            - link "Document - 44. Small Savings 10 kb" [ref=e376] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/44T_170520211EB4478D9E7F4F32A9C76AC29AFBA86A.XLSX
+              - img "Document - 44. Small Savings" [ref=e377]
+            - text: 10 kb
+            - link "PDF - 44. Small Savings 315 kb" [ref=e378] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/44T_170520211EB4478D9E7F4F32A9C76AC29AFBA86A.PDF
+              - img "PDF - 44. Small Savings" [ref=e379]
+            - text: 315 kb
+            - link "45. Ownership Pattern of Central and State Governments Securities" [ref=e380] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20309
+            - link "Document - 45. Ownership Pattern of Central and State Governments Securities 11 kb" [ref=e381] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/45T_1705202150EF906A18F54FA6B4E8D479B0290D2B.XLSX
+              - img "Document - 45. Ownership Pattern of Central and State Governments Securities" [ref=e382]
+            - text: 11 kb
+            - link "PDF - 45. Ownership Pattern of Central and State Governments Securities 237 kb" [ref=e383] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/45T_1705202150EF906A18F54FA6B4E8D479B0290D2B.PDF
+              - img "PDF - 45. Ownership Pattern of Central and State Governments Securities" [ref=e384]
+            - text: 237 kb
+            - link "46. Combined Receipts and Disbursements of the Central and State Governments" [ref=e385] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20310
+            - link "Document - 46. Combined Receipts and Disbursements of the Central and State Governments 12 kb" [ref=e386] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/46T_17052021434D346A011E4CFAA11B6E737B1FF922.XLSX
+              - img "Document - 46. Combined Receipts and Disbursements of the Central and State Governments" [ref=e387]
+            - text: 12 kb
+            - link "PDF - 46. Combined Receipts and Disbursements of the Central and State Governments 283 kb" [ref=e388] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/46T_17052021434D346A011E4CFAA11B6E737B1FF922.PDF
+              - img "PDF - 46. Combined Receipts and Disbursements of the Central and State Governments" [ref=e389]
+            - text: 283 kb
+            - link "47. Financial Accommodation Availed by State Governments under various Facilities" [ref=e390] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20311
+            - link "Document - 47. Financial Accommodation Availed by State Governments under various Facilities 10 kb" [ref=e391] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/47T_17052021757801654B504DA39104BE4E680200B4.XLSX
+              - img "Document - 47. Financial Accommodation Availed by State Governments under various Facilities" [ref=e392]
+            - text: 10 kb
+            - link "PDF - 47. Financial Accommodation Availed by State Governments under various Facilities 406 kb" [ref=e393] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/47T_17052021757801654B504DA39104BE4E680200B4.PDF
+              - img "PDF - 47. Financial Accommodation Availed by State Governments under various Facilities" [ref=e394]
+            - text: 406 kb
+            - link "48. Investments by State Governments" [ref=e395] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20312
+            - link "Document - 48. Investments by State Governments 10 kb" [ref=e396] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/48T_17052021D0317E3233D74EA282DDD975CDDD9DDB.XLSX
+              - img "Document - 48. Investments by State Governments" [ref=e397]
+            - text: 10 kb
+            - link "PDF - 48. Investments by State Governments 404 kb" [ref=e398] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/48T_17052021D0317E3233D74EA282DDD975CDDD9DDB.PDF
+              - img "PDF - 48. Investments by State Governments" [ref=e399]
+            - text: 404 kb
+            - link "49. Market Borrowings of State Governments" [ref=e400] [cursor=pointer]:
+              - /url: BS_ViewBulletin.aspx?Id=20313
+            - link "Document - 49. Market Borrowings of State Governments 11 kb" [ref=e401] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/DOCs/49T_1705202148DD6BC0E68C454EB17026C8B1C17CA5.XLSX
+              - img "Document - 49. Market Borrowings of State Governments" [ref=e402]
+            - text: 11 kb
+            - link "PDF - 49. Market Borrowings of State Governments 409 kb" [ref=e403] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/49T_1705202148DD6BC0E68C454EB17026C8B1C17CA5.PDF
+              - img "PDF - 49. Market Borrowings of State Governments" [ref=e404]
+            - text: 409 kb
+      - generic [ref=e406]:
+        - heading "2026" [level=2] [ref=e407] [cursor=pointer]:
+          - link "2026" [ref=e408]:
+            - /url: "#"
+        - heading "2025" [level=2] [ref=e409] [cursor=pointer]:
+          - link "2025" [ref=e410]:
+            - /url: "#"
+        - heading "2024" [level=2] [ref=e411] [cursor=pointer]:
+          - link "2024" [ref=e412]:
+            - /url: "#"
+        - heading "2023" [level=2] [ref=e413] [cursor=pointer]:
+          - link "2023" [ref=e414]:
+            - /url: "#"
+        - heading "2022" [level=2] [ref=e415] [cursor=pointer]:
+          - link "2022" [ref=e416]:
+            - /url: "#"
+        - heading "2021" [level=2] [ref=e417] [cursor=pointer]:
+          - link "2021" [ref=e418]:
+            - /url: "#"
+        - heading "2020" [level=2] [ref=e419] [cursor=pointer]:
+          - link "2020" [ref=e420]:
+            - /url: "#"
+        - heading "2019" [level=2] [ref=e421] [cursor=pointer]:
+          - link "2019" [ref=e422]:
+            - /url: "#"
+        - heading "2018" [level=2] [ref=e423] [cursor=pointer]:
+          - link "2018" [ref=e424]:
+            - /url: "#"
+        - heading "2017" [level=2] [ref=e425] [cursor=pointer]:
+          - link "2017" [ref=e426]:
+            - /url: "#"
+        - heading "Archives" [level=2] [ref=e427]:
+          - link "Archives" [ref=e428] [cursor=pointer]:
+            - /url: javascript:void(0);
+    - link "Back to previous page" [ref=e430] [cursor=pointer]:
+      - /url: javascript:history.back()
+    - contentinfo [ref=e431]:
+      - generic [ref=e432]:
+        - generic [ref=e433]:
+          - generic [ref=e434]:
+            - heading "More Links :" [level=2] [ref=e435]
+            - list [ref=e436]:
+              - listitem [ref=e437]:
+                - link "Bank Holidays" [ref=e438] [cursor=pointer]:
+                  - /url: /Scripts/HolidayMatrixDisplay.aspx
+              - listitem [ref=e439]:
+                - link "Banking Glossary" [ref=e440] [cursor=pointer]:
+                  - /url: https://shabdavali.rbi.org.in/
+              - listitem [ref=e441]:
+                - link "Citizen's Charter" [ref=e442] [cursor=pointer]:
+                  - /url: /Scripts/CitiChart.aspx
+              - listitem [ref=e443]:
+                - link "Complaints" [ref=e444] [cursor=pointer]:
+                  - /url: /Scripts/Complaints.aspx
+              - listitem [ref=e445]:
+                - link "Contact Us" [ref=e446] [cursor=pointer]:
+                  - /url: /Scripts/helpdesk.aspx
+              - listitem [ref=e447]:
+                - link "COVID-19 Measures" [ref=e448] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894
+              - listitem [ref=e449]:
+                - link "E-LMS" [ref=e450] [cursor=pointer]:
+                  - /url: https://ncfe.org.in/e-lms
+              - listitem [ref=e451]:
+                - link "Events" [ref=e452] [cursor=pointer]:
+                  - /url: /Scripts/EventsDisplay.aspx
+              - listitem [ref=e453]:
+                - link "FAQs" [ref=e454] [cursor=pointer]:
+                  - /url: /Scripts/FAQDisplay.aspx
+              - listitem [ref=e455]:
+                - link "Financial Education" [ref=e456] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/FinancialEducation/
+              - listitem [ref=e457]:
+                - link "Forms" [ref=e458] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewForms.aspx
+              - listitem [ref=e459]:
+                - link "IFSC/MICR Codes" [ref=e460] [cursor=pointer]:
+                  - /url: /Scripts/IFSCMICRDetails.aspx
+              - listitem [ref=e461]:
+                - link "Important Websites" [ref=e462] [cursor=pointer]:
+                  - /url: /Scripts/OtherLinks.aspx
+              - listitem [ref=e463]:
+                - link "Opportunities@RBI" [ref=e464] [cursor=pointer]:
+                  - /url: https://opportunities.rbi.org.in/scripts/index.aspx
+              - listitem [ref=e465]:
+                - link "RBI Clarifications" [ref=e466] [cursor=pointer]:
+                  - /url: /Scripts/rbi_clarification.aspx
+              - listitem [ref=e467]:
+                - link "RBI Kehta Hai" [ref=e468] [cursor=pointer]:
+                  - /url: https://rbikehtahai.rbi.org.in/
+              - listitem [ref=e469]:
+                - link "RBI's Core Purpose, Values and Vision" [ref=e470] [cursor=pointer]:
+                  - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh30122022.pdf
+              - listitem [ref=e471]:
+                - link "Right to Information Act" [ref=e472] [cursor=pointer]:
+                  - /url: /Scripts/Righttoinfoact.aspx
+              - listitem [ref=e473]:
+                - link "Tenders" [ref=e474] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewTenders.aspx
+          - generic [ref=e475]:
+            - heading "Follow RBI" [level=2] [ref=e476]
+            - list [ref=e477]:
+              - listitem [ref=e478]:
+                - link "RSS" [ref=e479] [cursor=pointer]:
+                  - /url: /Scripts/rss.aspx
+              - listitem [ref=e480]:
+                - link "Twitter" [ref=e481] [cursor=pointer]:
+                  - /url: https://twitter.com/RBI
+              - listitem [ref=e482]:
+                - link "YouTube" [ref=e483] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA
+              - listitem [ref=e484]:
+                - link "Instagram" [ref=e485] [cursor=pointer]:
+                  - /url: https://instagram.com/reservebankofindia
+              - listitem [ref=e486]:
+                - link "Facebook" [ref=e487] [cursor=pointer]:
+                  - /url: https://www.facebook.com/RBIsays
+              - listitem [ref=e488]:
+                - link "LinkedIn" [ref=e489] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/reservebankofindia
+              - listitem [ref=e490]:
+                - text: Download Mobile App
+                - link "Play Store" [ref=e491] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.reservebankofindia&pli=1
+                - link "App Store" [ref=e492] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/reserve-bank-of-india/id1154394549?ls=1
+        - generic [ref=e495]:
+          - generic [ref=e496]: © Reserve Bank of India. All Rights Reserved.
+          - generic [ref=e497]:
+            - link "Sitemap" [ref=e498] [cursor=pointer]:
+              - /url: /Scripts/sitemap.aspx
+            - text: "|"
+            - link "Disclaimer" [ref=e499] [cursor=pointer]:
+              - /url: /Scripts/Disclaimer.aspx
+          - generic [ref=e501]: Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in
+          - generic [ref=e502]: "Website last updated date: Apr 09, 2026"
+          - generic [ref=e504]: "Supports: Google Chrome 125+ | Firefox 126+ | Microsoft Edge Version 125+ | Safari 17+"
+          - generic [ref=e505]:
+            - link "Accessibility Statement" [ref=e506] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf
+            - text: "|"
+            - link "Screen Reader" [ref=e507] [cursor=pointer]:
+              - /url: /scripts/ScreenReader.aspx
+  - status
