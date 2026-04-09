@@ -1316,143 +1316,123 @@
   },
   {
     "date": "2012-03",
-    "bank": "10",
-    "credit_cards": 43449.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "11",
-    "credit_cards": 34568.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "14",
-    "credit_cards": 102997.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "15",
-    "credit_cards": 65436.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "17",
-    "credit_cards": 42190.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "19",
-    "credit_cards": 40214.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "2",
-    "credit_cards": 120625.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "20",
-    "credit_cards": 2225141.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "29",
-    "credit_cards": 1922.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "3",
-    "credit_cards": 69529.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "32",
-    "credit_cards": 28953.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "38",
-    "credit_cards": 5642.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "4",
-    "credit_cards": 120120.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "40",
-    "credit_cards": 5602439.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "41",
-    "credit_cards": 2844705.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "42",
-    "credit_cards": 201056.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "43",
-    "credit_cards": 203102.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "44",
-    "credit_cards": 778885.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "46",
-    "credit_cards": 161265.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 611886.0
   },
   {
     "date": "2012-03",
-    "bank": "48",
-    "credit_cards": 8368.0
+    "bank": "AXIS BANK",
+    "credit_cards": 778885.0
   },
   {
     "date": "2012-03",
-    "bank": "49",
-    "credit_cards": 2300588.0
+    "bank": "BANK OF BARODA",
+    "credit_cards": 109743.0
   },
   {
     "date": "2012-03",
-    "bank": "5",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 120120.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 26332.0
   },
   {
     "date": "2012-03",
-    "bank": "52",
-    "credit_cards": 736764.0
+    "bank": "BARCLAYS BANK",
+    "credit_cards": 8368.0
   },
   {
     "date": "2012-03",
-    "bank": "54",
-    "credit_cards": 1104793.0
+    "bank": "CANARA BANK",
+    "credit_cards": 123022.0
   },
   {
     "date": "2012-03",
-    "bank": "6",
-    "credit_cards": 57586.0
-  },
-  {
-    "date": "2012-03",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 55703.0
   },
   {
     "date": "2012-03",
-    "bank": "8",
-    "credit_cards": 59560.0
+    "bank": "CITIBANK",
+    "credit_cards": 2300588.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 1922.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "HDFC BANK",
+    "credit_cards": 5602439.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "HSBC",
+    "credit_cards": 736764.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "ICICI BANK",
+    "credit_cards": 2844705.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "INDIAN BANK",
+    "credit_cards": 43449.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 34568.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 201056.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 28953.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 203102.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 102997.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 161265.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1104793.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2225141.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 5642.0
+  },
+  {
+    "date": "2012-03",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 222375.0
   },
   {
     "date": "2012-04",
@@ -1581,2693 +1561,2263 @@
   },
   {
     "date": "2012-05",
-    "bank": "10.0",
-    "credit_cards": 44080.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "11.0",
-    "credit_cards": 35342.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "14.0",
-    "credit_cards": 105034.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "15.0",
-    "credit_cards": 65714.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "17.0",
-    "credit_cards": 42787.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "19.0",
-    "credit_cards": 40126.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "2.0",
-    "credit_cards": 121078.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "20.0",
-    "credit_cards": 2287605.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "29.0",
-    "credit_cards": 1852.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "3.0",
-    "credit_cards": 69044.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "32.0",
-    "credit_cards": 30580.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "38.0",
-    "credit_cards": 5635.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "4.0",
-    "credit_cards": 120226.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "40.0",
-    "credit_cards": 5719770.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "41.0",
-    "credit_cards": 2822328.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "42.0",
-    "credit_cards": 203454.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "43.0",
-    "credit_cards": 221931.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "44.0",
-    "credit_cards": 803812.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "46.0",
-    "credit_cards": 149872.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "47.0",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 617072.0
   },
   {
     "date": "2012-05",
-    "bank": "48.0",
-    "credit_cards": 3683.0
+    "bank": "AXIS BANK",
+    "credit_cards": 803812.0
   },
   {
     "date": "2012-05",
-    "bank": "49.0",
-    "credit_cards": 2305564.0
+    "bank": "BANK OF BARODA",
+    "credit_cards": 109170.0
   },
   {
     "date": "2012-05",
-    "bank": "5.0",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 120226.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 27311.0
   },
   {
     "date": "2012-05",
-    "bank": "52.0",
-    "credit_cards": 602853.0
+    "bank": "BARCLAYS BANK",
+    "credit_cards": 3683.0
   },
   {
     "date": "2012-05",
-    "bank": "53.0",
-    "credit_cards": 1278864.0
+    "bank": "CANARA BANK",
+    "credit_cards": 122459.0
   },
   {
     "date": "2012-05",
-    "bank": "6.0",
-    "credit_cards": 56745.0
-  },
-  {
-    "date": "2012-05",
-    "bank": "7.0",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 58627.0
   },
   {
     "date": "2012-05",
-    "bank": "8.0",
-    "credit_cards": 59767.0
+    "bank": "CITIBANK",
+    "credit_cards": 2305564.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 1852.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "HDFC BANK",
+    "credit_cards": 5719770.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "HSBC",
+    "credit_cards": 602853.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "ICICI BANK",
+    "credit_cards": 2822328.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "INDIAN BANK",
+    "credit_cards": 44080.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 35342.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 203454.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 30580.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 221931.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 105034.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 149872.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1278864.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2287605.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 5635.0
+  },
+  {
+    "date": "2012-05",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 223632.0
   },
   {
     "date": "2012-06",
-    "bank": "10.0",
-    "credit_cards": 44416.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "11.0",
-    "credit_cards": 35542.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "14.0",
-    "credit_cards": 105991.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "15.0",
-    "credit_cards": 65798.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "17.0",
-    "credit_cards": 43204.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "19.0",
-    "credit_cards": 40206.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "2.0",
-    "credit_cards": 121078.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "20.0",
-    "credit_cards": 2321906.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "23.0",
-    "credit_cards": 0.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "29.0",
-    "credit_cards": 1833.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "3.0",
-    "credit_cards": 68649.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "32.0",
-    "credit_cards": 30241.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "38.0",
-    "credit_cards": 5624.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "4.0",
-    "credit_cards": 120448.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "40.0",
-    "credit_cards": 5798919.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "41.0",
-    "credit_cards": 2821023.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "42.0",
-    "credit_cards": 206283.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "43.0",
-    "credit_cards": 228777.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "44.0",
-    "credit_cards": 824410.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "46.0",
-    "credit_cards": 144455.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "47.0",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 620081.0
   },
   {
     "date": "2012-06",
-    "bank": "48.0",
-    "credit_cards": 2148.0
+    "bank": "AXIS BANK",
+    "credit_cards": 824410.0
   },
   {
     "date": "2012-06",
-    "bank": "49.0",
-    "credit_cards": 2313672.0
+    "bank": "BANK OF BARODA",
+    "credit_cards": 108855.0
   },
   {
     "date": "2012-06",
-    "bank": "5.0",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 120448.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 27009.0
   },
   {
     "date": "2012-06",
-    "bank": "52.0",
-    "credit_cards": 579186.0
+    "bank": "BARCLAYS BANK",
+    "credit_cards": 2148.0
   },
   {
     "date": "2012-06",
-    "bank": "53.0",
-    "credit_cards": 1265920.0
+    "bank": "CANARA BANK",
+    "credit_cards": 123247.0
   },
   {
     "date": "2012-06",
-    "bank": "6.0",
-    "credit_cards": 57449.0
-  },
-  {
-    "date": "2012-06",
-    "bank": "7.0",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 59346.0
   },
   {
     "date": "2012-06",
-    "bank": "8.0",
-    "credit_cards": 59964.0
+    "bank": "CITIBANK",
+    "credit_cards": 2313672.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 1833.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "HDFC BANK",
+    "credit_cards": 5798919.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "HSBC",
+    "credit_cards": 579186.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "ICICI BANK",
+    "credit_cards": 2821023.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "INDIAN BANK",
+    "credit_cards": 44416.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 35542.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 206283.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 30241.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 228777.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 105991.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 144455.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1265920.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2321906.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 5624.0
+  },
+  {
+    "date": "2012-06",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 224246.0
   },
   {
     "date": "2012-07",
-    "bank": "10",
-    "credit_cards": 44862.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "11",
-    "credit_cards": 35762.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "14",
-    "credit_cards": 106952.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "15",
-    "credit_cards": 65960.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "17",
-    "credit_cards": 43612.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "19",
-    "credit_cards": 40212.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "2",
-    "credit_cards": 122010.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "20",
-    "credit_cards": 2353687.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "29",
-    "credit_cards": 1793.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "3",
-    "credit_cards": 68325.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "32",
-    "credit_cards": 30505.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "38",
-    "credit_cards": 5623.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "4",
-    "credit_cards": 120587.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "40",
-    "credit_cards": 5881376.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "41",
-    "credit_cards": 2802935.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "42",
-    "credit_cards": 208641.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "43",
-    "credit_cards": 235052.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "44",
-    "credit_cards": 847970.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "46",
-    "credit_cards": 139633.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 623854.0
   },
   {
     "date": "2012-07",
-    "bank": "49",
-    "credit_cards": 2321063.0
+    "bank": "AXIS BANK",
+    "credit_cards": 847970.0
   },
   {
     "date": "2012-07",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 108537.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 120587.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 26484.0
   },
   {
     "date": "2012-07",
-    "bank": "52",
-    "credit_cards": 572392.0
+    "bank": "CANARA BANK",
+    "credit_cards": 122994.0
   },
   {
     "date": "2012-07",
-    "bank": "53",
-    "credit_cards": 1280870.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "6",
-    "credit_cards": 57034.0
-  },
-  {
-    "date": "2012-07",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 55305.0
   },
   {
     "date": "2012-07",
-    "bank": "8",
-    "credit_cards": 60249.0
+    "bank": "CITIBANK",
+    "credit_cards": 2321063.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 1793.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "HDFC BANK",
+    "credit_cards": 5881376.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "HSBC",
+    "credit_cards": 572392.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "ICICI BANK",
+    "credit_cards": 2802935.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "INDIAN BANK",
+    "credit_cards": 44862.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 35762.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 208641.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 30505.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 235052.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 106952.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 139633.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1280870.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2353687.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 5623.0
+  },
+  {
+    "date": "2012-07",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 225871.0
   },
   {
     "date": "2012-08",
-    "bank": "10",
-    "credit_cards": 45809.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "11",
-    "credit_cards": 37943.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "14",
-    "credit_cards": 107877.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "15",
-    "credit_cards": 66059.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "17",
-    "credit_cards": 43971.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "19",
-    "credit_cards": 40233.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "2",
-    "credit_cards": 122147.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "20",
-    "credit_cards": 2390367.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "23",
-    "credit_cards": 0.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "29",
-    "credit_cards": 1779.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "3",
-    "credit_cards": 68191.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "32",
-    "credit_cards": 31406.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "38",
-    "credit_cards": 5670.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "4",
-    "credit_cards": 120890.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "40",
-    "credit_cards": 5942140.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "41",
-    "credit_cards": 2799271.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "42",
-    "credit_cards": 210638.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "43",
-    "credit_cards": 245787.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "44",
-    "credit_cards": 871589.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "46",
-    "credit_cards": 134527.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 626628.0
   },
   {
     "date": "2012-08",
-    "bank": "49",
-    "credit_cards": 2331126.0
+    "bank": "AXIS BANK",
+    "credit_cards": 871589.0
   },
   {
     "date": "2012-08",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 108424.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 120890.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 25881.0
   },
   {
     "date": "2012-08",
-    "bank": "52",
-    "credit_cards": 506863.0
+    "bank": "CANARA BANK",
+    "credit_cards": 123508.0
   },
   {
     "date": "2012-08",
-    "bank": "53",
-    "credit_cards": 1279921.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "6",
-    "credit_cards": 57449.0
-  },
-  {
-    "date": "2012-08",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 51396.0
   },
   {
     "date": "2012-08",
-    "bank": "8",
-    "credit_cards": 60475.0
+    "bank": "CITIBANK",
+    "credit_cards": 2331126.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 1779.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "HDFC BANK",
+    "credit_cards": 5942140.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "HSBC",
+    "credit_cards": 506863.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "ICICI BANK",
+    "credit_cards": 2799271.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "INDIAN BANK",
+    "credit_cards": 45809.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 37943.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 210638.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 31406.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 245787.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 107877.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 134527.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1279921.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2390367.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 5670.0
+  },
+  {
+    "date": "2012-08",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 226593.0
   },
   {
     "date": "2012-09",
-    "bank": "10",
-    "credit_cards": 46850.0
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
+    "credit_cards": 628231.0
   },
   {
     "date": "2012-09",
-    "bank": "11",
-    "credit_cards": 36023.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "14",
-    "credit_cards": 109045.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "15",
-    "credit_cards": 66159.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "17",
-    "credit_cards": 44343.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "19",
-    "credit_cards": 40274.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "2",
-    "credit_cards": 122197.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "20",
-    "credit_cards": 2420302.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "29",
-    "credit_cards": 1780.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "3",
-    "credit_cards": 68174.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "32",
-    "credit_cards": 31338.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "38",
-    "credit_cards": 5818.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "4",
-    "credit_cards": 120895.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "40",
-    "credit_cards": 6007467.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "41",
-    "credit_cards": 2793705.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "42",
-    "credit_cards": 212585.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "43",
-    "credit_cards": 258130.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "44",
+    "bank": "AXIS BANK",
     "credit_cards": 901921.0
   },
   {
     "date": "2012-09",
-    "bank": "46",
-    "credit_cards": 126855.0
+    "bank": "BANK OF BARODA",
+    "credit_cards": 108448.0
   },
   {
     "date": "2012-09",
-    "bank": "47",
-    "credit_cards": 628231.0
+    "bank": "BANK OF INDIA",
+    "credit_cards": 120895.0
   },
   {
     "date": "2012-09",
-    "bank": "49",
-    "credit_cards": 2336922.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "5",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 24259.0
   },
   {
     "date": "2012-09",
-    "bank": "52",
-    "credit_cards": 500835.0
+    "bank": "CANARA BANK",
+    "credit_cards": 123964.0
   },
   {
     "date": "2012-09",
-    "bank": "53",
-    "credit_cards": 1294256.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "6",
-    "credit_cards": 57805.0
-  },
-  {
-    "date": "2012-09",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 50711.0
   },
   {
     "date": "2012-09",
-    "bank": "8",
-    "credit_cards": 60715.0
+    "bank": "CITIBANK",
+    "credit_cards": 2336922.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 1780.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "HDFC BANK",
+    "credit_cards": 6007467.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "HSBC",
+    "credit_cards": 500835.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "ICICI BANK",
+    "credit_cards": 2793705.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "INDIAN BANK",
+    "credit_cards": 46850.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 36023.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 212585.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 31338.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 258130.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 109045.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 126855.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1294256.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2420302.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 5818.0
+  },
+  {
+    "date": "2012-09",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 227255.0
   },
   {
     "date": "2012-10",
-    "bank": "10",
-    "credit_cards": 47665.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "11",
-    "credit_cards": 36229.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "14",
-    "credit_cards": 110411.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "15",
-    "credit_cards": 66341.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "17",
-    "credit_cards": 44915.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "19",
-    "credit_cards": 40291.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "2",
-    "credit_cards": 122658.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "20",
-    "credit_cards": 2450707.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "23",
-    "credit_cards": 0.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "29",
-    "credit_cards": 1771.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "3",
-    "credit_cards": 68558.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "32",
-    "credit_cards": 31662.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "38",
-    "credit_cards": 5848.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "4",
-    "credit_cards": 120808.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "40",
-    "credit_cards": 6056986.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "41",
-    "credit_cards": 2806743.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "42",
-    "credit_cards": 213379.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "43",
-    "credit_cards": 273322.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "44",
-    "credit_cards": 936203.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "46",
-    "credit_cards": 122678.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 629478.0
   },
   {
     "date": "2012-10",
-    "bank": "49",
-    "credit_cards": 2332793.0
+    "bank": "AXIS BANK",
+    "credit_cards": 936203.0
   },
   {
     "date": "2012-10",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 108849.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 120808.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 22914.0
   },
   {
     "date": "2012-10",
-    "bank": "52",
-    "credit_cards": 501378.0
+    "bank": "CANARA BANK",
+    "credit_cards": 124108.0
   },
   {
     "date": "2012-10",
-    "bank": "53",
-    "credit_cards": 1305517.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "6",
-    "credit_cards": 57767.0
-  },
-  {
-    "date": "2012-10",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 51488.0
   },
   {
     "date": "2012-10",
-    "bank": "8",
-    "credit_cards": 61679.0
+    "bank": "CITIBANK",
+    "credit_cards": 2332793.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 1771.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "HDFC BANK",
+    "credit_cards": 6056986.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "HSBC",
+    "credit_cards": 501378.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "ICICI BANK",
+    "credit_cards": 2806743.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "INDIAN BANK",
+    "credit_cards": 47665.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 36229.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 213379.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 31662.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 273322.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 110411.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 122678.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1305517.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2450707.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 5848.0
+  },
+  {
+    "date": "2012-10",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 229252.0
   },
   {
     "date": "2012-11",
-    "bank": "10",
-    "credit_cards": 48400.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "11",
-    "credit_cards": 43053.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "14",
-    "credit_cards": 111363.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "15",
-    "credit_cards": 66487.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "17",
-    "credit_cards": 45275.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "19",
-    "credit_cards": 40313.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "2",
-    "credit_cards": 123014.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "20",
-    "credit_cards": 2475812.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "23",
-    "credit_cards": 0.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "29",
-    "credit_cards": 1765.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "3",
-    "credit_cards": 68426.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "32",
-    "credit_cards": 31745.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "38",
-    "credit_cards": 5870.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "39",
-    "credit_cards": 1991.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "4",
-    "credit_cards": 120806.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "40",
-    "credit_cards": 6144804.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "41",
-    "credit_cards": 2771657.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "42",
-    "credit_cards": 216391.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "43",
-    "credit_cards": 286346.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "44",
-    "credit_cards": 966884.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "46",
-    "credit_cards": 118837.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 628231.0
   },
   {
     "date": "2012-11",
-    "bank": "49",
-    "credit_cards": 2332462.0
+    "bank": "AXIS BANK",
+    "credit_cards": 966884.0
   },
   {
     "date": "2012-11",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 108739.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 120806.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 21503.0
   },
   {
     "date": "2012-11",
-    "bank": "52",
-    "credit_cards": 501229.0
+    "bank": "CANARA BANK",
+    "credit_cards": 124453.0
   },
   {
     "date": "2012-11",
-    "bank": "53",
-    "credit_cards": 1309557.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "6",
-    "credit_cards": 57966.0
-  },
-  {
-    "date": "2012-11",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 52368.0
   },
   {
     "date": "2012-11",
-    "bank": "8",
-    "credit_cards": 61757.0
+    "bank": "CITIBANK",
+    "credit_cards": 2332462.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 1991.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 1765.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "HDFC BANK",
+    "credit_cards": 6144804.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "HSBC",
+    "credit_cards": 501229.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "ICICI BANK",
+    "credit_cards": 2771657.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "INDIAN BANK",
+    "credit_cards": 48400.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 43053.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 216391.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 31745.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 286346.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 111363.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 118837.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1309557.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2475812.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 5870.0
+  },
+  {
+    "date": "2012-11",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 230046.0
   },
   {
     "date": "2012-12",
-    "bank": "10",
-    "credit_cards": 46850.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "11",
-    "credit_cards": 43322.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "14",
-    "credit_cards": 112389.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "15",
-    "credit_cards": 66666.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "17",
-    "credit_cards": 45562.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "19",
-    "credit_cards": 40341.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "2",
-    "credit_cards": 123525.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "20",
-    "credit_cards": 2502860.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "23",
-    "credit_cards": 0.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "29",
-    "credit_cards": 1836.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "3",
-    "credit_cards": 68344.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "32",
-    "credit_cards": 32204.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "38",
-    "credit_cards": 5881.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "39",
-    "credit_cards": 2215.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "4",
-    "credit_cards": 121111.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "40",
-    "credit_cards": 6208875.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "41",
-    "credit_cards": 2824532.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "42",
-    "credit_cards": 219343.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "43",
-    "credit_cards": 295983.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "44",
-    "credit_cards": 1003798.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "46",
-    "credit_cards": 115071.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 623109.0
   },
   {
     "date": "2012-12",
-    "bank": "49",
-    "credit_cards": 2338109.0
+    "bank": "AXIS BANK",
+    "credit_cards": 1003798.0
   },
   {
     "date": "2012-12",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 108685.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 121111.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 18057.0
   },
   {
     "date": "2012-12",
-    "bank": "52",
-    "credit_cards": 501631.0
+    "bank": "CANARA BANK",
+    "credit_cards": 124165.0
   },
   {
     "date": "2012-12",
-    "bank": "53",
-    "credit_cards": 1317472.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "6",
-    "credit_cards": 57499.0
-  },
-  {
-    "date": "2012-12",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 53019.0
   },
   {
     "date": "2012-12",
-    "bank": "8",
-    "credit_cards": 61747.0
+    "bank": "CITIBANK",
+    "credit_cards": 2338109.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2215.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 1836.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "HDFC BANK",
+    "credit_cards": 6208875.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "HSBC",
+    "credit_cards": 501631.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "ICICI BANK",
+    "credit_cards": 2824532.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "INDIAN BANK",
+    "credit_cards": 46850.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 43322.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 219343.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 32204.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 295983.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 112389.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 115071.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1317472.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2502860.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 5881.0
+  },
+  {
+    "date": "2012-12",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 230834.0
   },
   {
     "date": "2013-01",
-    "bank": "10",
-    "credit_cards": 50396.0
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
+    "credit_cards": 626700.0
   },
   {
     "date": "2013-01",
-    "bank": "11",
-    "credit_cards": 43467.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "14",
-    "credit_cards": 113599.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "15",
-    "credit_cards": 66799.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "17",
-    "credit_cards": 46161.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "19",
-    "credit_cards": 40410.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "2",
-    "credit_cards": 124221.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "20",
-    "credit_cards": 2520140.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "23",
-    "credit_cards": 0.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "29",
-    "credit_cards": 1869.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "3",
-    "credit_cards": 78380.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "32",
-    "credit_cards": 32689.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "38",
-    "credit_cards": 6142.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "39",
-    "credit_cards": 2351.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "4",
-    "credit_cards": 121000.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "40",
-    "credit_cards": 6263856.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "41",
-    "credit_cards": 2840802.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "42",
-    "credit_cards": 221668.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "43",
-    "credit_cards": 310784.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "44",
+    "bank": "AXIS BANK",
     "credit_cards": 1036206.0
   },
   {
     "date": "2013-01",
-    "bank": "46",
-    "credit_cards": 111799.0
+    "bank": "BANK OF BARODA",
+    "credit_cards": 118790.0
   },
   {
     "date": "2013-01",
-    "bank": "47",
-    "credit_cards": 626700.0
+    "bank": "BANK OF INDIA",
+    "credit_cards": 121000.0
   },
   {
     "date": "2013-01",
-    "bank": "49",
-    "credit_cards": 2344493.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "5",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 16033.0
   },
   {
     "date": "2013-01",
-    "bank": "52",
-    "credit_cards": 502757.0
+    "bank": "CANARA BANK",
+    "credit_cards": 125717.0
   },
   {
     "date": "2013-01",
-    "bank": "53",
-    "credit_cards": 1327183.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "6",
-    "credit_cards": 58918.0
-  },
-  {
-    "date": "2013-01",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 53336.0
   },
   {
     "date": "2013-01",
-    "bank": "8",
-    "credit_cards": 61632.0
+    "bank": "CITIBANK",
+    "credit_cards": 2344493.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2351.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 1869.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "HDFC BANK",
+    "credit_cards": 6263856.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "HSBC",
+    "credit_cards": 502757.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "ICICI BANK",
+    "credit_cards": 2840802.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "INDIAN BANK",
+    "credit_cards": 50396.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 43467.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 221668.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 32689.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 310784.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 113599.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 111799.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1327183.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2520140.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 6142.0
+  },
+  {
+    "date": "2013-01",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 232014.0
   },
   {
     "date": "2013-02",
-    "bank": "10",
-    "credit_cards": 51333.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "11",
-    "credit_cards": 43758.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "14",
-    "credit_cards": 114633.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "15",
-    "credit_cards": 66948.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "17",
-    "credit_cards": 46579.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "19",
-    "credit_cards": 40427.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "2",
-    "credit_cards": 124976.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "20",
-    "credit_cards": 2544799.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "23",
-    "credit_cards": 0.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "29",
-    "credit_cards": 1940.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "3",
-    "credit_cards": 80073.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "32",
-    "credit_cards": 33046.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "38",
-    "credit_cards": 5914.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "39",
-    "credit_cards": 2496.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "4",
-    "credit_cards": 120982.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "40",
-    "credit_cards": 6357237.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "41",
-    "credit_cards": 2841337.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "42",
-    "credit_cards": 224501.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "43",
-    "credit_cards": 319358.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "44",
-    "credit_cards": 1070576.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "46",
-    "credit_cards": 108515.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 626700.0
   },
   {
     "date": "2013-02",
-    "bank": "49",
-    "credit_cards": 2352178.0
+    "bank": "AXIS BANK",
+    "credit_cards": 1070576.0
   },
   {
     "date": "2013-02",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 120500.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 120982.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 16381.0
   },
   {
     "date": "2013-02",
-    "bank": "52",
-    "credit_cards": 505254.0
+    "bank": "CANARA BANK",
+    "credit_cards": 128504.0
   },
   {
     "date": "2013-02",
-    "bank": "53",
-    "credit_cards": 1342777.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "6",
-    "credit_cards": 61556.0
-  },
-  {
-    "date": "2013-02",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 53951.0
   },
   {
     "date": "2013-02",
-    "bank": "8",
-    "credit_cards": 61748.0
+    "bank": "CITIBANK",
+    "credit_cards": 2352178.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2496.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 1940.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "HDFC BANK",
+    "credit_cards": 6357237.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "HSBC",
+    "credit_cards": 505254.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "ICICI BANK",
+    "credit_cards": 2841337.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "INDIAN BANK",
+    "credit_cards": 51333.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 43758.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 224501.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 33046.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 319358.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 114633.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 108515.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1342777.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2544799.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 5914.0
+  },
+  {
+    "date": "2013-02",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 233303.0
   },
   {
     "date": "2013-03",
-    "bank": "10",
-    "credit_cards": 52104.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "11",
-    "credit_cards": 44171.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "14",
-    "credit_cards": 115781.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "15",
-    "credit_cards": 67195.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "17",
-    "credit_cards": 46579.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "19",
-    "credit_cards": 40505.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "2",
-    "credit_cards": 125175.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "20",
-    "credit_cards": 2572777.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "23",
-    "credit_cards": 0.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "29",
-    "credit_cards": 2073.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "3",
-    "credit_cards": 80208.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "32",
-    "credit_cards": 33517.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "38",
-    "credit_cards": 5986.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "39",
-    "credit_cards": 2609.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "4",
-    "credit_cards": 121062.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "40",
-    "credit_cards": 6557564.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "41",
-    "credit_cards": 2866278.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "42",
-    "credit_cards": 228121.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "43",
-    "credit_cards": 328354.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "44",
-    "credit_cards": 1100895.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "46",
-    "credit_cards": 105635.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 631432.0
   },
   {
     "date": "2013-03",
-    "bank": "49",
-    "credit_cards": 2360907.0
+    "bank": "AXIS BANK",
+    "credit_cards": 1100895.0
   },
   {
     "date": "2013-03",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 120713.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 121062.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 16897.0
   },
   {
     "date": "2013-03",
-    "bank": "52",
-    "credit_cards": 499574.0
+    "bank": "CANARA BANK",
+    "credit_cards": 128234.0
   },
   {
     "date": "2013-03",
-    "bank": "53",
-    "credit_cards": 1355389.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "6",
-    "credit_cards": 61039.0
-  },
-  {
-    "date": "2013-03",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 54611.0
   },
   {
     "date": "2013-03",
-    "bank": "8",
-    "credit_cards": 61891.0
+    "bank": "CITIBANK",
+    "credit_cards": 2360907.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2609.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 2073.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "HDFC BANK",
+    "credit_cards": 6557564.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "HSBC",
+    "credit_cards": 499574.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "ICICI BANK",
+    "credit_cards": 2866278.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "INDIAN BANK",
+    "credit_cards": 52104.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 44171.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 228121.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 33517.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 328354.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 115781.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 105635.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1355389.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2572777.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 5986.0
+  },
+  {
+    "date": "2013-03",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 233645.0
   },
   {
     "date": "2013-04",
-    "bank": "10",
-    "credit_cards": 52690.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "11",
-    "credit_cards": 44415.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "14",
-    "credit_cards": 116580.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "15",
-    "credit_cards": 67314.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "17",
-    "credit_cards": 46901.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "19",
-    "credit_cards": 40611.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "2",
-    "credit_cards": 126196.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "20",
-    "credit_cards": 2598509.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "23",
-    "credit_cards": 0.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "29",
-    "credit_cards": 2155.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "3",
-    "credit_cards": 80407.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "32",
-    "credit_cards": 33701.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "38",
-    "credit_cards": 6013.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "39",
-    "credit_cards": 2656.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "4",
-    "credit_cards": 121084.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "40",
-    "credit_cards": 6532818.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "41",
-    "credit_cards": 2875459.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "42",
-    "credit_cards": 231677.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "43",
-    "credit_cards": 338848.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "44",
-    "credit_cards": 1108444.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "46",
-    "credit_cards": 97683.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 632026.0
   },
   {
     "date": "2013-04",
-    "bank": "49",
-    "credit_cards": 2371258.0
+    "bank": "AXIS BANK",
+    "credit_cards": 1108444.0
   },
   {
     "date": "2013-04",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 121018.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 121084.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 17828.0
   },
   {
     "date": "2013-04",
-    "bank": "52",
-    "credit_cards": 502319.0
+    "bank": "CANARA BANK",
+    "credit_cards": 129056.0
   },
   {
     "date": "2013-04",
-    "bank": "53",
-    "credit_cards": 1354357.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "6",
-    "credit_cards": 61742.0
-  },
-  {
-    "date": "2013-04",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 55131.0
   },
   {
     "date": "2013-04",
-    "bank": "8",
-    "credit_cards": 34855.0
+    "bank": "CITIBANK",
+    "credit_cards": 2371258.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2656.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 2155.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "HDFC BANK",
+    "credit_cards": 6532818.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "HSBC",
+    "credit_cards": 502319.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "ICICI BANK",
+    "credit_cards": 2875459.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "INDIAN BANK",
+    "credit_cards": 52690.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 44415.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 231677.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 33701.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 338848.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 116580.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 97683.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1354357.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2598509.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 6013.0
+  },
+  {
+    "date": "2013-04",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 207952.0
   },
   {
     "date": "2013-05",
-    "bank": "10",
-    "credit_cards": 53372.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "11",
-    "credit_cards": 44608.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "14",
-    "credit_cards": 117439.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "15",
-    "credit_cards": 67398.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "17",
-    "credit_cards": 47721.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "19",
-    "credit_cards": 40752.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "2",
-    "credit_cards": 126637.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "20",
-    "credit_cards": 2625799.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "29",
-    "credit_cards": 2228.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "3",
-    "credit_cards": 36703.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "32",
-    "credit_cards": 34041.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "38",
-    "credit_cards": 6039.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "39",
-    "credit_cards": 2706.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "4",
-    "credit_cards": 114667.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "40",
-    "credit_cards": 6557548.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "41",
-    "credit_cards": 2890772.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "42",
-    "credit_cards": 234135.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "43",
-    "credit_cards": 350905.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "44",
-    "credit_cards": 1107062.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "46",
-    "credit_cards": 92363.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 632163.0
   },
   {
     "date": "2013-05",
-    "bank": "49",
-    "credit_cards": 2377562.0
+    "bank": "AXIS BANK",
+    "credit_cards": 1107062.0
   },
   {
     "date": "2013-05",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 77455.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 114667.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 18784.0
   },
   {
     "date": "2013-05",
-    "bank": "52",
-    "credit_cards": 503966.0
+    "bank": "CANARA BANK",
+    "credit_cards": 129319.0
   },
   {
     "date": "2013-05",
-    "bank": "53",
-    "credit_cards": 1352325.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "6",
-    "credit_cards": 61921.0
-  },
-  {
-    "date": "2013-05",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 55417.0
   },
   {
     "date": "2013-05",
-    "bank": "8",
-    "credit_cards": 34885.0
+    "bank": "CITIBANK",
+    "credit_cards": 2377562.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2706.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 2228.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "HDFC BANK",
+    "credit_cards": 6557548.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "HSBC",
+    "credit_cards": 503966.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "ICICI BANK",
+    "credit_cards": 2890772.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "INDIAN BANK",
+    "credit_cards": 53372.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 44608.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 234135.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 34041.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 350905.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 117439.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 92363.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1352325.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2625799.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 6039.0
+  },
+  {
+    "date": "2013-05",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 209243.0
   },
   {
     "date": "2013-06",
-    "bank": "10",
-    "credit_cards": 53808.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "11",
-    "credit_cards": 44903.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "14",
-    "credit_cards": 118312.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "15",
-    "credit_cards": 67505.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "17",
-    "credit_cards": 48138.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "19",
-    "credit_cards": 40810.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "2",
-    "credit_cards": 128193.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "20",
-    "credit_cards": 2647693.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "29",
-    "credit_cards": 2287.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "3",
-    "credit_cards": 79835.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "32",
-    "credit_cards": 34467.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "38",
-    "credit_cards": 6074.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "39",
-    "credit_cards": 2778.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "4",
-    "credit_cards": 115058.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "40",
-    "credit_cards": 5940221.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "41",
-    "credit_cards": 2954339.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "42",
-    "credit_cards": 238824.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "43",
-    "credit_cards": 353542.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "44",
-    "credit_cards": 1115425.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "46",
-    "credit_cards": 89604.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 633149.0
   },
   {
     "date": "2013-06",
-    "bank": "49",
-    "credit_cards": 2382562.0
+    "bank": "AXIS BANK",
+    "credit_cards": 1115425.0
   },
   {
     "date": "2013-06",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 120645.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 115058.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 19270.0
   },
   {
     "date": "2013-06",
-    "bank": "52",
-    "credit_cards": 505158.0
+    "bank": "CANARA BANK",
+    "credit_cards": 130070.0
   },
   {
     "date": "2013-06",
-    "bank": "53",
-    "credit_cards": 1357066.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "6",
-    "credit_cards": 62565.0
-  },
-  {
-    "date": "2013-06",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 55996.0
   },
   {
     "date": "2013-06",
-    "bank": "8",
-    "credit_cards": 34885.0
+    "bank": "CITIBANK",
+    "credit_cards": 2382562.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2778.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 2287.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "HDFC BANK",
+    "credit_cards": 5940221.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "HSBC",
+    "credit_cards": 505158.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "ICICI BANK",
+    "credit_cards": 2954339.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "INDIAN BANK",
+    "credit_cards": 53808.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 44903.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 238824.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 34467.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 353542.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 118312.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 89604.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1357066.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2647693.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 6074.0
+  },
+  {
+    "date": "2013-06",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 211216.0
   },
   {
     "date": "2013-07",
-    "bank": "10",
-    "credit_cards": 54839.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "11",
-    "credit_cards": 45158.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "14",
-    "credit_cards": 119265.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "15",
-    "credit_cards": 67683.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "17",
-    "credit_cards": 48767.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "19",
-    "credit_cards": 40958.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "2",
-    "credit_cards": 128744.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "20",
-    "credit_cards": 2676095.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "29",
-    "credit_cards": 2371.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "3",
-    "credit_cards": 69913.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "32",
-    "credit_cards": 34934.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "38",
-    "credit_cards": 6098.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "39",
-    "credit_cards": 2808.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "4",
-    "credit_cards": 115673.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "40",
-    "credit_cards": 5467159.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "41",
-    "credit_cards": 2981900.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "42",
-    "credit_cards": 243752.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "43",
-    "credit_cards": 364510.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "44",
-    "credit_cards": 1131877.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "46",
-    "credit_cards": 86777.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 634191.0
   },
   {
     "date": "2013-07",
-    "bank": "49",
-    "credit_cards": 2385961.0
+    "bank": "AXIS BANK",
+    "credit_cards": 1131877.0
   },
   {
     "date": "2013-07",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 110871.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 115673.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 20010.0
   },
   {
     "date": "2013-07",
-    "bank": "52",
-    "credit_cards": 505014.0
+    "bank": "CANARA BANK",
+    "credit_cards": 131129.0
   },
   {
     "date": "2013-07",
-    "bank": "53",
-    "credit_cards": 1365659.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "6",
-    "credit_cards": 63446.0
-  },
-  {
-    "date": "2013-07",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 56564.0
   },
   {
     "date": "2013-07",
-    "bank": "8",
-    "credit_cards": 62172.0
+    "bank": "CITIBANK",
+    "credit_cards": 2385961.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2808.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 2371.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "HDFC BANK",
+    "credit_cards": 5467159.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "HSBC",
+    "credit_cards": 505014.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "ICICI BANK",
+    "credit_cards": 2981900.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "INDIAN BANK",
+    "credit_cards": 54839.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 45158.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 243752.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 34934.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 364510.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 119265.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 86777.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1365659.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2676095.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 6098.0
+  },
+  {
+    "date": "2013-07",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 239683.0
   },
   {
     "date": "2013-08",
-    "bank": "10",
-    "credit_cards": 55828.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "11",
-    "credit_cards": 45493.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "14",
-    "credit_cards": 120120.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "15",
-    "credit_cards": 67786.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "17",
-    "credit_cards": 49252.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "19",
-    "credit_cards": 41031.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "2",
-    "credit_cards": 129112.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "20",
-    "credit_cards": 2701566.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "29",
-    "credit_cards": 2674.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "3",
-    "credit_cards": 70641.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "32",
-    "credit_cards": 35244.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "38",
-    "credit_cards": 6111.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "39",
-    "credit_cards": 2905.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "4",
-    "credit_cards": 115516.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "40",
-    "credit_cards": 5019733.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "41",
-    "credit_cards": 2997260.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "42",
-    "credit_cards": 248951.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "43",
-    "credit_cards": 375174.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "44",
-    "credit_cards": 1161137.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "46",
-    "credit_cards": 85913.0
-  },
-  {
-    "date": "2013-08",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 635805.0
   },
   {
     "date": "2013-08",
-    "bank": "49",
-    "credit_cards": 2397163.0
+    "bank": "AXIS BANK",
+    "credit_cards": 1161137.0
   },
   {
     "date": "2013-08",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 111672.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 115516.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 20798.0
   },
   {
     "date": "2013-08",
-    "bank": "52",
+    "bank": "CANARA BANK",
+    "credit_cards": 131669.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "CENTRAL BANK OF INDIA",
+    "credit_cards": 57524.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "CITIBANK",
+    "credit_cards": 2397163.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2905.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 2674.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "HDFC BANK",
+    "credit_cards": 5019733.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "HSBC",
     "credit_cards": 503495.0
   },
   {
     "date": "2013-08",
-    "bank": "53",
+    "bank": "ICICI BANK",
+    "credit_cards": 2997260.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "INDIAN BANK",
+    "credit_cards": 55828.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 45493.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 248951.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 35244.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 375174.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 120120.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 85913.0
+  },
+  {
+    "date": "2013-08",
+    "bank": "STANDARD CHARTERED BANK",
     "credit_cards": 1371515.0
   },
   {
     "date": "2013-08",
-    "bank": "6",
-    "credit_cards": 63883.0
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2701566.0
   },
   {
     "date": "2013-08",
-    "bank": "7",
-    "credit_cards": 57524.0
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 6111.0
   },
   {
     "date": "2013-08",
-    "bank": "8",
-    "credit_cards": 62208.0
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 240572.0
   },
   {
     "date": "2013-09",
-    "bank": "10",
-    "credit_cards": 56843.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "11",
-    "credit_cards": 45729.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "14",
-    "credit_cards": 121195.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "15",
-    "credit_cards": 67896.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "17",
-    "credit_cards": 49729.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "19",
-    "credit_cards": 53963.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "2",
-    "credit_cards": 129043.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "20",
-    "credit_cards": 2720066.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "23",
-    "credit_cards": 0.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "29",
-    "credit_cards": 2799.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "3",
-    "credit_cards": 70926.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "32",
-    "credit_cards": 35611.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "38",
-    "credit_cards": 6136.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "39",
-    "credit_cards": 2954.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "4",
-    "credit_cards": 115868.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "40",
-    "credit_cards": 5042297.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "41",
-    "credit_cards": 3026665.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "42",
-    "credit_cards": 254402.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "43",
-    "credit_cards": 385347.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "44",
-    "credit_cards": 1173992.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "46",
-    "credit_cards": 85164.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 635231.0
   },
   {
     "date": "2013-09",
-    "bank": "49",
-    "credit_cards": 2401465.0
+    "bank": "AXIS BANK",
+    "credit_cards": 1173992.0
   },
   {
     "date": "2013-09",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 124889.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 115868.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 21556.0
   },
   {
     "date": "2013-09",
-    "bank": "52",
-    "credit_cards": 502446.0
+    "bank": "CANARA BANK",
+    "credit_cards": 131565.0
   },
   {
     "date": "2013-09",
-    "bank": "53",
-    "credit_cards": 1367044.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "6",
-    "credit_cards": 63669.0
-  },
-  {
-    "date": "2013-09",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 58465.0
   },
   {
     "date": "2013-09",
-    "bank": "8",
-    "credit_cards": 78435.0
+    "bank": "CITIBANK",
+    "credit_cards": 2401465.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2954.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 2799.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "HDFC BANK",
+    "credit_cards": 5042297.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "HSBC",
+    "credit_cards": 502446.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "ICICI BANK",
+    "credit_cards": 3026665.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "INDIAN BANK",
+    "credit_cards": 56843.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 45729.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 254402.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 35611.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 385347.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 121195.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 85164.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1367044.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2720066.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 6136.0
+  },
+  {
+    "date": "2013-09",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 257207.0
   },
   {
     "date": "2013-10",
-    "bank": "10",
-    "credit_cards": 57831.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "11",
-    "credit_cards": 45975.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "14",
-    "credit_cards": 122247.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "15",
-    "credit_cards": 68048.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "17",
-    "credit_cards": 50155.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "19",
-    "credit_cards": 61848.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "2",
-    "credit_cards": 129760.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "20",
-    "credit_cards": 2738488.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "29",
-    "credit_cards": 2914.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "3",
-    "credit_cards": 70478.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "32",
-    "credit_cards": 35868.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "38",
-    "credit_cards": 6146.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "39",
-    "credit_cards": 2980.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "4",
-    "credit_cards": 116753.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "40",
-    "credit_cards": 5078034.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "41",
-    "credit_cards": 3042232.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "42",
-    "credit_cards": 258438.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "43",
-    "credit_cards": 392842.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "44",
-    "credit_cards": 1227538.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "46",
-    "credit_cards": 82749.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 641210.0
   },
   {
     "date": "2013-10",
-    "bank": "49",
-    "credit_cards": 2399652.0
+    "bank": "AXIS BANK",
+    "credit_cards": 1227538.0
   },
   {
     "date": "2013-10",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 132326.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 116753.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 22385.0
   },
   {
     "date": "2013-10",
-    "bank": "52",
-    "credit_cards": 500132.0
+    "bank": "CANARA BANK",
+    "credit_cards": 131699.0
   },
   {
     "date": "2013-10",
-    "bank": "53",
-    "credit_cards": 1223747.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "6",
-    "credit_cards": 63651.0
-  },
-  {
-    "date": "2013-10",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 57524.0
   },
   {
     "date": "2013-10",
-    "bank": "8",
-    "credit_cards": 78684.0
+    "bank": "CITIBANK",
+    "credit_cards": 2399652.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2980.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 2914.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "HDFC BANK",
+    "credit_cards": 5078034.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "HSBC",
+    "credit_cards": 500132.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "ICICI BANK",
+    "credit_cards": 3042232.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "INDIAN BANK",
+    "credit_cards": 57831.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 45975.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 258438.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 35868.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 392842.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 122247.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 82749.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1223747.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2738488.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 6146.0
+  },
+  {
+    "date": "2013-10",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 258599.0
   },
   {
     "date": "2013-11",
-    "bank": "10",
-    "credit_cards": 59266.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "11",
-    "credit_cards": 46282.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "14",
-    "credit_cards": 123397.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "15",
-    "credit_cards": 68148.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "17",
-    "credit_cards": 50575.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "19",
-    "credit_cards": 54914.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "2",
-    "credit_cards": 130597.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "20",
-    "credit_cards": 2758042.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "29",
-    "credit_cards": 3028.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "3",
-    "credit_cards": 71063.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "32",
-    "credit_cards": 36228.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "38",
-    "credit_cards": 6162.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "39",
-    "credit_cards": 3060.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "4",
-    "credit_cards": 122841.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "40",
-    "credit_cards": 5117856.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "41",
-    "credit_cards": 3094705.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "42",
-    "credit_cards": 261871.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "43",
-    "credit_cards": 392552.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "44",
-    "credit_cards": 1308672.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "46",
-    "credit_cards": 80937.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "47",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 642336.0
   },
   {
     "date": "2013-11",
-    "bank": "49",
-    "credit_cards": 2397347.0
+    "bank": "AXIS BANK",
+    "credit_cards": 1308672.0
   },
   {
     "date": "2013-11",
-    "bank": "5",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 125977.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 122841.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 23237.0
   },
   {
     "date": "2013-11",
-    "bank": "52",
-    "credit_cards": 495543.0
+    "bank": "CANARA BANK",
+    "credit_cards": 131734.0
   },
   {
     "date": "2013-11",
-    "bank": "53",
-    "credit_cards": 1196950.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "6",
-    "credit_cards": 63586.0
-  },
-  {
-    "date": "2013-11",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 58921.0
   },
   {
     "date": "2013-11",
-    "bank": "8",
-    "credit_cards": 78960.0
+    "bank": "CITIBANK",
+    "credit_cards": 2397347.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 3060.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 3028.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "HDFC BANK",
+    "credit_cards": 5117856.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "HSBC",
+    "credit_cards": 495543.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "ICICI BANK",
+    "credit_cards": 3094705.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "INDIAN BANK",
+    "credit_cards": 59266.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 46282.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 261871.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 36228.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 392552.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 123397.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "RBS (ABN AMRO)",
+    "credit_cards": 80937.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1196950.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2758042.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 6162.0
+  },
+  {
+    "date": "2013-11",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 260132.0
   },
   {
     "date": "2013-12",
@@ -4386,448 +3936,393 @@
   },
   {
     "date": "2014-01",
-    "bank": "10",
-    "credit_cards": 61450.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "11",
-    "credit_cards": 47046.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "14",
-    "credit_cards": 125049.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "15",
-    "credit_cards": 68487.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "17",
-    "credit_cards": 57949.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "19",
-    "credit_cards": 61816.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "2",
-    "credit_cards": 131613.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "20",
-    "credit_cards": 2805281.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "29",
-    "credit_cards": 3245.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "3",
-    "credit_cards": 73263.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "31",
-    "credit_cards": 938.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "32",
-    "credit_cards": 36808.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "36",
-    "credit_cards": 138111.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "38",
-    "credit_cards": 6173.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "39",
-    "credit_cards": 2756.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "4",
-    "credit_cards": 130124.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "40",
-    "credit_cards": 5091024.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "41",
-    "credit_cards": 3180401.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "42",
-    "credit_cards": 268326.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "43",
-    "credit_cards": 413518.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "44",
-    "credit_cards": 1324790.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "48",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 644486.0
   },
   {
     "date": "2014-01",
-    "bank": "5",
+    "bank": "AXIS BANK",
+    "credit_cards": 1324790.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "BANK OF AMERICA",
+    "credit_cards": 376.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "BANK OF BARODA",
+    "credit_cards": 135079.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 130124.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 25170.0
   },
   {
     "date": "2014-01",
-    "bank": "50",
-    "credit_cards": 2405038.0
+    "bank": "CANARA BANK",
+    "credit_cards": 132402.0
   },
   {
     "date": "2014-01",
-    "bank": "53",
-    "credit_cards": 490418.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "54",
-    "credit_cards": 1176844.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "6",
-    "credit_cards": 63915.0
-  },
-  {
-    "date": "2014-01",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 60176.0
   },
   {
     "date": "2014-01",
-    "bank": "8",
-    "credit_cards": 79569.0
+    "bank": "CITIBANK",
+    "credit_cards": 2405038.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 2756.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 3245.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "HDFC BANK",
+    "credit_cards": 5091024.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "HSBC",
+    "credit_cards": 490418.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "ICICI BANK",
+    "credit_cards": 3180401.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "INDIAN BANK",
+    "credit_cards": 61450.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 47046.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 268326.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "ING VYSYA BANK",
+    "credit_cards": 938.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 36808.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 413518.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 125049.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 138111.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1176844.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2805281.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "TAMILNADU MERCANTILE BANK",
+    "credit_cards": 6173.0
+  },
+  {
+    "date": "2014-01",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 269131.0
   },
   {
     "date": "2014-02",
-    "bank": "10",
-    "credit_cards": 62052.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "11",
-    "credit_cards": 47453.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "14",
-    "credit_cards": 125734.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "15",
-    "credit_cards": 68694.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "17",
-    "credit_cards": 58923.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "19",
-    "credit_cards": 52424.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "2",
-    "credit_cards": 131185.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "22",
-    "credit_cards": 2828880.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "29",
-    "credit_cards": 3487.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "3",
-    "credit_cards": 84264.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "31",
-    "credit_cards": 1626.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "32",
-    "credit_cards": 37233.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "36",
-    "credit_cards": 138276.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "38",
-    "credit_cards": 6284.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "39",
-    "credit_cards": 3190.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "4",
-    "credit_cards": 130315.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "40",
-    "credit_cards": 5093927.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "41",
-    "credit_cards": 3178293.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "42",
-    "credit_cards": 272618.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "43",
-    "credit_cards": 423680.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "44",
-    "credit_cards": 1331175.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "46",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 648106.0
   },
   {
     "date": "2014-02",
-    "bank": "47",
+    "bank": "AXIS BANK",
+    "credit_cards": 1331175.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "BANK OF AMERICA",
     "credit_cards": 405.0
   },
   {
     "date": "2014-02",
-    "bank": "49",
-    "credit_cards": 2412173.0
+    "bank": "BANK OF BARODA",
+    "credit_cards": 136688.0
   },
   {
     "date": "2014-02",
-    "bank": "5",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 130315.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 26016.0
   },
   {
     "date": "2014-02",
-    "bank": "52",
-    "credit_cards": 491400.0
+    "bank": "CANARA BANK",
+    "credit_cards": 133339.0
   },
   {
     "date": "2014-02",
-    "bank": "54",
-    "credit_cards": 1173043.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "6",
-    "credit_cards": 64645.0
-  },
-  {
-    "date": "2014-02",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 50599.0
   },
   {
     "date": "2014-02",
-    "bank": "8",
-    "credit_cards": 79905.0
+    "bank": "CITIBANK",
+    "credit_cards": 2412173.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 3190.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 3487.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "HDFC BANK",
+    "credit_cards": 5093927.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "HSBC",
+    "credit_cards": 491400.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "ICICI BANK",
+    "credit_cards": 3178293.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "INDIAN BANK",
+    "credit_cards": 62052.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 47453.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 272618.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "ING VYSYA BANK",
+    "credit_cards": 1626.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 37233.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 423680.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 125734.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 138276.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1173043.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2828880.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 6284.0
+  },
+  {
+    "date": "2014-02",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 270013.0
   },
   {
     "date": "2014-03",
-    "bank": "10",
-    "credit_cards": 63149.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "11",
-    "credit_cards": 47774.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "14",
-    "credit_cards": 126568.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "15",
-    "credit_cards": 68948.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "17",
-    "credit_cards": 60186.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "19",
-    "credit_cards": 56420.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "2",
-    "credit_cards": 132096.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "22",
-    "credit_cards": 2858116.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "29",
-    "credit_cards": 3682.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "3",
-    "credit_cards": 75548.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "31",
-    "credit_cards": 1879.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "32",
-    "credit_cards": 37929.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "36",
-    "credit_cards": 138426.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "38",
-    "credit_cards": 6308.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "39",
-    "credit_cards": 3276.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "4",
-    "credit_cards": 130426.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "40",
-    "credit_cards": 5137406.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "41",
-    "credit_cards": 3180205.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "42",
-    "credit_cards": 277338.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "43",
-    "credit_cards": 435120.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "44",
-    "credit_cards": 1384836.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "46",
+    "bank": "AMERICAN EXPRESS BKG. CORP.",
     "credit_cards": 651546.0
   },
   {
     "date": "2014-03",
-    "bank": "47",
+    "bank": "AXIS BANK",
+    "credit_cards": 1384836.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "BANK OF AMERICA",
     "credit_cards": 408.0
   },
   {
     "date": "2014-03",
-    "bank": "49",
-    "credit_cards": 2418941.0
+    "bank": "BANK OF BARODA",
+    "credit_cards": 131968.0
   },
   {
     "date": "2014-03",
-    "bank": "5",
+    "bank": "BANK OF INDIA",
+    "credit_cards": 130426.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "BANK OF MAHARASHTRA",
     "credit_cards": 27073.0
   },
   {
     "date": "2014-03",
-    "bank": "52",
-    "credit_cards": 494067.0
+    "bank": "CANARA BANK",
+    "credit_cards": 137106.0
   },
   {
     "date": "2014-03",
-    "bank": "54",
-    "credit_cards": 1163198.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "6",
-    "credit_cards": 68158.0
-  },
-  {
-    "date": "2014-03",
-    "bank": "7",
+    "bank": "CENTRAL BANK OF INDIA",
     "credit_cards": 52272.0
   },
   {
     "date": "2014-03",
-    "bank": "8",
-    "credit_cards": 80268.0
+    "bank": "CITIBANK",
+    "credit_cards": 2418941.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "DEVELOPMENT CREDIT BANK",
+    "credit_cards": 3276.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "DHANALAXMI BANK",
+    "credit_cards": 3682.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "HDFC BANK",
+    "credit_cards": 5137406.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "HSBC",
+    "credit_cards": 494067.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "ICICI BANK",
+    "credit_cards": 3180205.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "INDIAN BANK",
+    "credit_cards": 63149.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "INDIAN OVERSEAS BANK",
+    "credit_cards": 47774.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "INDUSIND BANK",
+    "credit_cards": 277338.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "ING VYSYA BANK",
+    "credit_cards": 1879.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "JAMMU & KASHMIR BANK",
+    "credit_cards": 37929.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "KOTAK MAHINDRA BANK",
+    "credit_cards": 435120.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "PUNJAB NATIONAL BANK",
+    "credit_cards": 126568.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "RATNAKAR BANK",
+    "credit_cards": 138426.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "STANDARD CHARTERED BANK",
+    "credit_cards": 1163198.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "STATE BANK OF INDIA",
+    "credit_cards": 2858116.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "TAMILNAD MERCANTILE BANK",
+    "credit_cards": 6308.0
+  },
+  {
+    "date": "2014-03",
+    "bank": "UNION BANK OF INDIA",
+    "credit_cards": 272550.0
   },
   {
     "date": "2014-04",

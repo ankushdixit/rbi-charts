@@ -132,6 +132,24 @@ def parse_file(filepath: str) -> list[dict]:
             has_sr_no = True
             break
 
+    # If header check failed, check if col 0 data has sequential numbers
+    # and col 1 has text (bank names)
+    if not has_sr_no:
+        numeric_count = 0
+        text_col1_count = 0
+        for i in range(5, min(15, len(main))):
+            val0 = str(main.iloc[i, 0]).strip()
+            val1 = str(main.iloc[i, 1]).strip() if main.shape[1] > 1 else ""
+            try:
+                float(val0)
+                numeric_count += 1
+            except (ValueError, TypeError):
+                pass
+            if val1 and val1 != "nan" and not val1.replace(".", "").isdigit():
+                text_col1_count += 1
+        if numeric_count >= 3 and text_col1_count >= 3:
+            has_sr_no = True
+
     # Determine bank column
     bank_col = 1 if has_sr_no else 0
 
@@ -182,7 +200,12 @@ def parse_file(filepath: str) -> list[dict]:
     for i in range(len(main)):
         if has_sr_no:
             sr = str(main.iloc[i, 0]).strip()
-            if not sr.isdigit():
+            # Handle both "1" and "1.0" (pandas reads integers as floats)
+            try:
+                sr_num = float(sr)
+                if not (sr_num > 0 and sr_num == int(sr_num)):
+                    continue
+            except (ValueError, TypeError):
                 continue
         else:
             # No Sr.No. — identify bank rows by checking if value looks like a bank name
