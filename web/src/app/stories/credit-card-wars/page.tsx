@@ -88,22 +88,63 @@ export default function CreditCardWarsPage() {
 
       <section className="mx-auto max-w-7xl px-6 pb-16">
         <div className="border-t border-zinc-800 pt-8">
-          <p className="text-xs font-semibold text-amber-400 tracking-widest uppercase mb-4">
-            Key Insight
+          <p className="text-xs font-semibold text-amber-400 tracking-widest uppercase mb-6">
+            Key Insights
           </p>
-          <p className="text-2xl font-bold text-white max-w-3xl mb-4">
-            HDFC Bank overtook SBI as India&apos;s largest credit card issuer and
-            never looked back.
-          </p>
-          <p className="text-zinc-400 max-w-3xl">
-            In {latestMonthName} {latestYear}, HDFC held{" "}
-            {(banks[0].cards / 1000000).toFixed(1)}M credit cards — ahead of
-            SBI&apos;s {(banks[1].cards / 1000000).toFixed(1)}M. But the real story
-            is the explosive growth of Axis, Kotak, and fintech-backed issuers
-            like RBL and IDFC First, who have grown 5-10x in just 5 years. India&apos;s
-            credit card market crossed 110 million cards in 2024 — from just 25
-            million a decade ago.
-          </p>
+
+          <div className="grid gap-8 md:grid-cols-2 max-w-5xl">
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                RBI bans are reshaping the market
+              </p>
+              <p className="text-zinc-400 text-sm">
+                When the RBI banned HDFC from issuing new cards (Dec 2020 - Aug 2021),
+                competitors like SBI and ICICI surged to fill the gap. History repeated
+                with Kotak in April 2024 — down 23% from its peak of 6M cards and still
+                falling. The regulator has become the most powerful force in credit card
+                market share.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                Devaluation kills cards faster than bans
+              </p>
+              <p className="text-zinc-400 text-sm">
+                RBL Bank wasn&apos;t banned — it chose to slash rewards, add spend
+                requirements, and introduce new fees in mid-2024. Customers voted
+                with their feet: 5.3M cards down to 4.6M (-13%) in 18 months. American
+                Express paused new applications entirely in March 2025 and is down 10%
+                from its peak. Loyalty programs are the real moat.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                Bank of Baroda: the quiet 260% surge
+              </p>
+              <p className="text-zinc-400 text-sm">
+                The biggest percentage gainer isn&apos;t a private bank — it&apos;s
+                PSU lender Bank of Baroda, which grew from 0.9M to 3.1M cards since
+                Jan 2022 (+260%), fueled by its massive branch network and the merger
+                of Dena Bank and Vijaya Bank customer bases. Yes Bank (+159%) also
+                staged a remarkable comeback after its 2020 moratorium crisis.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                India crossed 100M credit cards in Feb 2024
+              </p>
+              <p className="text-zinc-400 text-sm">
+                From just 25 million cards a decade ago to over 100 million in
+                February 2024 — a 12% CAGR. Credit card spending surged 27% YoY
+                to Rs 18.26 trillion in FY24. Yet penetration remains under 8% of
+                the population. The next 100 million will come from smaller banks,
+                fintechs, and tier-2 cities.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
