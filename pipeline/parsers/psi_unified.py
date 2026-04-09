@@ -170,31 +170,37 @@ def _normalize_label(label: str) -> str:
 
 
 def _detect_era(filepath: str, tables: list) -> int:
-    """Detect which era a file belongs to based on its content."""
+    """Detect which era a file belongs to based on its content.
+
+    The key distinction is the UNIT, not the era number:
+    - Million/Billion: need ×10/×100 conversion
+    - Lakh/Crore: no conversion needed
+
+    We return era 1 for Million, era 2/3 for Lakh.
+    """
     basename = os.path.basename(filepath)
 
-    # PSI HTML pages (psi_id_XXX.html) are always era 3
+    # PSI HTML pages (psi_id_XXX.html) are always era 3 (Lakh/Crore)
     if "psi_id_" in basename:
         return 3
 
-    # Bulletin files: check the main table structure
+    # Bulletin files: check actual units in header rows
     main = max(tables, key=lambda t: t.shape[0])
 
-    # Check units in header rows
+    for i in range(min(6, len(main))):
+        row_text = " ".join(str(main.iloc[i, c]) for c in range(min(8, main.shape[1])))
+        if "Million" in row_text:
+            return 1  # needs conversion
+        if "Lakh" in row_text:
+            return 2  # no conversion needed
+
+    # Check for PART I header (era 2+ structure)
     for i in range(min(4, len(main))):
         row_text = " ".join(str(main.iloc[i, c]) for c in range(min(6, main.shape[1])))
-        if "Million" in row_text:
-            return 1
         if "PART I" in row_text:
             return 2
 
-    # Check for era 2 indicators
-    for i in range(len(main)):
-        label = str(main.iloc[i, 0]).strip()
-        if "UPI" in label.upper():
-            return 2
-
-    return 1  # default to era 1
+    return 1  # conservative default
 
 
 def _parse_date_from_headers(tables: list, era: int) -> dict:

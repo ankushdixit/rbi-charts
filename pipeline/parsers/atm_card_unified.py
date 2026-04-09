@@ -132,8 +132,12 @@ def parse_file(filepath: str) -> list[dict]:
             }
         else:
             # Old format (pre-2022): 16 columns
-            # Col 2: ATMs on-site, Col 3: ATMs off-site, Col 4: PoS
-            # Col 8: Credit Cards, Col 9 or thereabouts: Debit Cards
+            # Col 2: ATMs on-site, Col 3: ATMs off-site
+            # Col 4: PoS on-line, Col 5: PoS off-line
+            # Col 6: Credit Cards Outstanding
+            # Col 7: CC Txns at ATM, Col 8: CC Txns at POS
+            # Col 9: CC Amount at ATM, Col 10: CC Amount at POS
+            # Col 11: Debit Cards Outstanding
             rec = {
                 "date": date,
                 "bank": bank,
@@ -141,8 +145,8 @@ def parse_file(filepath: str) -> list[dict]:
                 "atms_onsite": _to_int(main.iloc[i, 2]),
                 "atms_offsite": _to_int(main.iloc[i, 3]),
                 "pos_terminals": _to_int(main.iloc[i, 4]),
-                "credit_cards": _to_int(main.iloc[i, 8]),
-                "debit_cards": _to_int(main.iloc[i, 9]) if main.shape[1] > 9 else None,
+                "credit_cards": _to_int(main.iloc[i, 6]),
+                "debit_cards": _to_int(main.iloc[i, 11]) if main.shape[1] > 11 else None,
             }
 
         # Only keep rows with at least some data
