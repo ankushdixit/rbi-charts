@@ -77,7 +77,7 @@ export default function CreditCardWarsPage() {
           </div>
           <div>
             <span className="font-semibold text-zinc-400">Banks tracked:</span>{" "}
-            Top 10 by current outstanding
+            Top 15 by current outstanding
           </div>
         </div>
       </section>

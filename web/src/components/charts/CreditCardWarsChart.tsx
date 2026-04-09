@@ -19,6 +19,11 @@ const BANK_COLORS: Record<string, string> = {
   "BANK OF BARODA": "#14b8a6",
   "INDUSIND BANK": "#f97316",
   "YES BANK": "#a855f7",
+  "FEDERAL BANK": "#84cc16",
+  "AMERICAN EXPRESS BANKING CORPORATION": "#fbbf24",
+  "CANARA BANK": "#22d3ee",
+  "AU SMALL FINANCE BANK": "#fb923c",
+  "HSBC": "#e879f9",
 };
 
 const SHORT_NAMES: Record<string, string> = {
@@ -32,7 +37,19 @@ const SHORT_NAMES: Record<string, string> = {
   "BANK OF BARODA": "BoB",
   "INDUSIND BANK": "IndusInd",
   "YES BANK": "Yes Bank",
+  "FEDERAL BANK": "Federal",
+  "AMERICAN EXPRESS BANKING CORPORATION": "Amex",
+  "CANARA BANK": "Canara",
+  "AU SMALL FINANCE BANK": "AU SFB",
+  "HSBC": "HSBC",
 };
+
+const MILESTONES = [
+  { date: "Dec 2020", label: "RBI bans HDFC\nnew cards" },
+  { date: "Aug 2021", label: "Ban\nlifted" },
+  { date: "Aug 2022", label: "Unused cards\ndeactivated" },
+  { date: "Mar 2023", label: "Axis acquires\nCiti cards" },
+];
 
 export default function CreditCardWarsChart({ data }: Props) {
   const option = useMemo<EChartsOption>(() => {
@@ -44,24 +61,46 @@ export default function CreditCardWarsChart({ data }: Props) {
 
     const banks = Object.keys(data[0]).filter((k) => k !== "date");
 
-    const series = banks.map((bank) => ({
-      name: SHORT_NAMES[bank] || bank,
-      type: "line" as const,
-      data: data.map((d) => {
-        const v = d[bank];
-        return v != null && !isNaN(v) ? +(v / 1000000).toFixed(2) : null;
-      }),
-      smooth: true,
-      symbol: "none",
-      lineStyle: {
-        width: 2.5,
-        color: BANK_COLORS[bank] || "#64748b",
-      },
-      itemStyle: {
-        color: BANK_COLORS[bank] || "#64748b",
-      },
-      connectNulls: true,
-    }));
+    const markLineConfig = {
+      silent: true,
+      symbol: ["none", "none"],
+      lineStyle: { color: "#475569", type: "dashed" as const, width: 1 },
+      data: MILESTONES.map((m) => ({
+        xAxis: m.date,
+        label: {
+          show: true,
+          formatter: m.label,
+          color: "#94a3b8",
+          fontSize: 9,
+          position: "insideEndTop" as const,
+        },
+      })),
+    };
+
+    const series = banks.map((bank, idx) => {
+      const base = {
+        name: SHORT_NAMES[bank] || bank,
+        type: "line" as const,
+        data: data.map((d) => {
+          const v = d[bank];
+          return v != null && !isNaN(v) ? +(v / 1000000).toFixed(2) : null;
+        }),
+        smooth: true,
+        symbol: "none",
+        lineStyle: {
+          width: 2.5,
+          color: BANK_COLORS[bank] || "#64748b",
+        },
+        itemStyle: {
+          color: BANK_COLORS[bank] || "#64748b",
+        },
+        connectNulls: true,
+      };
+      if (idx === 0) {
+        return { ...base, markLine: markLineConfig };
+      }
+      return base;
+    });
 
     return {
       tooltip: {
@@ -70,7 +109,6 @@ export default function CreditCardWarsChart({ data }: Props) {
         borderColor: "#334155",
         textStyle: { color: "#e2e8f0", fontSize: 12 },
         formatter: (params: any) => {
-          // Sort by value descending
           const sorted = [...params].filter((p: any) => p.value != null).sort(
             (a: any, b: any) => (b.value ?? 0) - (a.value ?? 0)
           );
@@ -96,7 +134,7 @@ export default function CreditCardWarsChart({ data }: Props) {
         left: 55,
         right: 20,
         top: 15,
-        bottom: 100,
+        bottom: 110,
       },
       xAxis: {
         type: "category",
@@ -137,7 +175,7 @@ export default function CreditCardWarsChart({ data }: Props) {
 
   return (
     <div className="rounded-xl border border-zinc-800 bg-[#0f172a] p-6">
-      <Chart option={option} height="520px" />
+      <Chart option={option} height="560px" />
     </div>
   );
 }

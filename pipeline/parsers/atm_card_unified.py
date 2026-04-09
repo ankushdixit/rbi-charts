@@ -296,7 +296,7 @@ def export_credit_card_race(df: pd.DataFrame, output_dir: str = "web/public/data
     latest = cc["date"].max()
     top_banks = (
         cc[cc["date"] == latest]
-        .nlargest(10, "credit_cards")["bank"]
+        .nlargest(15, "credit_cards")["bank"]
         .tolist()
     )
 
