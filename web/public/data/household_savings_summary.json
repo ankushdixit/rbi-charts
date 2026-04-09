@@ -1,0 +1,107 @@
+[
+  {
+    "fy": "2022-23",
+    "instrument": "deposits_bank",
+    "value_crore": 1026971.5
+  },
+  {
+    "fy": "2022-23",
+    "instrument": "life_insurance",
+    "value_crore": 548944.9
+  },
+  {
+    "fy": "2022-23",
+    "instrument": "provident_pension",
+    "value_crore": 617793.1
+  },
+  {
+    "fy": "2022-23",
+    "instrument": "currency",
+    "value_crore": 237609.7
+  },
+  {
+    "fy": "2022-23",
+    "instrument": "mutual_funds",
+    "value_crore": 179087.8
+  },
+  {
+    "fy": "2022-23",
+    "instrument": "equity",
+    "value_crore": 23038.1
+  },
+  {
+    "fy": "2022-23",
+    "instrument": "small_savings",
+    "value_crore": 200068.0
+  },
+  {
+    "fy": "2023-24",
+    "instrument": "deposits_bank",
+    "value_crore": 1422924.9
+  },
+  {
+    "fy": "2023-24",
+    "instrument": "life_insurance",
+    "value_crore": 647061.4
+  },
+  {
+    "fy": "2023-24",
+    "instrument": "provident_pension",
+    "value_crore": 719360.2
+  },
+  {
+    "fy": "2023-24",
+    "instrument": "currency",
+    "value_crore": 118025.7
+  },
+  {
+    "fy": "2023-24",
+    "instrument": "mutual_funds",
+    "value_crore": 238962.1
+  },
+  {
+    "fy": "2023-24",
+    "instrument": "equity",
+    "value_crore": 29080.1
+  },
+  {
+    "fy": "2023-24",
+    "instrument": "small_savings",
+    "value_crore": 309750.7
+  },
+  {
+    "fy": "2024-25",
+    "instrument": "deposits_bank",
+    "value_crore": 1186081.4
+  },
+  {
+    "fy": "2024-25",
+    "instrument": "life_insurance",
+    "value_crore": 534814.6
+  },
+  {
+    "fy": "2024-25",
+    "instrument": "provident_pension",
+    "value_crore": 792528.6
+  },
+  {
+    "fy": "2024-25",
+    "instrument": "currency",
+    "value_crore": 209674.1
+  },
+  {
+    "fy": "2024-25",
+    "instrument": "mutual_funds",
+    "value_crore": 465930.0
+  },
+  {
+    "fy": "2024-25",
+    "instrument": "equity",
+    "value_crore": 73566.5
+  },
+  {
+    "fy": "2024-25",
+    "instrument": "small_savings",
+    "value_crore": 232913.0
+  }
+]

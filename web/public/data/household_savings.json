@@ -1,0 +1,1202 @@
+[
+  {
+    "period": "2022-23 Q1",
+    "item": "net_financial_assets",
+    "value": 287802.7
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "net_financial_assets",
+    "value": 297217.6
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "net_financial_assets",
+    "value": 293954.9
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "net_financial_assets",
+    "value": 451660.3
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "net_financial_assets",
+    "value": 1330635.4
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 4.4
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 4.6
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 4.3
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 6.4
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 4.9
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "total_financial_assets",
+    "value": 577822.4
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "total_financial_assets",
+    "value": 632335.6
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "total_financial_assets",
+    "value": 748109.7
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "total_financial_assets",
+    "value": 968986.1
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "total_financial_assets",
+    "value": 2927253.7
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 8.9
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 9.8
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 11.0
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 13.6
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 10.9
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "deposits_total",
+    "value": 185429.1
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "deposits_total",
+    "value": 317361.2
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "deposits_total",
+    "value": 280233.1
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "deposits_total",
+    "value": 325852.7
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "deposits_total",
+    "value": 1108876.2
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "deposits_bank",
+    "value": 163172.4
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "deposits_bank",
+    "value": 299532.7
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "deposits_bank",
+    "value": 256399.7
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "deposits_bank",
+    "value": 307866.8
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "deposits_bank",
+    "value": 1026971.5
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "deposits_nonbank",
+    "value": 22256.8
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "deposits_nonbank",
+    "value": 17828.6
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "deposits_nonbank",
+    "value": 23833.5
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "deposits_nonbank",
+    "value": 17985.9
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "deposits_nonbank",
+    "value": 81904.7
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "life_insurance",
+    "value": 73357.5
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "life_insurance",
+    "value": 151737.1
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "life_insurance",
+    "value": 167581.7
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "life_insurance",
+    "value": 156268.5
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "life_insurance",
+    "value": 548944.9
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "provident_pension",
+    "value": 146719.1
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "provident_pension",
+    "value": 118171.9
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "provident_pension",
+    "value": 136388.4
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "provident_pension",
+    "value": 216513.6
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "provident_pension",
+    "value": 617793.1
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "currency",
+    "value": 66438.9
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "currency",
+    "value": -54579.3
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "currency",
+    "value": 76760.1
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "currency",
+    "value": 148990.1
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "currency",
+    "value": 237609.7
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "investments_total",
+    "value": 51502.6
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "investments_total",
+    "value": 48530.1
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "investments_total",
+    "value": 49778.6
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "investments_total",
+    "value": 64150.6
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "investments_total",
+    "value": 213961.9
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "mutual_funds",
+    "value": 35443.5
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "mutual_funds",
+    "value": 44484.0
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "mutual_funds",
+    "value": 40205.9
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "mutual_funds",
+    "value": 58954.5
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "mutual_funds",
+    "value": 179087.8
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "equity",
+    "value": 13560.9
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "equity",
+    "value": 1378.2
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "equity",
+    "value": 6434.1
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "equity",
+    "value": 1664.9
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "equity",
+    "value": 23038.1
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "small_savings",
+    "value": 54375.1
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "small_savings",
+    "value": 51114.5
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "small_savings",
+    "value": 37367.7
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "small_savings",
+    "value": 57210.6
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "small_savings",
+    "value": 200068.0
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "total_liabilities",
+    "value": 290019.7
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "total_liabilities",
+    "value": 335118.0
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "total_liabilities",
+    "value": 454154.8
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "total_liabilities",
+    "value": 517325.8
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "total_liabilities",
+    "value": 1596618.3
+  },
+  {
+    "period": "2022-23 Q1",
+    "item": "total_liabilities_pct_gdp",
+    "value": 4.5
+  },
+  {
+    "period": "2022-23 Q2",
+    "item": "total_liabilities_pct_gdp",
+    "value": 5.2
+  },
+  {
+    "period": "2022-23 Q3",
+    "item": "total_liabilities_pct_gdp",
+    "value": 6.7
+  },
+  {
+    "period": "2022-23 Q4",
+    "item": "total_liabilities_pct_gdp",
+    "value": 7.3
+  },
+  {
+    "period": "2022-23 Annual",
+    "item": "total_liabilities_pct_gdp",
+    "value": 5.9
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "net_financial_assets",
+    "value": 349607.1
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "net_financial_assets",
+    "value": 283994.4
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "net_financial_assets",
+    "value": 294431.6
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "net_financial_assets",
+    "value": 666547.4
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "net_financial_assets",
+    "value": 1594580.4
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 4.8
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 3.9
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 3.8
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 8.4
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 5.3
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "total_financial_assets",
+    "value": 671244.1
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "total_financial_assets",
+    "value": 810128.8
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "total_financial_assets",
+    "value": 805066.2
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "total_financial_assets",
+    "value": 1187279.1
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "total_financial_assets",
+    "value": 3473718.2
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 9.3
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 11.2
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 10.4
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 14.9
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 11.5
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "deposits_total",
+    "value": 266680.3
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "deposits_total",
+    "value": 407948.0
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "deposits_total",
+    "value": 296931.3
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "deposits_total",
+    "value": 406706.9
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "deposits_total",
+    "value": 1378266.4
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "deposits_bank",
+    "value": 253004.1
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "deposits_bank",
+    "value": 501768.5
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "deposits_bank",
+    "value": 277432.0
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "deposits_bank",
+    "value": 390720.4
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "deposits_bank",
+    "value": 1422924.9
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "deposits_nonbank",
+    "value": 13676.2
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "deposits_nonbank",
+    "value": -93820.5
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "deposits_nonbank",
+    "value": 19499.4
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "deposits_nonbank",
+    "value": 15986.5
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "deposits_nonbank",
+    "value": -44658.5
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "life_insurance",
+    "value": 157301.9
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "life_insurance",
+    "value": 140356.8
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "life_insurance",
+    "value": 160135.2
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "life_insurance",
+    "value": 189267.6
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "life_insurance",
+    "value": 647061.4
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "provident_pension",
+    "value": 163686.0
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "provident_pension",
+    "value": 148356.1
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "provident_pension",
+    "value": 153435.1
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "provident_pension",
+    "value": 253882.9
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "provident_pension",
+    "value": 719360.2
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "currency",
+    "value": -48636.2
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "currency",
+    "value": -36700.8
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "currency",
+    "value": 56719.0
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "currency",
+    "value": 146643.8
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "currency",
+    "value": 118025.7
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "investments_total",
+    "value": 41014.3
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "investments_total",
+    "value": 72664.6
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "investments_total",
+    "value": 79238.2
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "investments_total",
+    "value": 108336.6
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "investments_total",
+    "value": 301253.8
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "mutual_funds",
+    "value": 32085.6
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "mutual_funds",
+    "value": 55768.8
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "mutual_funds",
+    "value": 60134.6
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "mutual_funds",
+    "value": 90973.0
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "mutual_funds",
+    "value": 238962.1
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "equity",
+    "value": 3756.7
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "equity",
+    "value": 7146.3
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "equity",
+    "value": 9941.1
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "equity",
+    "value": 8236.1
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "equity",
+    "value": 29080.1
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "small_savings",
+    "value": 91197.8
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "small_savings",
+    "value": 77504.1
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "small_savings",
+    "value": 58607.4
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "small_savings",
+    "value": 82441.4
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "small_savings",
+    "value": 309750.7
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "total_liabilities",
+    "value": 321637.1
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "total_liabilities",
+    "value": 526134.4
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "total_liabilities",
+    "value": 510634.6
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "total_liabilities",
+    "value": 520731.7
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "total_liabilities",
+    "value": 1879137.8
+  },
+  {
+    "period": "2023-24 Q1",
+    "item": "total_liabilities_pct_gdp",
+    "value": 4.5
+  },
+  {
+    "period": "2023-24 Q2",
+    "item": "total_liabilities_pct_gdp",
+    "value": 7.3
+  },
+  {
+    "period": "2023-24 Q3",
+    "item": "total_liabilities_pct_gdp",
+    "value": 6.6
+  },
+  {
+    "period": "2023-24 Q4",
+    "item": "total_liabilities_pct_gdp",
+    "value": 6.5
+  },
+  {
+    "period": "2023-24 Annual",
+    "item": "total_liabilities_pct_gdp",
+    "value": 6.2
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "net_financial_assets",
+    "value": 551994.2
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "net_financial_assets",
+    "value": 496676.1
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "net_financial_assets",
+    "value": 271043.1
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "net_financial_assets",
+    "value": 674489.0
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "net_financial_assets",
+    "value": 1994202.4
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 7.0
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 6.3
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 3.2
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 7.6
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "net_financial_assets_pct_gdp",
+    "value": 6.0
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "total_financial_assets",
+    "value": 840665.3
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "total_financial_assets",
+    "value": 901135.4
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "total_financial_assets",
+    "value": 689663.5
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "total_financial_assets",
+    "value": 1129381.1
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "total_financial_assets",
+    "value": 3560845.4
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 10.6
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 11.5
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 8.1
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 12.8
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "total_financial_assets_pct_gdp",
+    "value": 10.8
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "deposits_total",
+    "value": 274567.9
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "deposits_total",
+    "value": 403591.4
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "deposits_total",
+    "value": 158320.8
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "deposits_total",
+    "value": 418183.6
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "deposits_total",
+    "value": 1254663.6
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "deposits_bank",
+    "value": 254885.4
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "deposits_bank",
+    "value": 388328.6
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "deposits_bank",
+    "value": 141290.0
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "deposits_bank",
+    "value": 401577.5
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "deposits_bank",
+    "value": 1186081.4
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "deposits_nonbank",
+    "value": 19682.4
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "deposits_nonbank",
+    "value": 15262.8
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "deposits_nonbank",
+    "value": 17030.8
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "deposits_nonbank",
+    "value": 16606.1
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "deposits_nonbank",
+    "value": 68582.2
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "life_insurance",
+    "value": 175427.0
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "life_insurance",
+    "value": 178835.2
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "life_insurance",
+    "value": 90159.4
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "life_insurance",
+    "value": 90393.0
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "life_insurance",
+    "value": 534814.6
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "provident_pension",
+    "value": 170218.2
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "provident_pension",
+    "value": 170219.6
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "provident_pension",
+    "value": 170758.3
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "provident_pension",
+    "value": 281332.6
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "provident_pension",
+    "value": 792528.6
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "currency",
+    "value": 34212.5
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "currency",
+    "value": -57615.2
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "currency",
+    "value": 70840.8
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "currency",
+    "value": 162236.1
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "currency",
+    "value": 209674.1
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "investments_total",
+    "value": 120638.2
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "investments_total",
+    "value": 152637.1
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "investments_total",
+    "value": 159255.2
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "investments_total",
+    "value": 103720.8
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "investments_total",
+    "value": 536251.4
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "mutual_funds",
+    "value": 106987.0
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "mutual_funds",
+    "value": 137618.0
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "mutual_funds",
+    "value": 124132.0
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "mutual_funds",
+    "value": 97193.0
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "mutual_funds",
+    "value": 465930.0
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "equity",
+    "value": 14448.0
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "equity",
+    "value": 15645.0
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "equity",
+    "value": 36063.1
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "equity",
+    "value": 7410.3
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "equity",
+    "value": 73566.5
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "small_savings",
+    "value": 65601.6
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "small_savings",
+    "value": 53467.4
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "small_savings",
+    "value": 40329.0
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "small_savings",
+    "value": 73515.0
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "small_savings",
+    "value": 232913.0
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "total_liabilities",
+    "value": 288671.1
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "total_liabilities",
+    "value": 404459.3
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "total_liabilities",
+    "value": 418620.4
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "total_liabilities",
+    "value": 454892.1
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "total_liabilities",
+    "value": 1566642.9
+  },
+  {
+    "period": "2024-25 Q1",
+    "item": "total_liabilities_pct_gdp",
+    "value": 3.7
+  },
+  {
+    "period": "2024-25 Q2",
+    "item": "total_liabilities_pct_gdp",
+    "value": 5.2
+  },
+  {
+    "period": "2024-25 Q3",
+    "item": "total_liabilities_pct_gdp",
+    "value": 4.9
+  },
+  {
+    "period": "2024-25 Q4",
+    "item": "total_liabilities_pct_gdp",
+    "value": 5.2
+  },
+  {
+    "period": "2024-25 Annual",
+    "item": "total_liabilities_pct_gdp",
+    "value": 4.7
+  }
+]

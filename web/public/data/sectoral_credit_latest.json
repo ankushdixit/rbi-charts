@@ -1,0 +1,22 @@
+[
+  {
+    "date": "8.Mar,2024",
+    "sector": "agriculture",
+    "outstanding_crore": 2032170.57
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "industry_total",
+    "outstanding_crore": 3645197.23
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "services",
+    "outstanding_crore": 4471927.64
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "personal_loans",
+    "outstanding_crore": 5279167.36
+  }
+]

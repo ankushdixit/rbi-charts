@@ -1,0 +1,452 @@
+[
+  {
+    "date": "8.Mar,2024",
+    "sector": "total_bank_credit",
+    "outstanding_crore": 16313558.6
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "total_bank_credit",
+    "outstanding_crore": 16432163.93
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "total_bank_credit",
+    "outstanding_crore": 18125412.6
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "total_bank_credit",
+    "outstanding_crore": 18243972.33
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "total_bank_credit",
+    "outstanding_crore": 20754077.69
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "food_credit",
+    "outstanding_crore": 31703.27
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "food_credit",
+    "outstanding_crore": 23080.81
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "food_credit",
+    "outstanding_crore": 42552.27
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "food_credit",
+    "outstanding_crore": 36531.16
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "food_credit",
+    "outstanding_crore": 82643.14
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "non_food_credit",
+    "outstanding_crore": 16281855.33
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "non_food_credit",
+    "outstanding_crore": 16409083.12
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "non_food_credit",
+    "outstanding_crore": 18082860.33
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "non_food_credit",
+    "outstanding_crore": 18207441.17
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "non_food_credit",
+    "outstanding_crore": 20671434.55
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "agriculture",
+    "outstanding_crore": 2032170.57
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "agriculture",
+    "outstanding_crore": 2071251.0
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "agriculture",
+    "outstanding_crore": 2264305.12
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "agriculture",
+    "outstanding_crore": 2287060.1
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "agriculture",
+    "outstanding_crore": 2543476.76
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "industry_total",
+    "outstanding_crore": 3645197.23
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "industry_total",
+    "outstanding_crore": 3682392.53
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "industry_total",
+    "outstanding_crore": 3916782.66
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "industry_total",
+    "outstanding_crore": 3985659.55
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "industry_total",
+    "outstanding_crore": 4447192.0
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "industry_micro_small",
+    "outstanding_crore": 721754.08
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "industry_micro_small",
+    "outstanding_crore": 733123.36
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "industry_micro_small",
+    "outstanding_crore": 791321.25
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "industry_micro_small",
+    "outstanding_crore": 798472.66
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "industry_micro_small",
+    "outstanding_crore": 1031798.7
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "industry_medium",
+    "outstanding_crore": 301314.85
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "industry_medium",
+    "outstanding_crore": 306424.85
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "industry_medium",
+    "outstanding_crore": 355603.49
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "industry_medium",
+    "outstanding_crore": 363245.02
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "industry_medium",
+    "outstanding_crore": 430262.87
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "industry_large",
+    "outstanding_crore": 2622128.29
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "industry_large",
+    "outstanding_crore": 2642844.32
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "industry_large",
+    "outstanding_crore": 2769857.93
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "industry_large",
+    "outstanding_crore": 2823941.87
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "industry_large",
+    "outstanding_crore": 2985130.43
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "services",
+    "outstanding_crore": 4471927.64
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "services",
+    "outstanding_crore": 4547236.77
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "services",
+    "outstanding_crore": 4995649.46
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "services",
+    "outstanding_crore": 5093565.11
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "services",
+    "outstanding_crore": 5807797.55
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "personal_loans",
+    "outstanding_crore": 5279167.36
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "personal_loans",
+    "outstanding_crore": 5346691.22
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "personal_loans",
+    "outstanding_crore": 5898807.5
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "personal_loans",
+    "outstanding_crore": 5971696.13
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "personal_loans",
+    "outstanding_crore": 6796850.16
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "personal_consumer_durables",
+    "outstanding_crore": 23686.57
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "personal_consumer_durables",
+    "outstanding_crore": 23444.84
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "personal_consumer_durables",
+    "outstanding_crore": 24301.36
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "personal_consumer_durables",
+    "outstanding_crore": 23200.66
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "personal_consumer_durables",
+    "outstanding_crore": 21924.97
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "personal_housing",
+    "outstanding_crore": 2680408.56
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "personal_housing",
+    "outstanding_crore": 2718712.4
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "personal_housing",
+    "outstanding_crore": 2978758.79
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "personal_housing",
+    "outstanding_crore": 3010476.61
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "personal_housing",
+    "outstanding_crore": 3305691.11
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "personal_fd",
+    "outstanding_crore": 119814.87
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "personal_fd",
+    "outstanding_crore": 125082.24
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "personal_fd",
+    "outstanding_crore": 135169.19
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "personal_fd",
+    "outstanding_crore": 141842.08
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "personal_fd",
+    "outstanding_crore": 154182.85
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "personal_credit_card",
+    "outstanding_crore": 258107.39
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "personal_credit_card",
+    "outstanding_crore": 257016.06
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "personal_credit_card",
+    "outstanding_crore": 287047.06
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "personal_credit_card",
+    "outstanding_crore": 284366.26
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "personal_credit_card",
+    "outstanding_crore": 292066.51
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "personal_education",
+    "outstanding_crore": 118707.24
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "personal_education",
+    "outstanding_crore": 119379.6
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "personal_education",
+    "outstanding_crore": 136820.63
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "personal_education",
+    "outstanding_crore": 137456.06
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "personal_education",
+    "outstanding_crore": 155589.77
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "personal_vehicle",
+    "outstanding_crore": 565733.4
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "personal_vehicle",
+    "outstanding_crore": 573390.82
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "personal_vehicle",
+    "outstanding_crore": 619796.61
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "personal_vehicle",
+    "outstanding_crore": 622793.45
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "personal_vehicle",
+    "outstanding_crore": 726036.99
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "personal_gold",
+    "outstanding_crore": 92414.99
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "personal_gold",
+    "outstanding_crore": 93301.37
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "personal_gold",
+    "outstanding_crore": 188051.31
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "personal_gold",
+    "outstanding_crore": 206284.02
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "personal_gold",
+    "outstanding_crore": 428577.99
+  },
+  {
+    "date": "8.Mar,2024",
+    "sector": "personal_other",
+    "outstanding_crore": 1411893.77
+  },
+  {
+    "date": "22.Mar,2024",
+    "sector": "personal_other",
+    "outstanding_crore": 1427871.53
+  },
+  {
+    "date": "7.Mar,2025",
+    "sector": "personal_other",
+    "outstanding_crore": 1519054.31
+  },
+  {
+    "date": "21.Mar,2025",
+    "sector": "personal_other",
+    "outstanding_crore": 1535197.48
+  },
+  {
+    "date": "28.Feb,2026",
+    "sector": "personal_other",
+    "outstanding_crore": 1702694.83
+  }
+]
