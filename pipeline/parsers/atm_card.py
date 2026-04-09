@@ -67,8 +67,8 @@ def parse(content: bytes) -> pd.DataFrame:
     """Parse ATM/Card stats HTML into a clean DataFrame."""
     tables = pd.read_html(BytesIO(content))
 
-    if len(tables) < 2:
-        raise ValueError("Expected at least 2 tables in ATM/Card stats HTML")
+    if not tables:
+        raise ValueError("No tables found in ATM/Card stats HTML")
 
     # The main data table is the largest one
     raw = max(tables, key=len)
