@@ -16,8 +16,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": null,
-    "wallets": 537.0,
-    "debit_cards_payments": 1081.2
+    "wallets": 537.0
   },
   {
     "date": "2016-01",
@@ -36,8 +35,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": null,
-    "wallets": 487.4,
-    "debit_cards_payments": 1098.8
+    "wallets": 487.4
   },
   {
     "date": "2016-02",
@@ -56,8 +54,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": null,
-    "wallets": 490.2,
-    "debit_cards_payments": 1049.6
+    "wallets": 490.2
   },
   {
     "date": "2016-03",
@@ -76,8 +73,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": null,
-    "wallets": 534.4,
-    "debit_cards_payments": 1128.7
+    "wallets": 534.4
   },
   {
     "date": "2016-04",
@@ -95,9 +91,8 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": 0.5,
-    "wallets": 487.6,
-    "debit_cards_payments": 1181.4
+    "upi": 0.0,
+    "wallets": 487.6
   },
   {
     "date": "2016-05",
@@ -115,9 +110,8 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": 1.0,
-    "wallets": 503.1,
-    "debit_cards_payments": 1338.6
+    "upi": 2.5,
+    "wallets": 503.1
   },
   {
     "date": "2016-06",
@@ -135,9 +129,8 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": 2.0,
-    "wallets": 586.3,
-    "debit_cards_payments": 1180.3
+    "upi": 5.0,
+    "wallets": 586.3
   },
   {
     "date": "2016-07",
@@ -155,9 +148,8 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": 4.0,
-    "wallets": 594.5,
-    "debit_cards_payments": 1284.4
+    "upi": 7.5,
+    "wallets": 594.5
   },
   {
     "date": "2016-08",
@@ -175,9 +167,8 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": 6.0,
-    "wallets": 706.8,
-    "debit_cards_payments": 1305.4
+    "upi": 10.0,
+    "wallets": 706.8
   },
   {
     "date": "2016-09",
@@ -195,9 +186,8 @@
     "total_digital": null,
     "total_payments": null,
     "total_retail": null,
-    "upi": 10.0,
-    "wallets": 753.0,
-    "debit_cards_payments": 1251.9
+    "upi": 12.5,
+    "wallets": 753.0
   },
   {
     "date": "2016-10",
@@ -216,8 +206,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 15.0,
-    "wallets": 995.7,
-    "debit_cards_payments": 1404.5
+    "wallets": 995.7
   },
   {
     "date": "2016-11",
@@ -236,8 +225,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 77.31,
-    "wallets": 1380.9,
-    "debit_cards_payments": 2347.9
+    "wallets": 1380.9
   },
   {
     "date": "2016-12",
@@ -256,8 +244,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 139.61,
-    "wallets": 2131.1,
-    "debit_cards_payments": 3215.4
+    "wallets": 2131.1
   },
   {
     "date": "2017-01",
@@ -276,8 +263,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 201.92,
-    "wallets": 2616.7,
-    "debit_cards_payments": 3286.2
+    "wallets": 2616.7
   },
   {
     "date": "2017-02",
@@ -296,8 +282,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 264.22,
-    "wallets": 2469.5,
-    "debit_cards_payments": 2517.5
+    "wallets": 2469.5
   },
   {
     "date": "2017-03",
@@ -316,8 +301,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 326.53,
-    "wallets": 3074.5,
-    "debit_cards_payments": 2711.7
+    "wallets": 3074.5
   },
   {
     "date": "2017-04",
@@ -336,8 +320,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 388.83,
-    "wallets": 3208.7,
-    "debit_cards_payments": 2680.0
+    "wallets": 3208.7
   },
   {
     "date": "2017-05",
@@ -356,8 +339,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 451.14,
-    "wallets": 2417.2,
-    "debit_cards_payments": 2675.1
+    "wallets": 2417.2
   },
   {
     "date": "2017-06",
@@ -376,8 +358,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 513.45,
-    "wallets": 2216.3,
-    "debit_cards_payments": 2546.6
+    "wallets": 2216.3
   },
   {
     "date": "2017-07",
@@ -396,8 +377,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 575.75,
-    "wallets": 2354.6,
-    "debit_cards_payments": 2544.6
+    "wallets": 2354.6
   },
   {
     "date": "2017-08",
@@ -416,8 +396,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 638.06,
-    "wallets": 2254.3,
-    "debit_cards_payments": 2654.5
+    "wallets": 2254.3
   },
   {
     "date": "2017-09",
@@ -436,8 +415,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 700.36,
-    "wallets": 1994.8,
-    "debit_cards_payments": 2653.0
+    "wallets": 1994.8
   },
   {
     "date": "2017-10",
@@ -456,8 +434,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 762.67,
-    "wallets": 2012.3,
-    "debit_cards_payments": 2784.0
+    "wallets": 2012.3
   },
   {
     "date": "2017-11",
@@ -476,8 +453,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 1073.52,
-    "wallets": 1866.7,
-    "debit_cards_payments": 2709.6
+    "wallets": 1866.7
   },
   {
     "date": "2017-12",
@@ -496,8 +472,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 1384.38,
-    "wallets": 2883.7,
-    "debit_cards_payments": 2903.5
+    "wallets": 2883.7
   },
   {
     "date": "2018-01",
@@ -516,8 +491,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 1695.23,
-    "wallets": 3263.0,
-    "debit_cards_payments": 2985.6
+    "wallets": 3263.0
   },
   {
     "date": "2018-02",
@@ -536,8 +510,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 2006.09,
-    "wallets": 3100.1,
-    "debit_cards_payments": 2826.6
+    "wallets": 3100.1
   },
   {
     "date": "2018-03",
@@ -556,8 +529,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 2316.94,
-    "wallets": 2687.9,
-    "debit_cards_payments": 3189.0
+    "wallets": 2687.9
   },
   {
     "date": "2018-04",
@@ -576,8 +548,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 2627.8,
-    "wallets": 2792.9,
-    "debit_cards_payments": 3337.7
+    "wallets": 2792.9
   },
   {
     "date": "2018-05",
@@ -596,8 +567,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 2938.65,
-    "wallets": 3260.2,
-    "debit_cards_payments": 3521.2
+    "wallets": 3260.2
   },
   {
     "date": "2018-06",
@@ -616,8 +586,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 3249.5,
-    "wallets": 3096.2,
-    "debit_cards_payments": 2833.1
+    "wallets": 3096.2
   },
   {
     "date": "2018-07",
@@ -636,8 +605,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 3560.36,
-    "wallets": 3251.8,
-    "debit_cards_payments": 3667.5
+    "wallets": 3251.8
   },
   {
     "date": "2018-08",
@@ -656,8 +624,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 3871.21,
-    "wallets": 3406.5,
-    "debit_cards_payments": 3571.7
+    "wallets": 3406.5
   },
   {
     "date": "2018-09",
@@ -676,8 +643,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 4182.07,
-    "wallets": 3241.6,
-    "debit_cards_payments": 3627.5
+    "wallets": 3241.6
   },
   {
     "date": "2018-10",
@@ -696,8 +662,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 4492.92,
-    "wallets": 3684.5,
-    "debit_cards_payments": 3933.9
+    "wallets": 3684.5
   },
   {
     "date": "2018-11",
@@ -716,8 +681,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 4987.86,
-    "wallets": 3473.2,
-    "debit_cards_payments": 3765.7
+    "wallets": 3473.2
   },
   {
     "date": "2018-12",
@@ -736,8 +700,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 5482.8,
-    "wallets": 3929.9,
-    "debit_cards_payments": 3875.4
+    "wallets": 3929.9
   },
   {
     "date": "2019-01",
@@ -756,8 +719,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 5977.73,
-    "wallets": 3976.3,
-    "debit_cards_payments": 3736.0
+    "wallets": 3976.3
   },
   {
     "date": "2019-02",
@@ -776,8 +738,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 6472.67,
-    "wallets": 3450.3,
-    "debit_cards_payments": 3471.7
+    "wallets": 3450.3
   },
   {
     "date": "2019-03",
@@ -796,8 +757,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 6967.61,
-    "wallets": 3848.9,
-    "debit_cards_payments": 4075.7
+    "wallets": 3848.9
   },
   {
     "date": "2019-04",
@@ -816,8 +776,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 7462.55,
-    "wallets": 3788.7,
-    "debit_cards_payments": 4075.7
+    "wallets": 3788.7
   },
   {
     "date": "2019-05",
@@ -836,8 +795,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 7957.48,
-    "wallets": 3674.55,
-    "debit_cards_payments": 4075.9
+    "wallets": 3674.55
   },
   {
     "date": "2019-06",
@@ -856,8 +814,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 8452.42,
-    "wallets": 3347.01,
-    "debit_cards_payments": 4073.76
+    "wallets": 3347.01
   },
   {
     "date": "2019-07",
@@ -876,8 +833,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 8947.36,
-    "wallets": 3471.32,
-    "debit_cards_payments": 4208.2
+    "wallets": 3471.32
   },
   {
     "date": "2019-08",
@@ -896,8 +852,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 9442.3,
-    "wallets": 3493.36,
-    "debit_cards_payments": 4287.7
+    "wallets": 3493.36
   },
   {
     "date": "2019-09",
@@ -916,8 +871,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 9937.23,
-    "wallets": 3444.22,
-    "debit_cards_payments": 4149.34
+    "wallets": 3444.22
   },
   {
     "date": "2019-10",
@@ -936,8 +890,7 @@
     "total_payments": null,
     "total_retail": null,
     "upi": 10432.17,
-    "wallets": 3393.25,
-    "debit_cards_payments": 4550.49
+    "wallets": 3393.25
   },
   {
     "date": "2019-11",
@@ -956,8 +909,7 @@
     "total_payments": 31250.88,
     "total_retail": null,
     "upi": 12187.71,
-    "wallets": 3354.08,
-    "debit_cards_payments": 4299.96
+    "wallets": 3354.08
   },
   {
     "date": "2019-12",
@@ -976,8 +928,7 @@
     "total_payments": 33509.98,
     "total_retail": null,
     "upi": 13084.02,
-    "wallets": 3651.56,
-    "debit_cards_payments": 4578.88
+    "wallets": 3651.56
   },
   {
     "date": "2020-01",
@@ -996,8 +947,7 @@
     "total_payments": 34922.55,
     "total_retail": null,
     "upi": 13050.19,
-    "wallets": 3876.23,
-    "debit_cards_payments": 4637.19
+    "wallets": 3876.23
   },
   {
     "date": "2020-02",
@@ -1016,8 +966,7 @@
     "total_payments": 33545.73,
     "total_retail": null,
     "upi": 13256.93,
-    "wallets": 3782.82,
-    "debit_cards_payments": 4381.77
+    "wallets": 3782.82
   },
   {
     "date": "2020-03",
@@ -1036,8 +985,7 @@
     "total_payments": 30728.31,
     "total_retail": null,
     "upi": 12468.45,
-    "wallets": 3178.6,
-    "debit_cards_payments": 3716.28
+    "wallets": 3178.6
   },
   {
     "date": "2020-04",
@@ -1056,8 +1004,7 @@
     "total_payments": 23822.99,
     "total_retail": null,
     "upi": 9995.74,
-    "wallets": 1841.26,
-    "debit_cards_payments": 2095.3
+    "wallets": 1841.26
   },
   {
     "date": "2020-05",
@@ -1076,8 +1023,7 @@
     "total_payments": 25945.56,
     "total_retail": null,
     "upi": 12344.96,
-    "wallets": 2532.2,
-    "debit_cards_payments": 2723.3
+    "wallets": 2532.2
   },
   {
     "date": "2020-06",
@@ -1096,8 +1042,7 @@
     "total_payments": 29592.58,
     "total_retail": null,
     "upi": 13369.31,
-    "wallets": 2905.67,
-    "debit_cards_payments": 3002.34
+    "wallets": 2905.67
   },
   {
     "date": "2020-07",
@@ -1116,15 +1061,14 @@
     "total_payments": 31814.21,
     "total_retail": null,
     "upi": 14973.54,
-    "wallets": 3205.59,
-    "debit_cards_payments": 3161.93
+    "wallets": 3205.59
   },
   {
     "date": "2020-08",
-    "cards_total": 4914.48,
+    "cards_total": 4814.53,
     "credit_cards": 1425.11,
     "cts": 519.72,
-    "debit_cards": 3489.38,
+    "debit_cards": 3389.42,
     "imps": 2461.25,
     "mobile_banking": null,
     "nach": null,
@@ -1132,12 +1076,11 @@
     "paper_total": 519.83,
     "ppi_total": 4932.61,
     "rtgs": 116.77,
-    "total_digital": 34789.24,
-    "total_payments": 35309.07,
+    "total_digital": 34689.28,
+    "total_payments": 35209.11,
     "total_retail": null,
     "upi": 16188.28,
-    "wallets": 3967.82,
-    "debit_cards_payments": 3489.38
+    "wallets": 3967.82
   },
   {
     "date": "2020-09",
@@ -1156,8 +1099,7 @@
     "total_payments": 36823.9,
     "total_retail": null,
     "upi": 18001.67,
-    "wallets": 3616.58,
-    "debit_cards_payments": 3507.81
+    "wallets": 3616.58
   },
   {
     "date": "2020-10",
@@ -1176,8 +1118,7 @@
     "total_payments": 40621.58,
     "total_retail": null,
     "upi": 20716.19,
-    "wallets": 3639.89,
-    "debit_cards_payments": 3932.66
+    "wallets": 3639.89
   },
   {
     "date": "2020-11",
@@ -1196,8 +1137,7 @@
     "total_payments": 41603.41,
     "total_retail": null,
     "upi": 22102.28,
-    "wallets": 3421.15,
-    "debit_cards_payments": 3765.75
+    "wallets": 3421.15
   },
   {
     "date": "2020-12",
@@ -1216,8 +1156,7 @@
     "total_payments": 43416.2,
     "total_retail": null,
     "upi": 22341.58,
-    "wallets": 3521.48,
-    "debit_cards_payments": 3765.09
+    "wallets": 3521.48
   },
   {
     "date": "2021-01",
@@ -1236,8 +1175,7 @@
     "total_payments": 43320.75,
     "total_retail": null,
     "upi": 23027.28,
-    "wallets": 3499.66,
-    "debit_cards_payments": 3699.54
+    "wallets": 3499.66
   },
   {
     "date": "2021-02",
@@ -1256,8 +1194,7 @@
     "total_payments": 41882.46,
     "total_retail": null,
     "upi": 22928.94,
-    "wallets": 3652.79,
-    "debit_cards_payments": 3445.46
+    "wallets": 3652.79
   },
   {
     "date": "2021-03",
@@ -1276,8 +1213,7 @@
     "total_payments": 50107.66,
     "total_retail": null,
     "upi": 27316.85,
-    "wallets": 4182.92,
-    "debit_cards_payments": 3763.05
+    "wallets": 4182.92
   },
   {
     "date": "2021-04",
@@ -1296,8 +1232,26 @@
     "total_payments": 45766.02,
     "total_retail": null,
     "upi": 26410.61,
-    "wallets": 3963.08,
-    "debit_cards_payments": 3213.23
+    "wallets": 3963.08
+  },
+  {
+    "date": "2021-05",
+    "cards_total": 3980.67,
+    "credit_cards": 1344.73,
+    "cts": 366.69,
+    "debit_cards": 2635.94,
+    "imps": 2798.61,
+    "mobile_banking": null,
+    "nach": null,
+    "neft": 2565.39,
+    "paper_total": 366.69,
+    "ppi_total": 3848.74,
+    "rtgs": 123.34,
+    "total_digital": 42755.39,
+    "total_payments": 43122.08,
+    "total_retail": null,
+    "upi": 25291.82,
+    "wallets": 3180.18
   },
   {
     "date": "2021-06",
@@ -1316,8 +1270,7 @@
     "total_payments": 47481.18,
     "total_retail": null,
     "upi": 28075.16,
-    "wallets": 3911.95,
-    "debit_cards_payments": 3016.56
+    "wallets": 3911.95
   },
   {
     "date": "2021-07",
@@ -1336,8 +1289,7 @@
     "total_payments": 53302.44,
     "total_retail": 53139.99,
     "upi": 32455.02,
-    "wallets": 4079.19,
-    "debit_cards_payments": 3405.37
+    "wallets": 4079.19
   },
   {
     "date": "2021-08",
@@ -1356,8 +1308,7 @@
     "total_payments": 57812.9,
     "total_retail": 57720.5,
     "upi": 35555.45,
-    "wallets": 4201.24,
-    "debit_cards_payments": 3588.29
+    "wallets": 4201.24
   },
   {
     "date": "2021-09",
@@ -1376,8 +1327,7 @@
     "total_payments": 57778.93,
     "total_retail": 57962.28,
     "upi": 36558.17,
-    "wallets": 3884.65,
-    "debit_cards_payments": 3490.29
+    "wallets": 3884.65
   },
   {
     "date": "2021-10",
@@ -1396,8 +1346,7 @@
     "total_payments": 66858.02,
     "total_retail": 66673.75,
     "upi": 42184.32,
-    "wallets": 4888.97,
-    "debit_cards_payments": 3852.95
+    "wallets": 4888.97
   },
   {
     "date": "2021-11",
@@ -1416,8 +1365,7 @@
     "total_payments": 65161.98,
     "total_retail": 65022.23,
     "upi": 41864.8,
-    "wallets": 4871.05,
-    "debit_cards_payments": 3407.05
+    "wallets": 4871.05
   },
   {
     "date": "2021-12",
@@ -1436,8 +1384,7 @@
     "total_payments": 70960.48,
     "total_retail": 70767.5,
     "upi": 45662.99,
-    "wallets": 5661.02,
-    "debit_cards_payments": 3499.21
+    "wallets": 5661.02
   },
   {
     "date": "2022-01",
@@ -1456,8 +1403,7 @@
     "total_payments": 70216.58,
     "total_retail": 69982.02,
     "upi": 46171.56,
-    "wallets": 4613.76,
-    "debit_cards_payments": 3193.0
+    "wallets": 4613.76
   },
   {
     "date": "2022-02",
@@ -1476,8 +1422,7 @@
     "total_payments": 67602.6,
     "total_retail": 67368.43,
     "upi": 45274.89,
-    "wallets": 4386.09,
-    "debit_cards_payments": 2956.19
+    "wallets": 4386.09
   },
   {
     "date": "2022-03",
@@ -1496,8 +1441,7 @@
     "total_payments": 80424.21,
     "total_retail": 80340.08,
     "upi": 54056.51,
-    "wallets": 5017.0,
-    "debit_cards_payments": 3277.89
+    "wallets": 5017.0
   },
   {
     "date": "2022-04",
@@ -1516,8 +1460,26 @@
     "total_payments": 80781.06,
     "total_retail": 80489.63,
     "upi": 55843.88,
-    "wallets": 5036.15,
-    "debit_cards_payments": 3311.87
+    "wallets": 5036.15
+  },
+  {
+    "date": "2022-05",
+    "cards_total": 5698.18,
+    "credit_cards": 2377.95,
+    "cts": 590.44,
+    "debit_cards": 3320.23,
+    "imps": 4848.13,
+    "mobile_banking": null,
+    "nach": null,
+    "neft": 3813.34,
+    "paper_total": 590.44,
+    "ppi_total": 6652.6,
+    "rtgs": 195.72,
+    "total_digital": 85911.32,
+    "total_payments": 86501.76,
+    "total_retail": 86178.05,
+    "upi": 59462.89,
+    "wallets": 5198.06
   },
   {
     "date": "2022-06",
@@ -1536,8 +1498,7 @@
     "total_payments": 83572.18,
     "total_retail": 83375.21,
     "upi": 58629.08,
-    "wallets": 4979.19,
-    "debit_cards_payments": 3099.33
+    "wallets": 4979.19
   },
   {
     "date": "2022-07",
@@ -1556,8 +1517,7 @@
     "total_payments": 88346.69,
     "total_retail": 88157.42,
     "upi": 62893.4,
-    "wallets": 4855.87,
-    "debit_cards_payments": 3133.47
+    "wallets": 4855.87
   },
   {
     "date": "2022-08",
@@ -1576,8 +1536,7 @@
     "total_payments": 91427.97,
     "total_retail": 91239.89,
     "upi": 65819.06,
-    "wallets": 4877.42,
-    "debit_cards_payments": 3033.47
+    "wallets": 4877.42
   },
   {
     "date": "2022-09",
@@ -1596,8 +1555,7 @@
     "total_payments": 93034.99,
     "total_retail": 92836.69,
     "upi": 67808.0,
-    "wallets": 4706.99,
-    "debit_cards_payments": 2903.07
+    "wallets": 4706.99
   },
   {
     "date": "2022-10",
@@ -1616,8 +1574,7 @@
     "total_payments": 99499.76,
     "total_retail": 99309.42,
     "upi": 73054.21,
-    "wallets": 4877.04,
-    "debit_cards_payments": 2972.52
+    "wallets": 4877.04
   },
   {
     "date": "2022-11",
@@ -1636,8 +1593,7 @@
     "total_payments": 97712.14,
     "total_retail": 97505.68,
     "upi": 73094.47,
-    "wallets": 4730.07,
-    "debit_cards_payments": 2617.94
+    "wallets": 4730.07
   },
   {
     "date": "2022-12",
@@ -1656,8 +1612,7 @@
     "total_payments": 104435.03,
     "total_retail": 104220.0,
     "upi": 78288.95,
-    "wallets": 5012.71,
-    "debit_cards_payments": 2667.08
+    "wallets": 5012.71
   },
   {
     "date": "2023-01",
@@ -1676,8 +1631,7 @@
     "total_payments": 105766.79,
     "total_retail": 105562.61,
     "upi": 80385.88,
-    "wallets": 4873.96,
-    "debit_cards_payments": 2510.09
+    "wallets": 4873.96
   },
   {
     "date": "2023-02",
@@ -1696,8 +1650,7 @@
     "total_payments": 101352.56,
     "total_retail": 101152.07,
     "upi": 75347.57,
-    "wallets": 4929.04,
-    "debit_cards_payments": 2265.31
+    "wallets": 4929.04
   },
   {
     "date": "2023-03",
@@ -1716,8 +1669,7 @@
     "total_payments": 114387.68,
     "total_retail": 114139.67,
     "upi": 86516.34,
-    "wallets": 5036.24,
-    "debit_cards_payments": 2382.5
+    "wallets": 5036.24
   },
   {
     "date": "2023-04",
@@ -1736,8 +1688,26 @@
     "total_payments": 113812.06,
     "total_retail": 113610.5,
     "upi": 88632.6,
-    "wallets": 5134.9,
-    "debit_cards_payments": 2295.38
+    "wallets": 5134.9
+  },
+  {
+    "date": "2023-05",
+    "cards_total": 4974.51,
+    "credit_cards": 2734.74,
+    "cts": 572.39,
+    "debit_cards": 2239.77,
+    "imps": 5015.49,
+    "mobile_banking": null,
+    "nach": null,
+    "neft": 4896.66,
+    "paper_total": 572.39,
+    "ppi_total": 6872.86,
+    "rtgs": 220.46,
+    "total_digital": 120656.2,
+    "total_payments": 121228.59,
+    "total_retail": 121008.13,
+    "upi": 94151.85,
+    "wallets": 5660.41
   },
   {
     "date": "2023-06",
@@ -1756,8 +1726,7 @@
     "total_payments": 119700.28,
     "total_retail": 119487.97,
     "upi": 93350.61,
-    "wallets": 5294.78,
-    "debit_cards_payments": 2102.24
+    "wallets": 5294.78
   },
   {
     "date": "2023-07",
@@ -1776,8 +1745,7 @@
     "total_payments": 127695.32,
     "total_retail": 127483.42,
     "upi": 99642.56,
-    "wallets": 5045.31,
-    "debit_cards_payments": 2101.31
+    "wallets": 5045.31
   },
   {
     "date": "2023-08",
@@ -1796,8 +1764,7 @@
     "total_payments": 133478.58,
     "total_retail": 133260.5,
     "upi": 105860.16,
-    "wallets": 5041.9,
-    "debit_cards_payments": 2076.18
+    "wallets": 5041.9
   },
   {
     "date": "2023-09",
@@ -1816,8 +1783,7 @@
     "total_payments": 132204.62,
     "total_retail": 131990.68,
     "upi": 105556.87,
-    "wallets": 4899.67,
-    "debit_cards_payments": 1839.34
+    "wallets": 4899.67
   },
   {
     "date": "2023-10",
@@ -1836,8 +1802,7 @@
     "total_payments": 142433.85,
     "total_retail": 142209.23,
     "upi": 114087.9,
-    "wallets": 5301.96,
-    "debit_cards_payments": 1905.04
+    "wallets": 5301.96
   },
   {
     "date": "2023-11",
@@ -1856,8 +1821,7 @@
     "total_payments": 141597.96,
     "total_retail": 141378.76,
     "upi": 112352.92,
-    "wallets": 5274.31,
-    "debit_cards_payments": 1771.66
+    "wallets": 5274.31
   },
   {
     "date": "2023-12",
@@ -1876,8 +1840,7 @@
     "total_payments": 149309.63,
     "total_retail": 149079.25,
     "upi": 120202.26,
-    "wallets": 5960.57,
-    "debit_cards_payments": 1768.17
+    "wallets": 5960.57
   },
   {
     "date": "2024-01",
@@ -1896,8 +1859,7 @@
     "total_payments": 151440.75,
     "total_retail": 151209.76,
     "upi": 122030.18,
-    "wallets": 5766.67,
-    "debit_cards_payments": 1646.29
+    "wallets": 5766.67
   },
   {
     "date": "2024-02",
@@ -1916,8 +1878,7 @@
     "total_payments": 151230.36,
     "total_retail": 150992.1,
     "upi": 121026.73,
-    "wallets": 5211.85,
-    "debit_cards_payments": 1522.44
+    "wallets": 5211.85
   },
   {
     "date": "2024-03",
@@ -1936,8 +1897,7 @@
     "total_payments": 166332.84,
     "total_retail": 166054.36,
     "upi": 134400.04,
-    "wallets": 4489.88,
-    "debit_cards_payments": 1594.75
+    "wallets": 4489.88
   },
   {
     "date": "2024-04",
@@ -1956,8 +1916,26 @@
     "total_payments": 161737.61,
     "total_retail": 161502.02,
     "upi": 133039.94,
-    "wallets": 3993.29,
-    "debit_cards_payments": 1518.61
+    "wallets": 3993.29
+  },
+  {
+    "date": "2024-05",
+    "cards_total": 5105.17,
+    "credit_cards": 3601.36,
+    "cts": 524.39,
+    "debit_cards": 1503.82,
+    "imps": 5576.99,
+    "mobile_banking": null,
+    "nach": null,
+    "neft": 7467.75,
+    "paper_total": 524.39,
+    "ppi_total": 5496.0,
+    "rtgs": 249.71,
+    "total_digital": 169323.14,
+    "total_payments": 169847.53,
+    "total_retail": 169597.82,
+    "upi": 140358.43,
+    "wallets": 4204.49
   },
   {
     "date": "2024-06",
@@ -1976,8 +1954,7 @@
     "total_payments": 168220.52,
     "total_retail": 167988.69,
     "upi": 138851.42,
-    "wallets": 4038.05,
-    "debit_cards_payments": 1423.94
+    "wallets": 4038.05
   },
   {
     "date": "2024-07",
@@ -1996,8 +1973,7 @@
     "total_payments": 174389.01,
     "total_retail": 174142.33,
     "upi": 144355.54,
-    "wallets": 4009.69,
-    "debit_cards_payments": 1456.56
+    "wallets": 4009.69
   },
   {
     "date": "2024-08",
@@ -2016,8 +1992,7 @@
     "total_payments": 179776.32,
     "total_retail": 179538.79,
     "upi": 149630.47,
-    "wallets": 4092.83,
-    "debit_cards_payments": 1422.45
+    "wallets": 4092.83
   },
   {
     "date": "2024-09",
@@ -2036,8 +2011,7 @@
     "total_payments": 179901.89,
     "total_retail": 179668.56,
     "upi": 150417.47,
-    "wallets": 4054.95,
-    "debit_cards_payments": 1353.64
+    "wallets": 4054.95
   },
   {
     "date": "2024-10",
@@ -2056,8 +2030,7 @@
     "total_payments": 199625.69,
     "total_retail": 199357.77,
     "upi": 165849.66,
-    "wallets": 4425.2,
-    "debit_cards_payments": 1441.87
+    "wallets": 4425.2
   },
   {
     "date": "2024-11",
@@ -2076,8 +2049,7 @@
     "total_payments": 183984.84,
     "total_retail": 183744.55,
     "upi": 154820.21,
-    "wallets": 4462.09,
-    "debit_cards_payments": 1234.98
+    "wallets": 4462.09
   },
   {
     "date": "2024-12",
@@ -2096,8 +2068,7 @@
     "total_payments": 198452.78,
     "total_retail": 198190.49,
     "upi": 167300.09,
-    "wallets": 4830.75,
-    "debit_cards_payments": 1282.84
+    "wallets": 4830.75
   },
   {
     "date": "2025-01",
@@ -2116,8 +2087,7 @@
     "total_payments": 201271.14,
     "total_retail": 201003.0,
     "upi": 169960.01,
-    "wallets": 4875.14,
-    "debit_cards_payments": 1216.69
+    "wallets": 4875.14
   },
   {
     "date": "2025-02",
@@ -2136,8 +2106,64 @@
     "total_payments": 191414.16,
     "total_retail": 191169.95,
     "upi": 161061.93,
-    "wallets": 4850.75,
-    "debit_cards_payments": 1082.5
+    "wallets": 4850.75
+  },
+  {
+    "date": "2025-03",
+    "cards_total": 5789.52,
+    "credit_cards": 4586.5,
+    "cts": 531.76,
+    "debit_cards": 1203.02,
+    "imps": 4616.39,
+    "mobile_banking": null,
+    "nach": null,
+    "neft": 9008.97,
+    "paper_total": 531.76,
+    "ppi_total": 6783.69,
+    "rtgs": 307.03,
+    "total_digital": 216780.2,
+    "total_payments": 217311.96,
+    "total_retail": 217004.93,
+    "upi": 183015.08,
+    "wallets": 5061.17
+  },
+  {
+    "date": "2025-04",
+    "cards_total": 5673.64,
+    "credit_cards": 4502.7,
+    "cts": 494.77,
+    "debit_cards": 1170.93,
+    "imps": 4492.53,
+    "mobile_banking": null,
+    "nach": null,
+    "neft": 7687.52,
+    "paper_total": 494.77,
+    "ppi_total": 6768.43,
+    "rtgs": 262.41,
+    "total_digital": 209500.31,
+    "total_payments": 209995.08,
+    "total_retail": 209732.67,
+    "upi": 178934.24,
+    "wallets": 5157.38
+  },
+  {
+    "date": "2025-05",
+    "cards_total": 5827.4,
+    "credit_cards": 4676.93,
+    "cts": 481.93,
+    "debit_cards": 1150.47,
+    "imps": 4636.6,
+    "mobile_banking": null,
+    "nach": null,
+    "neft": 8215.47,
+    "paper_total": 481.93,
+    "ppi_total": 7106.39,
+    "rtgs": 274.71,
+    "total_digital": 218760.96,
+    "total_payments": 219242.89,
+    "total_retail": 218968.18,
+    "upi": 186774.6,
+    "wallets": 5474.25
   },
   {
     "date": "2025-06",
@@ -2156,8 +2182,7 @@
     "total_payments": 215654.72,
     "total_retail": 215399.84,
     "upi": 183950.06,
-    "wallets": 5338.82,
-    "debit_cards_payments": 1085.72
+    "wallets": 5338.82
   },
   {
     "date": "2025-07",
@@ -2176,8 +2201,7 @@
     "total_payments": 228126.54,
     "total_retail": 227848.86,
     "upi": 194679.48,
-    "wallets": 5431.45,
-    "debit_cards_payments": 1120.61
+    "wallets": 5431.45
   },
   {
     "date": "2025-08",
@@ -2196,8 +2220,7 @@
     "total_payments": 235472.29,
     "total_retail": 235212.61,
     "upi": 200083.1,
-    "wallets": 6246.19,
-    "debit_cards_payments": 1120.8
+    "wallets": 6246.19
   },
   {
     "date": "2025-09",
@@ -2216,8 +2239,7 @@
     "total_payments": 230298.9,
     "total_retail": 230018.07,
     "upi": 196334.33,
-    "wallets": 6871.58,
-    "debit_cards_payments": 1047.4
+    "wallets": 6871.58
   },
   {
     "date": "2025-10",
@@ -2236,8 +2258,7 @@
     "total_payments": 242250.18,
     "total_retail": 241953.42,
     "upi": 207009.21,
-    "wallets": 7281.56,
-    "debit_cards_payments": 1096.25
+    "wallets": 7281.56
   },
   {
     "date": "2025-11",
@@ -2256,8 +2277,7 @@
     "total_payments": 239336.34,
     "total_retail": 239051.46,
     "upi": 204669.79,
-    "wallets": 7347.33,
-    "debit_cards_payments": 1012.11
+    "wallets": 7347.33
   },
   {
     "date": "2025-12",
@@ -2276,8 +2296,7 @@
     "total_payments": 251531.46,
     "total_retail": 251213.79,
     "upi": 216346.68,
-    "wallets": 8094.62,
-    "debit_cards_payments": 1049.24
+    "wallets": 8094.62
   },
   {
     "date": "2026-01",
@@ -2296,8 +2315,7 @@
     "total_payments": 252110.48,
     "total_retail": 251793.49,
     "upi": 217034.45,
-    "wallets": 7716.41,
-    "debit_cards_payments": 1018.29
+    "wallets": 7716.41
   },
   {
     "date": "2026-02",
@@ -2316,7 +2334,6 @@
     "total_payments": 236187.16,
     "total_retail": 235881.31,
     "upi": 203941.84,
-    "wallets": 6652.06,
-    "debit_cards_payments": 917.12
+    "wallets": 6652.06
   }
 ]

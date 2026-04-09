@@ -196,7 +196,9 @@ def _detect_era(filepath: str, tables: list) -> int:
         return 3
 
     # Bulletin files: check actual units in header rows
-    main = max(tables, key=lambda t: t.shape[0])
+    # Prefer the main data table (9 columns for Part I) over smaller tables
+    tables_9col = [t for t in tables if t.shape[1] == 9]
+    main = max(tables_9col, key=lambda t: t.shape[0]) if tables_9col else max(tables, key=lambda t: t.shape[0])
 
     for i in range(min(6, len(main))):
         row_text = " ".join(str(main.iloc[i, c]) for c in range(min(8, main.shape[1])))
@@ -216,7 +218,9 @@ def _detect_era(filepath: str, tables: list) -> int:
 
 def _parse_date_from_headers(tables: list, era: int) -> dict:
     """Extract current month, previous month, year-ago month, and FY from headers."""
-    main = max(tables, key=lambda t: t.shape[0])
+    # Prefer the main data table (9 columns for Part I) over smaller tables
+    tables_9col = [t for t in tables if t.shape[1] == 9]
+    main = max(tables_9col, key=lambda t: t.shape[0]) if tables_9col else max(tables, key=lambda t: t.shape[0])
     result = {}
 
     if era == 1:
@@ -277,7 +281,7 @@ def _parse_date_from_headers(tables: list, era: int) -> dict:
 
             months_found = []
             for m_name, m_num in MONTH_ABBR.items():
-                if len(m_name) > 3 and m_name in flat.lower():
+                if m_name in flat.lower():
                     months_found.append((m_name, m_num))
 
             years_found = re.findall(r"20\d{2}", flat)
@@ -330,7 +334,9 @@ def parse_file(filepath: str) -> list[dict]:
     val_factor = 100.0 if era == 1 else 1.0   # Billion → Crore
 
     # Find the main data table
-    main = max(tables, key=lambda t: t.shape[0])
+    # Prefer the main data table (9 columns for Part I) over smaller tables
+    tables_9col = [t for t in tables if t.shape[1] == 9]
+    main = max(tables_9col, key=lambda t: t.shape[0]) if tables_9col else max(tables, key=lambda t: t.shape[0])
 
     # Skip header rows (find first data row)
     data_start = 0

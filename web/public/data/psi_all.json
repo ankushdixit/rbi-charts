@@ -9590,8 +9590,8 @@
   {
     "date": "2020-08",
     "system": "cards_total",
-    "volume_lakh": 4914.48,
-    "value_crore": 122089.0
+    "volume_lakh": 4814.53,
+    "value_crore": 105081.0
   },
   {
     "date": "2020-08",
@@ -9614,8 +9614,8 @@
   {
     "date": "2020-08",
     "system": "debit_cards",
-    "volume_lakh": 3489.38,
-    "value_crore": 71778.0
+    "volume_lakh": 3389.42,
+    "value_crore": 54770.0
   },
   {
     "date": "2020-08",
@@ -9704,14 +9704,14 @@
   {
     "date": "2020-08",
     "system": "total_digital",
-    "volume_lakh": 34789.24,
-    "value_crore": 10055248.0
+    "volume_lakh": 34689.28,
+    "value_crore": 10038240.0
   },
   {
     "date": "2020-08",
     "system": "total_payments",
-    "volume_lakh": 35309.07,
-    "value_crore": 10480709.0
+    "volume_lakh": 35209.11,
+    "value_crore": 10463702.0
   },
   {
     "date": "2020-08",
@@ -10876,6 +10876,150 @@
     "system": "wallets",
     "volume_lakh": 3963.08,
     "value_crore": 14421.0
+  },
+  {
+    "date": "2021-05",
+    "system": "aeps",
+    "volume_lakh": 0.96,
+    "value_crore": 59.0
+  },
+  {
+    "date": "2021-05",
+    "system": "apbs",
+    "volume_lakh": 1343.1,
+    "value_crore": 16261.0
+  },
+  {
+    "date": "2021-05",
+    "system": "bhim_aadhaar",
+    "volume_lakh": 17.29,
+    "value_crore": 422.0
+  },
+  {
+    "date": "2021-05",
+    "system": "cards_total",
+    "volume_lakh": 3980.67,
+    "value_crore": 96102.0
+  },
+  {
+    "date": "2021-05",
+    "system": "credit_cards",
+    "volume_lakh": 1344.73,
+    "value_crore": 52014.0
+  },
+  {
+    "date": "2021-05",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 33866.22,
+    "value_crore": 2707637.0
+  },
+  {
+    "date": "2021-05",
+    "system": "cts",
+    "volume_lakh": 366.69,
+    "value_crore": 341794.0
+  },
+  {
+    "date": "2021-05",
+    "system": "debit_cards",
+    "volume_lakh": 2635.94,
+    "value_crore": 44088.0
+  },
+  {
+    "date": "2021-05",
+    "system": "debit_transfers",
+    "volume_lakh": 936.41,
+    "value_crore": 70589.0
+  },
+  {
+    "date": "2021-05",
+    "system": "imps",
+    "volume_lakh": 2798.61,
+    "value_crore": 266289.0
+  },
+  {
+    "date": "2021-05",
+    "system": "nach_credit",
+    "volume_lakh": 1866.34,
+    "value_crore": 116463.0
+  },
+  {
+    "date": "2021-05",
+    "system": "nach_debit",
+    "volume_lakh": 857.3,
+    "value_crore": 70069.0
+  },
+  {
+    "date": "2021-05",
+    "system": "neft",
+    "volume_lakh": 2565.39,
+    "value_crore": 1819459.0
+  },
+  {
+    "date": "2021-05",
+    "system": "netc",
+    "volume_lakh": 61.82,
+    "value_crore": 98.0
+  },
+  {
+    "date": "2021-05",
+    "system": "paper_total",
+    "volume_lakh": 366.69,
+    "value_crore": 341794.0
+  },
+  {
+    "date": "2021-05",
+    "system": "ppi_cards",
+    "volume_lakh": 668.56,
+    "value_crore": 6883.0
+  },
+  {
+    "date": "2021-05",
+    "system": "ppi_total",
+    "volume_lakh": 3848.74,
+    "value_crore": 21509.0
+  },
+  {
+    "date": "2021-05",
+    "system": "rtgs",
+    "volume_lakh": 123.34,
+    "value_crore": 8366599.0
+  },
+  {
+    "date": "2021-05",
+    "system": "rtgs_customer",
+    "volume_lakh": 122.28,
+    "value_crore": 7211162.0
+  },
+  {
+    "date": "2021-05",
+    "system": "rtgs_interbank",
+    "volume_lakh": 1.07,
+    "value_crore": 1155437.0
+  },
+  {
+    "date": "2021-05",
+    "system": "total_digital",
+    "volume_lakh": 42755.39,
+    "value_crore": 11262437.0
+  },
+  {
+    "date": "2021-05",
+    "system": "total_payments",
+    "volume_lakh": 43122.08,
+    "value_crore": 11604231.0
+  },
+  {
+    "date": "2021-05",
+    "system": "upi",
+    "volume_lakh": 25291.82,
+    "value_crore": 489106.0
+  },
+  {
+    "date": "2021-05",
+    "system": "wallets",
+    "volume_lakh": 3180.18,
+    "value_crore": 14626.0
   },
   {
     "date": "2021-06",
@@ -12520,6 +12664,156 @@
     "system": "wallets",
     "volume_lakh": 5036.15,
     "value_crore": 19360.0
+  },
+  {
+    "date": "2022-05",
+    "system": "aeps",
+    "volume_lakh": 0.58,
+    "value_crore": 36.0
+  },
+  {
+    "date": "2022-05",
+    "system": "apbs",
+    "volume_lakh": 2268.03,
+    "value_crore": 41011.0
+  },
+  {
+    "date": "2022-05",
+    "system": "bhim_aadhaar",
+    "volume_lakh": 17.81,
+    "value_crore": 571.0
+  },
+  {
+    "date": "2022-05",
+    "system": "cards_total",
+    "volume_lakh": 5698.18,
+    "value_crore": 179655.0
+  },
+  {
+    "date": "2022-05",
+    "system": "credit_cards",
+    "volume_lakh": 2377.95,
+    "value_crore": 113696.0
+  },
+  {
+    "date": "2022-05",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 72187.5,
+    "value_crore": 4177865.0
+  },
+  {
+    "date": "2022-05",
+    "system": "cts",
+    "volume_lakh": 590.44,
+    "value_crore": 594562.0
+  },
+  {
+    "date": "2022-05",
+    "system": "debit_cards",
+    "volume_lakh": 3320.23,
+    "value_crore": 65959.0
+  },
+  {
+    "date": "2022-05",
+    "system": "debit_transfers",
+    "volume_lakh": 1177.32,
+    "value_crore": 95542.0
+  },
+  {
+    "date": "2022-05",
+    "system": "imps",
+    "volume_lakh": 4848.13,
+    "value_crore": 452328.0
+  },
+  {
+    "date": "2022-05",
+    "system": "nach_credit",
+    "volume_lakh": 1794.53,
+    "value_crore": 97341.0
+  },
+  {
+    "date": "2022-05",
+    "system": "nach_debit",
+    "volume_lakh": 1018.05,
+    "value_crore": 94752.0
+  },
+  {
+    "date": "2022-05",
+    "system": "neft",
+    "volume_lakh": 3813.34,
+    "value_crore": 2546928.0
+  },
+  {
+    "date": "2022-05",
+    "system": "netc",
+    "volume_lakh": 141.46,
+    "value_crore": 218.0
+  },
+  {
+    "date": "2022-05",
+    "system": "paper_total",
+    "volume_lakh": 590.44,
+    "value_crore": 594562.0
+  },
+  {
+    "date": "2022-05",
+    "system": "ppi_cards",
+    "volume_lakh": 1454.54,
+    "value_crore": 8640.0
+  },
+  {
+    "date": "2022-05",
+    "system": "ppi_total",
+    "volume_lakh": 6652.6,
+    "value_crore": 28257.0
+  },
+  {
+    "date": "2022-05",
+    "system": "rtgs",
+    "volume_lakh": 195.72,
+    "value_crore": 11183947.0
+  },
+  {
+    "date": "2022-05",
+    "system": "rtgs_customer",
+    "volume_lakh": 194.53,
+    "value_crore": 9851274.0
+  },
+  {
+    "date": "2022-05",
+    "system": "rtgs_interbank",
+    "volume_lakh": 1.19,
+    "value_crore": 1332673.0
+  },
+  {
+    "date": "2022-05",
+    "system": "total_digital",
+    "volume_lakh": 85911.32,
+    "value_crore": 15665265.0
+  },
+  {
+    "date": "2022-05",
+    "system": "total_payments",
+    "volume_lakh": 86501.76,
+    "value_crore": 16259827.0
+  },
+  {
+    "date": "2022-05",
+    "system": "total_retail",
+    "volume_lakh": 86178.05,
+    "value_crore": 5073160.0
+  },
+  {
+    "date": "2022-05",
+    "system": "upi",
+    "volume_lakh": 59462.89,
+    "value_crore": 1040221.0
+  },
+  {
+    "date": "2022-05",
+    "system": "wallets",
+    "volume_lakh": 5198.06,
+    "value_crore": 19616.0
   },
   {
     "date": "2022-06",
@@ -14172,6 +14466,156 @@
     "value_crore": 18874.0
   },
   {
+    "date": "2023-05",
+    "system": "aeps",
+    "volume_lakh": 0.34,
+    "value_crore": 23.0
+  },
+  {
+    "date": "2023-05",
+    "system": "apbs",
+    "volume_lakh": 1838.94,
+    "value_crore": 31424.0
+  },
+  {
+    "date": "2023-05",
+    "system": "bhim_aadhaar",
+    "volume_lakh": 15.45,
+    "value_crore": 535.0
+  },
+  {
+    "date": "2023-05",
+    "system": "cards_total",
+    "volume_lakh": 4974.51,
+    "value_crore": 193436.0
+  },
+  {
+    "date": "2023-05",
+    "system": "credit_cards",
+    "volume_lakh": 2734.74,
+    "value_crore": 140660.0
+  },
+  {
+    "date": "2023-05",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 107130.93,
+    "value_crore": 5196720.0
+  },
+  {
+    "date": "2023-05",
+    "system": "cts",
+    "volume_lakh": 572.39,
+    "value_crore": 627772.0
+  },
+  {
+    "date": "2023-05",
+    "system": "debit_cards",
+    "volume_lakh": 2239.77,
+    "value_crore": 52776.0
+  },
+  {
+    "date": "2023-05",
+    "system": "debit_transfers",
+    "volume_lakh": 1457.43,
+    "value_crore": 125654.0
+  },
+  {
+    "date": "2023-05",
+    "system": "imps",
+    "volume_lakh": 5015.49,
+    "value_crore": 527558.0
+  },
+  {
+    "date": "2023-05",
+    "system": "nach_credit",
+    "volume_lakh": 1227.66,
+    "value_crore": 122239.0
+  },
+  {
+    "date": "2023-05",
+    "system": "nach_debit",
+    "volume_lakh": 1288.88,
+    "value_crore": 124864.0
+  },
+  {
+    "date": "2023-05",
+    "system": "neft",
+    "volume_lakh": 4896.66,
+    "value_crore": 3026331.0
+  },
+  {
+    "date": "2023-05",
+    "system": "netc",
+    "volume_lakh": 153.1,
+    "value_crore": 256.0
+  },
+  {
+    "date": "2023-05",
+    "system": "paper_total",
+    "volume_lakh": 572.39,
+    "value_crore": 627772.0
+  },
+  {
+    "date": "2023-05",
+    "system": "ppi_cards",
+    "volume_lakh": 1212.46,
+    "value_crore": 3624.0
+  },
+  {
+    "date": "2023-05",
+    "system": "ppi_total",
+    "volume_lakh": 6872.86,
+    "value_crore": 23967.0
+  },
+  {
+    "date": "2023-05",
+    "system": "rtgs",
+    "volume_lakh": 220.46,
+    "value_crore": 12882587.0
+  },
+  {
+    "date": "2023-05",
+    "system": "rtgs_customer",
+    "volume_lakh": 219.21,
+    "value_crore": 11413321.0
+  },
+  {
+    "date": "2023-05",
+    "system": "rtgs_interbank",
+    "volume_lakh": 1.25,
+    "value_crore": 1469266.0
+  },
+  {
+    "date": "2023-05",
+    "system": "total_digital",
+    "volume_lakh": 120656.2,
+    "value_crore": 18422364.0
+  },
+  {
+    "date": "2023-05",
+    "system": "total_payments",
+    "volume_lakh": 121228.59,
+    "value_crore": 19050136.0
+  },
+  {
+    "date": "2023-05",
+    "system": "total_retail",
+    "volume_lakh": 121008.13,
+    "value_crore": 6167549.0
+  },
+  {
+    "date": "2023-05",
+    "system": "upi",
+    "volume_lakh": 94151.85,
+    "value_crore": 1489145.0
+  },
+  {
+    "date": "2023-05",
+    "system": "wallets",
+    "volume_lakh": 5660.41,
+    "value_crore": 20344.0
+  },
+  {
     "date": "2023-06",
     "system": "aeps",
     "volume_lakh": 0.3,
@@ -15822,6 +16266,156 @@
     "value_crore": 10507.0
   },
   {
+    "date": "2024-05",
+    "system": "aeps",
+    "volume_lakh": 0.31,
+    "value_crore": 18.0
+  },
+  {
+    "date": "2024-05",
+    "system": "apbs",
+    "volume_lakh": 2295.5,
+    "value_crore": 37499.0
+  },
+  {
+    "date": "2024-05",
+    "system": "bhim_aadhaar",
+    "volume_lakh": 19.33,
+    "value_crore": 506.0
+  },
+  {
+    "date": "2024-05",
+    "system": "cards_total",
+    "volume_lakh": 5105.17,
+    "value_crore": 208520.0
+  },
+  {
+    "date": "2024-05",
+    "system": "credit_cards",
+    "volume_lakh": 3601.36,
+    "value_crore": 164955.0
+  },
+  {
+    "date": "2024-05",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 156773.59,
+    "value_crore": 6279019.0
+  },
+  {
+    "date": "2024-05",
+    "system": "cts",
+    "volume_lakh": 524.39,
+    "value_crore": 611518.0
+  },
+  {
+    "date": "2024-05",
+    "system": "debit_cards",
+    "volume_lakh": 1503.82,
+    "value_crore": 43565.0
+  },
+  {
+    "date": "2024-05",
+    "system": "debit_transfers",
+    "volume_lakh": 1698.67,
+    "value_crore": 167035.0
+  },
+  {
+    "date": "2024-05",
+    "system": "imps",
+    "volume_lakh": 5576.99,
+    "value_crore": 606167.0
+  },
+  {
+    "date": "2024-05",
+    "system": "nach_credit",
+    "volume_lakh": 1074.61,
+    "value_crore": 132404.0
+  },
+  {
+    "date": "2024-05",
+    "system": "nach_debit",
+    "volume_lakh": 1539.23,
+    "value_crore": 166305.0
+  },
+  {
+    "date": "2024-05",
+    "system": "neft",
+    "volume_lakh": 7467.75,
+    "value_crore": 3457995.0
+  },
+  {
+    "date": "2024-05",
+    "system": "netc",
+    "volume_lakh": 140.11,
+    "value_crore": 225.0
+  },
+  {
+    "date": "2024-05",
+    "system": "paper_total",
+    "volume_lakh": 524.39,
+    "value_crore": 611518.0
+  },
+  {
+    "date": "2024-05",
+    "system": "ppi_cards",
+    "volume_lakh": 1291.51,
+    "value_crore": 5131.0
+  },
+  {
+    "date": "2024-05",
+    "system": "ppi_total",
+    "volume_lakh": 5496.0,
+    "value_crore": 16697.0
+  },
+  {
+    "date": "2024-05",
+    "system": "rtgs",
+    "volume_lakh": 249.71,
+    "value_crore": 15186947.0
+  },
+  {
+    "date": "2024-05",
+    "system": "rtgs_customer",
+    "volume_lakh": 248.49,
+    "value_crore": 13559606.0
+  },
+  {
+    "date": "2024-05",
+    "system": "rtgs_interbank",
+    "volume_lakh": 1.22,
+    "value_crore": 1627340.0
+  },
+  {
+    "date": "2024-05",
+    "system": "total_digital",
+    "volume_lakh": 169323.14,
+    "value_crore": 21858218.0
+  },
+  {
+    "date": "2024-05",
+    "system": "total_payments",
+    "volume_lakh": 169847.53,
+    "value_crore": 22469736.0
+  },
+  {
+    "date": "2024-05",
+    "system": "total_retail",
+    "volume_lakh": 169597.82,
+    "value_crore": 7282789.0
+  },
+  {
+    "date": "2024-05",
+    "system": "upi",
+    "volume_lakh": 140358.43,
+    "value_crore": 2044937.0
+  },
+  {
+    "date": "2024-05",
+    "system": "wallets",
+    "volume_lakh": 4204.49,
+    "value_crore": 11566.0
+  },
+  {
     "date": "2024-06",
     "system": "aeps",
     "volume_lakh": 0.3,
@@ -17170,6 +17764,456 @@
     "system": "wallets",
     "volume_lakh": 4850.75,
     "value_crore": 14404.0
+  },
+  {
+    "date": "2025-03",
+    "system": "aeps",
+    "volume_lakh": 0.31,
+    "value_crore": 16.0
+  },
+  {
+    "date": "2025-03",
+    "system": "apbs",
+    "volume_lakh": 3506.6,
+    "value_crore": 66841.0
+  },
+  {
+    "date": "2025-03",
+    "system": "bhim_aadhaar",
+    "volume_lakh": 19.59,
+    "value_crore": 611.0
+  },
+  {
+    "date": "2025-03",
+    "system": "cards_total",
+    "volume_lakh": 5789.52,
+    "value_crore": 240549.0
+  },
+  {
+    "date": "2025-03",
+    "system": "credit_cards",
+    "volume_lakh": 4586.5,
+    "value_crore": 201494.0
+  },
+  {
+    "date": "2025-03",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 202008.61,
+    "value_crore": 8242601.0
+  },
+  {
+    "date": "2025-03",
+    "system": "cts",
+    "volume_lakh": 531.76,
+    "value_crore": 659873.0
+  },
+  {
+    "date": "2025-03",
+    "system": "debit_cards",
+    "volume_lakh": 1203.02,
+    "value_crore": 39055.0
+  },
+  {
+    "date": "2025-03",
+    "system": "debit_transfers",
+    "volume_lakh": 1891.35,
+    "value_crore": 211047.0
+  },
+  {
+    "date": "2025-03",
+    "system": "imps",
+    "volume_lakh": 4616.39,
+    "value_crore": 667813.0
+  },
+  {
+    "date": "2025-03",
+    "system": "nach_credit",
+    "volume_lakh": 1861.26,
+    "value_crore": 176401.0
+  },
+  {
+    "date": "2025-03",
+    "system": "nach_debit",
+    "volume_lakh": 1724.79,
+    "value_crore": 210246.0
+  },
+  {
+    "date": "2025-03",
+    "system": "neft",
+    "volume_lakh": 9008.97,
+    "value_crore": 4854308.0
+  },
+  {
+    "date": "2025-03",
+    "system": "netc",
+    "volume_lakh": 146.97,
+    "value_crore": 191.0
+  },
+  {
+    "date": "2025-03",
+    "system": "paper_total",
+    "volume_lakh": 531.76,
+    "value_crore": 659873.0
+  },
+  {
+    "date": "2025-03",
+    "system": "ppi_cards",
+    "volume_lakh": 1722.52,
+    "value_crore": 5388.0
+  },
+  {
+    "date": "2025-03",
+    "system": "ppi_total",
+    "volume_lakh": 6783.69,
+    "value_crore": 21465.0
+  },
+  {
+    "date": "2025-03",
+    "system": "rtgs",
+    "volume_lakh": 307.03,
+    "value_crore": 21401969.0
+  },
+  {
+    "date": "2025-03",
+    "system": "rtgs_customer",
+    "volume_lakh": 305.71,
+    "value_crore": 19394683.0
+  },
+  {
+    "date": "2025-03",
+    "system": "rtgs_interbank",
+    "volume_lakh": 1.32,
+    "value_crore": 2007287.0
+  },
+  {
+    "date": "2025-03",
+    "system": "total_digital",
+    "volume_lakh": 216780.2,
+    "value_crore": 30117631.0
+  },
+  {
+    "date": "2025-03",
+    "system": "total_payments",
+    "volume_lakh": 217311.96,
+    "value_crore": 30777505.0
+  },
+  {
+    "date": "2025-03",
+    "system": "total_retail",
+    "volume_lakh": 217004.93,
+    "value_crore": 9375535.0
+  },
+  {
+    "date": "2025-03",
+    "system": "upi",
+    "volume_lakh": 183015.08,
+    "value_crore": 2477222.0
+  },
+  {
+    "date": "2025-03",
+    "system": "wallets",
+    "volume_lakh": 5061.17,
+    "value_crore": 16077.0
+  },
+  {
+    "date": "2025-04",
+    "system": "aeps",
+    "volume_lakh": 0.3,
+    "value_crore": 16.0
+  },
+  {
+    "date": "2025-04",
+    "system": "apbs",
+    "volume_lakh": 2610.51,
+    "value_crore": 57566.0
+  },
+  {
+    "date": "2025-04",
+    "system": "bhim_aadhaar",
+    "volume_lakh": 17.39,
+    "value_crore": 601.0
+  },
+  {
+    "date": "2025-04",
+    "system": "cards_total",
+    "volume_lakh": 5673.64,
+    "value_crore": 222351.0
+  },
+  {
+    "date": "2025-04",
+    "system": "credit_cards",
+    "volume_lakh": 4502.7,
+    "value_crore": 184237.0
+  },
+  {
+    "date": "2025-04",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 194925.94,
+    "value_crore": 7126205.0
+  },
+  {
+    "date": "2025-04",
+    "system": "cts",
+    "volume_lakh": 494.77,
+    "value_crore": 645079.0
+  },
+  {
+    "date": "2025-04",
+    "system": "debit_cards",
+    "volume_lakh": 1170.93,
+    "value_crore": 38113.0
+  },
+  {
+    "date": "2025-04",
+    "system": "debit_transfers",
+    "volume_lakh": 1869.9,
+    "value_crore": 198565.0
+  },
+  {
+    "date": "2025-04",
+    "system": "imps",
+    "volume_lakh": 4492.53,
+    "value_crore": 621666.0
+  },
+  {
+    "date": "2025-04",
+    "system": "nach_credit",
+    "volume_lakh": 1200.84,
+    "value_crore": 154683.0
+  },
+  {
+    "date": "2025-04",
+    "system": "nach_debit",
+    "volume_lakh": 1709.27,
+    "value_crore": 197780.0
+  },
+  {
+    "date": "2025-04",
+    "system": "neft",
+    "volume_lakh": 7687.52,
+    "value_crore": 3897348.0
+  },
+  {
+    "date": "2025-04",
+    "system": "netc",
+    "volume_lakh": 143.24,
+    "value_crore": 184.0
+  },
+  {
+    "date": "2025-04",
+    "system": "paper_total",
+    "volume_lakh": 494.77,
+    "value_crore": 645079.0
+  },
+  {
+    "date": "2025-04",
+    "system": "ppi_cards",
+    "volume_lakh": 1611.04,
+    "value_crore": 5358.0
+  },
+  {
+    "date": "2025-04",
+    "system": "ppi_total",
+    "volume_lakh": 6768.43,
+    "value_crore": 21254.0
+  },
+  {
+    "date": "2025-04",
+    "system": "rtgs",
+    "volume_lakh": 262.41,
+    "value_crore": 16895789.0
+  },
+  {
+    "date": "2025-04",
+    "system": "rtgs_customer",
+    "volume_lakh": 261.16,
+    "value_crore": 15060026.0
+  },
+  {
+    "date": "2025-04",
+    "system": "rtgs_interbank",
+    "volume_lakh": 1.24,
+    "value_crore": 1835763.0
+  },
+  {
+    "date": "2025-04",
+    "system": "total_digital",
+    "volume_lakh": 209500.31,
+    "value_crore": 24464164.0
+  },
+  {
+    "date": "2025-04",
+    "system": "total_payments",
+    "volume_lakh": 209995.08,
+    "value_crore": 25109243.0
+  },
+  {
+    "date": "2025-04",
+    "system": "total_retail",
+    "volume_lakh": 209732.67,
+    "value_crore": 8213454.0
+  },
+  {
+    "date": "2025-04",
+    "system": "upi",
+    "volume_lakh": 178934.24,
+    "value_crore": 2394926.0
+  },
+  {
+    "date": "2025-04",
+    "system": "wallets",
+    "volume_lakh": 5157.38,
+    "value_crore": 15896.0
+  },
+  {
+    "date": "2025-05",
+    "system": "aeps",
+    "volume_lakh": 0.31,
+    "value_crore": 17.0
+  },
+  {
+    "date": "2025-05",
+    "system": "apbs",
+    "volume_lakh": 2786.17,
+    "value_crore": 50985.0
+  },
+  {
+    "date": "2025-05",
+    "system": "bhim_aadhaar",
+    "volume_lakh": 19.51,
+    "value_crore": 641.0
+  },
+  {
+    "date": "2025-05",
+    "system": "cards_total",
+    "volume_lakh": 5827.4,
+    "value_crore": 226810.0
+  },
+  {
+    "date": "2025-05",
+    "system": "credit_cards",
+    "volume_lakh": 4676.93,
+    "value_crore": 189832.0
+  },
+  {
+    "date": "2025-05",
+    "system": "credit_transfers_retail",
+    "volume_lakh": 203656.72,
+    "value_crore": 7146649.0
+  },
+  {
+    "date": "2025-05",
+    "system": "cts",
+    "volume_lakh": 481.93,
+    "value_crore": 596239.0
+  },
+  {
+    "date": "2025-05",
+    "system": "debit_cards",
+    "volume_lakh": 1150.47,
+    "value_crore": 36978.0
+  },
+  {
+    "date": "2025-05",
+    "system": "debit_transfers",
+    "volume_lakh": 1895.74,
+    "value_crore": 206368.0
+  },
+  {
+    "date": "2025-05",
+    "system": "imps",
+    "volume_lakh": 4636.6,
+    "value_crore": 640867.0
+  },
+  {
+    "date": "2025-05",
+    "system": "nach_credit",
+    "volume_lakh": 1243.57,
+    "value_crore": 147380.0
+  },
+  {
+    "date": "2025-05",
+    "system": "nach_debit",
+    "volume_lakh": 1723.65,
+    "value_crore": 205535.0
+  },
+  {
+    "date": "2025-05",
+    "system": "neft",
+    "volume_lakh": 8215.47,
+    "value_crore": 3793103.0
+  },
+  {
+    "date": "2025-05",
+    "system": "netc",
+    "volume_lakh": 152.58,
+    "value_crore": 192.0
+  },
+  {
+    "date": "2025-05",
+    "system": "paper_total",
+    "volume_lakh": 481.93,
+    "value_crore": 596239.0
+  },
+  {
+    "date": "2025-05",
+    "system": "ppi_cards",
+    "volume_lakh": 1632.13,
+    "value_crore": 4053.0
+  },
+  {
+    "date": "2025-05",
+    "system": "ppi_total",
+    "volume_lakh": 7106.39,
+    "value_crore": 20722.0
+  },
+  {
+    "date": "2025-05",
+    "system": "rtgs",
+    "volume_lakh": 274.71,
+    "value_crore": 17013770.0
+  },
+  {
+    "date": "2025-05",
+    "system": "rtgs_customer",
+    "volume_lakh": 273.46,
+    "value_crore": 15219873.0
+  },
+  {
+    "date": "2025-05",
+    "system": "rtgs_interbank",
+    "volume_lakh": 1.25,
+    "value_crore": 1793897.0
+  },
+  {
+    "date": "2025-05",
+    "system": "total_digital",
+    "volume_lakh": 218760.96,
+    "value_crore": 24614318.0
+  },
+  {
+    "date": "2025-05",
+    "system": "total_payments",
+    "volume_lakh": 219242.89,
+    "value_crore": 25210557.0
+  },
+  {
+    "date": "2025-05",
+    "system": "total_retail",
+    "volume_lakh": 218968.18,
+    "value_crore": 8196787.0
+  },
+  {
+    "date": "2025-05",
+    "system": "upi",
+    "volume_lakh": 186774.6,
+    "value_crore": 2514297.0
+  },
+  {
+    "date": "2025-05",
+    "system": "wallets",
+    "volume_lakh": 5474.25,
+    "value_crore": 16668.0
   },
   {
     "date": "2025-06",

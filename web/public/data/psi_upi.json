@@ -1,25 +1,5 @@
 [
   {
-    "date": "2016-10",
-    "volume_lakh": 15.0,
-    "value_crore": 580.08
-  },
-  {
-    "date": "2017-10",
-    "volume_lakh": 762.67,
-    "value_crore": 9152.67
-  },
-  {
-    "date": "2018-10",
-    "volume_lakh": 4492.92,
-    "value_crore": 73080.92
-  },
-  {
-    "date": "2019-10",
-    "volume_lakh": 10432.17,
-    "value_crore": 177644.17
-  },
-  {
     "date": "2019-11",
     "volume_lakh": 12187.71,
     "value_crore": 189229.0
@@ -110,6 +90,11 @@
     "value_crore": 493664.0
   },
   {
+    "date": "2021-05",
+    "volume_lakh": 25291.82,
+    "value_crore": 489106.0
+  },
+  {
     "date": "2021-06",
     "volume_lakh": 28075.16,
     "value_crore": 547373.0
@@ -163,6 +148,11 @@
     "date": "2022-04",
     "volume_lakh": 55843.88,
     "value_crore": 983573.0
+  },
+  {
+    "date": "2022-05",
+    "volume_lakh": 59462.89,
+    "value_crore": 1040221.0
   },
   {
     "date": "2022-06",
@@ -220,6 +210,11 @@
     "value_crore": 1415505.0
   },
   {
+    "date": "2023-05",
+    "volume_lakh": 94151.85,
+    "value_crore": 1489145.0
+  },
+  {
     "date": "2023-06",
     "volume_lakh": 93350.61,
     "value_crore": 1475464.0
@@ -275,6 +270,11 @@
     "value_crore": 1964465.0
   },
   {
+    "date": "2024-05",
+    "volume_lakh": 140358.43,
+    "value_crore": 2044937.0
+  },
+  {
     "date": "2024-06",
     "volume_lakh": 138851.42,
     "value_crore": 2007081.0
@@ -318,6 +318,21 @@
     "date": "2025-02",
     "volume_lakh": 161061.93,
     "value_crore": 2196482.0
+  },
+  {
+    "date": "2025-03",
+    "volume_lakh": 183015.08,
+    "value_crore": 2477222.0
+  },
+  {
+    "date": "2025-04",
+    "volume_lakh": 178934.24,
+    "value_crore": 2394926.0
+  },
+  {
+    "date": "2025-05",
+    "volume_lakh": 186774.6,
+    "value_crore": 2514297.0
   },
   {
     "date": "2025-06",
