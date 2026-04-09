@@ -85,20 +85,66 @@ export default function DeathOfCashPage() {
 
       <section className="mx-auto max-w-7xl px-6 pb-16">
         <div className="border-t border-zinc-800 pt-8">
-          <p className="text-xs font-semibold text-emerald-400 tracking-widest uppercase mb-4">
-            Key Insight
+          <p className="text-xs font-semibold text-emerald-400 tracking-widest uppercase mb-6">
+            Key Insights
           </p>
-          <p className="text-2xl font-bold text-white max-w-3xl mb-4">
-            Cheques now account for just {ctsShare}% of payment volume.
-            UPI alone is {upiShare}%.
-          </p>
-          <p className="text-zinc-400 max-w-3xl">
-            In December 2015, cheques (CTS) processed 82 million transactions per
-            month. By February 2026, that number had dropped to 43 million — while
-            UPI surged from zero to over 20 billion. The stacked area chart above
-            shows how each payment method grew (or shrank) over a decade. The red
-            sliver at the bottom — that&apos;s cheques, barely visible.
-          </p>
+
+          <div className="grid gap-8 md:grid-cols-2 max-w-5xl">
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                UPI is now 86% of all digital payments
+              </p>
+              <p className="text-zinc-400 text-sm">
+                UPI&apos;s share of total digital payment volume has grown relentlessly:
+                46% in mid-2020, 71% by mid-2022, and 86% by mid-2025. Every other
+                payment rail — NEFT, IMPS, cards, wallets — is growing in absolute
+                terms but shrinking as a share. UPI hasn&apos;t just won — it&apos;s
+                consuming the entire ecosystem.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                Demonetization was the inflection point
+              </p>
+              <p className="text-zinc-400 text-sm">
+                In November 2016, India demonetized 86% of currency overnight.
+                Cheque volumes actually spiked temporarily (people had no cash),
+                but digital payments — especially NEFT and IMPS — surged and never
+                looked back. It created the behavioral shift that UPI then
+                capitalized on. Without demonetization, UPI&apos;s adoption curve
+                would have been far slower.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                IMPS quietly overtook NEFT in 2021
+              </p>
+              <p className="text-zinc-400 text-sm">
+                NEFT was India&apos;s dominant electronic transfer system for over a
+                decade. But in January 2021, IMPS (instant mobile transfers)
+                surpassed NEFT in monthly volume for the first time and has stayed
+                ahead since. IMPS processes 3.5B+ transactions per month now
+                — driven by mobile-first banking. The old batch-processing world
+                is being replaced by real-time.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                Cheques survived COVID — but not UPI
+              </p>
+              <p className="text-zinc-400 text-sm">
+                Cheques have declined {ctsDecline}% since 2015, but the drop wasn&apos;t
+                sudden — it was a slow bleed as digital alternatives grew. Even during
+                COVID lockdowns (Apr 2020), when cheque volumes crashed 75% in a single
+                month, they partially recovered afterwards. What&apos;s killing cheques
+                isn&apos;t a single event — it&apos;s the relentless, compounding growth
+                of UPI making them irrelevant, one transaction at a time.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>

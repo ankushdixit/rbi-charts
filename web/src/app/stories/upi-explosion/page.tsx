@@ -91,23 +91,65 @@ export default function UPIExplosionPage() {
         <UPIExplosionChart data={upiData} />
       </section>
 
-      {/* Insight */}
+      {/* Insights */}
       <section className="mx-auto max-w-7xl px-6 pb-16">
         <div className="border-t border-zinc-800 pt-8">
-          <p className="text-xs font-semibold text-blue-400 tracking-widest uppercase mb-4">
-            Key Insight
+          <p className="text-xs font-semibold text-blue-400 tracking-widest uppercase mb-6">
+            Key Insights
           </p>
-          <p className="text-2xl font-bold text-white max-w-3xl mb-4">
-            UPI processes more transactions in a single month than Visa and
-            Mastercard combined do globally.
-          </p>
-          <p className="text-zinc-400 max-w-3xl">
-            In {latestMonthName} {latestYear}, UPI handled {latestBillions} billion
-            transactions worth ₹{latestValueLakhCr} lakh crore. India now accounts
-            for 46% of all real-time payment transactions worldwide. What started
-            as a government-backed initiative in 2016 has become the backbone of
-            India&apos;s digital economy.
-          </p>
+
+          <div className="grid gap-8 md:grid-cols-2 max-w-5xl">
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                Bigger than Visa and Mastercard combined
+              </p>
+              <p className="text-zinc-400 text-sm">
+                In {latestMonthName} {latestYear}, UPI handled {latestBillions} billion
+                transactions — more than Visa and Mastercard process globally in a
+                month. India now accounts for 46% of all real-time payment
+                transactions worldwide. No other country comes close.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                Growth is slowing — but still massive
+              </p>
+              <p className="text-zinc-400 text-sm">
+                Year-on-year growth has decelerated from 97% (Feb 2022) to 66%
+                (Feb 2023) to 61% (Feb 2024) to 33% (Feb 2025). This is natural
+                at scale — adding 5 billion transactions a year to a 20B base is
+                harder than doubling from 4B to 8B. But 33% growth on a $320B
+                monthly system is still extraordinary.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                COVID barely dented it
+              </p>
+              <p className="text-zinc-400 text-sm">
+                When India locked down in April 2020, cheques crashed 75%, credit
+                cards fell 53%, and IMPS dropped 44%. UPI? Down just 20% — and
+                recovered within a month. The lockdown actually accelerated UPI
+                adoption as cash became impractical. By June 2020, UPI was already
+                above pre-COVID levels.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-lg font-bold text-white mb-2">
+                Average transaction value is falling
+              </p>
+              <p className="text-zinc-400 text-sm">
+                The average UPI transaction was ₹1,657 in Jan 2020. By Jan 2026,
+                it&apos;s ₹1,306 — a 21% decline. This means UPI is penetrating
+                deeper into small, everyday purchases: chai, auto rides, vegetable
+                vendors. The system that started as a bank transfer tool is now
+                India&apos;s digital cash for micro-transactions.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
