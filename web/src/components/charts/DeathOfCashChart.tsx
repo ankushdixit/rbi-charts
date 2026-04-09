@@ -6,19 +6,21 @@ import type { EChartsOption } from "echarts";
 
 interface TrendPoint {
   date: string;
-  cts?: number | null;
-  neft?: number | null;
-  imps?: number | null;
-  upi?: number | null;
-  cards_total?: number | null;
-  ppi_total?: number | null;
-  rtgs?: number | null;
   [key: string]: any;
 }
 
 interface Props {
   data: TrendPoint[];
 }
+
+const SERIES_CONFIG = [
+  { key: "upi", name: "UPI", color: "#3b82f6" },
+  { key: "neft", name: "NEFT", color: "#06b6d4" },
+  { key: "imps", name: "IMPS", color: "#8b5cf6" },
+  { key: "credit_cards", name: "Credit Cards", color: "#f59e0b" },
+  { key: "wallets", name: "Wallets", color: "#10b981" },
+  { key: "cts", name: "Cheques (CTS)", color: "#ef4444" },
+];
 
 export default function DeathOfCashChart({ data }: Props) {
   const option = useMemo<EChartsOption>(() => {
@@ -28,33 +30,21 @@ export default function DeathOfCashChart({ data }: Props) {
       return `${months[parseInt(m) - 1]} ${y}`;
     });
 
-    // Convert all to billions of transactions (volume_lakh / 10000)
     const toBillions = (v: number | null | undefined) =>
       v != null && !isNaN(v) ? +(v / 10000).toFixed(4) : null;
 
-    const upi = data.map((d) => toBillions(d.upi));
-    const neft = data.map((d) => toBillions(d.neft));
-    const imps = data.map((d) => toBillions(d.imps));
-    const creditCards = data.map((d) => toBillions(d.credit_cards));
-    const debitCards = data.map((d) => toBillions(d.debit_cards));
-    const wallets = data.map((d) => toBillions(d.wallets));
-    const cts = data.map((d) => toBillions(d.cts));
-
-    const makeSeries = (
-      name: string,
-      seriesData: (number | null)[],
-      color: string,
-    ) => ({
+    const series = SERIES_CONFIG.map(({ key, name, color }) => ({
       name,
       type: "line" as const,
-      stack: "digital",
-      data: seriesData,
+      stack: "total",
+      data: data.map((d) => toBillions(d[key])),
       smooth: true,
       symbol: "none",
-      lineStyle: { width: 0 },
+      lineStyle: { width: 0, color },
+      itemStyle: { color },
       areaStyle: { color, opacity: 0.85 },
       emphasis: { focus: "series" as const },
-    });
+    }));
 
     return {
       tooltip: {
@@ -63,23 +53,24 @@ export default function DeathOfCashChart({ data }: Props) {
         borderColor: "#334155",
         textStyle: { color: "#e2e8f0", fontSize: 12 },
         formatter: (params: any) => {
+          const sorted = [...params]
+            .filter((p: any) => p.value != null)
+            .sort((a: any, b: any) => (b.value ?? 0) - (a.value ?? 0));
           let html = `<div style="font-weight:600;margin-bottom:6px">${params[0].axisValue}</div>`;
           let total = 0;
-          for (const p of params) {
-            if (p.value != null) {
-              total += p.value;
-              html += `<div style="display:flex;align-items:center;gap:6px;margin:2px 0">
-                <span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${p.color}"></span>
-                <span>${p.seriesName}: ${p.value.toFixed(2)}B</span>
-              </div>`;
-            }
+          for (const p of sorted) {
+            total += p.value;
+            html += `<div style="display:flex;align-items:center;gap:6px;margin:2px 0">
+              <span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${p.color}"></span>
+              <span>${p.seriesName}: ${p.value.toFixed(2)}B</span>
+            </div>`;
           }
           html += `<div style="border-top:1px solid #334155;margin-top:4px;padding-top:4px;font-weight:600">Total: ${total.toFixed(2)}B txns</div>`;
           return html;
         },
       },
       legend: {
-        data: ["UPI", "NEFT", "IMPS", "Credit Cards", "Debit Cards", "Wallets", "Cheques (CTS)"],
+        data: SERIES_CONFIG.map((s) => s.name),
         bottom: 45,
         textStyle: { color: "#94a3b8", fontSize: 11 },
         itemWidth: 12,
@@ -124,25 +115,7 @@ export default function DeathOfCashChart({ data }: Props) {
           textStyle: { color: "#64748b" },
         },
       ],
-      series: [
-        makeSeries("UPI", upi, "#3b82f6"),
-        makeSeries("NEFT", neft, "#06b6d4"),
-        makeSeries("IMPS", imps, "#8b5cf6"),
-        makeSeries("Credit Cards", creditCards, "#f59e0b"),
-        makeSeries("Debit Cards", debitCards, "#f97316"),
-        makeSeries("Wallets", wallets, "#10b981"),
-        {
-          name: "Cheques (CTS)",
-          type: "line",
-          stack: "digital",
-          data: cts,
-          smooth: true,
-          symbol: "none",
-          lineStyle: { width: 0 },
-          areaStyle: { color: "#ef4444", opacity: 0.85 },
-          emphasis: { focus: "series" },
-        },
-      ],
+      series,
     };
   }, [data]);
 
