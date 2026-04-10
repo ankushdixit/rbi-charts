@@ -42,10 +42,12 @@ export default function HotMoneyChart({ data }: Props) {
       });
 
     const shortLabels = quarters.map((q) => {
-      if (q.includes("April-June")) return `Q1 ${q.match(/\d{4}/)?.[0]}`;
-      if (q.includes("July-Sep")) return `Q2 ${q.match(/\d{4}/)?.[0]}`;
-      if (q.includes("October-Dec")) return `Q3 ${q.match(/\d{4}/)?.[0]}`;
-      if (q.includes("January-Mar")) return `Q4 ${q.match(/\d{4}/)?.[0]}`;
+      const year = parseInt(q.match(/\d{4}/)?.[0] || "0");
+      // Use Indian FY notation: Apr-Jun 2021 = Q1 FY22, Jan-Mar 2022 = Q4 FY22
+      if (q.includes("April-June")) return `Q1 FY${String(year + 1).slice(2)}`;
+      if (q.includes("July-Sep")) return `Q2 FY${String(year + 1).slice(2)}`;
+      if (q.includes("October-Dec")) return `Q3 FY${String(year + 1).slice(2)}`;
+      if (q.includes("January-Mar")) return `Q4 FY${String(year).slice(2)}`;
       return q;
     });
 
