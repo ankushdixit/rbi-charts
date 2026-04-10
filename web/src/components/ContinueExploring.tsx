@@ -1,4 +1,5 @@
-import { getRelatedStories } from "@/lib/stories";
+import { getRelatedStories, THEME_COLORS } from "@/lib/stories";
+import Sparkline from "./Sparkline";
 import Link from "next/link";
 
 interface Props {
@@ -15,25 +16,47 @@ export default function ContinueExploring({ currentSlug }: Props) {
           Continue Exploring
         </p>
         <div className="grid gap-4 md:grid-cols-3">
-          {related.map((story) => (
-            <Link
-              key={story.slug}
-              href={story.href}
-              className="group rounded-xl bg-zinc-900 border border-zinc-800 p-6 hover:border-zinc-700 transition-colors"
-            >
-              <p
-                className="text-xs font-semibold tracking-widest uppercase mb-3"
-                style={{ color: story.themeColor }}
+          {related.map((story) => {
+            const accentColor = THEME_COLORS[story.theme];
+            return (
+              <Link
+                key={story.slug}
+                href={story.href}
+                className="group relative rounded-xl overflow-hidden border border-zinc-700 bg-[#1e293b] p-6 min-h-[180px] flex flex-col justify-between hover:border-zinc-500 transition-colors"
               >
-                {story.theme}
-              </p>
-              <p className="text-lg font-bold text-white mb-2 group-hover:text-blue-400 transition-colors">
-                {story.title}
-              </p>
-              <p className="text-sm text-zinc-500 mb-4">{story.subtitle}</p>
-              <p className="text-sm text-blue-400">Read story →</p>
-            </Link>
-          ))}
+                {/* Sparkline background */}
+                <div className="absolute bottom-0 left-0 right-0 opacity-50">
+                  <Sparkline
+                    data={story.sparkline}
+                    color={accentColor}
+                    type={story.sparklineType}
+                    width={300}
+                    height={70}
+                  />
+                </div>
+
+                <div className="relative z-10">
+                  <p
+                    className="text-[10px] font-semibold tracking-widest uppercase mb-2"
+                    style={{ color: accentColor }}
+                  >
+                    {story.category}
+                  </p>
+                  <p className="text-base font-bold text-white mb-1 group-hover:text-opacity-80 transition-colors">
+                    {story.title}
+                  </p>
+                  <p className="text-xs text-zinc-400">{story.subtitle}</p>
+                </div>
+
+                <p
+                  className="relative z-10 text-xs mt-3"
+                  style={{ color: accentColor }}
+                >
+                  Read story →
+                </p>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </section>

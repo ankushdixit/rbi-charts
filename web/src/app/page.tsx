@@ -1,123 +1,142 @@
 import Link from "next/link";
-import { STORIES, THEMES } from "@/lib/stories";
-
-const THEME_META: Record<
-  string,
-  { color: string; subtitle: string }
-> = {
-  "Payments Revolution": {
-    color: "#3b82f6",
-    subtitle:
-      "How a billion people went from cash to QR codes in under a decade.",
-  },
-  "India's Money Story": {
-    color: "#f59e0b",
-    subtitle:
-      "Savings, reserves, and credit — where the money goes and how it grows.",
-  },
-  "Deep Dives": {
-    color: "#ef4444",
-    subtitle:
-      "Inflation expectations, capital flows, and the data behind the headlines.",
-  },
-};
+import { STORIES, THEMES, THEME_COLORS } from "@/lib/stories";
+import Sparkline from "@/components/Sparkline";
 
 const HERO_STATS = [
   { label: "UPI Monthly", value: "20.4B", color: "#3b82f6" },
   { label: "FX Reserves", value: "$668B", color: "#10b981" },
   { label: "Credit Cards", value: "110M+", color: "#f59e0b" },
-  { label: "Stories", value: "9", color: "#a78bfa" },
+  { label: "Net Savings", value: "6% GDP", color: "#ef4444" },
 ];
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#0f172a] text-white">
-      {/* Hero */}
-      <section className="mx-auto max-w-7xl px-6 pt-16 pb-12">
-        <h1 className="text-6xl font-black tracking-tight mb-4">
-          The Indian Economy,
-          <br />
-          Visualized.
-        </h1>
-        <p className="text-xl text-zinc-400 max-w-2xl mb-10">
-          Beautiful, interactive charts from official Reserve Bank of India data.
-          Updated automatically. Free forever.
-        </p>
+    <div>
+      {/* Hero — dark */}
+      <section className="bg-[#0f172a] pt-12 pb-16">
+        <div className="mx-auto max-w-7xl px-6">
+          <h1 className="text-6xl font-black tracking-tight text-white mb-4">
+            The Indian Economy,
+            <br />
+            Visualized.
+          </h1>
+          <p className="text-xl text-zinc-400 max-w-2xl mb-10">
+            Beautiful, interactive charts from official Reserve Bank of India
+            data. Updated automatically. Free forever.
+          </p>
 
-        <div className="flex gap-6 mb-8 flex-wrap">
-          {HERO_STATS.map((stat) => (
-            <div
-              key={stat.label}
-              className="rounded-xl border border-zinc-800 bg-zinc-900/50 px-6 py-4"
-            >
-              <p className="text-xs font-semibold text-zinc-500 tracking-widest uppercase mb-1">
-                {stat.label}
-              </p>
-              <p className="text-2xl font-black" style={{ color: stat.color }}>
-                {stat.value}
-              </p>
-            </div>
-          ))}
+          <div className="flex gap-4 flex-wrap">
+            {HERO_STATS.map((stat) => (
+              <div
+                key={stat.label}
+                className="rounded-xl border border-zinc-700 bg-[#1e293b] px-5 py-3"
+              >
+                <p className="text-[10px] font-semibold text-zinc-500 tracking-widest uppercase mb-0.5">
+                  {stat.label}
+                </p>
+                <p
+                  className="text-xl font-black"
+                  style={{ color: stat.color }}
+                >
+                  {stat.value}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Story sections by theme */}
-      {Object.entries(THEMES).map(([themeName, slugs]) => {
-        const meta = THEME_META[themeName];
-        const themeStories = slugs
-          .map((slug) => STORIES.find((s) => s.slug === slug)!)
-          .filter(Boolean);
+      {/* Story sections — white background */}
+      <div className="bg-white text-zinc-900">
+        {Object.entries(THEMES).map(([themeName, theme]) => {
+          const accentColor = THEME_COLORS[themeName];
+          const themeStories = theme.slugs
+            .map((slug) => STORIES.find((s) => s.slug === slug)!)
+            .filter(Boolean);
 
-        return (
-          <section key={themeName} className="mx-auto max-w-7xl px-6 pb-16">
-            <p
-              className="text-xs font-semibold tracking-widest uppercase mb-2"
-              style={{ color: meta.color }}
-            >
-              {themeName}
-            </p>
-            <h2 className="text-3xl font-bold text-white mb-2">{themeName}</h2>
-            <p className="text-zinc-500 mb-8">{meta.subtitle}</p>
+          return (
+            <section key={themeName} className="mx-auto max-w-7xl px-6 py-14">
+              <p
+                className="text-xs font-semibold tracking-widest uppercase mb-1"
+                style={{ color: accentColor }}
+              >
+                {theme.tag}
+              </p>
+              <h2 className="text-3xl font-bold text-zinc-900 mb-1">
+                {theme.heading}
+              </h2>
+              <p className="text-zinc-500 mb-8 max-w-xl">{theme.subtitle}</p>
 
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-              {themeStories.map((story, i) => {
-                const isLarge = i === 0 && themeStories.length >= 3;
-                return (
-                  <Link
-                    key={story.slug}
-                    href={story.href}
-                    className={`group rounded-xl border border-zinc-800 bg-zinc-900 p-6 hover:border-zinc-600 transition-colors ${
-                      isLarge ? "md:col-span-2 md:row-span-2" : ""
-                    }`}
-                  >
-                    <p
-                      className="text-xs font-semibold tracking-widest uppercase mb-3"
-                      style={{ color: story.themeColor }}
-                    >
-                      {story.theme}
-                    </p>
-                    <p
-                      className={`font-bold text-white mb-2 group-hover:text-blue-400 transition-colors ${
-                        isLarge ? "text-2xl" : "text-lg"
+              <div
+                className={`grid gap-4 ${
+                  themeStories.length >= 4
+                    ? "md:grid-cols-2 lg:grid-cols-4"
+                    : themeStories.length === 3
+                    ? "md:grid-cols-3"
+                    : "md:grid-cols-2"
+                }`}
+              >
+                {themeStories.map((story, i) => {
+                  const isLarge =
+                    i === 0 && themeStories.length >= 3;
+                  return (
+                    <Link
+                      key={story.slug}
+                      href={story.href}
+                      className={`group relative rounded-xl overflow-hidden border border-zinc-800 bg-[#0f172a] p-6 flex flex-col justify-between hover:border-zinc-600 transition-colors ${
+                        isLarge
+                          ? "md:col-span-2 md:row-span-2 min-h-[320px]"
+                          : "min-h-[200px]"
                       }`}
                     >
-                      {story.title}
-                    </p>
-                    <p
-                      className={`text-zinc-500 ${
-                        isLarge ? "text-base mb-6" : "text-sm mb-4"
-                      }`}
-                    >
-                      {story.subtitle}
-                    </p>
-                    <p className="text-sm text-blue-400">Read story →</p>
-                  </Link>
-                );
-              })}
-            </div>
-          </section>
-        );
-      })}
+                      {/* Sparkline background */}
+                      <div className="absolute bottom-0 left-0 right-0 opacity-60">
+                        <Sparkline
+                          data={story.sparkline}
+                          color={accentColor}
+                          type={story.sparklineType}
+                          width={isLarge ? 600 : 300}
+                          height={isLarge ? 140 : 80}
+                        />
+                      </div>
+
+                      <div className="relative z-10">
+                        <p
+                          className="text-[10px] font-semibold tracking-widest uppercase mb-2"
+                          style={{ color: accentColor }}
+                        >
+                          {story.category}
+                        </p>
+                        <p
+                          className={`font-bold text-white mb-1 group-hover:text-opacity-80 transition-colors ${
+                            isLarge ? "text-2xl" : "text-base"
+                          }`}
+                        >
+                          {story.title}
+                        </p>
+                        <p
+                          className={`text-zinc-400 ${
+                            isLarge ? "text-sm" : "text-xs"
+                          }`}
+                        >
+                          {story.subtitle}
+                        </p>
+                      </div>
+
+                      <p
+                        className="relative z-10 text-xs mt-4"
+                        style={{ color: accentColor }}
+                      >
+                        Read story →
+                      </p>
+                    </Link>
+                  );
+                })}
+              </div>
+            </section>
+          );
+        })}
+      </div>
     </div>
   );
 }
