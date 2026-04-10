@@ -31,14 +31,14 @@ export default function InfraShiftChart({ data }: Props) {
     return {
       tooltip: {
         trigger: "axis",
-        backgroundColor: "#0f172a",
-        borderColor: "#334155",
-        textStyle: { color: "#e2e8f0", fontSize: 12 },
+        backgroundColor: "#ffffff",
+        borderColor: "#e7e1d8",
+        textStyle: { color: "#1c1917", fontSize: 12 },
       },
       legend: {
         data: ["ATMs", "PoS Terminals", "Micro ATMs", "Bharat QR", "UPI QR"],
         bottom: 45,
-        textStyle: { color: "#94a3b8", fontSize: 11 },
+        textStyle: { color: "#78716c", fontSize: 11 },
         itemWidth: 16,
         itemHeight: 3,
       },
@@ -46,16 +46,16 @@ export default function InfraShiftChart({ data }: Props) {
       xAxis: {
         type: "category",
         data: dates,
-        axisLabel: { fontSize: 11, color: "#94a3b8", interval: 11 },
-        axisLine: { lineStyle: { color: "#334155" } },
+        axisLabel: { fontSize: 11, color: "#78716c", interval: 11 },
+        axisLine: { lineStyle: { color: "#e7e1d8" } },
         axisTick: { show: false },
       },
       yAxis: {
         type: "log",
         name: "Count (log scale)",
-        nameTextStyle: { color: "#64748b", fontSize: 11 },
+        nameTextStyle: { color: "#a8a29e", fontSize: 11 },
         axisLabel: {
-          color: "#94a3b8",
+          color: "#78716c",
           fontSize: 11,
           formatter: (v: number) => {
             if (v >= 1000000) return `${(v / 1000000).toFixed(0)}M`;
@@ -63,17 +63,17 @@ export default function InfraShiftChart({ data }: Props) {
             return `${v}`;
           },
         },
-        splitLine: { lineStyle: { color: "#1e293b" } },
+        splitLine: { lineStyle: { color: "#f0ebe4" } },
         min: 10000,
       },
       dataZoom: [
         { type: "inside", start: 0, end: 100 },
         {
           type: "slider", start: 0, end: 100, height: 25, bottom: 8,
-          borderColor: "#334155", backgroundColor: "#0f172a",
-          fillerColor: "rgba(59, 130, 246, 0.1)",
+          borderColor: "#e7e1d8", backgroundColor: "#ffffff",
+          fillerColor: "rgba(59, 130, 246, 0.08)",
           handleStyle: { color: "#3b82f6" },
-          textStyle: { color: "#64748b" },
+          textStyle: { color: "#a8a29e" },
         },
       ],
       series: [
@@ -117,7 +117,7 @@ export default function InfraShiftChart({ data }: Props) {
   }, [data]);
 
   return (
-    <div className="rounded-xl border border-zinc-800 bg-[#0f172a] p-6">
+    <div className="">
       <Chart option={option} height="520px" />
     </div>
   );

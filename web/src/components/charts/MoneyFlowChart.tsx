@@ -53,9 +53,9 @@ export default function MoneyFlowChart({ data }: Props) {
     return {
       tooltip: {
         trigger: "axis",
-        backgroundColor: "#0f172a",
-        borderColor: "#334155",
-        textStyle: { color: "#e2e8f0", fontSize: 12 },
+        backgroundColor: "#ffffff",
+        borderColor: "#e7e1d8",
+        textStyle: { color: "#1c1917", fontSize: 12 },
         formatter: (params: any) => {
           const sorted = [...params]
             .filter((p: any) => p.value != null)
@@ -74,7 +74,7 @@ export default function MoneyFlowChart({ data }: Props) {
       legend: {
         data: SECTORS.map((s) => s.name),
         bottom: 45,
-        textStyle: { color: "#94a3b8", fontSize: 11 },
+        textStyle: { color: "#78716c", fontSize: 11 },
         itemWidth: 16,
         itemHeight: 3,
       },
@@ -87,16 +87,16 @@ export default function MoneyFlowChart({ data }: Props) {
       xAxis: {
         type: "category",
         data: dateLabels,
-        axisLabel: { fontSize: 11, color: "#94a3b8", rotate: 30 },
-        axisLine: { lineStyle: { color: "#334155" } },
+        axisLabel: { fontSize: 11, color: "#78716c", rotate: 30 },
+        axisLine: { lineStyle: { color: "#e7e1d8" } },
         axisTick: { show: false },
       },
       yAxis: {
         type: "value",
         name: "₹ Lakh Crore",
-        nameTextStyle: { color: "#64748b", fontSize: 11 },
-        axisLabel: { color: "#94a3b8", fontSize: 11 },
-        splitLine: { lineStyle: { color: "#1e293b" } },
+        nameTextStyle: { color: "#a8a29e", fontSize: 11 },
+        axisLabel: { color: "#78716c", fontSize: 11 },
+        splitLine: { lineStyle: { color: "#f0ebe4" } },
       },
       dataZoom: [
         { type: "inside" },
@@ -104,11 +104,11 @@ export default function MoneyFlowChart({ data }: Props) {
           type: "slider",
           height: 25,
           bottom: 8,
-          borderColor: "#334155",
-          backgroundColor: "#0f172a",
-          fillerColor: "rgba(59, 130, 246, 0.1)",
+          borderColor: "#e7e1d8",
+          backgroundColor: "#ffffff",
+          fillerColor: "rgba(59, 130, 246, 0.08)",
           handleStyle: { color: "#3b82f6" },
-          textStyle: { color: "#64748b" },
+          textStyle: { color: "#a8a29e" },
         },
       ],
       series,
@@ -116,7 +116,7 @@ export default function MoneyFlowChart({ data }: Props) {
   }, [data]);
 
   return (
-    <div className="rounded-xl border border-zinc-800 bg-[#0f172a] p-6">
+    <div className="">
       <Chart option={option} height="500px" />
     </div>
   );

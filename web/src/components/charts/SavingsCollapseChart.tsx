@@ -18,7 +18,7 @@ const INSTRUMENTS = [
   { key: "deposits_bank", name: "Bank Deposits", color: "#3b82f6" },
   { key: "life_insurance", name: "Life Insurance", color: "#10b981" },
   { key: "provident_pension", name: "Provident & Pension", color: "#8b5cf6" },
-  { key: "currency", name: "Currency", color: "#64748b" },
+  { key: "currency", name: "Currency", color: "#a8a29e" },
   { key: "mutual_funds", name: "Mutual Funds", color: "#f59e0b" },
   { key: "equity", name: "Direct Equity", color: "#ef4444" },
   { key: "small_savings", name: "Small Savings", color: "#06b6d4" },
@@ -59,14 +59,14 @@ export default function SavingsCollapseChart({ data }: Props) {
     return {
       tooltip: {
         trigger: "axis",
-        backgroundColor: "#0f172a",
-        borderColor: "#334155",
-        textStyle: { color: "#e2e8f0", fontSize: 12 },
+        backgroundColor: "#ffffff",
+        borderColor: "#e7e1d8",
+        textStyle: { color: "#1c1917", fontSize: 12 },
       },
       legend: {
         data: [...INSTRUMENTS.map((i) => i.name), "Net Savings (% GDP)"],
         bottom: 45,
-        textStyle: { color: "#94a3b8", fontSize: 10 },
+        textStyle: { color: "#78716c", fontSize: 10 },
         itemWidth: 12,
         itemHeight: 12,
       },
@@ -79,24 +79,24 @@ export default function SavingsCollapseChart({ data }: Props) {
       xAxis: {
         type: "category",
         data: dates,
-        axisLabel: { fontSize: 10, color: "#94a3b8", rotate: 30 },
-        axisLine: { lineStyle: { color: "#334155" } },
+        axisLabel: { fontSize: 10, color: "#78716c", rotate: 30 },
+        axisLine: { lineStyle: { color: "#e7e1d8" } },
         axisTick: { show: false },
       },
       yAxis: [
         {
           type: "value",
           name: "₹ Lakh Crore",
-          nameTextStyle: { color: "#64748b", fontSize: 11 },
-          axisLabel: { color: "#94a3b8", fontSize: 11 },
-          splitLine: { lineStyle: { color: "#1e293b" } },
+          nameTextStyle: { color: "#a8a29e", fontSize: 11 },
+          axisLabel: { color: "#78716c", fontSize: 11 },
+          splitLine: { lineStyle: { color: "#f0ebe4" } },
         },
         {
           type: "value",
           name: "% of GDP",
-          nameTextStyle: { color: "#64748b", fontSize: 11 },
+          nameTextStyle: { color: "#a8a29e", fontSize: 11 },
           axisLabel: {
-            color: "#94a3b8",
+            color: "#78716c",
             fontSize: 11,
             formatter: (v: number) => `${v}%`,
           },
@@ -109,11 +109,11 @@ export default function SavingsCollapseChart({ data }: Props) {
           type: "slider",
           height: 25,
           bottom: 8,
-          borderColor: "#334155",
-          backgroundColor: "#0f172a",
-          fillerColor: "rgba(59, 130, 246, 0.1)",
+          borderColor: "#e7e1d8",
+          backgroundColor: "#ffffff",
+          fillerColor: "rgba(59, 130, 246, 0.08)",
           handleStyle: { color: "#3b82f6" },
-          textStyle: { color: "#64748b" },
+          textStyle: { color: "#a8a29e" },
         },
       ],
       series: [
@@ -133,7 +133,7 @@ export default function SavingsCollapseChart({ data }: Props) {
   }, [data]);
 
   return (
-    <div className="rounded-xl border border-zinc-800 bg-[#0f172a] p-6">
+    <div className="">
       <Chart option={option} height="520px" />
     </div>
   );

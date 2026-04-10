@@ -31,9 +31,9 @@ export default function UPIExplosionChart({ data }: Props) {
     return {
       tooltip: {
         trigger: "axis",
-        backgroundColor: "#0f172a",
-        borderColor: "#334155",
-        textStyle: { color: "#e2e8f0", fontSize: 13 },
+        backgroundColor: "#ffffff",
+        borderColor: "#e7e1d8",
+        textStyle: { color: "#1c1917", fontSize: 13 },
         formatter: (params: any) => {
           const p = params[0];
           const idx = p.dataIndex;
@@ -56,23 +56,23 @@ export default function UPIExplosionChart({ data }: Props) {
         data: dates,
         axisLabel: {
           fontSize: 11,
-          color: "#94a3b8",
+          color: "#78716c",
           interval: 5,
           rotate: 0,
         },
-        axisLine: { lineStyle: { color: "#334155" } },
+        axisLine: { lineStyle: { color: "#e7e1d8" } },
         axisTick: { show: false },
       },
       yAxis: {
         type: "value",
         name: "Billion Txns",
-        nameTextStyle: { color: "#64748b", fontSize: 11 },
+        nameTextStyle: { color: "#a8a29e", fontSize: 11 },
         axisLabel: {
-          color: "#94a3b8",
+          color: "#78716c",
           fontSize: 11,
           formatter: (v: number) => `${v}B`,
         },
-        splitLine: { lineStyle: { color: "#1e293b" } },
+        splitLine: { lineStyle: { color: "#f0ebe4" } },
       },
       dataZoom: [
         {
@@ -86,11 +86,11 @@ export default function UPIExplosionChart({ data }: Props) {
           end: 100,
           height: 30,
           bottom: 10,
-          borderColor: "#334155",
-          backgroundColor: "#0f172a",
-          fillerColor: "rgba(59, 130, 246, 0.1)",
+          borderColor: "#e7e1d8",
+          backgroundColor: "#ffffff",
+          fillerColor: "rgba(59, 130, 246, 0.08)",
           handleStyle: { color: "#3b82f6" },
-          textStyle: { color: "#64748b" },
+          textStyle: { color: "#a8a29e" },
           dataBackground: {
             lineStyle: { color: "#3b82f6", opacity: 0.3 },
             areaStyle: { color: "#3b82f6", opacity: 0.05 },
@@ -118,14 +118,14 @@ export default function UPIExplosionChart({ data }: Props) {
           markLine: {
             silent: true,
             symbol: ["none", "none"],
-            lineStyle: { color: "#475569", type: "dashed", width: 1 },
+            lineStyle: { color: "#c8c0b4", type: "dashed", width: 1 },
             data: [
               {
                 xAxis: "Apr 2020",
                 label: {
                   show: true,
                   formatter: "COVID\nlockdown",
-                  color: "#94a3b8",
+                  color: "#78716c",
                   fontSize: 11,
                   position: "insideEndTop",
                 },
@@ -138,7 +138,7 @@ export default function UPIExplosionChart({ data }: Props) {
   }, [data]);
 
   return (
-    <div className="rounded-xl border border-zinc-800 bg-[#0f172a] p-6">
+    <div className="">
       <Chart option={option} height="500px" />
     </div>
   );
