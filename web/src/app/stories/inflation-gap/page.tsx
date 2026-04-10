@@ -17,6 +17,7 @@ export default function InflationGapPage() {
   return (
     <StoryLayout
       slug="inflation-gap"
+      subtitle="Ask Indian households what inflation is today, and they'll overestimate. Ask what it will be in a year, and they'll say even higher. This pattern has held for 68 out of 70 survey rounds since 2008."
       stats={[
         { label: `Current Perception (R${latest.round})`, value: `${latest.current_mean}%`, accent: true },
         { label: "3-Month Expectation", value: `${latest.three_month_mean}%`, accent: true },

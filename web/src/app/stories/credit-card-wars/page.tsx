@@ -22,6 +22,7 @@ export default function CreditCardWarsPage() {
   return (
     <StoryLayout
       slug="credit-card-wars"
+      subtitle="HDFC vs SBI vs ICICI vs Axis: a decade of credit card competition across India's top banks. RBI bans, mergers, and devaluations have reshaped the market."
       stats={banks.slice(0, 4).map((b, i) => ({
         label: `#${i + 1} ${shortName(b.bank)}`,
         value: `${(b.cards / 1000000).toFixed(1)}M`,

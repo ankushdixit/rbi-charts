@@ -16,6 +16,7 @@ interface Insight {
 
 interface Props {
   slug: string;
+  subtitle?: string; // Full story page subtitle (overrides the short one from registry)
   children: React.ReactNode; // The chart component
   stats?: Stat[];
   meta?: { label: string; value: string }[];
@@ -24,6 +25,7 @@ interface Props {
 
 export default function StoryLayout({
   slug,
+  subtitle: subtitleOverride,
   children,
   stats,
   meta,
@@ -64,7 +66,7 @@ export default function StoryLayout({
         </h1>
 
         <p className="text-xl text-[#78716c] leading-relaxed max-w-[600px] mb-10">
-          {story?.subtitle}
+          {subtitleOverride || story?.subtitle}
         </p>
 
         {stats && stats.length > 0 && (

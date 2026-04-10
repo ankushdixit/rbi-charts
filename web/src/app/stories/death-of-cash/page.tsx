@@ -21,6 +21,7 @@ export default function DeathOfCashPage() {
   return (
     <StoryLayout
       slug="death-of-cash"
+      subtitle="Over the last decade, digital payments have entirely consumed India's payment landscape. Cheques have gone from a significant share to a rounding error."
       stats={[
         { label: "Cheque Volume Decline", value: `${ctsDecline}%`, accent: true },
         { label: "UPI Share of Total", value: `${upiShare}%`, accent: true },

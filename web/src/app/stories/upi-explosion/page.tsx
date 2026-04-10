@@ -23,6 +23,7 @@ export default function UPIExplosionPage() {
   return (
     <StoryLayout
       slug="upi-explosion"
+      subtitle="From near-zero to 20.4 billion monthly transactions in under a decade. The fastest adoption of any payment system in history."
       stats={[
         { label: "Transactions / month", value: `${latestBillions}B`, accent: true },
         { label: "Monthly value", value: `₹${latestValueLakhCr}L Cr`, accent: true },

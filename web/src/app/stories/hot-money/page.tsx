@@ -21,6 +21,7 @@ export default function HotMoneyPage() {
   return (
     <StoryLayout
       slug="hot-money"
+      subtitle="FDI is the patient capital — factories, subsidiaries, long-term bets. Portfolio investment is the hot money — equity trades, bond positions, one bad quarter and it flees. The quarterly data shows just how different they are."
       stats={[
         { label: `FDI Range`, value: `$${(fdiRange.min / 1000).toFixed(1)}B to +$${(fdiRange.max / 1000).toFixed(1)}B`, accent: true },
         { label: `FII Range`, value: `$${(fiiRange.min / 1000).toFixed(1)}B to +$${(fiiRange.max / 1000).toFixed(1)}B`, accent: true },

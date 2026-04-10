@@ -16,6 +16,7 @@ export default function InfraShiftPage() {
   return (
     <StoryLayout
       slug="infra-shift"
+      subtitle="India built 200K ATMs over decades. Then in just 3 years, it deployed 750M UPI QR codes. ATMs are now declining while digital acceptance points multiply at a pace no country has matched."
       stats={[
         { label: `ATMs (peaked ${(peakATM.atms / 1000).toFixed(0)}K)`, value: `${(latest.atms / 1000).toFixed(0)}K`, accent: false },
         { label: "PoS Terminals", value: `${(latest.pos / 1000000).toFixed(1)}M`, accent: true },

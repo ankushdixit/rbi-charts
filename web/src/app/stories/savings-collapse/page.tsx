@@ -16,6 +16,7 @@ export default function SavingsCollapsePage() {
   return (
     <StoryLayout
       slug="savings-collapse"
+      subtitle="COVID lockdowns forced savings to an all-time high of 12% of GDP. Then came the reversal — a crash to 4.9% as borrowing nearly tripled. Now recovering at 6%, the story isn't just about how much Indians save — it's about where the money goes and how much they borrow."
       stats={netGdp.map((d: any) => ({
         label: `Net Savings FY${d.period.replace(" Annual", "").slice(2)}`,
         value: `${d.value}%`,

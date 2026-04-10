@@ -14,6 +14,7 @@ export default function ForexFortressPage() {
   return (
     <StoryLayout
       slug="forex-fortress"
+      subtitle="From $5.8B during the 1991 balance of payments crisis to $668B today. How India built the world's 4th largest foreign exchange reserve — its insurance policy against external shocks."
       stats={[
         { label: "1991 Crisis", value: `$${crisis1991?.total_bn ?? 5.8}B`, accent: false },
         { label: "Current", value: `$${latest.total_bn}B`, accent: true },

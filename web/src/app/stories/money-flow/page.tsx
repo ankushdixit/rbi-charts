@@ -25,6 +25,7 @@ export default function MoneyFlowPage() {
   return (
     <StoryLayout
       slug="money-flow"
+      subtitle="India's banks deploy over ₹184 lakh crore in credit. Where it goes reveals the economy's structural transformation — from farms and factories to homes and phones."
       stats={[
         { label: "Personal Loans", value: `${((personal / totalCredit) * 100).toFixed(0)}%`, accent: true },
         { label: "Services", value: `${((services / totalCredit) * 100).toFixed(0)}%`, accent: true },
