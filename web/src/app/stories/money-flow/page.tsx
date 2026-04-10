@@ -20,13 +20,15 @@ export default function MoneyFlowPage() {
   const industry = getSector("industry_total");
   const services = getSector("services");
   const personal = getSector("personal_loans");
-  const totalCredit = agri + industry + services + personal;
 
-  // Get full dataset for sub-sector stats
+  // Use full dataset for non-food credit total and sub-sectors
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const fullData = require("../../../../public/data/sectoral_credit.json");
   const latestFull = fullData.filter((d: any) => d.date === latestDate);
   const getFullSector = (key: string) =>
     latestFull.find((d: any) => d.sector === key)?.outstanding_crore ?? 0;
+
+  const totalCredit = getFullSector("non_food_credit") || (agri + industry + services + personal);
   const housing = getFullSector("personal_housing");
   const vehicle = getFullSector("personal_vehicle");
   const gold = getFullSector("personal_gold");
@@ -119,54 +121,58 @@ export default function MoneyFlowPage() {
           <div className="grid gap-8 md:grid-cols-2 max-w-5xl">
             <div>
               <p className="text-lg font-bold text-white mb-2">
-                Personal loans now exceed industry credit
+                Personal loans are 1.5x industry credit
               </p>
               <p className="text-zinc-400 text-sm">
                 At ₹{(personal / 100000).toFixed(1)} lakh crore, personal loans
-                are larger than total industrial credit
-                (₹{(industry / 100000).toFixed(1)}L Cr). Housing alone accounts
-                for ₹{(housing / 100000).toFixed(1)}L Cr — more than micro, small,
-                and medium industry combined. Banks are funding aspirations, not
-                factories.
+                are 1.5x total industrial credit
+                (₹{(industry / 100000).toFixed(1)}L Cr). Housing alone at
+                ₹{(housing / 100000).toFixed(1)}L Cr is 2.5x larger than the
+                entire MSME sector (₹12.3L Cr). The gap has widened every single
+                year since FY 2020-21.
               </p>
             </div>
 
             <div>
               <p className="text-lg font-bold text-white mb-2">
-                Services sector is the new growth engine
+                Services is the fastest growing sector
               </p>
               <p className="text-zinc-400 text-sm">
-                Services credit grew 16.3% YoY — the fastest among all sectors —
-                reaching ₹{(services / 100000).toFixed(1)} lakh crore. NBFCs,
-                commercial real estate, and trade are driving this. Services now
-                receives {((services / totalCredit) * 100).toFixed(0)}% of all
-                non-food credit, up from ~20% a decade ago.
+                Services credit grew 12.4% YoY (Mar 2024 to Mar 2025) — the
+                fastest among all sectors — reaching
+                ₹{(services / 100000).toFixed(1)} lakh crore. It now receives{" "}
+                {((services / totalCredit) * 100).toFixed(0)}% of all non-food
+                credit. NBFCs, commercial real estate, and trade are driving this.
+                Services overtook industry around FY 2021-22 and keeps pulling ahead.
               </p>
             </div>
 
             <div>
               <p className="text-lg font-bold text-white mb-2">
-                Vehicle loans and gold loans are exploding
+                The aspiration economy is credit-fueled
               </p>
               <p className="text-zinc-400 text-sm">
-                Vehicle loans hit ₹{(vehicle / 100000).toFixed(1)}L Cr, gold loans
-                reached ₹{(gold / 100000).toFixed(1)}L Cr, and credit card
-                outstanding is ₹{(ccOutstanding / 100000).toFixed(1)}L Cr. These
-                aspirational credit categories are growing 15-30% annually —
-                far faster than traditional housing loans.
+                Vehicle loans hit ₹{(vehicle / 100000).toFixed(1)}L Cr and credit
+                card outstanding reached ₹{(ccOutstanding / 100000).toFixed(1)}L Cr.
+                Within personal loans, housing (₹{(housing / 100000).toFixed(1)}L Cr)
+                remains dominant, but vehicle loans, credit cards, and consumer
+                durables are the fastest growing segments — reflecting the rise
+                of India&apos;s aspirational middle class.
               </p>
             </div>
 
             <div>
               <p className="text-lg font-bold text-white mb-2">
-                Agriculture stuck at 12% despite policy push
+                Agriculture: growing but losing share
               </p>
               <p className="text-zinc-400 text-sm">
-                Despite the RBI&apos;s priority sector lending mandate (40% of
-                credit must go to priority sectors including agriculture),
-                farm credit has grown only 12.3% YoY and its share of total
-                credit has been declining for years. The gap between policy intent
-                and credit reality keeps widening.
+                Agriculture credit grew 10.4% YoY to
+                ₹{(agri / 100000).toFixed(1)}L Cr — healthy growth in absolute
+                terms. But its share of non-food credit is just{" "}
+                {((agri / totalCredit) * 100).toFixed(0)}%, the smallest of the
+                four sectors. As personal loans and services grow faster, farm
+                credit&apos;s relative weight keeps declining despite the RBI&apos;s
+                priority sector lending mandate.
               </p>
             </div>
           </div>
