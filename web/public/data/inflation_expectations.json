@@ -1,0 +1,702 @@
+[
+  {
+    "round": 13,
+    "date": "2008-09",
+    "current_mean": 11.3,
+    "current_median": null,
+    "three_month_mean": 11.6,
+    "three_month_median": null,
+    "one_year_mean": 12.4,
+    "one_year_median": null
+  },
+  {
+    "round": 14,
+    "date": "2008-12",
+    "current_mean": 9.3,
+    "current_median": null,
+    "three_month_mean": 8.9,
+    "three_month_median": null,
+    "one_year_mean": 9.6,
+    "one_year_median": null
+  },
+  {
+    "round": 15,
+    "date": "2009-03",
+    "current_mean": 5.2,
+    "current_median": null,
+    "three_month_mean": 5.3,
+    "three_month_median": null,
+    "one_year_mean": 6.2,
+    "one_year_median": null
+  },
+  {
+    "round": 16,
+    "date": "2009-06",
+    "current_mean": 5.8,
+    "current_median": null,
+    "three_month_mean": 6.3,
+    "three_month_median": null,
+    "one_year_mean": 6.7,
+    "one_year_median": null
+  },
+  {
+    "round": 17,
+    "date": "2009-09",
+    "current_mean": 8.2,
+    "current_median": 6.5,
+    "three_month_mean": 8.7,
+    "three_month_median": 7.5,
+    "one_year_mean": 9.2,
+    "one_year_median": 8.5
+  },
+  {
+    "round": 18,
+    "date": "2009-12",
+    "current_mean": 11.1,
+    "current_median": 11.5,
+    "three_month_mean": 11.6,
+    "three_month_median": 12.5,
+    "one_year_mean": 11.9,
+    "one_year_median": 13.5
+  },
+  {
+    "round": 19,
+    "date": "2010-03",
+    "current_mean": 10.3,
+    "current_median": 9.5,
+    "three_month_mean": 10.6,
+    "three_month_median": 10.5,
+    "one_year_mean": 11.0,
+    "one_year_median": 11.5
+  },
+  {
+    "round": 20,
+    "date": "2010-06",
+    "current_mean": 11.1,
+    "current_median": 10.5,
+    "three_month_mean": 11.4,
+    "three_month_median": 11.5,
+    "one_year_mean": 11.9,
+    "one_year_median": 12.5
+  },
+  {
+    "round": 21,
+    "date": "2010-09",
+    "current_mean": 12.1,
+    "current_median": 11.5,
+    "three_month_mean": 12.3,
+    "three_month_median": 12.5,
+    "one_year_mean": 12.7,
+    "one_year_median": 12.5
+  },
+  {
+    "round": 22,
+    "date": "2010-12",
+    "current_mean": 11.8,
+    "current_median": 11.5,
+    "three_month_mean": 12.4,
+    "three_month_median": 12.5,
+    "one_year_mean": 13.1,
+    "one_year_median": 13.5
+  },
+  {
+    "round": 23,
+    "date": "2011-03",
+    "current_mean": 11.5,
+    "current_median": 10.5,
+    "three_month_mean": 11.9,
+    "three_month_median": 11.5,
+    "one_year_mean": 12.7,
+    "one_year_median": 12.5
+  },
+  {
+    "round": 24,
+    "date": "2011-06",
+    "current_mean": 11.2,
+    "current_median": 10.5,
+    "three_month_mean": 11.8,
+    "three_month_median": 11.5,
+    "one_year_mean": 12.9,
+    "one_year_median": 13.5
+  },
+  {
+    "round": 25,
+    "date": "2011-09",
+    "current_mean": 11.7,
+    "current_median": 10.5,
+    "three_month_mean": 12.2,
+    "three_month_median": 11.5,
+    "one_year_mean": 12.9,
+    "one_year_median": 13.5
+  },
+  {
+    "round": 26,
+    "date": "2011-12",
+    "current_mean": 11.9,
+    "current_median": 11.5,
+    "three_month_mean": 12.4,
+    "three_month_median": 12.5,
+    "one_year_mean": 13.3,
+    "one_year_median": 13.5
+  },
+  {
+    "round": 27,
+    "date": "2012-03",
+    "current_mean": 11.0,
+    "current_median": 10.5,
+    "three_month_mean": 11.7,
+    "three_month_median": 11.5,
+    "one_year_mean": 12.5,
+    "one_year_median": 12.5
+  },
+  {
+    "round": 28,
+    "date": "2012-06",
+    "current_mean": 11.3,
+    "current_median": 10.5,
+    "three_month_mean": 12.0,
+    "three_month_median": 11.5,
+    "one_year_mean": 12.8,
+    "one_year_median": 12.5
+  },
+  {
+    "round": 29,
+    "date": "2012-09",
+    "current_mean": 10.6,
+    "current_median": 9.5,
+    "three_month_mean": 11.5,
+    "three_month_median": 10.5,
+    "one_year_mean": 12.7,
+    "one_year_median": 13.5
+  },
+  {
+    "round": 30,
+    "date": "2012-12",
+    "current_mean": 11.0,
+    "current_median": 10.5,
+    "three_month_mean": 11.9,
+    "three_month_median": 11.5,
+    "one_year_mean": 13.3,
+    "one_year_median": 14.5
+  },
+  {
+    "round": 31,
+    "date": "2013-03",
+    "current_mean": 10.7,
+    "current_median": 10.3,
+    "three_month_mean": 11.3,
+    "three_month_median": 11.3,
+    "one_year_mean": 12.5,
+    "one_year_median": 13.0
+  },
+  {
+    "round": 32,
+    "date": "2013-06",
+    "current_mean": 11.0,
+    "current_median": 10.5,
+    "three_month_mean": 11.7,
+    "three_month_median": 11.4,
+    "one_year_mean": 12.4,
+    "one_year_median": 12.7
+  },
+  {
+    "round": 33,
+    "date": "2013-09",
+    "current_mean": 11.8,
+    "current_median": 11.0,
+    "three_month_mean": 12.8,
+    "three_month_median": 14.5,
+    "one_year_mean": 13.5,
+    "one_year_median": 16.0
+  },
+  {
+    "round": 34,
+    "date": "2013-12",
+    "current_mean": 12.3,
+    "current_median": 13.2,
+    "three_month_mean": 12.2,
+    "three_month_median": 13.9,
+    "one_year_mean": 13.5,
+    "one_year_median": 16.0
+  },
+  {
+    "round": 35,
+    "date": "2014-03",
+    "current_mean": 12.2,
+    "current_median": 13.3,
+    "three_month_mean": 12.3,
+    "three_month_median": 12.9,
+    "one_year_mean": 13.1,
+    "one_year_median": 15.3
+  },
+  {
+    "round": 36,
+    "date": "2014-06",
+    "current_mean": 12.6,
+    "current_median": 13.3,
+    "three_month_mean": 12.5,
+    "three_month_median": 14.0,
+    "one_year_mean": 12.8,
+    "one_year_median": 15.0
+  },
+  {
+    "round": 37,
+    "date": "2014-09",
+    "current_mean": 12.7,
+    "current_median": 13.8,
+    "three_month_mean": 12.7,
+    "three_month_median": 14.6,
+    "one_year_mean": 13.5,
+    "one_year_median": 16.0
+  },
+  {
+    "round": 38,
+    "date": "2014-12",
+    "current_mean": 9.0,
+    "current_median": 8.8,
+    "three_month_mean": 8.8,
+    "three_month_median": 8.3,
+    "one_year_mean": 9.3,
+    "one_year_median": 8.9
+  },
+  {
+    "round": 39,
+    "date": "2015-03",
+    "current_mean": 9.1,
+    "current_median": 9.0,
+    "three_month_mean": 9.0,
+    "three_month_median": 8.5,
+    "one_year_mean": 9.6,
+    "one_year_median": 9.1
+  },
+  {
+    "round": 40,
+    "date": "2015-06",
+    "current_mean": 9.9,
+    "current_median": 9.5,
+    "three_month_mean": 10.1,
+    "three_month_median": 10.0,
+    "one_year_mean": 10.7,
+    "one_year_median": 10.2
+  },
+  {
+    "round": 41,
+    "date": "2015-09",
+    "current_mean": 10.4,
+    "current_median": 9.8,
+    "three_month_mean": 10.6,
+    "three_month_median": 10.4,
+    "one_year_mean": 11.2,
+    "one_year_median": 11.1
+  },
+  {
+    "round": 42,
+    "date": "2015-12",
+    "current_mean": 10.5,
+    "current_median": 9.9,
+    "three_month_mean": 10.5,
+    "three_month_median": 9.9,
+    "one_year_mean": 10.7,
+    "one_year_median": 10.0
+  },
+  {
+    "round": 43,
+    "date": "2016-03",
+    "current_mean": 8.9,
+    "current_median": 7.9,
+    "three_month_mean": 8.8,
+    "three_month_median": 8.1,
+    "one_year_mean": 9.7,
+    "one_year_median": 9.4
+  },
+  {
+    "round": 44,
+    "date": "2016-06",
+    "current_mean": 8.8,
+    "current_median": 8.0,
+    "three_month_mean": 9.7,
+    "three_month_median": 9.2,
+    "one_year_mean": 10.0,
+    "one_year_median": 9.6
+  },
+  {
+    "round": 45,
+    "date": "2016-09",
+    "current_mean": 9.2,
+    "current_median": 8.7,
+    "three_month_mean": 9.7,
+    "three_month_median": 9.5,
+    "one_year_mean": 11.6,
+    "one_year_median": 11.4
+  },
+  {
+    "round": 46,
+    "date": "2016-12",
+    "current_mean": 7.4,
+    "current_median": 6.5,
+    "three_month_mean": 7.9,
+    "three_month_median": 7.3,
+    "one_year_mean": 8.7,
+    "one_year_median": 8.3
+  },
+  {
+    "round": 47,
+    "date": "2017-03",
+    "current_mean": 7.8,
+    "current_median": 6.8,
+    "three_month_mean": 8.2,
+    "three_month_median": 7.5,
+    "one_year_mean": 9.3,
+    "one_year_median": 8.8
+  },
+  {
+    "round": 48,
+    "date": "2017-06",
+    "current_mean": 7.3,
+    "current_median": 6.4,
+    "three_month_mean": 8.1,
+    "three_month_median": 7.5,
+    "one_year_mean": 9.1,
+    "one_year_median": 8.6
+  },
+  {
+    "round": 49,
+    "date": "2017-09",
+    "current_mean": 7.6,
+    "current_median": 6.3,
+    "three_month_mean": 8.2,
+    "three_month_median": 7.2,
+    "one_year_mean": 8.7,
+    "one_year_median": 8.0
+  },
+  {
+    "round": 50,
+    "date": "2017-12",
+    "current_mean": 7.9,
+    "current_median": 6.7,
+    "three_month_mean": 8.4,
+    "three_month_median": 7.5,
+    "one_year_mean": 8.9,
+    "one_year_median": 8.5
+  },
+  {
+    "round": 51,
+    "date": "2018-03",
+    "current_mean": 8.2,
+    "current_median": 7.2,
+    "three_month_mean": 8.6,
+    "three_month_median": 7.8,
+    "one_year_mean": 8.9,
+    "one_year_median": 8.6
+  },
+  {
+    "round": 52,
+    "date": "2018-06",
+    "current_mean": 8.9,
+    "current_median": 8.1,
+    "three_month_mean": 9.5,
+    "three_month_median": 8.9,
+    "one_year_mean": 9.8,
+    "one_year_median": 10.1
+  },
+  {
+    "round": 53,
+    "date": "2018-09",
+    "current_mean": 9.2,
+    "current_median": 8.4,
+    "three_month_mean": 9.9,
+    "three_month_median": 9.4,
+    "one_year_mean": 9.6,
+    "one_year_median": 9.8
+  },
+  {
+    "round": 54,
+    "date": "2018-12",
+    "current_mean": 8.3,
+    "current_median": 7.1,
+    "three_month_mean": 9.1,
+    "three_month_median": 8.2,
+    "one_year_mean": 8.6,
+    "one_year_median": 8.5
+  },
+  {
+    "round": 55,
+    "date": "2019-03",
+    "current_mean": 8.0,
+    "current_median": 6.9,
+    "three_month_mean": 8.7,
+    "three_month_median": 7.8,
+    "one_year_mean": 8.3,
+    "one_year_median": 8.1
+  },
+  {
+    "round": 56,
+    "date": "2019-07",
+    "current_mean": 7.9,
+    "current_median": 6.6,
+    "three_month_mean": 8.6,
+    "three_month_median": 7.6,
+    "one_year_mean": 8.3,
+    "one_year_median": 7.9
+  },
+  {
+    "round": 57,
+    "date": "2019-09",
+    "current_mean": 8.2,
+    "current_median": 7.1,
+    "three_month_mean": 8.9,
+    "three_month_median": 8.0,
+    "one_year_mean": 8.6,
+    "one_year_median": 8.1
+  },
+  {
+    "round": 58,
+    "date": "2020-01",
+    "current_mean": 8.7,
+    "current_median": 7.6,
+    "three_month_mean": 9.5,
+    "three_month_median": 8.6,
+    "one_year_mean": 9.3,
+    "one_year_median": 9.2
+  },
+  {
+    "round": 59,
+    "date": "2020-03",
+    "current_mean": 8.4,
+    "current_median": 7.6,
+    "three_month_mean": 9.2,
+    "three_month_median": 8.5,
+    "one_year_mean": 9.1,
+    "one_year_median": 9.0
+  },
+  {
+    "round": 60,
+    "date": "2020-07",
+    "current_mean": 10.0,
+    "current_median": 9.9,
+    "three_month_mean": 10.8,
+    "three_month_median": 10.5,
+    "one_year_mean": 9.8,
+    "one_year_median": 10.3
+  },
+  {
+    "round": 61,
+    "date": "2020-09",
+    "current_mean": 9.9,
+    "current_median": 9.8,
+    "three_month_mean": 10.8,
+    "three_month_median": 10.4,
+    "one_year_mean": 9.9,
+    "one_year_median": 10.3
+  },
+  {
+    "round": 62,
+    "date": "2021-01",
+    "current_mean": 9.1,
+    "current_median": 8.2,
+    "three_month_mean": 10.0,
+    "three_month_median": 9.3,
+    "one_year_mean": 9.7,
+    "one_year_median": 10.1
+  },
+  {
+    "round": 63,
+    "date": "2021-03",
+    "current_mean": 9.4,
+    "current_median": 8.8,
+    "three_month_mean": 10.4,
+    "three_month_median": 10.1,
+    "one_year_mean": 10.0,
+    "one_year_median": 10.2
+  },
+  {
+    "round": 64,
+    "date": "2021-07",
+    "current_mean": 10.5,
+    "current_median": 10.3,
+    "three_month_mean": 11.7,
+    "three_month_median": 11.3,
+    "one_year_mean": 11.0,
+    "one_year_median": 11.5
+  },
+  {
+    "round": 65,
+    "date": "2021-09",
+    "current_mean": 10.4,
+    "current_median": 10.2,
+    "three_month_mean": 11.4,
+    "three_month_median": 10.8,
+    "one_year_mean": 10.8,
+    "one_year_median": 10.9
+  },
+  {
+    "round": 66,
+    "date": "2022-01",
+    "current_mean": 9.9,
+    "current_median": 9.7,
+    "three_month_mean": 11.1,
+    "three_month_median": 10.6,
+    "one_year_mean": 10.7,
+    "one_year_median": 10.7
+  },
+  {
+    "round": 67,
+    "date": "2022-03",
+    "current_mean": 9.8,
+    "current_median": 9.7,
+    "three_month_mean": 11.1,
+    "three_month_median": 10.7,
+    "one_year_mean": 10.9,
+    "one_year_median": 10.8
+  },
+  {
+    "round": 68,
+    "date": "2022-07",
+    "current_mean": 9.8,
+    "current_median": 9.3,
+    "three_month_mean": 10.7,
+    "three_month_median": 10.3,
+    "one_year_mean": 10.3,
+    "one_year_median": 10.5
+  },
+  {
+    "round": 69,
+    "date": "2022-09",
+    "current_mean": 10.4,
+    "current_median": 10.2,
+    "three_month_mean": 11.3,
+    "three_month_median": 10.8,
+    "one_year_mean": 11.1,
+    "one_year_median": 11.0
+  },
+  {
+    "round": 70,
+    "date": "2023-01",
+    "current_mean": 9.7,
+    "current_median": 9.6,
+    "three_month_mean": 10.8,
+    "three_month_median": 10.5,
+    "one_year_mean": 10.8,
+    "one_year_median": 10.8
+  },
+  {
+    "round": 71,
+    "date": "2023-03",
+    "current_mean": 9.5,
+    "current_median": 8.9,
+    "three_month_mean": 10.5,
+    "three_month_median": 10.2,
+    "one_year_mean": 10.4,
+    "one_year_median": 10.5
+  },
+  {
+    "round": 72,
+    "date": "2023-07",
+    "current_mean": 9.3,
+    "current_median": 8.9,
+    "three_month_mean": 10.2,
+    "three_month_median": 10.0,
+    "one_year_mean": 10.0,
+    "one_year_median": 10.3
+  },
+  {
+    "round": 73,
+    "date": "2023-09",
+    "current_mean": 9.0,
+    "current_median": 8.4,
+    "three_month_mean": 9.7,
+    "three_month_median": 9.1,
+    "one_year_mean": 9.3,
+    "one_year_median": 9.9
+  },
+  {
+    "round": 74,
+    "date": "2024-01",
+    "current_mean": 8.8,
+    "current_median": 8.1,
+    "three_month_mean": 9.7,
+    "three_month_median": 9.2,
+    "one_year_mean": 9.6,
+    "one_year_median": 10.0
+  },
+  {
+    "round": 75,
+    "date": "2024-03",
+    "current_mean": 8.7,
+    "current_median": 8.1,
+    "three_month_mean": 9.6,
+    "three_month_median": 9.0,
+    "one_year_mean": 9.5,
+    "one_year_median": 9.8
+  },
+  {
+    "round": 76,
+    "date": "2024-07",
+    "current_mean": 8.9,
+    "current_median": 8.2,
+    "three_month_mean": 9.8,
+    "three_month_median": 9.4,
+    "one_year_mean": 9.8,
+    "one_year_median": 10.1
+  },
+  {
+    "round": 77,
+    "date": "2024-09",
+    "current_mean": 8.6,
+    "current_median": 8.1,
+    "three_month_mean": 9.6,
+    "three_month_median": 9.2,
+    "one_year_mean": 9.6,
+    "one_year_median": 10.0
+  },
+  {
+    "round": 78,
+    "date": "2025-01",
+    "current_mean": 8.8,
+    "current_median": 8.3,
+    "three_month_mean": 9.8,
+    "three_month_median": 9.3,
+    "one_year_mean": 9.9,
+    "one_year_median": 10.2
+  },
+  {
+    "round": 79,
+    "date": "2025-03",
+    "current_mean": 8.5,
+    "current_median": 7.8,
+    "three_month_mean": 9.5,
+    "three_month_median": 8.9,
+    "one_year_mean": 9.4,
+    "one_year_median": 9.7
+  },
+  {
+    "round": 80,
+    "date": "2025-07",
+    "current_mean": 8.1,
+    "current_median": 7.2,
+    "three_month_mean": 8.9,
+    "three_month_median": 8.3,
+    "one_year_mean": 8.7,
+    "one_year_median": 9.0
+  },
+  {
+    "round": 81,
+    "date": "2025-09",
+    "current_mean": 8.4,
+    "current_median": 7.4,
+    "three_month_mean": 9.0,
+    "three_month_median": 8.1,
+    "one_year_mean": 8.8,
+    "one_year_median": 8.7
+  },
+  {
+    "round": 82,
+    "date": "2026-01",
+    "current_mean": 7.8,
+    "current_median": 6.9,
+    "three_month_mean": 8.9,
+    "three_month_median": 7.9,
+    "one_year_mean": 8.9,
+    "one_year_median": 8.6
+  }
+]

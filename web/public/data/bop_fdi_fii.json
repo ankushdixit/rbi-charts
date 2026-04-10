@@ -1,0 +1,92 @@
+[
+  {
+    "quarter": "April-June 2024 PR",
+    "type": "FDI",
+    "net_usd_mn": 6223.664266185711
+  },
+  {
+    "quarter": "July-September 2024 PR",
+    "type": "FDI",
+    "net_usd_mn": -2820.9479814321057
+  },
+  {
+    "quarter": "October-December 2024 PR",
+    "type": "FDI",
+    "net_usd_mn": -2810.198351468418
+  },
+  {
+    "quarter": "January-March 2025 PR",
+    "type": "FDI",
+    "net_usd_mn": 366.3785052182611
+  },
+  {
+    "quarter": "April-March 2024-25 PR",
+    "type": "FDI",
+    "net_usd_mn": 958.8964385034487
+  },
+  {
+    "quarter": "April-June 2025 PR",
+    "type": "FDI",
+    "net_usd_mn": 4815.4310820989485
+  },
+  {
+    "quarter": "July-September 2025 PR",
+    "type": "FDI",
+    "net_usd_mn": 1883.1899653489163
+  },
+  {
+    "quarter": "October-December 2025 P",
+    "type": "FDI",
+    "net_usd_mn": -3659.109122923288
+  },
+  {
+    "quarter": "April-December 2025-26 P",
+    "type": "FDI",
+    "net_usd_mn": 3039.511924524577
+  },
+  {
+    "quarter": "April-June 2024 PR",
+    "type": "FII",
+    "net_usd_mn": 944.7402282402036
+  },
+  {
+    "quarter": "July-September 2024 PR",
+    "type": "FII",
+    "net_usd_mn": 19850.06107052861
+  },
+  {
+    "quarter": "October-December 2024 PR",
+    "type": "FII",
+    "net_usd_mn": -11372.036486734636
+  },
+  {
+    "quarter": "January-March 2025 PR",
+    "type": "FII",
+    "net_usd_mn": -5858.631636310674
+  },
+  {
+    "quarter": "April-March 2024-25 PR",
+    "type": "FII",
+    "net_usd_mn": 3564.1331757234875
+  },
+  {
+    "quarter": "April-June 2025 PR",
+    "type": "FII",
+    "net_usd_mn": 1608.2469899761782
+  },
+  {
+    "quarter": "July-September 2025 PR",
+    "type": "FII",
+    "net_usd_mn": -5746.929505637963
+  },
+  {
+    "quarter": "October-December 2025 P",
+    "type": "FII",
+    "net_usd_mn": -177.25462864278234
+  },
+  {
+    "quarter": "April-December 2025-26 P",
+    "type": "FII",
+    "net_usd_mn": -4315.9371443045675
+  }
+]

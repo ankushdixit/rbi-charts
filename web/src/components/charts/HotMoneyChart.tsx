@@ -1,0 +1,136 @@
+"use client";
+
+import { useMemo } from "react";
+import Chart from "./Chart";
+import type { EChartsOption } from "echarts";
+
+interface BoPRecord {
+  quarter: string;
+  type: string;
+  net_usd_mn: number;
+}
+
+interface Props {
+  data: BoPRecord[];
+}
+
+export default function HotMoneyChart({ data }: Props) {
+  const option = useMemo<EChartsOption>(() => {
+    // Get unique quarters in order, exclude annual aggregates
+    const quarters = Array.from(
+      new Set(data.map((d) => d.quarter))
+    )
+      .filter((q) => !q.includes("April-March") && !q.includes("April-December"))
+      .sort((a, b) => {
+        // Parse "April-June 2024 PR" -> sortable string
+        const qMap: Record<string, string> = {
+          "April-June": "Q1", "July-September": "Q2",
+          "October-December": "Q3", "January-March": "Q4",
+        };
+        const parseQ = (s: string) => {
+          for (const [k, v] of Object.entries(qMap)) {
+            if (s.includes(k)) {
+              const year = s.match(/\d{4}/)?.[0] || "0";
+              // For Q4 (Jan-Mar), it's the end of the FY, so sort after Q3 of same start year
+              const sortYear = v === "Q4" ? String(parseInt(year)) : year;
+              return `${sortYear}-${v}`;
+            }
+          }
+          return s;
+        };
+        return parseQ(a).localeCompare(parseQ(b));
+      });
+
+    const shortLabels = quarters.map((q) => {
+      if (q.includes("April-June")) return `Q1 ${q.match(/\d{4}/)?.[0]}`;
+      if (q.includes("July-Sep")) return `Q2 ${q.match(/\d{4}/)?.[0]}`;
+      if (q.includes("October-Dec")) return `Q3 ${q.match(/\d{4}/)?.[0]}`;
+      if (q.includes("January-Mar")) return `Q4 ${q.match(/\d{4}/)?.[0]}`;
+      return q;
+    });
+
+    const fdiData = quarters.map((q) => {
+      const rec = data.find((d) => d.quarter === q && d.type === "FDI");
+      return rec ? +(rec.net_usd_mn / 1000).toFixed(1) : null;
+    });
+
+    const fiiData = quarters.map((q) => {
+      const rec = data.find((d) => d.quarter === q && d.type === "FII");
+      return rec ? +(rec.net_usd_mn / 1000).toFixed(1) : null;
+    });
+
+    return {
+      tooltip: {
+        trigger: "axis",
+        backgroundColor: "#0f172a",
+        borderColor: "#334155",
+        textStyle: { color: "#e2e8f0", fontSize: 12 },
+        formatter: (params: any) => {
+          let html = `<div style="font-weight:600;margin-bottom:4px">${params[0].axisValue}</div>`;
+          for (const p of params) {
+            if (p.value != null) {
+              const color = p.value >= 0 ? "#10b981" : "#ef4444";
+              html += `<div style="display:flex;align-items:center;gap:6px;margin:2px 0">
+                <span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${p.color}"></span>
+                <span style="flex:1">${p.seriesName}</span>
+                <span style="font-weight:600;color:${color}">$${p.value > 0 ? "+" : ""}${p.value.toFixed(1)}B</span>
+              </div>`;
+            }
+          }
+          return html;
+        },
+      },
+      legend: {
+        data: ["FDI (Net)", "Portfolio / FII (Net)"],
+        bottom: 10,
+        textStyle: { color: "#94a3b8", fontSize: 11 },
+        itemWidth: 16,
+        itemHeight: 3,
+      },
+      grid: { left: 60, right: 20, top: 20, bottom: 50 },
+      xAxis: {
+        type: "category",
+        data: shortLabels,
+        axisLabel: { fontSize: 11, color: "#94a3b8" },
+        axisLine: { lineStyle: { color: "#334155" } },
+        axisTick: { show: false },
+      },
+      yAxis: {
+        type: "value",
+        name: "US$ Billion (Net)",
+        nameTextStyle: { color: "#64748b", fontSize: 11 },
+        axisLabel: {
+          color: "#94a3b8", fontSize: 11,
+          formatter: (v: number) => `$${v}B`,
+        },
+        splitLine: { lineStyle: { color: "#1e293b" } },
+      },
+      series: [
+        {
+          name: "FDI (Net)",
+          type: "bar",
+          data: fdiData,
+          itemStyle: {
+            color: (params: any) => params.value >= 0 ? "#3b82f6" : "#3b82f6",
+          },
+          barWidth: "30%",
+        },
+        {
+          name: "Portfolio / FII (Net)",
+          type: "bar",
+          data: fiiData,
+          itemStyle: {
+            color: (params: any) => params.value >= 0 ? "#f59e0b" : "#f59e0b",
+          },
+          barWidth: "30%",
+        },
+      ],
+    };
+  }, [data]);
+
+  return (
+    <div className="rounded-xl border border-zinc-800 bg-[#0f172a] p-6">
+      <Chart option={option} height="450px" />
+    </div>
+  );
+}
