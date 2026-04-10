@@ -42,7 +42,7 @@ export default function InfraShiftChart({ data }: Props) {
         itemWidth: 16,
         itemHeight: 3,
       },
-      grid: { left: 70, right: 20, top: 40, bottom: 55 },
+      grid: { left: 70, right: 20, top: 40, bottom: 75 },
       xAxis: {
         type: "category",
         data: dates,

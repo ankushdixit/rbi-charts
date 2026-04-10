@@ -109,7 +109,7 @@ export default function DeathOfCashChart({ data }: Props) {
         left: 55,
         right: 20,
         top: 40,
-        bottom: 55,
+        bottom: 75,
       },
       xAxis: {
         type: "category",

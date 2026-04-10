@@ -82,7 +82,7 @@ export default function MoneyFlowChart({ data }: Props) {
         left: 60,
         right: 20,
         top: 40,
-        bottom: 55,
+        bottom: 75,
       },
       xAxis: {
         type: "category",

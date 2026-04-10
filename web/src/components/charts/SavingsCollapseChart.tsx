@@ -76,7 +76,7 @@ export default function SavingsCollapseChart({ data }: Props) {
         left: 60,
         right: 50,
         top: 40,
-        bottom: 55,
+        bottom: 75,
       },
       xAxis: {
         type: "category",
