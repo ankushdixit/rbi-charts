@@ -127,8 +127,8 @@ export default function SavingsCollapseChart({ data }: Props) {
           data: gdpLine,
           symbol: "circle",
           symbolSize: 6,
-          lineStyle: { width: 3, color: "#1c1917", type: "dashed" },
-          itemStyle: { color: "#1c1917" },
+          lineStyle: { width: 3, color: "#78716c", type: "dashed" },
+          itemStyle: { color: "#78716c" },
         },
       ],
     };
