@@ -126,7 +126,7 @@ export default function CreditCardWarsChart({ data }: Props) {
       },
       legend: {
         data: banks.map((b) => SHORT_NAMES[b] || b),
-        bottom: 45,
+        top: 0,
         textStyle: { color: "#78716c", fontSize: 11 },
         itemWidth: 16,
         itemHeight: 3,
@@ -134,8 +134,8 @@ export default function CreditCardWarsChart({ data }: Props) {
       grid: {
         left: 55,
         right: 20,
-        top: 15,
-        bottom: 110,
+        top: 40,
+        bottom: 55,
       },
       xAxis: {
         type: "category",

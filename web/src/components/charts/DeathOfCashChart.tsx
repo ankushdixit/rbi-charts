@@ -100,7 +100,7 @@ export default function DeathOfCashChart({ data }: Props) {
       },
       legend: {
         data: SERIES_CONFIG.map((s) => s.name),
-        bottom: 45,
+        top: 0,
         textStyle: { color: "#78716c", fontSize: 11 },
         itemWidth: 12,
         itemHeight: 12,
@@ -108,8 +108,8 @@ export default function DeathOfCashChart({ data }: Props) {
       grid: {
         left: 55,
         right: 20,
-        top: 15,
-        bottom: 100,
+        top: 40,
+        bottom: 55,
       },
       xAxis: {
         type: "category",

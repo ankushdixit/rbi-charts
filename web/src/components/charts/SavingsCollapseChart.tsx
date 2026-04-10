@@ -67,7 +67,7 @@ export default function SavingsCollapseChart({ data }: Props) {
       },
       legend: {
         data: [...INSTRUMENTS.map((i) => i.name), "Net Savings (% GDP)"],
-        bottom: 45,
+        top: 0,
         textStyle: { color: "#78716c", fontSize: 10 },
         itemWidth: 12,
         itemHeight: 12,
@@ -75,8 +75,8 @@ export default function SavingsCollapseChart({ data }: Props) {
       grid: {
         left: 60,
         right: 50,
-        top: 20,
-        bottom: 100,
+        top: 40,
+        bottom: 55,
       },
       xAxis: {
         type: "category",

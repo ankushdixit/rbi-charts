@@ -48,12 +48,12 @@ export default function InflationGapChart({ data }: Props) {
       },
       legend: {
         data: ["Current Perception", "3-Month Ahead", "1-Year Ahead"],
-        bottom: 45,
+        top: 0,
         textStyle: { color: "#78716c", fontSize: 11 },
         itemWidth: 16,
         itemHeight: 3,
       },
-      grid: { left: 50, right: 20, top: 20, bottom: 100 },
+      grid: { left: 50, right: 20, top: 40, bottom: 55 },
       xAxis: {
         type: "category",
         data: dates,

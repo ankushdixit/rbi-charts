@@ -73,7 +73,7 @@ export default function MoneyFlowChart({ data }: Props) {
       },
       legend: {
         data: SECTORS.map((s) => s.name),
-        bottom: 45,
+        top: 0,
         textStyle: { color: "#78716c", fontSize: 11 },
         itemWidth: 16,
         itemHeight: 3,
@@ -81,8 +81,8 @@ export default function MoneyFlowChart({ data }: Props) {
       grid: {
         left: 60,
         right: 20,
-        top: 20,
-        bottom: 100,
+        top: 40,
+        bottom: 55,
       },
       xAxis: {
         type: "category",

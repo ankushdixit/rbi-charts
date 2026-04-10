@@ -86,12 +86,12 @@ export default function HotMoneyChart({ data }: Props) {
       },
       legend: {
         data: ["FDI (Net)", "Portfolio / FII (Net)"],
-        bottom: 10,
+        top: 0,
         textStyle: { color: "#78716c", fontSize: 11 },
         itemWidth: 16,
         itemHeight: 3,
       },
-      grid: { left: 60, right: 20, top: 20, bottom: 50 },
+      grid: { left: 60, right: 20, top: 35, bottom: 30 },
       xAxis: {
         type: "category",
         data: shortLabels,
