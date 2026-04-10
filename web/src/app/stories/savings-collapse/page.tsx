@@ -82,7 +82,7 @@ export default function SavingsCollapsePage() {
                 It was the borrowing, not the saving
               </p>
               <p className="text-zinc-400 text-sm">
-                The &quot;savings collapse&quot; wasn&apos;t really about Indians
+                The drop from 12% to 4.9% of GDP wasn&apos;t about Indians
                 saving less — total financial assets stayed at ₹29-35 lakh crore
                 annually. The real driver was a borrowing explosion: household
                 liabilities nearly tripled from ₹5.9L Cr (FY22) to ₹18.8L Cr
