@@ -91,24 +91,24 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="mx-auto max-w-[1100px] px-8 pt-24 pb-20 text-center">
-        <p className="text-xs uppercase tracking-[3px] text-[#78716c] font-medium mb-6">
+      <section className="mx-auto max-w-[1100px] px-5 md:px-8 pt-16 md:pt-24 pb-14 md:pb-20 text-center">
+        <p className="text-[10px] md:text-xs uppercase tracking-[3px] text-[#78716c] font-medium mb-4 md:mb-6">
           Data Journalism · RBI · Open Source
         </p>
         <h1
-          className="text-7xl font-black leading-[1.05] tracking-tight max-w-[800px] mx-auto mb-6"
-          style={{ fontFamily: "'Fraunces', serif", letterSpacing: "-3px" }}
+          className="text-4xl md:text-7xl font-black leading-[1.1] md:leading-[1.05] tracking-tight max-w-[800px] mx-auto mb-4 md:mb-6"
+          style={{ fontFamily: "'Fraunces', serif", letterSpacing: "-2px" }}
         >
           The Indian Economy, Visualized.
         </h1>
-        <p className="text-lg text-[#78716c] leading-relaxed max-w-[520px] mx-auto">
+        <p className="text-base md:text-lg text-[#78716c] leading-relaxed max-w-[520px] mx-auto">
           Nine interactive stories from official Reserve Bank of India data.
           Free forever.
         </p>
       </section>
 
       {/* Stats ribbon */}
-      <div className="flex justify-center gap-10 py-6 border-t border-b border-[#e7e1d8] max-w-[700px] mx-auto">
+      <div className="grid grid-cols-2 md:flex md:justify-center gap-6 md:gap-10 py-6 border-t border-b border-[#e7e1d8] max-w-[700px] mx-auto px-5 md:px-0">
         {STATS.map((stat) => (
           <div key={stat.label} className="text-center">
             <p
@@ -134,7 +134,7 @@ export default function Home() {
         return (
           <div key={themeName}>
             {/* Divider */}
-            <div className="mx-auto max-w-[1100px] px-8 pt-14 flex items-center gap-4">
+            <div className="mx-auto max-w-[1100px] px-5 md:px-8 pt-10 md:pt-14 flex items-center gap-4">
               <div className="flex-1 h-px bg-[#e7e1d8]" />
               <span
                 className="text-[11px] uppercase tracking-[3px] font-medium"
@@ -146,7 +146,7 @@ export default function Home() {
             </div>
 
             {/* Section heading */}
-            <div className="mx-auto max-w-[1100px] px-8 pt-8">
+            <div className="mx-auto max-w-[1100px] px-5 md:px-8 pt-6 md:pt-8">
               <h2
                 className="text-[28px] font-bold tracking-tight mb-1"
                 style={{ fontFamily: "'Fraunces', serif", letterSpacing: "-1px" }}
@@ -157,7 +157,7 @@ export default function Home() {
             </div>
 
             {/* Story rows */}
-            <div className="mx-auto max-w-[1100px] px-8 py-10">
+            <div className="mx-auto max-w-[1100px] px-5 md:px-8 py-8 md:py-10">
               {themeStories.map((story, i) => {
                 const storyColor = STORY_COLORS[story.slug];
                 const sparkline = SPARKLINES[story.slug];
@@ -166,40 +166,41 @@ export default function Home() {
                   <Link
                     key={story.slug}
                     href={story.href}
-                    className={`grid items-center gap-6 py-6 text-[#1c1917] no-underline hover:bg-[#f5f0eb] hover:border-transparent hover:rounded-xl hover:-mx-4 hover:px-4 ${
+                    className={`flex items-start md:items-center gap-4 md:gap-6 py-5 md:py-6 text-[#1c1917] no-underline hover:bg-[#f5f0eb] hover:rounded-xl hover:-mx-3 hover:px-3 ${
                       i === 0 ? "border-t border-[#ece7e0]" : ""
                     } border-b border-[#ece7e0]`}
-                    style={{ gridTemplateColumns: "4px 180px 1fr auto" }}
                   >
                     <div
-                      className="w-1 h-9 rounded-sm"
+                      className="w-1 h-9 rounded-sm shrink-0 mt-1 md:mt-0"
                       style={{ background: storyColor }}
                     />
-                    <span
-                      className="text-[11px] uppercase tracking-[2px] font-medium"
-                      style={{ color: storyColor }}
-                    >
-                      {story.category}
-                    </span>
-                    <div className="flex flex-col gap-1">
+                    <div className="flex-1 min-w-0">
                       <span
-                        className="text-[22px] font-bold"
-                        style={{
-                          fontFamily: "'Fraunces', serif",
-                          letterSpacing: "-0.5px",
-                        }}
+                        className="text-[10px] md:text-[11px] uppercase tracking-[2px] font-medium"
+                        style={{ color: storyColor }}
                       >
-                        {story.title}
+                        {story.category}
                       </span>
-                      <span className="text-sm text-[#78716c]">
-                        {story.subtitle}
-                      </span>
+                      <div className="flex flex-col gap-0.5 mt-1">
+                        <span
+                          className="text-lg md:text-[22px] font-bold"
+                          style={{
+                            fontFamily: "'Fraunces', serif",
+                            letterSpacing: "-0.5px",
+                          }}
+                        >
+                          {story.title}
+                        </span>
+                        <span className="text-xs md:text-sm text-[#78716c]">
+                          {story.subtitle}
+                        </span>
+                      </div>
                     </div>
                     <svg
                       width="80"
                       height="30"
                       viewBox="0 0 80 30"
-                      className="opacity-60"
+                      className="opacity-60 shrink-0 hidden md:block"
                       stroke={storyColor}
                       fill={storyColor}
                     >

@@ -25,11 +25,11 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-[#fffdf9] text-[#1c1917]" suppressHydrationWarning>
         <header className="sticky top-0 z-50 bg-[#fffdf9]/92 backdrop-blur-xl border-b border-[#e7e1d8]">
-          <div className="mx-auto max-w-[1100px] px-8 py-3.5 flex items-center justify-between">
-            <a href="/" className="font-serif text-lg font-black text-[#1c1917]" style={{ fontFamily: "'Fraunces', serif" }}>
+          <div className="mx-auto max-w-[1100px] px-5 md:px-8 py-3.5 flex items-center justify-between">
+            <a href="/" className="font-serif text-base md:text-lg font-black text-[#1c1917]" style={{ fontFamily: "'Fraunces', serif" }}>
               India in Charts
             </a>
-            <nav className="flex items-center gap-7 text-[13px] font-medium text-[#78716c]">
+            <nav className="flex items-center gap-4 md:gap-7 text-[13px] font-medium text-[#78716c]">
               <a href="/" className="hover:text-[#1c1917] transition-colors">
                 Stories
               </a>

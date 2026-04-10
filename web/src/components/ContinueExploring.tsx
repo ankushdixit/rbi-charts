@@ -9,7 +9,7 @@ export default function ContinueExploring({ currentSlug }: Props) {
   const related = getRelatedStories(currentSlug);
 
   return (
-    <section className="mx-auto max-w-[1100px] px-8 pb-16">
+    <section className="mx-auto max-w-[1100px] px-5 md:px-8 pb-12 md:pb-16">
       <div className="flex items-center gap-4 mb-8">
         <div className="flex-1 h-px bg-[#e7e1d8]" />
         <span className="text-[11px] uppercase tracking-[3px] font-medium text-[#78716c]">

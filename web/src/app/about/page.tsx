@@ -5,9 +5,9 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="mx-auto max-w-[720px] px-8 py-20">
+    <div className="mx-auto max-w-[720px] px-5 md:px-8 py-12 md:py-20">
       <h1
-        className="text-4xl font-black mb-8"
+        className="text-3xl md:text-4xl font-black mb-6 md:mb-8"
         style={{ fontFamily: "'Fraunces', serif", letterSpacing: "-1.5px" }}
       >
         About
