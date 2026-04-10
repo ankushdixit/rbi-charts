@@ -3,7 +3,7 @@ import InflationGapChart from "@/components/charts/InflationGapChart";
 import inflationData from "../../../../public/data/inflation_expectations.json";
 
 export const metadata = {
-  title: "The Expectation Escalator — India in Charts",
+  title: "The Expectation Escalator - India in Charts",
   description: "Households always expect inflation to get worse. 17 years of data proves the pattern.",
 };
 
@@ -29,7 +29,7 @@ export default function InflationGapPage() {
       ]}
       insights={[
         { title: "The three lines never converge", body: `In ${escalatorCount} out of ${rounds} rounds (97%), households expect 1-year-ahead inflation to be higher than current perception. The gap has averaged about 1-1.5 percentage points. This is a structural behavioral pattern, not a response to specific economic conditions.` },
-        { title: "Perceptions are consistently 3-5pp above actual CPI", body: "Household inflation perception has swung from 5.2% to 12.7%. These numbers are consistently 3-5 percentage points above actual CPI — households feel inflation more acutely than official statistics suggest." },
+        { title: "Perceptions are consistently 3-5pp above actual CPI", body: "Household inflation perception has swung from 5.2% to 12.7%. These numbers are consistently 3-5 percentage points above actual CPI - households feel inflation more acutely than official statistics suggest." },
         { title: `COVID pushed perception to 10.5%`, body: "The post-COVID inflation surge pushed current perception to 10.5%. Unlike the 2008-2013 high-inflation era where perceptions were consistently above 10%, the COVID spike was sharper but shorter." },
         { title: "Why it matters for RBI policy", body: "The RBI watches these expectations closely because they can become self-fulfilling. If households expect 9% inflation, workers demand higher wages, businesses raise prices, and inflation actually rises. The persistent gap is why the RBI struggles to anchor expectations around its 4% target." },
       ]}

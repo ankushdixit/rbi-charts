@@ -1,5 +1,5 @@
 /**
- * Central registry of all stories — used by landing page and "Continue Exploring" sections.
+ * Central registry of all stories - used by landing page and "Continue Exploring" sections.
  */
 
 export interface Story {
@@ -9,19 +9,19 @@ export interface Story {
   category: string;  // short label for the card tag
   theme: keyof typeof THEMES;
   href: string;
-  /** Simple sparkline data — normalized 0-1 values for the mini chart */
+  /** Simple sparkline data - normalized 0-1 values for the mini chart */
   sparkline: number[];
   sparklineType: "area" | "bars" | "rising" | "volatile";
 }
 
-/** Section accent colors — used for divider labels */
+/** Section accent colors - used for divider labels */
 export const THEME_COLORS: Record<string, string> = {
   "Payments Revolution": "#5b7fc4",
   "India's Money Story": "#c4976a",
   "Deep Dives": "#5b9ea6",
 };
 
-/** Per-story colors — pastel palette */
+/** Per-story colors - pastel palette */
 export const STORY_COLORS: Record<string, string> = {
   "upi-explosion": "#6190e8",
   "death-of-cash": "#6aab93",
@@ -44,7 +44,7 @@ export const THEMES = {
   "India's Money Story": {
     tag: "DEEP DIVES",
     heading: "India's Money Story",
-    subtitle: "Savings, reserves, and credit — where the money goes and how it grows.",
+    subtitle: "Savings, reserves, and credit - where the money goes and how it grows.",
     slugs: ["savings-collapse", "forex-fortress", "money-flow"],
   },
   "Deep Dives": {
@@ -80,7 +80,7 @@ export const STORIES: Story[] = [
   {
     slug: "credit-card-wars",
     title: "Credit Card Wars",
-    subtitle: "HDFC vs SBI vs ICICI vs Axis — a decade of competition across 15 banks.",
+    subtitle: "HDFC vs SBI vs ICICI vs Axis - a decade of competition across 15 banks.",
     category: "Competition",
     theme: "Payments Revolution",
     href: "/stories/credit-card-wars",
@@ -111,7 +111,7 @@ export const STORIES: Story[] = [
   {
     slug: "forex-fortress",
     title: "The Forex Fortress",
-    subtitle: "$5.8B to $668B — how India built the world's 4th largest reserves.",
+    subtitle: "$5.8B to $668B - how India built the world's 4th largest reserves.",
     category: "Reserves",
     theme: "India's Money Story",
     href: "/stories/forex-fortress",

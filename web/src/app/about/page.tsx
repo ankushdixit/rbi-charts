@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "About — India in Charts",
+  title: "About - India in Charts",
   description: "About India in Charts, the data, and the methodology.",
 };
 
@@ -21,7 +21,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          The RBI publishes an extraordinary wealth of statistical data — payment
+          The RBI publishes an extraordinary wealth of statistical data - payment
           systems, bank credit, foreign exchange reserves, household savings, inflation
           surveys, corporate performance, and more. Most of it sits in Excel files and
           PDF tables that few people ever see. This project turns that data into visual
@@ -45,31 +45,31 @@ export default function AboutPage() {
 
         <ul className="list-disc pl-6 space-y-1.5">
           <li>
-            <strong>Payment System Indicators</strong> — monthly data from 57 PSI pages
+            <strong>Payment System Indicators</strong> - monthly data from 57 PSI pages
             + 62 RBI Bulletin Table 43 pages, covering Dec 2015 to present
           </li>
           <li>
-            <strong>Bank-wise ATM/Card Statistics</strong> — 180 monthly HTML pages with
+            <strong>Bank-wise ATM/Card Statistics</strong> - 180 monthly HTML pages with
             per-bank data, covering Apr 2011 to present
           </li>
           <li>
-            <strong>Household Financial Savings</strong> — RBI Bulletin Table 50(a)/52(a),
+            <strong>Household Financial Savings</strong> - RBI Bulletin Table 50(a)/52(a),
             quarterly data for 6 fiscal years
           </li>
           <li>
-            <strong>Foreign Exchange Reserves</strong> — Handbook Tables 147 & 214,
+            <strong>Foreign Exchange Reserves</strong> - Handbook Tables 147 & 214,
             58 years of annual + 2 years of weekly data
           </li>
           <li>
-            <strong>Sectoral Credit Deployment</strong> — Handbook Tables 45 & 167,
+            <strong>Sectoral Credit Deployment</strong> - Handbook Tables 45 & 167,
             annual and monthly sectoral breakdowns
           </li>
           <li>
-            <strong>Inflation Expectations Survey</strong> — 70 bi-monthly survey
+            <strong>Inflation Expectations Survey</strong> - 70 bi-monthly survey
             rounds since Sep 2008
           </li>
           <li>
-            <strong>Balance of Payments</strong> — Handbook Table 194 + press releases,
+            <strong>Balance of Payments</strong> - Handbook Table 194 + press releases,
             19 quarters of FDI vs portfolio flows
           </li>
         </ul>
@@ -91,7 +91,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          The RBI has changed data formats multiple times over the years — unit changes
+          The RBI has changed data formats multiple times over the years - unit changes
           (Million to Lakh), category restructurings (UPI added in 2020), column layout
           changes across 4 different ATM/Card formats, and more. Each parser handles
           these transitions explicitly, verified by reading actual file headers rather
@@ -115,8 +115,8 @@ export default function AboutPage() {
           <a href="https://ankushdixit.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#1c1917]">
             Ankush Dixit
           </a>
-          {" "}— a product builder and self-taught developer. The entire project — data
-          pipeline, parsers, frontend, and visualizations — was built with the
+          {" "}- a product builder and self-taught developer. The entire project - data
+          pipeline, parsers, frontend, and visualizations - was built with the
           assistance of Claude Code.
         </p>
 
@@ -128,8 +128,8 @@ export default function AboutPage() {
         </h2>
 
         <p>
-          The complete source code — data pipeline, parsers, frontend, and all raw
-          data — is available on{" "}
+          The complete source code - data pipeline, parsers, frontend, and all raw
+          data - is available on{" "}
           <a href="https://github.com/ankushdixit/rbi-charts" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#1c1917]">
             GitHub
           </a>
