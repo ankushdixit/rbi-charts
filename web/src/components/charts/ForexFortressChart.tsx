@@ -16,11 +16,12 @@ interface Props {
   data: ForexRecord[];
 }
 
+// Dates must match the shortened x-axis labels
 const MILESTONES = [
-  { date: "1990-91", label: "BoP crisis\n$5.8B" },
-  { date: "2008-09", label: "Global\nfinancial crisis" },
-  { date: "2013-14", label: "Taper\ntantrum" },
-  { date: "2020-21", label: "COVID\n+QE inflows" },
+  { date: "1991", label: "BoP crisis\n$5.8B" },
+  { date: "2009", label: "Global\nfinancial crisis" },
+  { date: "2014", label: "Taper\ntantrum" },
+  { date: "2021", label: "COVID\n+QE inflows" },
 ];
 
 export default function ForexFortressChart({ data }: Props) {

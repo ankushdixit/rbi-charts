@@ -153,8 +153,12 @@ def export_json(
             })
         return out
 
+    # Remove annual data points that overlap with weekly data
+    weekly_start_year = int(weekly[0]["date"][:4]) if weekly else 9999
+    annual_filtered = [r for r in annual if int(r["date"][:4]) + 1 < weekly_start_year]
+
     # Combined: annual for history, weekly for recent detail
-    combined = to_bn(annual) + to_bn(weekly)
+    combined = to_bn(annual_filtered) + to_bn(weekly)
     combined.sort(key=lambda x: x["date"])
 
     with open(os.path.join(output_dir, "forex_reserves.json"), "w") as f:
