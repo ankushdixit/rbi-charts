@@ -19,7 +19,6 @@ export const THEME_COLORS: Record<string, string> = {
   "Payments Revolution": "#5b7fc4",
   "India's Money Story": "#c4976a",
   "Deep Dives": "#5b9ea6",
-  "External Sector": "#b8956e",
 };
 
 /** Per-story colors - pastel palette */
@@ -35,7 +34,6 @@ export const STORY_COLORS: Record<string, string> = {
   "hot-money": "#5b9ea6",
   "it-exports": "#4a90d9",
   "consumer-confidence": "#6aab93",
-  "personal-loans": "#c47a8a",
 };
 
 export const THEMES = {
@@ -55,13 +53,7 @@ export const THEMES = {
     tag: "SURVEYS & FLOWS",
     heading: "Expectations & Capital",
     subtitle: "Inflation expectations, capital flows, and the data behind the headlines.",
-    slugs: ["inflation-gap", "hot-money", "consumer-confidence"],
-  },
-  "External Sector": {
-    tag: "EXTERNAL SECTOR",
-    heading: "India and the World",
-    subtitle: "IT exports, forex reserves, and what really drives India's external account.",
-    slugs: ["it-exports", "personal-loans"],
+    slugs: ["inflation-gap", "hot-money", "consumer-confidence", "it-exports"],
   },
 };
 
@@ -175,19 +167,9 @@ export const STORIES: Story[] = [
     title: "India's IT Export Machine",
     subtitle: "$93B to $181B in five years. India's largest forex earner keeps growing.",
     category: "Exports",
-    theme: "External Sector",
+    theme: "Deep Dives",
     href: "/stories/it-exports",
     sparkline: [0.0, 0.08, 0.17, 0.32, 0.34, 0.43, 0.41, 0.48, 0.52, 0.56, 0.61, 0.65, 0.69, 0.72, 0.79, 0.85, 0.9, 0.96, 1.0],
-    sparklineType: "rising",
-  },
-  {
-    slug: "personal-loans",
-    title: "The Personal Loan Explosion",
-    subtitle: "Personal loans doubled to 62 lakh crore. Housing, credit cards, and fintech.",
-    category: "Credit",
-    theme: "External Sector",
-    href: "/stories/personal-loans",
-    sparkline: [0.0, 0.15, 0.37, 0.74, 0.79, 0.81, 0.82, 0.84, 0.86, 0.89, 0.91, 0.93, 0.95, 0.97, 0.98, 1.0],
     sparklineType: "rising",
   },
 ];

@@ -102,15 +102,6 @@ const SPARKLINES: Record<string, React.ReactNode> = {
       })}
     </>
   ),
-  // Stacked area - personal loans growing
-  "personal-loans": (
-    <>
-      <path d="M0,28 L13,26 27,22 40,16 53,15 67,14 80,13 L80,30 L0,30Z" fill={STORY_COLORS["it-exports"]} opacity="0.25" />
-      <path d="M0,24 L13,22 27,18 40,12 53,11 67,10 80,9 L80,13 L67,14 53,15 40,16 27,22 13,26 0,28Z" fill="#9b8ec4" opacity="0.25" />
-      <path d="M0,22 L13,20 27,16 40,10 53,9 67,8 80,7 L80,9 L67,10 53,11 40,12 27,18 13,22 0,24Z" fill="#e08a6d" opacity="0.3" />
-      <path d="M0,22 L13,20 27,16 40,10 53,9 67,8 80,7" stroke={STORY_COLORS["personal-loans"]} strokeWidth="1.5" fill="none" />
-    </>
-  ),
 };
 
 export default function Home() {
@@ -128,7 +119,7 @@ export default function Home() {
           The Indian Economy, Visualized.
         </h1>
         <p className="text-base md:text-lg text-[#78716c] leading-relaxed max-w-[520px] mx-auto">
-          Twelve interactive stories from official Reserve Bank of India data.
+          Eleven interactive stories from official Reserve Bank of India data.
           Free forever.
         </p>
       </section>
