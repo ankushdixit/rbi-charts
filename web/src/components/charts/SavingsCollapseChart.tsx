@@ -33,7 +33,9 @@ export default function SavingsCollapseChart({ data }: Props) {
 
     const dates = periods.map((p) => {
       const [fy, q] = p.split(" ");
-      return `${q}\nFY${fy}`;
+      // Shorten "2019-20" to "19-20"
+      const fyShort = fy.replace(/^20(\d{2})-(\d{2})$/, "$1-$2");
+      return `${q}\nFY${fyShort}`;
     });
 
     const series = INSTRUMENTS.map(({ key, name, color }) => ({
@@ -125,8 +127,8 @@ export default function SavingsCollapseChart({ data }: Props) {
           data: gdpLine,
           symbol: "circle",
           symbolSize: 6,
-          lineStyle: { width: 3, color: "#ffffff", type: "dashed" },
-          itemStyle: { color: "#ffffff" },
+          lineStyle: { width: 3, color: "#1c1917", type: "dashed" },
+          itemStyle: { color: "#1c1917" },
         },
       ],
     };
