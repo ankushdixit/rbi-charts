@@ -80,16 +80,32 @@ export default function ForexFortressChart({ data }: Props) {
       },
       xAxis: {
         type: "category",
-        data: dates,
+        data: dates.map((d) => {
+          // Shorten annual labels: "1967-68" → "1968", "2024-25" → "2025"
+          if (d.match(/^\d{4}-\d{2}$/)) {
+            const startYear = parseInt(d.slice(0, 4));
+            return String(startYear + 1);
+          }
+          // Shorten weekly labels: "2023-04-07" → "Apr 23"
+          if (d.match(/^\d{4}-\d{2}-\d{2}$/)) {
+            const [y, m] = d.split("-");
+            const months = ["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+            return `${months[parseInt(m)]} ${y.slice(2)}`;
+          }
+          return d;
+        }),
         axisLabel: {
           fontSize: 11,
           color: "#94a3b8",
           interval: (index: number) => {
-            // Show every 5th annual label, then all weekly labels
             const d = dates[index];
-            if (d.includes("-") && d.length > 7) return false; // hide weekly labels
-            return index % 5 === 0;
+            // Weekly labels: show every 13th (~quarterly)
+            if (d.length > 7) return index % 13 === 0;
+            // Annual labels: show every 5 years
+            const year = parseInt(d.slice(0, 4));
+            return year % 5 === 0;
           },
+          rotate: 0,
         },
         axisLine: { lineStyle: { color: "#334155" } },
         axisTick: { show: false },
