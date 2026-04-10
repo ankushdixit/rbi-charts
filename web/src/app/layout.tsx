@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -26,61 +21,56 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#0f172a] text-white" suppressHydrationWarning>
-        <header className="border-b border-zinc-800">
-          <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
-            <a href="/" className="text-lg font-bold tracking-tight text-white">
+      <body className="min-h-full flex flex-col bg-[#fffdf9] text-[#1c1917]" suppressHydrationWarning>
+        <header className="sticky top-0 z-50 bg-[#fffdf9]/92 backdrop-blur-xl border-b border-[#e7e1d8]">
+          <div className="mx-auto max-w-[1100px] px-8 py-3.5 flex items-center justify-between">
+            <a href="/" className="font-serif text-lg font-black text-[#1c1917]" style={{ fontFamily: "'Fraunces', serif" }}>
               India in Charts
             </a>
-            <nav className="flex items-center gap-6 text-sm text-zinc-400">
-              <a href="/" className="hover:text-white transition-colors">
+            <nav className="flex items-center gap-7 text-[13px] font-medium text-[#78716c]">
+              <a href="/" className="hover:text-[#1c1917] transition-colors">
                 Stories
               </a>
-              <a href="/about" className="hover:text-white transition-colors">
+              <a href="/about" className="hover:text-[#1c1917] transition-colors">
                 About
               </a>
               <a
                 href="https://github.com/ankushdixit/rbi-charts"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-white transition-colors"
+                className="hover:text-[#1c1917] transition-colors"
               >
-                GitHub
+                GitHub ↗
               </a>
             </nav>
           </div>
         </header>
         <main className="flex-1">{children}</main>
-        <footer className="border-t border-zinc-800">
-          <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
-            <p>
-              Data sourced from the{" "}
-              <a
-                href="https://www.rbi.org.in"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-zinc-400 hover:text-white transition-colors"
-              >
-                Reserve Bank of India
-              </a>
-              . Not affiliated with RBI.
-            </p>
-            <div className="flex gap-6">
-              <a
-                href="https://github.com/ankushdixit/rbi-charts"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white transition-colors"
-              >
-                GitHub
-              </a>
-              <a href="/about" className="hover:text-white transition-colors">
-                About
-              </a>
-            </div>
-          </div>
+        <footer className="border-t border-[#e7e1d8] py-6 text-center text-xs text-[#78716c]">
+          Data from the{" "}
+          <a
+            href="https://www.rbi.org.in"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-[#1c1917] transition-colors"
+          >
+            Reserve Bank of India
+          </a>
+          . Not affiliated. ·{" "}
+          <a
+            href="https://github.com/ankushdixit/rbi-charts"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-[#1c1917] transition-colors"
+          >
+            GitHub
+          </a>{" "}
+          ·{" "}
+          <a href="/about" className="underline hover:text-[#1c1917] transition-colors">
+            About
+          </a>
         </footer>
       </body>
     </html>

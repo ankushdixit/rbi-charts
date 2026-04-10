@@ -14,10 +14,24 @@ export interface Story {
   sparklineType: "area" | "bars" | "rising" | "volatile";
 }
 
+/** Section accent colors — used for divider labels */
 export const THEME_COLORS: Record<string, string> = {
-  "Payments Revolution": "#3b82f6",
-  "India's Money Story": "#f59e0b",
-  "Deep Dives": "#ef4444",
+  "Payments Revolution": "#5b7fc4",
+  "India's Money Story": "#c4976a",
+  "Deep Dives": "#5b9ea6",
+};
+
+/** Per-story colors — pastel palette */
+export const STORY_COLORS: Record<string, string> = {
+  "upi-explosion": "#6190e8",
+  "death-of-cash": "#6aab93",
+  "credit-card-wars": "#e08a6d",
+  "infra-shift": "#9b8ec4",
+  "savings-collapse": "#d4827a",
+  "forex-fortress": "#5ea88e",
+  "money-flow": "#c9a46c",
+  "inflation-gap": "#c4976a",
+  "hot-money": "#5b9ea6",
 };
 
 export const THEMES = {

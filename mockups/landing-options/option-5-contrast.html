@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Option 5 — High Contrast Split</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;800&family=Instrument+Serif&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --dark: #0b0d11;
+    --card-bg: #12151b;
+    --border: #1f2330;
+    --white: #f8f9fc;
+    --muted: #6b7280;
+    --accent: #818cf8;
+    --warm: #fb923c;
+    --emerald: #34d399;
+  }
+
+  body {
+    font-family: 'Sora', sans-serif;
+    font-weight: 300;
+  }
+
+  /* Header */
+  header {
+    background: var(--dark);
+    border-bottom: 1px solid var(--border);
+  }
+  .w { max-width: 1200px; margin: 0 auto; padding-left: 40px; padding-right: 40px; }
+  .header-inner {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-family: 'Instrument Serif', serif;
+    font-size: 22px;
+    color: var(--white);
+    text-decoration: none;
+  }
+  nav { display: flex; gap: 24px; align-items: center; }
+  nav a {
+    font-size: 13px;
+    color: var(--muted);
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.2s;
+  }
+  nav a:hover { color: var(--white); }
+  .gh-btn {
+    font-size: 12px;
+    color: var(--dark);
+    background: var(--white);
+    padding: 7px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.2s;
+  }
+  .gh-btn:hover { opacity: 0.85; }
+
+  /* Hero — dark, asymmetric */
+  .hero {
+    background: var(--dark);
+    color: var(--white);
+    padding: 80px 0 100px;
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .hero h1 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -1px;
+  }
+  .hero h1 .highlight {
+    background: linear-gradient(135deg, var(--accent), var(--emerald));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero-sub {
+    font-size: 16px;
+    color: var(--muted);
+    line-height: 1.7;
+    margin-top: 24px;
+  }
+
+  /* Big numbers on right */
+  .hero-nums {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .num-cell {
+    background: var(--card-bg);
+    padding: 32px 28px;
+    position: relative;
+  }
+  .num-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .num-val {
+    font-family: 'Sora', sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: -1px;
+  }
+  .num-cell:nth-child(1) .num-val { color: var(--accent); }
+  .num-cell:nth-child(2) .num-val { color: var(--emerald); }
+  .num-cell:nth-child(3) .num-val { color: var(--warm); }
+  .num-cell:nth-child(4) .num-val { color: #f87171; }
+
+  /* Mini sparkline in num cell */
+  .num-spark {
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    opacity: 0.2;
+  }
+
+  /* Content — white */
+  .content {
+    background: var(--white);
+    color: #1a1a1a;
+    padding: 80px 0;
+  }
+  .section-bar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .section-chip {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 6px 14px;
+    border-radius: 100px;
+    color: white;
+  }
+  .section-name {
+    font-family: 'Instrument Serif', serif;
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    color: #1a1a1a;
+  }
+  .section-desc {
+    font-size: 14px;
+    color: var(--muted);
+    margin-left: auto;
+    max-width: 300px;
+    text-align: right;
+  }
+
+  .section + .section { margin-top: 64px; padding-top: 64px; border-top: 1px solid #e5e7eb; }
+
+  /* Cards — dark on light */
+  .card-grid { display: grid; gap: 12px; }
+  .card-grid.g4 { grid-template-columns: repeat(4, 1fr); }
+  .card-grid.g3 { grid-template-columns: repeat(3, 1fr); }
+  .card-grid.g2 { grid-template-columns: repeat(2, 1fr); }
+
+  .card {
+    background: var(--dark);
+    color: var(--white);
+    border-radius: 16px;
+    padding: 28px 24px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 48px rgba(0,0,0,0.2);
+  }
+  .card.big {
+    grid-column: span 2;
+    grid-row: span 2;
+    min-height: 460px;
+    padding: 36px 32px;
+  }
+
+  .card-cat {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+  .card-h {
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+  .big .card-h { font-size: 32px; letter-spacing: -0.5px; }
+  .card-p {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .card-svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+  }
+  .card-go {
+    margin-top: auto;
+    padding-top: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
+  /* Footer */
+  footer {
+    background: var(--dark);
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    padding: 24px 0;
+    font-size: 12px;
+  }
+  .footer-inner { display: flex; justify-content: space-between; }
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { color: var(--white); }
+</style>
+</head>
+<body>
+  <header>
+    <div class="w">
+      <div class="header-inner">
+        <a href="/" class="logo">India in Charts</a>
+        <nav>
+          <a href="#">Stories</a>
+          <a href="#">About</a>
+          <a href="#" class="gh-btn">GitHub ↗</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="w">
+      <div class="hero-grid">
+        <div>
+          <h1>The Indian Economy, <span class="highlight">Visualized.</span></h1>
+          <p class="hero-sub">Nine interactive data stories built from official RBI releases. Free, open-source, updated automatically.</p>
+        </div>
+        <div class="hero-nums">
+          <div class="num-cell">
+            <div class="num-label">UPI Monthly</div>
+            <div class="num-val">20.4B</div>
+            <svg class="num-spark" width="60" height="24" viewBox="0 0 60 24">
+              <path d="M0,22 L8,20 16,18 24,14 32,10 40,7 48,4 56,2 60,1" stroke="#818cf8" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+          <div class="num-cell">
+            <div class="num-label">FX Reserves</div>
+            <div class="num-val">$668B</div>
+            <svg class="num-spark" width="60" height="24" viewBox="0 0 60 24">
+              <path d="M0,22 L10,21 20,18 30,12 40,7 50,4 60,2" stroke="#34d399" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+          <div class="num-cell">
+            <div class="num-label">Credit Cards</div>
+            <div class="num-val">110M+</div>
+          </div>
+          <div class="num-cell">
+            <div class="num-label">Net Savings</div>
+            <div class="num-val">6% GDP</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="w">
+      <div class="section">
+        <div class="section-bar">
+          <span class="section-chip" style="background: var(--accent)">01</span>
+          <span class="section-name">India's Payments Revolution</span>
+          <span class="section-desc">How a billion people went from cash to QR codes.</span>
+        </div>
+        <div class="card-grid g4">
+          <a href="#" class="card big">
+            <div>
+              <div class="card-cat">Payments</div>
+              <div class="card-h">The UPI Explosion</div>
+              <div class="card-p">From zero to 20 billion monthly transactions. The fastest payment revolution in history.</div>
+            </div>
+            <svg class="card-svg" viewBox="0 0 600 160" preserveAspectRatio="none">
+              <path d="M0,160 L0,150 40,148 80,142 120,134 160,122 200,106 240,88 280,70 320,54 360,40 400,28 440,18 480,12 520,8 560,4 600,2 600,160Z" fill="#818cf8"/>
+            </svg>
+            <div class="card-go" style="color: var(--accent)">Read story →</div>
+          </a>
+          <a href="#" class="card">
+            <div>
+              <div class="card-cat">Trends</div>
+              <div class="card-h">The Death of Cash</div>
+              <div class="card-p">Digital vs paper over 10 years.</div>
+            </div>
+            <svg class="card-svg" viewBox="0 0 300 80" preserveAspectRatio="none">
+              <path d="M0,80 L30,75 60,68 90,58 120,46 150,34 180,24 210,16 240,10 270,6 300,3 300,80Z" fill="#34d399"/>
+            </svg>
+            <div class="card-go" style="color: var(--emerald)">Read story →</div>
+          </a>
+          <a href="#" class="card">
+            <div>
+              <div class="card-cat">Competition</div>
+              <div class="card-h">Credit Card Wars</div>
+              <div class="card-p">15 banks. 15 years.</div>
+            </div>
+            <svg class="card-svg" viewBox="0 0 300 80" preserveAspectRatio="none">
+              <path d="M0,70 L30,65 60,58 90,52 120,45 150,38 180,30 210,22 240,14 270,8 300,4" stroke="#fb923c" stroke-width="2" fill="none"/>
+            </svg>
+            <div class="card-go" style="color: var(--warm)">Read story →</div>
+          </a>
+          <a href="#" class="card">
+            <div>
+              <div class="card-cat">Infrastructure</div>
+              <div class="card-h">3,600 QR Codes for Every ATM</div>
+              <div class="card-p">The infrastructure shift.</div>
+            </div>
+            <div class="card-go" style="color: var(--accent)">Read story →</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-bar">
+          <span class="section-chip" style="background: var(--warm)">02</span>
+          <span class="section-name">India's Money Story</span>
+          <span class="section-desc">Savings, reserves, and credit.</span>
+        </div>
+        <div class="card-grid g3">
+          <a href="#" class="card">
+            <div>
+              <div class="card-cat">Savings</div>
+              <div class="card-h">The Great Rebalancing</div>
+              <div class="card-p">From deposits to mutual funds.</div>
+            </div>
+            <div class="card-go" style="color: var(--warm)">Read story →</div>
+          </a>
+          <a href="#" class="card">
+            <div>
+              <div class="card-cat">Reserves</div>
+              <div class="card-h">The Forex Fortress</div>
+              <div class="card-p">$5.8B to $668B.</div>
+            </div>
+            <svg class="card-svg" viewBox="0 0 300 80" preserveAspectRatio="none">
+              <path d="M0,78 L30,76 60,72 90,64 120,50 150,36 180,24 210,16 240,10 270,6 300,4 300,80Z" fill="#34d399"/>
+            </svg>
+            <div class="card-go" style="color: var(--emerald)">Read story →</div>
+          </a>
+          <a href="#" class="card">
+            <div>
+              <div class="card-cat">Credit</div>
+              <div class="card-h">Where Does India's Money Flow?</div>
+              <div class="card-p">Personal loans overtook industry.</div>
+            </div>
+            <div class="card-go" style="color: var(--accent)">Read story →</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-bar">
+          <span class="section-chip" style="background: #f87171">03</span>
+          <span class="section-name">Expectations & Capital</span>
+          <span class="section-desc">Inflation and capital flows.</span>
+        </div>
+        <div class="card-grid g2">
+          <a href="#" class="card">
+            <div>
+              <div class="card-cat">Inflation</div>
+              <div class="card-h">The Expectation Escalator</div>
+              <div class="card-p">Households always expect worse. 17 years of proof.</div>
+            </div>
+            <div class="card-go" style="color: var(--warm)">Read story →</div>
+          </a>
+          <a href="#" class="card">
+            <div>
+              <div class="card-cat">Capital Flows</div>
+              <div class="card-h">Steady Hands vs Quick Exits</div>
+              <div class="card-p">FDI stays. Portfolio money runs.</div>
+            </div>
+            <div class="card-go" style="color: var(--accent)">Read story →</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="w">
+      <div class="footer-inner">
+        <span>Data: <a href="https://rbi.org.in">Reserve Bank of India</a>. Not affiliated.</span>
+        <span><a href="#">GitHub</a> · <a href="#">About</a></span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

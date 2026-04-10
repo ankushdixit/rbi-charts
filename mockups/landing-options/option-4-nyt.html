@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Option 4 — NYT Upshot / Dark Luxury</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0c0f14;
+    --surface: #14181f;
+    --border: #1e2430;
+    --text: #c8ccd4;
+    --bright: #eef0f4;
+    --gold: #c9a84c;
+    --teal: #2ec4b6;
+    --coral: #e07a5f;
+    --slate: #505868;
+  }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-weight: 300;
+  }
+
+  /* Header — luxury minimal */
+  header {
+    border-bottom: 1px solid var(--border);
+  }
+  .header-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-family: 'Newsreader', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--bright);
+    text-decoration: none;
+    letter-spacing: -0.5px;
+  }
+  .logo .dot { color: var(--gold); }
+  nav { display: flex; align-items: center; gap: 28px; }
+  nav a {
+    font-size: 13px;
+    color: var(--slate);
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.2s;
+    letter-spacing: 0.5px;
+  }
+  nav a:hover { color: var(--bright); }
+  .nav-pill {
+    font-size: 12px;
+    color: var(--bg);
+    background: var(--gold);
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+  .nav-pill:hover { opacity: 0.85; }
+
+  /* Hero — cinematic */
+  .hero {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 40px 60px;
+  }
+  .hero-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--gold);
+    font-weight: 500;
+    margin-bottom: 28px;
+  }
+  .hero h1 {
+    font-family: 'Newsreader', serif;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -2px;
+    color: var(--bright);
+    max-width: 700px;
+  }
+  .hero-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
+  }
+  .hero-desc {
+    font-size: 16px;
+    color: var(--slate);
+    line-height: 1.7;
+    max-width: 400px;
+  }
+  .hero-numbers {
+    display: flex;
+    gap: 40px;
+  }
+  .hero-num {
+    text-align: right;
+  }
+  .hero-num-val {
+    font-family: 'Newsreader', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--bright);
+  }
+  .hero-num-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--slate);
+    margin-top: 4px;
+  }
+
+  /* Cards — bento grid */
+  .bento {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px 40px 60px;
+  }
+  .bento-section {
+    margin-bottom: 48px;
+  }
+  .bento-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .bento-label-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+  }
+  .bento-label-text {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--slate);
+    font-weight: 500;
+  }
+
+  .bento-grid { display: grid; gap: 8px; }
+  .bento-grid.four { grid-template-columns: 2fr 1fr 1fr; grid-template-rows: auto auto; }
+  .bento-grid.three { grid-template-columns: repeat(3, 1fr); }
+  .bento-grid.two { grid-template-columns: repeat(2, 1fr); }
+
+  .bento-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    text-decoration: none;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.3s, transform 0.3s;
+  }
+  .bento-card:hover {
+    border-color: #2a3040;
+    transform: translateY(-2px);
+  }
+  .bento-card.featured {
+    grid-row: span 2;
+    min-height: 420px;
+  }
+
+  .bento-tag {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--slate);
+    margin-bottom: 12px;
+  }
+  .bento-title {
+    font-family: 'Newsreader', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--bright);
+    line-height: 1.3;
+    margin-bottom: 8px;
+  }
+  .featured .bento-title { font-size: 30px; letter-spacing: -0.5px; }
+  .bento-desc {
+    font-size: 13px;
+    color: var(--slate);
+    line-height: 1.5;
+  }
+
+  .bento-spark {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.08;
+  }
+
+  .bento-arrow {
+    margin-top: auto;
+    padding-top: 20px;
+    font-size: 12px;
+    color: var(--gold);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: letter-spacing 0.2s;
+  }
+  .bento-card:hover .bento-arrow { letter-spacing: 2px; }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 24px 40px;
+    font-size: 12px;
+    color: var(--slate);
+  }
+  .footer-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer a { color: var(--slate); text-decoration: none; }
+  footer a:hover { color: var(--gold); }
+</style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo">India in Charts<span class="dot">.</span></a>
+      <nav>
+        <a href="#">Stories</a>
+        <a href="#">About</a>
+        <a href="https://github.com/ankushdixit/rbi-charts" class="nav-pill">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-label">Reserve Bank of India · Data Visualization</div>
+    <h1>The Indian Economy, Visualized.</h1>
+    <div class="hero-bottom">
+      <p class="hero-desc">Nine interactive data stories built from official RBI releases. Open source. Updated automatically.</p>
+      <div class="hero-numbers">
+        <div class="hero-num">
+          <div class="hero-num-val">20.4B</div>
+          <div class="hero-num-label">UPI Txns / Mo</div>
+        </div>
+        <div class="hero-num">
+          <div class="hero-num-val">$668B</div>
+          <div class="hero-num-label">FX Reserves</div>
+        </div>
+        <div class="hero-num">
+          <div class="hero-num-val">110M</div>
+          <div class="hero-num-label">Credit Cards</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bento">
+    <div class="bento-section">
+      <div class="bento-label">
+        <div class="bento-label-dot"></div>
+        <span class="bento-label-text">Payments Revolution</span>
+      </div>
+      <div class="bento-grid four">
+        <a href="#" class="bento-card featured">
+          <div>
+            <div class="bento-tag">Payments</div>
+            <div class="bento-title">The UPI Explosion</div>
+            <div class="bento-desc">From zero to 20 billion monthly transactions. The fastest payment revolution in history.</div>
+          </div>
+          <svg class="bento-spark" viewBox="0 0 500 140" preserveAspectRatio="none">
+            <path d="M0,140 L0,132 35,130 70,126 105,118 140,108 175,94 210,78 245,62 280,48 315,36 350,26 385,18 420,12 455,8 500,4 500,140Z" fill="#2ec4b6"/>
+          </svg>
+          <div class="bento-arrow">Read Story →</div>
+        </a>
+        <a href="#" class="bento-card">
+          <div>
+            <div class="bento-tag">Trends</div>
+            <div class="bento-title">The Death of Cash</div>
+            <div class="bento-desc">Digital vs paper over 10 years.</div>
+          </div>
+          <svg class="bento-spark" viewBox="0 0 300 80" preserveAspectRatio="none">
+            <path d="M0,80 L0,72 30,68 60,62 90,52 120,40 150,30 180,22 210,16 240,10 270,6 300,3 300,80Z" fill="#c9a84c"/>
+          </svg>
+          <div class="bento-arrow">Read Story →</div>
+        </a>
+        <a href="#" class="bento-card">
+          <div>
+            <div class="bento-tag">Competition</div>
+            <div class="bento-title">Credit Card Wars</div>
+            <div class="bento-desc">15 banks. 15 years.</div>
+          </div>
+          <div class="bento-arrow">Read Story →</div>
+        </a>
+        <a href="#" class="bento-card">
+          <div>
+            <div class="bento-tag">Infrastructure</div>
+            <div class="bento-title">3,600 QR Codes for Every ATM</div>
+            <div class="bento-desc">The infrastructure shift.</div>
+          </div>
+          <div class="bento-arrow">Read Story →</div>
+        </a>
+        <a href="#" class="bento-card">
+          <div>
+            <div class="bento-tag">Inflation</div>
+            <div class="bento-title">The Expectation Escalator</div>
+            <div class="bento-desc">17 years of proof.</div>
+          </div>
+          <div class="bento-arrow">Read Story →</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="bento-section">
+      <div class="bento-label">
+        <div class="bento-label-dot" style="background: var(--coral)"></div>
+        <span class="bento-label-text">India's Money Story</span>
+      </div>
+      <div class="bento-grid three">
+        <a href="#" class="bento-card">
+          <div>
+            <div class="bento-tag">Savings</div>
+            <div class="bento-title">The Great Rebalancing</div>
+            <div class="bento-desc">From deposits to mutual funds.</div>
+          </div>
+          <div class="bento-arrow">Read Story →</div>
+        </a>
+        <a href="#" class="bento-card">
+          <div>
+            <div class="bento-tag">Reserves</div>
+            <div class="bento-title">The Forex Fortress</div>
+            <div class="bento-desc">$5.8B to $668B.</div>
+          </div>
+          <svg class="bento-spark" viewBox="0 0 300 80" preserveAspectRatio="none">
+            <path d="M0,78 L30,76 60,72 90,65 120,52 150,38 180,26 210,18 240,12 270,8 300,5 300,80Z" fill="#2ec4b6"/>
+          </svg>
+          <div class="bento-arrow">Read Story →</div>
+        </a>
+        <a href="#" class="bento-card">
+          <div>
+            <div class="bento-tag">Credit</div>
+            <div class="bento-title">Where Does India's Money Flow?</div>
+            <div class="bento-desc">Personal loans overtook industry.</div>
+          </div>
+          <div class="bento-arrow">Read Story →</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="bento-section">
+      <div class="bento-label">
+        <div class="bento-label-dot" style="background: #6366f1"></div>
+        <span class="bento-label-text">Capital Flows</span>
+      </div>
+      <div class="bento-grid two">
+        <a href="#" class="bento-card">
+          <div>
+            <div class="bento-tag">Capital Flows</div>
+            <div class="bento-title">Steady Hands vs Quick Exits</div>
+            <div class="bento-desc">FDI stays. Portfolio money runs.</div>
+          </div>
+          <div class="bento-arrow">Read Story →</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <span>Data: <a href="https://rbi.org.in">Reserve Bank of India</a>. Not affiliated.</span>
+      <span><a href="#">GitHub</a> · <a href="#">About</a></span>
+    </div>
+  </footer>
+</body>
+</html>
