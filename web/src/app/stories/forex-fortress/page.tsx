@@ -1,3 +1,4 @@
+import ContinueExploring from "@/components/ContinueExploring";
 import ForexFortressChart from "@/components/charts/ForexFortressChart";
 import forexData from "../../../../public/data/forex_reserves.json";
 
@@ -157,6 +158,8 @@ export default function ForexFortressPage() {
           </div>
         </div>
       </section>
+      <ContinueExploring currentSlug="forex-fortress" />
+      <ContinueExploring currentSlug="forex-fortress" />
     </div>
   );
 }

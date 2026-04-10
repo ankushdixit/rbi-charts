@@ -1,3 +1,4 @@
+import ContinueExploring from "@/components/ContinueExploring";
 import DeathOfCashChart from "@/components/charts/DeathOfCashChart";
 import trendsData from "../../../../public/data/psi_trends.json";
 
@@ -147,6 +148,8 @@ export default function DeathOfCashPage() {
           </div>
         </div>
       </section>
+      <ContinueExploring currentSlug="death-of-cash" />
+      <ContinueExploring currentSlug="death-of-cash" />
     </div>
   );
 }

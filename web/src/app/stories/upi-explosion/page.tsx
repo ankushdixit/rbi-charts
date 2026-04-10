@@ -1,3 +1,4 @@
+import ContinueExploring from "@/components/ContinueExploring";
 import UPIExplosionChart from "@/components/charts/UPIExplosionChart";
 import upiData from "../../../../public/data/psi_upi.json";
 
@@ -152,6 +153,8 @@ export default function UPIExplosionPage() {
           </div>
         </div>
       </section>
+      <ContinueExploring currentSlug="upi-explosion" />
+      <ContinueExploring currentSlug="upi-explosion" />
     </div>
   );
 }

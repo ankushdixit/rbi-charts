@@ -1,3 +1,4 @@
+import ContinueExploring from "@/components/ContinueExploring";
 import SavingsCollapseChart from "@/components/charts/SavingsCollapseChart";
 import savingsData from "../../../../public/data/household_savings.json";
 import gdpData from "../../../../public/data/household_savings_gdp.json";
@@ -135,6 +136,8 @@ export default function SavingsCollapsePage() {
           </div>
         </div>
       </section>
+      <ContinueExploring currentSlug="savings-collapse" />
+      <ContinueExploring currentSlug="savings-collapse" />
     </div>
   );
 }

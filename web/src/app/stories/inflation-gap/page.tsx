@@ -1,3 +1,4 @@
+import ContinueExploring from "@/components/ContinueExploring";
 import InflationGapChart from "@/components/charts/InflationGapChart";
 import inflationData from "../../../../public/data/inflation_expectations.json";
 
@@ -160,6 +161,7 @@ export default function InflationGapPage() {
           </div>
         </div>
       </section>
+      <ContinueExploring currentSlug="inflation-gap" />
     </div>
   );
 }

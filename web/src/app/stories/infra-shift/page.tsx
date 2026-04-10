@@ -1,3 +1,4 @@
+import ContinueExploring from "@/components/ContinueExploring";
 import InfraShiftChart from "@/components/charts/InfraShiftChart";
 import infraData from "../../../../public/data/infra_shift.json";
 
@@ -128,6 +129,7 @@ export default function InfraShiftPage() {
           </div>
         </div>
       </section>
+      <ContinueExploring currentSlug="infra-shift" />
     </div>
   );
 }

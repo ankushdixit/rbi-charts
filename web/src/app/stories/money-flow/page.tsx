@@ -1,3 +1,4 @@
+import ContinueExploring from "@/components/ContinueExploring";
 import MoneyFlowChart from "@/components/charts/MoneyFlowChart";
 import creditData from "../../../../public/data/sectoral_credit_summary.json";
 
@@ -178,6 +179,8 @@ export default function MoneyFlowPage() {
           </div>
         </div>
       </section>
+      <ContinueExploring currentSlug="money-flow" />
+      <ContinueExploring currentSlug="money-flow" />
     </div>
   );
 }

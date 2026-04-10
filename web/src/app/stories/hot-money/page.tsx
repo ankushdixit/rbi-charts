@@ -1,3 +1,4 @@
+import ContinueExploring from "@/components/ContinueExploring";
 import HotMoneyChart from "@/components/charts/HotMoneyChart";
 import bopData from "../../../../public/data/bop_fdi_fii.json";
 
@@ -154,6 +155,7 @@ export default function HotMoneyPage() {
           </div>
         </div>
       </section>
+      <ContinueExploring currentSlug="hot-money" />
     </div>
   );
 }

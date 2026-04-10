@@ -1,3 +1,4 @@
+import ContinueExploring from "@/components/ContinueExploring";
 import CreditCardWarsChart from "@/components/charts/CreditCardWarsChart";
 import raceData from "../../../../public/data/credit_card_race.json";
 
@@ -147,6 +148,8 @@ export default function CreditCardWarsPage() {
           </div>
         </div>
       </section>
+      <ContinueExploring currentSlug="credit-card-wars" />
+      <ContinueExploring currentSlug="credit-card-wars" />
     </div>
   );
 }
