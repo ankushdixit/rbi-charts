@@ -34,7 +34,6 @@ export const STORY_COLORS: Record<string, string> = {
   "inflation-gap": "#c4976a",
   "hot-money": "#5b9ea6",
   "it-exports": "#4a90d9",
-  "reserves-illusion": "#b8956e",
   "consumer-confidence": "#6aab93",
   "personal-loans": "#c47a8a",
 };
@@ -62,7 +61,7 @@ export const THEMES = {
     tag: "EXTERNAL SECTOR",
     heading: "India and the World",
     subtitle: "IT exports, forex reserves, and what really drives India's external account.",
-    slugs: ["it-exports", "reserves-illusion", "personal-loans"],
+    slugs: ["it-exports", "personal-loans"],
   },
 };
 
@@ -180,16 +179,6 @@ export const STORIES: Story[] = [
     href: "/stories/it-exports",
     sparkline: [0.0, 0.08, 0.17, 0.32, 0.34, 0.43, 0.41, 0.48, 0.52, 0.56, 0.61, 0.65, 0.69, 0.72, 0.79, 0.85, 0.9, 0.96, 1.0],
     sparklineType: "rising",
-  },
-  {
-    slug: "reserves-illusion",
-    title: "The Reserve Illusion",
-    subtitle: "Reserves grew $19.4B, but $50.2B was just valuation. The real flow was -$30.8B.",
-    category: "Reserves",
-    theme: "External Sector",
-    href: "/stories/reserves-illusion",
-    sparkline: [0.6, 0.9, 0.5, 0.0, 0.7, 0.28, 0.1, 0.55],
-    sparklineType: "volatile",
   },
   {
     slug: "personal-loans",

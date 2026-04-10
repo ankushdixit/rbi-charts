@@ -102,22 +102,6 @@ const SPARKLINES: Record<string, React.ReactNode> = {
       })}
     </>
   ),
-  // Stacked bars with a line on top - reserves illusion
-  "reserves-illusion": (
-    <>
-      <line x1="0" y1="15" x2="80" y2="15" stroke="#e7e1d8" strokeWidth="0.5" />
-      {[0, 14, 28, 42, 56].map((x, i) => {
-        const ca = [-8, 4, -12, -6, -10];
-        const val = [0, 0, 0, 2, 16];
-        const caH = Math.abs(ca[i]);
-        const caY = ca[i] > 0 ? 15 - caH : 15;
-        return <g key={i}>
-          <rect x={x} y={caY} width="10" height={caH} rx="1" fill="#d4827a" opacity="0.5" />
-          <rect x={x} y={15 - val[i]} width="10" height={val[i] || 0.5} rx="1" fill="#c9a46c" opacity="0.6" />
-        </g>;
-      })}
-    </>
-  ),
   // Stacked area - personal loans growing
   "personal-loans": (
     <>
@@ -144,7 +128,7 @@ export default function Home() {
           The Indian Economy, Visualized.
         </h1>
         <p className="text-base md:text-lg text-[#78716c] leading-relaxed max-w-[520px] mx-auto">
-          Thirteen interactive stories from official Reserve Bank of India data.
+          Twelve interactive stories from official Reserve Bank of India data.
           Free forever.
         </p>
       </section>

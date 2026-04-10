@@ -11,80 +11,37 @@ interface AnnualRecord {
   overall_balance_net_usd_mn?: number;
   actual_reserves_change_usd_mn?: number;
   valuation_usd_mn?: number;
-  bop_reserves_change_usd_mn?: number;
-}
-
-interface PressReleasePeriod {
-  total_change_usd_bn: number;
-  valuation_usd_bn: number;
-  bop_change_usd_bn: number;
-  current_account_usd_bn?: number;
-  capital_account_usd_bn?: number;
-  fdi_usd_bn?: number;
-  portfolio_usd_bn?: number;
-}
-
-interface PressRelease {
-  apr_dec_2024: PressReleasePeriod;
-  apr_dec_2025: PressReleasePeriod;
 }
 
 interface Props {
   annual: AnnualRecord[];
-  pressRelease: PressRelease;
 }
 
-export default function ReservesVariationChart({ annual, pressRelease }: Props) {
+export default function ReservesVariationChart({ annual }: Props) {
   const option = useMemo<EChartsOption>(() => {
-    // Combine annual BoP data with press release comparison
-    // Show: Current Account, Capital Account, and Overall Balance per year
-    // Plus the dramatic press release data as the final entries
+    const labels = annual.map((a) => a.period);
 
-    const labels = [
-      ...annual.map((a) => a.period),
-      "Apr-Dec 2024",
-      "Apr-Dec 2025",
-    ];
+    const caData = annual.map((a) =>
+      a.current_account_net_usd_mn
+        ? +(a.current_account_net_usd_mn / 1000).toFixed(1)
+        : null
+    );
 
-    const caData = [
-      ...annual.map((a) =>
-        a.current_account_net_usd_mn
-          ? +(a.current_account_net_usd_mn / 1000).toFixed(1)
-          : null
-      ),
-      pressRelease.apr_dec_2024.current_account_usd_bn ?? null,
-      pressRelease.apr_dec_2025.current_account_usd_bn ?? null,
-    ];
+    const kaData = annual.map((a) =>
+      a.capital_account_net_usd_mn
+        ? +(a.capital_account_net_usd_mn / 1000).toFixed(1)
+        : null
+    );
 
-    const kaData = [
-      ...annual.map((a) =>
-        a.capital_account_net_usd_mn
-          ? +(a.capital_account_net_usd_mn / 1000).toFixed(1)
-          : null
-      ),
-      pressRelease.apr_dec_2024.capital_account_usd_bn ?? null,
-      pressRelease.apr_dec_2025.capital_account_usd_bn ?? null,
-    ];
+    const valuationData = annual.map((a) =>
+      a.valuation_usd_mn ? +(a.valuation_usd_mn / 1000).toFixed(1) : null
+    );
 
-    const valuationData = [
-      ...annual.map((a) =>
-        a.valuation_usd_mn ? +(a.valuation_usd_mn / 1000).toFixed(1) : null
-      ),
-      pressRelease.apr_dec_2024.valuation_usd_bn,
-      pressRelease.apr_dec_2025.valuation_usd_bn,
-    ];
-
-    const totalData = [
-      ...annual.map((a) => {
-        if (a.actual_reserves_change_usd_mn)
-          return +(a.actual_reserves_change_usd_mn / 1000).toFixed(1);
-        if (a.overall_balance_net_usd_mn)
-          return +(a.overall_balance_net_usd_mn / 1000).toFixed(1);
-        return null;
-      }),
-      pressRelease.apr_dec_2024.total_change_usd_bn,
-      pressRelease.apr_dec_2025.total_change_usd_bn,
-    ];
+    const bopData = annual.map((a) =>
+      a.overall_balance_net_usd_mn
+        ? +(a.overall_balance_net_usd_mn / 1000).toFixed(1)
+        : null
+    );
 
     return {
       tooltip: {
@@ -113,18 +70,18 @@ export default function ReservesVariationChart({ annual, pressRelease }: Props) 
           "Current Account",
           "Capital Account",
           "Valuation Effect",
-          "Total Reserves Change",
+          "BoP-Based Reserves Change",
         ],
-        bottom: 10,
+        top: 0,
         textStyle: { color: "#78716c", fontSize: 11 },
         itemWidth: 16,
         itemHeight: 3,
       },
-      grid: { left: 65, right: 20, top: 20, bottom: 60 },
+      grid: { left: 65, right: 20, top: 40, bottom: 30 },
       xAxis: {
         type: "category",
         data: labels,
-        axisLabel: { fontSize: 11, color: "#78716c", rotate: 30 },
+        axisLabel: { fontSize: 11, color: "#78716c" },
         axisLine: { lineStyle: { color: "#e7e1d8" } },
         axisTick: { show: false },
       },
@@ -143,28 +100,28 @@ export default function ReservesVariationChart({ annual, pressRelease }: Props) 
         {
           name: "Current Account",
           type: "bar",
-          stack: "flows",
           data: caData,
           itemStyle: { color: "#d4827a" },
+          barWidth: "18%",
         },
         {
           name: "Capital Account",
           type: "bar",
-          stack: "flows",
           data: kaData,
           itemStyle: { color: "#6190e8" },
+          barWidth: "18%",
         },
         {
           name: "Valuation Effect",
           type: "bar",
-          stack: "flows",
           data: valuationData,
           itemStyle: { color: "#c9a46c" },
+          barWidth: "18%",
         },
         {
-          name: "Total Reserves Change",
+          name: "BoP-Based Reserves Change",
           type: "line",
-          data: totalData,
+          data: bopData,
           lineStyle: { color: "#1c1917", width: 2.5 },
           itemStyle: { color: "#1c1917" },
           symbol: "diamond",
@@ -172,7 +129,7 @@ export default function ReservesVariationChart({ annual, pressRelease }: Props) 
         },
       ],
     };
-  }, [annual, pressRelease]);
+  }, [annual]);
 
   return <Chart option={option} height="450px" />;
 }

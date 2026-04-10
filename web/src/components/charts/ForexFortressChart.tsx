@@ -100,11 +100,11 @@ export default function ForexFortressChart({ data }: Props) {
           color: "#78716c",
           interval: (index: number) => {
             const d = dates[index];
-            // Weekly labels: show every 13th (~quarterly)
-            if (d.length > 7) return index % 13 === 0;
-            // Annual labels: show every 5 years
-            const year = parseInt(d.slice(0, 4));
-            return year % 5 === 0;
+            // Weekly labels: show every 26th (~half-yearly)
+            if (d.length > 7) return index % 26 === 0;
+            // Annual labels: show every 10 years
+            const endYear = d.match(/^\d{4}-(\d{2})$/) ? parseInt(d.slice(0, 2) + d.slice(5, 7)) : parseInt(d.slice(0, 4));
+            return endYear % 10 === 0;
           },
           rotate: 0,
         },
