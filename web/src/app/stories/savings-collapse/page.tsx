@@ -25,9 +25,10 @@ export default function SavingsCollapsePage() {
           The Great Rebalancing
         </h1>
         <p className="text-xl text-zinc-400 max-w-2xl mb-8">
-          Indian households are rewriting the savings playbook. Bank deposits are
-          losing share while mutual funds and direct equity are surging. Net
-          savings are recovering — but the composition has fundamentally changed.
+          COVID lockdowns forced savings to an all-time high of 12% of GDP.
+          Then came the reversal — a crash to 4.9% as spending normalized and
+          borrowing surged. Now at 6%, the composition has fundamentally changed:
+          bank deposits are out, mutual funds and equity are in.
         </p>
 
         <div className="flex gap-8 mb-8 flex-wrap">
@@ -60,7 +61,7 @@ export default function SavingsCollapsePage() {
           </div>
           <div>
             <span className="font-semibold text-zinc-400">Period:</span>{" "}
-            FY 2022-23 to FY 2024-25 (quarterly)
+            FY 2019-20 to FY 2024-25 (30 quarters)
           </div>
         </div>
       </section>
@@ -90,13 +91,14 @@ export default function SavingsCollapsePage() {
 
             <div>
               <p className="text-lg font-bold text-white mb-2">
-                Bank deposits are losing share — not shrinking
+                COVID created an artificial peak — then reality hit
               </p>
               <p className="text-zinc-400 text-sm">
-                Bank deposits fell from ₹14.2 lakh crore (FY24) to ₹11.9 lakh
-                crore (FY25). But total financial assets grew from ₹34.7L Cr to
-                ₹35.6L Cr. The money didn&apos;t disappear — it moved from
-                fixed deposits into mutual funds, equity, and insurance.
+                In FY 2020-21, lockdowns meant people couldn&apos;t spend, pushing
+                net savings to 12% of GDP — an anomalous all-time high. By FY
+                2022-23, the reversal was complete: savings crashed to 4.9% as
+                revenge spending, personal loans, and credit card debt surged.
+                The real question is whether 6% is the new normal.
               </p>
             </div>
 

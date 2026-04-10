@@ -146,15 +146,99 @@ def export_json(records: list[dict], output_dir: str = "web/public/data"):
     print(f"  Exported household_savings_gdp.json ({len(gdp_pct)} records)")
 
 
+def parse_html(filepath: str) -> list[dict]:
+    """Parse a Bulletin HTML page containing Table 50(a)/52(a)."""
+    import pandas as pd
+    from io import BytesIO
+
+    with open(filepath, "rb") as f:
+        tables = pd.read_html(BytesIO(f.read()))
+
+    records = []
+    for table in tables:
+        if table.shape[0] < 10 or table.shape[1] < 6:
+            continue
+
+        # Find the FY from header rows
+        fy = None
+        for r in range(min(5, len(table))):
+            for c in range(table.shape[1]):
+                val = str(table.iloc[r, c]).strip()
+                if re.match(r"\d{4}-\d{2}", val):
+                    fy = val
+                    break
+            if fy:
+                break
+
+        if not fy:
+            continue
+
+        quarters = {1: f"{fy} Q1", 2: f"{fy} Q2", 3: f"{fy} Q3", 4: f"{fy} Q4", 5: f"{fy} Annual"}
+
+        gdp_pct_for = None
+        for r in range(len(table)):
+            label_raw = table.iloc[r, 0]
+            if not label_raw or str(label_raw).strip() == "" or str(label_raw) == "nan":
+                continue
+            label = str(label_raw).strip().lower()
+
+            if label == "per cent of gdp" and gdp_pct_for:
+                for col_idx, period in quarters.items():
+                    val = table.iloc[r, col_idx]
+                    try:
+                        records.append({"period": period, "item": f"{gdp_pct_for}_pct_gdp", "value": float(val)})
+                    except (ValueError, TypeError):
+                        pass
+                gdp_pct_for = None
+                continue
+
+            key = ROW_MAP.get(label)
+            if key is None:
+                for map_label, map_key in ROW_MAP.items():
+                    if map_label in label and map_key:
+                        key = map_key
+                        break
+            if not key:
+                continue
+
+            gdp_pct_for = key
+            for col_idx, period in quarters.items():
+                val = table.iloc[r, col_idx]
+                try:
+                    records.append({"period": period, "item": key, "value": float(val)})
+                except (ValueError, TypeError):
+                    pass
+
+    return records
+
+
 if __name__ == "__main__":
+    import re
+
+    # Parse current XLSX (FY 2022-23 to 2024-25)
     records = parse(
         "web/public/data/raw/household_savings/50AT_BUL28082025C459E5FE597241EA9BBB5BD5FB5B0BAF.XLSX"
     )
-    print(f"Total: {len(records)} records")
 
-    # Show summary
-    for period in sorted(set(r["period"] for r in records)):
-        items = [r for r in records if r["period"] == period]
+    # Parse older HTML (FY 2019-20 to 2021-22)
+    older = parse_html(
+        "web/public/data/raw/household_savings/bulletin_t50a_oct2022_id21387.html"
+    )
+    records = older + records
+
+    # Deduplicate (prefer newer data)
+    seen = set()
+    deduped = []
+    for r in reversed(records):
+        key = (r["period"], r["item"])
+        if key not in seen:
+            seen.add(key)
+            deduped.append(r)
+    deduped.reverse()
+
+    print(f"Total: {len(deduped)} records")
+    for period in sorted(set(r["period"] for r in deduped)):
+        items = [r for r in deduped if r["period"] == period]
         print(f"  {period}: {len(items)} items")
 
-    export_json(records)
+    export_json(deduped)
