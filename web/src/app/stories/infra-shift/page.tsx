@@ -90,14 +90,15 @@ export default function InfraShiftPage() {
             </div>
             <div>
               <p className="text-lg font-bold text-white mb-2">
-                UPI QR went from zero to {(latest.upi_qr / 1000000).toFixed(0)}M in 3 years
+                UPI QR: 98M to {(latest.upi_qr / 1000000).toFixed(0)}M — with a counting shake-up
               </p>
               <p className="text-zinc-400 text-sm">
-                UPI QR codes first appeared in the data around March 2022 at
-                173M. By {latest.date}, there were {(latest.upi_qr / 1000000).toFixed(0)}M —
-                a 4x increase. A QR code costs almost nothing to deploy compared
-                to an ATM (₹5-10 lakh) or PoS terminal (₹10-20K). This is why
-                even paan shops and auto drivers accept UPI.
+                UPI QR codes grew from 98M (May 2021) to ~330M by Jul 2024, then
+                jumped to 591M in Aug 2024 — an overnight 80% increase that
+                reflects a change in how QR codes are counted (likely including
+                all aggregator-deployed QR codes). Regardless of the methodology
+                shift, the scale is staggering: at {(latest.upi_qr / 1000000).toFixed(0)}M,
+                a QR code exists for every Indian adult.
               </p>
             </div>
             <div>
