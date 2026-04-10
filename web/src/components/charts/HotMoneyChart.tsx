@@ -30,10 +30,12 @@ export default function HotMoneyChart({ data }: Props) {
         const parseQ = (s: string) => {
           for (const [k, v] of Object.entries(qMap)) {
             if (s.includes(k)) {
-              const year = s.match(/\d{4}/)?.[0] || "0";
-              // For Q4 (Jan-Mar), it's the end of the FY, so sort after Q3 of same start year
-              const sortYear = v === "Q4" ? String(parseInt(year)) : year;
-              return `${sortYear}-${v}`;
+              const year = parseInt(s.match(/\d{4}/)?.[0] || "0");
+              // Q4 (Jan-Mar 2022) belongs to FY ending Mar 2022
+              // It should sort AFTER Q3 (Oct-Dec 2021) which is FY starting Apr 2021
+              // So Q4's sort key uses year-1 for the FY start year, then Q4
+              const fyStartYear = v === "Q4" ? year - 1 : year;
+              return `${fyStartYear}-${v}`;
             }
           }
           return s;
