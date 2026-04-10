@@ -85,7 +85,7 @@ export default function HotMoneyPage() {
           </div>
           <div>
             <span className="font-semibold text-zinc-400">Period:</span>{" "}
-            Q1 FY2025 to Q3 FY2026 ({fdiData.length} quarters)
+            Q1 FY2022 to Q3 FY2026 ({fdiData.length} quarters)
           </div>
         </div>
       </section>
