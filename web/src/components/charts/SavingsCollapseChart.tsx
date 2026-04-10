@@ -33,7 +33,7 @@ export default function SavingsCollapseChart({ data }: Props) {
 
     const dates = periods.map((p) => {
       const [fy, q] = p.split(" ");
-      return `${q} FY${fy.slice(2)}`;
+      return `${q}\nFY${fy}`;
     });
 
     const series = INSTRUMENTS.map(({ key, name, color }) => ({
