@@ -1,0 +1,195 @@
+{
+  "annual": [
+    {
+      "period": "FY2019-20",
+      "type": "annual",
+      "credit_usd_mn": 93102.0,
+      "debit_usd_mn": 8459.0,
+      "net_usd_mn": 84643.0
+    },
+    {
+      "period": "FY2020-21",
+      "type": "annual",
+      "credit_usd_mn": 99997.0,
+      "debit_usd_mn": 10257.0,
+      "net_usd_mn": 89741.0
+    },
+    {
+      "period": "FY2021-22",
+      "type": "annual",
+      "credit_usd_mn": 122093.0,
+      "debit_usd_mn": 12554.0,
+      "net_usd_mn": 109540.0
+    },
+    {
+      "period": "FY2022-23",
+      "type": "annual",
+      "credit_usd_mn": 146775.0,
+      "debit_usd_mn": 15491.0,
+      "net_usd_mn": 131284.0
+    },
+    {
+      "period": "FY2023-24",
+      "type": "annual",
+      "credit_usd_mn": 160333.0,
+      "debit_usd_mn": 18259.0,
+      "net_usd_mn": 142074.0
+    },
+    {
+      "period": "FY2024-25",
+      "type": "annual",
+      "credit_usd_mn": 180626.0,
+      "debit_usd_mn": 21013.0,
+      "net_usd_mn": 159612.0
+    }
+  ],
+  "quarterly": [
+    {
+      "period": "Q1 FY2021-22",
+      "type": "quarterly",
+      "credit_usd_mn": 27602.0,
+      "debit_usd_mn": 2466.0,
+      "net_usd_mn": 25136.0
+    },
+    {
+      "period": "Q1 FY2022-23",
+      "type": "quarterly",
+      "credit_usd_mn": 34476.0,
+      "debit_usd_mn": 3784.0,
+      "net_usd_mn": 30692.0
+    },
+    {
+      "period": "Q1 FY2023-24",
+      "type": "quarterly",
+      "credit_usd_mn": 38172.0,
+      "debit_usd_mn": 4243.0,
+      "net_usd_mn": 33928.0
+    },
+    {
+      "period": "Q1 FY2024-25",
+      "type": "quarterly",
+      "credit_usd_mn": 42541.0,
+      "debit_usd_mn": 5215.2,
+      "net_usd_mn": 37325.8,
+      "total_services_credit_usd_mn": 88634.0,
+      "share_of_services_pct": 48.0
+    },
+    {
+      "period": "Q1 FY2025-26",
+      "type": "quarterly",
+      "credit_usd_mn": 47932.0,
+      "debit_usd_mn": 6470.1,
+      "net_usd_mn": 41461.9,
+      "total_services_credit_usd_mn": 97410.5,
+      "share_of_services_pct": 49.2
+    },
+    {
+      "period": "Q2 FY2021-22",
+      "type": "quarterly",
+      "credit_usd_mn": 29965.0,
+      "debit_usd_mn": 3184.0,
+      "net_usd_mn": 26781.0
+    },
+    {
+      "period": "Q2 FY2022-23",
+      "type": "quarterly",
+      "credit_usd_mn": 36228.0,
+      "debit_usd_mn": 3546.0,
+      "net_usd_mn": 32681.0
+    },
+    {
+      "period": "Q2 FY2023-24",
+      "type": "quarterly",
+      "credit_usd_mn": 39570.0,
+      "debit_usd_mn": 4333.0,
+      "net_usd_mn": 35237.0
+    },
+    {
+      "period": "Q2 FY2024-25",
+      "type": "quarterly",
+      "credit_usd_mn": 44771.8,
+      "debit_usd_mn": 5332.9,
+      "net_usd_mn": 39438.9,
+      "total_services_credit_usd_mn": 93405.9,
+      "share_of_services_pct": 47.9
+    },
+    {
+      "period": "Q2 FY2025-26",
+      "type": "quarterly",
+      "credit_usd_mn": 50358.9,
+      "debit_usd_mn": 6397.8,
+      "net_usd_mn": 43961.1,
+      "total_services_credit_usd_mn": 101621.7,
+      "share_of_services_pct": 49.6
+    },
+    {
+      "period": "Q3 FY2021-22",
+      "type": "quarterly",
+      "credit_usd_mn": 31740.0,
+      "debit_usd_mn": 3384.0,
+      "net_usd_mn": 28356.0
+    },
+    {
+      "period": "Q3 FY2022-23",
+      "type": "quarterly",
+      "credit_usd_mn": 37599.0,
+      "debit_usd_mn": 4058.0,
+      "net_usd_mn": 33541.0
+    },
+    {
+      "period": "Q3 FY2023-24",
+      "type": "quarterly",
+      "credit_usd_mn": 41041.0,
+      "debit_usd_mn": 4774.0,
+      "net_usd_mn": 36267.0
+    },
+    {
+      "period": "Q3 FY2024-25",
+      "type": "quarterly",
+      "credit_usd_mn": 48295.8,
+      "debit_usd_mn": 7416.1,
+      "net_usd_mn": 40879.7,
+      "total_services_credit_usd_mn": 103487.4,
+      "share_of_services_pct": 46.7
+    },
+    {
+      "period": "Q3 FY2025-26",
+      "type": "quarterly",
+      "credit_usd_mn": 54314.6,
+      "debit_usd_mn": 7275.1,
+      "net_usd_mn": 47039.5,
+      "total_services_credit_usd_mn": 111227.1,
+      "share_of_services_pct": 48.8
+    },
+    {
+      "period": "Q4 FY2021-22",
+      "type": "quarterly",
+      "credit_usd_mn": 32786.0,
+      "debit_usd_mn": 3520.0,
+      "net_usd_mn": 29266.0
+    },
+    {
+      "period": "Q4 FY2022-23",
+      "type": "quarterly",
+      "credit_usd_mn": 38473.0,
+      "debit_usd_mn": 4103.0,
+      "net_usd_mn": 34370.0
+    },
+    {
+      "period": "Q4 FY2023-24",
+      "type": "quarterly",
+      "credit_usd_mn": 41551.0,
+      "debit_usd_mn": 4908.0,
+      "net_usd_mn": 36643.0
+    },
+    {
+      "period": "Q4 FY2024-25",
+      "type": "quarterly",
+      "credit_usd_mn": 47738.2,
+      "debit_usd_mn": 6308.5,
+      "net_usd_mn": 41429.7,
+      "total_services_credit_usd_mn": 102025.5,
+      "share_of_services_pct": 46.8
+    }
+  ]
+}

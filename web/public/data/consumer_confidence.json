@@ -1,0 +1,2640 @@
+{
+  "economic_situation": [
+    {
+      "date": "2012-09",
+      "category": "economic_situation",
+      "current_net_response": -1.2,
+      "future_net_response": 16.6,
+      "current_improved_pct": 37.5,
+      "current_same_pct": 23.8,
+      "current_worsened_pct": 38.7,
+      "future_improve_pct": 44.4,
+      "future_same_pct": 27.7,
+      "future_worsen_pct": 27.8
+    },
+    {
+      "date": "2012-12",
+      "category": "economic_situation",
+      "current_net_response": -3.8,
+      "future_net_response": 7.7,
+      "current_improved_pct": 37.5,
+      "current_same_pct": 21.3,
+      "current_worsened_pct": 41.2,
+      "future_improve_pct": 39.6,
+      "future_same_pct": 28.5,
+      "future_worsen_pct": 31.9
+    },
+    {
+      "date": "2013-03",
+      "category": "economic_situation",
+      "current_net_response": -24.6,
+      "future_net_response": -6.7,
+      "current_improved_pct": 28.1,
+      "current_same_pct": 19.3,
+      "current_worsened_pct": 52.7,
+      "future_improve_pct": 32.8,
+      "future_same_pct": 27.6,
+      "future_worsen_pct": 39.5
+    },
+    {
+      "date": "2013-06",
+      "category": "economic_situation",
+      "current_net_response": -23.3,
+      "future_net_response": -2.6,
+      "current_improved_pct": 28.2,
+      "current_same_pct": 20.2,
+      "current_worsened_pct": 51.6,
+      "future_improve_pct": 35.2,
+      "future_same_pct": 27.0,
+      "future_worsen_pct": 37.8
+    },
+    {
+      "date": "2013-09",
+      "category": "economic_situation",
+      "current_net_response": -36.9,
+      "future_net_response": -8.8,
+      "current_improved_pct": 22.4,
+      "current_same_pct": 18.4,
+      "current_worsened_pct": 59.3,
+      "future_improve_pct": 29.9,
+      "future_same_pct": 31.5,
+      "future_worsen_pct": 38.6
+    },
+    {
+      "date": "2013-12",
+      "category": "economic_situation",
+      "current_net_response": -31.2,
+      "future_net_response": 4.7,
+      "current_improved_pct": 22.7,
+      "current_same_pct": 23.3,
+      "current_worsened_pct": 54.0,
+      "future_improve_pct": 34.8,
+      "future_same_pct": 35.1,
+      "future_worsen_pct": 30.1
+    },
+    {
+      "date": "2014-03",
+      "category": "economic_situation",
+      "current_net_response": -9.6,
+      "future_net_response": 26.5,
+      "current_improved_pct": 29.5,
+      "current_same_pct": 31.3,
+      "current_worsened_pct": 39.1,
+      "future_improve_pct": 47.6,
+      "future_same_pct": 31.2,
+      "future_worsen_pct": 21.1
+    },
+    {
+      "date": "2014-06",
+      "category": "economic_situation",
+      "current_net_response": -14.4,
+      "future_net_response": 39.1,
+      "current_improved_pct": 25.5,
+      "current_same_pct": 34.6,
+      "current_worsened_pct": 39.9,
+      "future_improve_pct": 56.7,
+      "future_same_pct": 25.6,
+      "future_worsen_pct": 17.6
+    },
+    {
+      "date": "2014-09",
+      "category": "economic_situation",
+      "current_net_response": -9.4,
+      "future_net_response": 37.7,
+      "current_improved_pct": 29.3,
+      "current_same_pct": 32.1,
+      "current_worsened_pct": 38.7,
+      "future_improve_pct": 54.8,
+      "future_same_pct": 28.1,
+      "future_worsen_pct": 17.1
+    },
+    {
+      "date": "2014-12",
+      "category": "economic_situation",
+      "current_net_response": 1.6,
+      "future_net_response": 34.1,
+      "current_improved_pct": 30.2,
+      "current_same_pct": 41.2,
+      "current_worsened_pct": 28.6,
+      "future_improve_pct": 50.9,
+      "future_same_pct": 32.3,
+      "future_worsen_pct": 16.8
+    },
+    {
+      "date": "2015-03",
+      "category": "economic_situation",
+      "current_net_response": 15.8,
+      "future_net_response": 40.4,
+      "current_improved_pct": 41.7,
+      "current_same_pct": 32.4,
+      "current_worsened_pct": 25.9,
+      "future_improve_pct": 56.8,
+      "future_same_pct": 26.8,
+      "future_worsen_pct": 16.4
+    },
+    {
+      "date": "2015-06",
+      "category": "economic_situation",
+      "current_net_response": 14.0,
+      "future_net_response": 37.4,
+      "current_improved_pct": 43.1,
+      "current_same_pct": 27.8,
+      "current_worsened_pct": 29.1,
+      "future_improve_pct": 57.6,
+      "future_same_pct": 22.3,
+      "future_worsen_pct": 20.2
+    },
+    {
+      "date": "2015-09",
+      "category": "economic_situation",
+      "current_net_response": 5.6,
+      "future_net_response": 27.4,
+      "current_improved_pct": 36.5,
+      "current_same_pct": 32.7,
+      "current_worsened_pct": 30.9,
+      "future_improve_pct": 47.7,
+      "future_same_pct": 32.1,
+      "future_worsen_pct": 20.3
+    },
+    {
+      "date": "2015-12",
+      "category": "economic_situation",
+      "current_net_response": 7.0,
+      "future_net_response": 29.6,
+      "current_improved_pct": 38.0,
+      "current_same_pct": 30.9,
+      "current_worsened_pct": 31.1,
+      "future_improve_pct": 51.0,
+      "future_same_pct": 27.6,
+      "future_worsen_pct": 21.4
+    },
+    {
+      "date": "2016-03",
+      "category": "economic_situation",
+      "current_net_response": 10.1,
+      "future_net_response": 36.4,
+      "current_improved_pct": 39.9,
+      "current_same_pct": 30.3,
+      "current_worsened_pct": 29.8,
+      "future_improve_pct": 54.6,
+      "future_same_pct": 27.2,
+      "future_worsen_pct": 18.2
+    },
+    {
+      "date": "2016-06",
+      "category": "economic_situation",
+      "current_net_response": 8.2,
+      "future_net_response": 33.8,
+      "current_improved_pct": 40.2,
+      "current_same_pct": 27.9,
+      "current_worsened_pct": 31.9,
+      "future_improve_pct": 54.2,
+      "future_same_pct": 25.5,
+      "future_worsen_pct": 20.4
+    },
+    {
+      "date": "2016-09",
+      "category": "economic_situation",
+      "current_net_response": 19.4,
+      "future_net_response": 39.6,
+      "current_improved_pct": 44.6,
+      "current_same_pct": 30.1,
+      "current_worsened_pct": 25.3,
+      "future_improve_pct": 57.7,
+      "future_same_pct": 24.3,
+      "future_worsen_pct": 18.0
+    },
+    {
+      "date": "2016-11",
+      "category": "economic_situation",
+      "current_net_response": 25.6,
+      "future_net_response": 44.8,
+      "current_improved_pct": 49.5,
+      "current_same_pct": 26.6,
+      "current_worsened_pct": 23.9,
+      "future_improve_pct": 63.0,
+      "future_same_pct": 18.7,
+      "future_worsen_pct": 18.3
+    },
+    {
+      "date": "2016-12",
+      "category": "economic_situation",
+      "current_net_response": 15.4,
+      "future_net_response": 49.2,
+      "current_improved_pct": 45.7,
+      "current_same_pct": 24.1,
+      "current_worsened_pct": 30.3,
+      "future_improve_pct": 66.3,
+      "future_same_pct": 16.6,
+      "future_worsen_pct": 17.1
+    },
+    {
+      "date": "2017-03",
+      "category": "economic_situation",
+      "current_net_response": -4.5,
+      "future_net_response": 25.6,
+      "current_improved_pct": 35.6,
+      "current_same_pct": 24.4,
+      "current_worsened_pct": 40.0,
+      "future_improve_pct": 52.1,
+      "future_same_pct": 21.4,
+      "future_worsen_pct": 26.5
+    },
+    {
+      "date": "2017-05",
+      "category": "economic_situation",
+      "current_net_response": -1.3,
+      "future_net_response": 28.3,
+      "current_improved_pct": 36.4,
+      "current_same_pct": 25.9,
+      "current_worsened_pct": 37.7,
+      "future_improve_pct": 52.4,
+      "future_same_pct": 23.5,
+      "future_worsen_pct": 24.1
+    },
+    {
+      "date": "2017-06",
+      "category": "economic_situation",
+      "current_net_response": -7.5,
+      "future_net_response": 23.1,
+      "current_improved_pct": 32.4,
+      "current_same_pct": 27.7,
+      "current_worsened_pct": 39.9,
+      "future_improve_pct": 48.6,
+      "future_same_pct": 25.9,
+      "future_worsen_pct": 25.5
+    },
+    {
+      "date": "2017-09",
+      "category": "economic_situation",
+      "current_net_response": -4.6,
+      "future_net_response": 26.6,
+      "current_improved_pct": 35.8,
+      "current_same_pct": 23.8,
+      "current_worsened_pct": 40.4,
+      "future_improve_pct": 52.6,
+      "future_same_pct": 21.5,
+      "future_worsen_pct": 25.9
+    },
+    {
+      "date": "2017-11",
+      "category": "economic_situation",
+      "current_net_response": -16.9,
+      "future_net_response": 17.0,
+      "current_improved_pct": 30.4,
+      "current_same_pct": 22.3,
+      "current_worsened_pct": 47.3,
+      "future_improve_pct": 46.8,
+      "future_same_pct": 23.3,
+      "future_worsen_pct": 29.9
+    },
+    {
+      "date": "2017-12",
+      "category": "economic_situation",
+      "current_net_response": 1.0,
+      "future_net_response": 33.0,
+      "current_improved_pct": 38.5,
+      "current_same_pct": 24.0,
+      "current_worsened_pct": 37.5,
+      "future_improve_pct": 55.6,
+      "future_same_pct": 21.8,
+      "future_worsen_pct": 22.6
+    },
+    {
+      "date": "2018-03",
+      "category": "economic_situation",
+      "current_net_response": -6.8,
+      "future_net_response": 22.2,
+      "current_improved_pct": 34.9,
+      "current_same_pct": 23.4,
+      "current_worsened_pct": 41.7,
+      "future_improve_pct": 49.7,
+      "future_same_pct": 22.8,
+      "future_worsen_pct": 27.5
+    },
+    {
+      "date": "2018-05",
+      "category": "economic_situation",
+      "current_net_response": -15.4,
+      "future_net_response": 23.2,
+      "current_improved_pct": 32.5,
+      "current_same_pct": 19.6,
+      "current_worsened_pct": 47.9,
+      "future_improve_pct": 50.6,
+      "future_same_pct": 22.1,
+      "future_worsen_pct": 27.4
+    },
+    {
+      "date": "2018-06",
+      "category": "economic_situation",
+      "current_net_response": -5.4,
+      "future_net_response": 23.8,
+      "current_improved_pct": 36.4,
+      "current_same_pct": 21.9,
+      "current_worsened_pct": 41.8,
+      "future_improve_pct": 50.4,
+      "future_same_pct": 23.0,
+      "future_worsen_pct": 26.6
+    },
+    {
+      "date": "2018-09",
+      "category": "economic_situation",
+      "current_net_response": -10.6,
+      "future_net_response": 23.0,
+      "current_improved_pct": 33.7,
+      "current_same_pct": 22.1,
+      "current_worsened_pct": 44.3,
+      "future_improve_pct": 53.2,
+      "future_same_pct": 16.7,
+      "future_worsen_pct": 30.2
+    },
+    {
+      "date": "2018-11",
+      "category": "economic_situation",
+      "current_net_response": -12.0,
+      "future_net_response": 22.4,
+      "current_improved_pct": 33.2,
+      "current_same_pct": 21.6,
+      "current_worsened_pct": 45.2,
+      "future_improve_pct": 53.6,
+      "future_same_pct": 15.3,
+      "future_worsen_pct": 31.2
+    },
+    {
+      "date": "2018-12",
+      "category": "economic_situation",
+      "current_net_response": -6.4,
+      "future_net_response": 35.6,
+      "current_improved_pct": 36.7,
+      "current_same_pct": 20.2,
+      "current_worsened_pct": 43.1,
+      "future_improve_pct": 59.9,
+      "future_same_pct": 15.8,
+      "future_worsen_pct": 24.3
+    },
+    {
+      "date": "2019-03",
+      "category": "economic_situation",
+      "current_net_response": 13.7,
+      "future_net_response": 48.6,
+      "current_improved_pct": 46.2,
+      "current_same_pct": 21.3,
+      "current_worsened_pct": 32.5,
+      "future_improve_pct": 66.4,
+      "future_same_pct": 15.8,
+      "future_worsen_pct": 17.8
+    },
+    {
+      "date": "2019-05",
+      "category": "economic_situation",
+      "current_net_response": 1.1,
+      "future_net_response": 40.5,
+      "current_improved_pct": 38.8,
+      "current_same_pct": 23.6,
+      "current_worsened_pct": 37.7,
+      "future_improve_pct": 61.4,
+      "future_same_pct": 17.7,
+      "future_worsen_pct": 20.9
+    },
+    {
+      "date": "2019-07",
+      "category": "economic_situation",
+      "current_net_response": -1.0,
+      "future_net_response": 34.8,
+      "current_improved_pct": 37.4,
+      "current_same_pct": 24.2,
+      "current_worsened_pct": 38.4,
+      "future_improve_pct": 59.4,
+      "future_same_pct": 16.0,
+      "future_worsen_pct": 24.6
+    },
+    {
+      "date": "2019-09",
+      "category": "economic_situation",
+      "current_net_response": -14.4,
+      "future_net_response": 21.4,
+      "current_improved_pct": 33.5,
+      "current_same_pct": 18.6,
+      "current_worsened_pct": 47.9,
+      "future_improve_pct": 53.2,
+      "future_same_pct": 15.0,
+      "future_worsen_pct": 31.8
+    },
+    {
+      "date": "2019-11",
+      "category": "economic_situation",
+      "current_net_response": -21.6,
+      "future_net_response": 14.2,
+      "current_improved_pct": 30.0,
+      "current_same_pct": 18.4,
+      "current_worsened_pct": 51.6,
+      "future_improve_pct": 48.9,
+      "future_same_pct": 16.5,
+      "future_worsen_pct": 34.7
+    },
+    {
+      "date": "2020-01",
+      "category": "economic_situation",
+      "current_net_response": -27.8,
+      "future_net_response": 11.9,
+      "current_improved_pct": 27.1,
+      "current_same_pct": 18.0,
+      "current_worsened_pct": 54.9,
+      "future_improve_pct": 48.8,
+      "future_same_pct": 14.3,
+      "future_worsen_pct": 36.9
+    },
+    {
+      "date": "2020-03",
+      "category": "economic_situation",
+      "current_net_response": -23.9,
+      "future_net_response": 15.1,
+      "current_improved_pct": 28.4,
+      "current_same_pct": 19.3,
+      "current_worsened_pct": 52.3,
+      "future_improve_pct": 49.8,
+      "future_same_pct": 15.6,
+      "future_worsen_pct": 34.7
+    },
+    {
+      "date": "2020-05",
+      "category": "economic_situation",
+      "current_net_response": -60.0,
+      "future_net_response": -11.7,
+      "current_improved_pct": 14.4,
+      "current_same_pct": 11.2,
+      "current_worsened_pct": 74.4,
+      "future_improve_pct": 39.6,
+      "future_same_pct": 9.0,
+      "future_worsen_pct": 51.4
+    },
+    {
+      "date": "2020-07",
+      "category": "economic_situation",
+      "current_net_response": -65.9,
+      "future_net_response": 2.1,
+      "current_improved_pct": 11.9,
+      "current_same_pct": 10.3,
+      "current_worsened_pct": 77.8,
+      "future_improve_pct": 44.3,
+      "future_same_pct": 13.5,
+      "future_worsen_pct": 42.2
+    },
+    {
+      "date": "2020-09",
+      "category": "economic_situation",
+      "current_net_response": -70.6,
+      "future_net_response": 15.3,
+      "current_improved_pct": 9.0,
+      "current_same_pct": 11.4,
+      "current_worsened_pct": 79.6,
+      "future_improve_pct": 50.1,
+      "future_same_pct": 15.1,
+      "future_worsen_pct": 34.8
+    },
+    {
+      "date": "2020-11",
+      "category": "economic_situation",
+      "current_net_response": -66.5,
+      "future_net_response": 15.7,
+      "current_improved_pct": 11.0,
+      "current_same_pct": 11.5,
+      "current_worsened_pct": 77.5,
+      "future_improve_pct": 50.9,
+      "future_same_pct": 13.9,
+      "future_worsen_pct": 35.2
+    },
+    {
+      "date": "2021-01",
+      "category": "economic_situation",
+      "current_net_response": -57.9,
+      "future_net_response": 21.3,
+      "current_improved_pct": 14.3,
+      "current_same_pct": 13.6,
+      "current_worsened_pct": 72.2,
+      "future_improve_pct": 52.6,
+      "future_same_pct": 16.1,
+      "future_worsen_pct": 31.3
+    },
+    {
+      "date": "2021-03",
+      "category": "economic_situation",
+      "current_net_response": -61.3,
+      "future_net_response": 8.1,
+      "current_improved_pct": 13.4,
+      "current_same_pct": 11.8,
+      "current_worsened_pct": 74.7,
+      "future_improve_pct": 45.6,
+      "future_same_pct": 16.8,
+      "future_worsen_pct": 37.5
+    },
+    {
+      "date": "2021-05",
+      "category": "economic_situation",
+      "current_net_response": -73.3,
+      "future_net_response": -16.9,
+      "current_improved_pct": 7.5,
+      "current_same_pct": 11.8,
+      "current_worsened_pct": 80.8,
+      "future_improve_pct": 33.9,
+      "future_same_pct": 15.3,
+      "future_worsen_pct": 50.8
+    },
+    {
+      "date": "2021-07",
+      "category": "economic_situation",
+      "current_net_response": -68.0,
+      "future_net_response": -3.4,
+      "current_improved_pct": 10.0,
+      "current_same_pct": 12.1,
+      "current_worsened_pct": 78.0,
+      "future_improve_pct": 40.1,
+      "future_same_pct": 16.3,
+      "future_worsen_pct": 43.5
+    },
+    {
+      "date": "2021-09",
+      "category": "economic_situation",
+      "current_net_response": -56.2,
+      "future_net_response": 2.7,
+      "current_improved_pct": 15.4,
+      "current_same_pct": 12.9,
+      "current_worsened_pct": 71.6,
+      "future_improve_pct": 42.3,
+      "future_same_pct": 18.1,
+      "future_worsen_pct": 39.6
+    },
+    {
+      "date": "2021-11",
+      "category": "economic_situation",
+      "current_net_response": -52.7,
+      "future_net_response": 6.4,
+      "current_improved_pct": 17.4,
+      "current_same_pct": 12.6,
+      "current_worsened_pct": 70.1,
+      "future_improve_pct": 44.6,
+      "future_same_pct": 17.3,
+      "future_worsen_pct": 38.1
+    },
+    {
+      "date": "2022-01",
+      "category": "economic_situation",
+      "current_net_response": -48.9,
+      "future_net_response": -1.7,
+      "current_improved_pct": 17.8,
+      "current_same_pct": 15.6,
+      "current_worsened_pct": 66.7,
+      "future_improve_pct": 40.8,
+      "future_same_pct": 16.7,
+      "future_worsen_pct": 42.5
+    },
+    {
+      "date": "2022-03",
+      "category": "economic_situation",
+      "current_net_response": -40.5,
+      "future_net_response": 13.5,
+      "current_improved_pct": 21.7,
+      "current_same_pct": 16.2,
+      "current_worsened_pct": 62.2,
+      "future_improve_pct": 49.2,
+      "future_same_pct": 15.2,
+      "future_worsen_pct": 35.7
+    },
+    {
+      "date": "2022-05",
+      "category": "economic_situation",
+      "current_net_response": -40.2,
+      "future_net_response": 6.0,
+      "current_improved_pct": 22.5,
+      "current_same_pct": 14.8,
+      "current_worsened_pct": 62.7,
+      "future_improve_pct": 45.4,
+      "future_same_pct": 15.3,
+      "future_worsen_pct": 39.4
+    },
+    {
+      "date": "2022-07",
+      "category": "economic_situation",
+      "current_net_response": -41.5,
+      "future_net_response": 7.6,
+      "current_improved_pct": 21.6,
+      "current_same_pct": 15.4,
+      "current_worsened_pct": 63.0,
+      "future_improve_pct": 46.4,
+      "future_same_pct": 14.9,
+      "future_worsen_pct": 38.8
+    },
+    {
+      "date": "2022-09",
+      "category": "economic_situation",
+      "current_net_response": -33.0,
+      "future_net_response": 8.4,
+      "current_improved_pct": 26.2,
+      "current_same_pct": 14.6,
+      "current_worsened_pct": 59.2,
+      "future_improve_pct": 46.5,
+      "future_same_pct": 15.4,
+      "future_worsen_pct": 38.1
+    },
+    {
+      "date": "2022-11",
+      "category": "economic_situation",
+      "current_net_response": -27.8,
+      "future_net_response": 11.6,
+      "current_improved_pct": 27.9,
+      "current_same_pct": 16.3,
+      "current_worsened_pct": 55.7,
+      "future_improve_pct": 48.0,
+      "future_same_pct": 15.6,
+      "future_worsen_pct": 36.4
+    },
+    {
+      "date": "2023-01",
+      "category": "economic_situation",
+      "current_net_response": -23.7,
+      "future_net_response": 16.9,
+      "current_improved_pct": 28.3,
+      "current_same_pct": 19.6,
+      "current_worsened_pct": 52.1,
+      "future_improve_pct": 50.2,
+      "future_same_pct": 16.6,
+      "future_worsen_pct": 33.2
+    },
+    {
+      "date": "2023-03",
+      "category": "economic_situation",
+      "current_net_response": -20.4,
+      "future_net_response": 15.0,
+      "current_improved_pct": 31.4,
+      "current_same_pct": 16.9,
+      "current_worsened_pct": 51.7,
+      "future_improve_pct": 49.9,
+      "future_same_pct": 15.1,
+      "future_worsen_pct": 35.0
+    },
+    {
+      "date": "2023-05",
+      "category": "economic_situation",
+      "current_net_response": -16.8,
+      "future_net_response": 17.8,
+      "current_improved_pct": 32.1,
+      "current_same_pct": 19.0,
+      "current_worsened_pct": 48.9,
+      "future_improve_pct": 51.0,
+      "future_same_pct": 15.8,
+      "future_worsen_pct": 33.2
+    },
+    {
+      "date": "2023-07",
+      "category": "economic_situation",
+      "current_net_response": -20.7,
+      "future_net_response": 17.2,
+      "current_improved_pct": 30.4,
+      "current_same_pct": 18.5,
+      "current_worsened_pct": 51.1,
+      "future_improve_pct": 51.1,
+      "future_same_pct": 15.1,
+      "future_worsen_pct": 33.8
+    },
+    {
+      "date": "2023-09",
+      "category": "economic_situation",
+      "current_net_response": -7.9,
+      "future_net_response": 28.6,
+      "current_improved_pct": 36.1,
+      "current_same_pct": 19.9,
+      "current_worsened_pct": 44.0,
+      "future_improve_pct": 56.8,
+      "future_same_pct": 15.1,
+      "future_worsen_pct": 28.1
+    },
+    {
+      "date": "2023-11",
+      "category": "economic_situation",
+      "current_net_response": -11.3,
+      "future_net_response": 25.7,
+      "current_improved_pct": 33.1,
+      "current_same_pct": 22.5,
+      "current_worsened_pct": 44.4,
+      "future_improve_pct": 54.3,
+      "future_same_pct": 17.2,
+      "future_worsen_pct": 28.5
+    },
+    {
+      "date": "2024-01",
+      "category": "economic_situation",
+      "current_net_response": -2.7,
+      "future_net_response": 33.7,
+      "current_improved_pct": 37.5,
+      "current_same_pct": 22.3,
+      "current_worsened_pct": 40.2,
+      "future_improve_pct": 59.2,
+      "future_same_pct": 15.3,
+      "future_worsen_pct": 25.5
+    },
+    {
+      "date": "2024-03",
+      "category": "economic_situation",
+      "current_net_response": 5.4,
+      "future_net_response": 37.3,
+      "current_improved_pct": 41.1,
+      "current_same_pct": 23.1,
+      "current_worsened_pct": 35.8,
+      "future_improve_pct": 60.7,
+      "future_same_pct": 15.8,
+      "future_worsen_pct": 23.4
+    },
+    {
+      "date": "2024-05",
+      "category": "economic_situation",
+      "current_net_response": 2.6,
+      "future_net_response": 33.5,
+      "current_improved_pct": 40.0,
+      "current_same_pct": 22.6,
+      "current_worsened_pct": 37.4,
+      "future_improve_pct": 59.0,
+      "future_same_pct": 15.6,
+      "future_worsen_pct": 25.4
+    },
+    {
+      "date": "2024-07",
+      "category": "economic_situation",
+      "current_net_response": -5.0,
+      "future_net_response": 26.1,
+      "current_improved_pct": 36.3,
+      "current_same_pct": 22.4,
+      "current_worsened_pct": 41.3,
+      "future_improve_pct": 55.0,
+      "future_same_pct": 16.0,
+      "future_worsen_pct": 28.9
+    },
+    {
+      "date": "2024-09",
+      "category": "economic_situation",
+      "current_net_response": -4.4,
+      "future_net_response": 26.9,
+      "current_improved_pct": 37.3,
+      "current_same_pct": 21.1,
+      "current_worsened_pct": 41.6,
+      "future_improve_pct": 55.5,
+      "future_same_pct": 16.0,
+      "future_worsen_pct": 28.6
+    },
+    {
+      "date": "2024-11",
+      "category": "economic_situation",
+      "current_net_response": -7.1,
+      "future_net_response": 27.0,
+      "current_improved_pct": 35.8,
+      "current_same_pct": 21.3,
+      "current_worsened_pct": 42.9,
+      "future_improve_pct": 54.9,
+      "future_same_pct": 17.2,
+      "future_worsen_pct": 27.9
+    },
+    {
+      "date": "2025-01",
+      "category": "economic_situation",
+      "current_net_response": -8.0,
+      "future_net_response": 26.2,
+      "current_improved_pct": 34.9,
+      "current_same_pct": 22.1,
+      "current_worsened_pct": 43.0,
+      "future_improve_pct": 55.2,
+      "future_same_pct": 15.8,
+      "future_worsen_pct": 29.0
+    },
+    {
+      "date": "2025-03",
+      "category": "economic_situation",
+      "current_net_response": -5.9,
+      "future_net_response": 28.0,
+      "current_improved_pct": 34.7,
+      "current_same_pct": 24.7,
+      "current_worsened_pct": 40.6,
+      "future_improve_pct": 56.5,
+      "future_same_pct": 14.9,
+      "future_worsen_pct": 28.5
+    },
+    {
+      "date": "2025-05",
+      "category": "economic_situation",
+      "current_net_response": -6.2,
+      "future_net_response": 29.2,
+      "current_improved_pct": 35.7,
+      "current_same_pct": 22.4,
+      "current_worsened_pct": 41.9,
+      "future_improve_pct": 57.9,
+      "future_same_pct": 13.4,
+      "future_worsen_pct": 28.7
+    },
+    {
+      "date": "2025-07",
+      "category": "economic_situation",
+      "current_net_response": -4.2,
+      "future_net_response": 32.3,
+      "current_improved_pct": 34.2,
+      "current_same_pct": 27.5,
+      "current_worsened_pct": 38.3,
+      "future_improve_pct": 55.7,
+      "future_same_pct": 20.9,
+      "future_worsen_pct": 23.4
+    },
+    {
+      "date": "2025-09",
+      "category": "economic_situation",
+      "current_net_response": -3.9,
+      "future_net_response": 32.6,
+      "current_improved_pct": 37.0,
+      "current_same_pct": 22.1,
+      "current_worsened_pct": 40.9,
+      "future_improve_pct": 57.9,
+      "future_same_pct": 16.8,
+      "future_worsen_pct": 25.3
+    },
+    {
+      "date": "2025-11",
+      "category": "economic_situation",
+      "current_net_response": -2.5,
+      "future_net_response": 32.9,
+      "current_improved_pct": 37.2,
+      "current_same_pct": 23.1,
+      "current_worsened_pct": 39.7,
+      "future_improve_pct": 58.5,
+      "future_same_pct": 15.8,
+      "future_worsen_pct": 25.7
+    },
+    {
+      "date": "2026-01",
+      "category": "economic_situation",
+      "current_net_response": -3.5,
+      "future_net_response": 29.3,
+      "current_improved_pct": 36.8,
+      "current_same_pct": 23.0,
+      "current_worsened_pct": 40.2,
+      "future_improve_pct": 56.5,
+      "future_same_pct": 16.2,
+      "future_worsen_pct": 27.2
+    }
+  ],
+  "employment": [
+    {
+      "date": "2012-09",
+      "category": "employment",
+      "current_net_response": 11.1,
+      "future_net_response": 20.5
+    },
+    {
+      "date": "2012-12",
+      "category": "employment",
+      "current_net_response": 13.9,
+      "future_net_response": 16.4
+    },
+    {
+      "date": "2013-03",
+      "category": "employment",
+      "current_net_response": 12.1,
+      "future_net_response": 25.2
+    },
+    {
+      "date": "2013-06",
+      "category": "employment",
+      "current_net_response": 13.6,
+      "future_net_response": 32.5
+    },
+    {
+      "date": "2013-09",
+      "category": "employment",
+      "current_net_response": -12.1,
+      "future_net_response": 4.6
+    },
+    {
+      "date": "2013-12",
+      "category": "employment",
+      "current_net_response": -5.3,
+      "future_net_response": 24.9
+    },
+    {
+      "date": "2014-03",
+      "category": "employment",
+      "current_net_response": -0.4,
+      "future_net_response": 39.0
+    },
+    {
+      "date": "2014-06",
+      "category": "employment",
+      "current_net_response": 0.6,
+      "future_net_response": 54.9
+    },
+    {
+      "date": "2014-09",
+      "category": "employment",
+      "current_net_response": 7.3,
+      "future_net_response": 51.9
+    },
+    {
+      "date": "2014-12",
+      "category": "employment",
+      "current_net_response": 12.0,
+      "future_net_response": 51.8
+    },
+    {
+      "date": "2015-03",
+      "category": "employment",
+      "current_net_response": 10.4,
+      "future_net_response": 40.3
+    },
+    {
+      "date": "2015-06",
+      "category": "employment",
+      "current_net_response": 4.2,
+      "future_net_response": 34.4
+    },
+    {
+      "date": "2015-09",
+      "category": "employment",
+      "current_net_response": -1.4,
+      "future_net_response": 27.6
+    },
+    {
+      "date": "2015-12",
+      "category": "employment",
+      "current_net_response": 2.6,
+      "future_net_response": 32.9
+    },
+    {
+      "date": "2016-03",
+      "category": "employment",
+      "current_net_response": -0.3,
+      "future_net_response": 32.3
+    },
+    {
+      "date": "2016-06",
+      "category": "employment",
+      "current_net_response": -0.2,
+      "future_net_response": 31.8
+    },
+    {
+      "date": "2016-09",
+      "category": "employment",
+      "current_net_response": -0.2,
+      "future_net_response": 31.5
+    },
+    {
+      "date": "2016-11",
+      "category": "employment",
+      "current_net_response": 6.2,
+      "future_net_response": 37.9
+    },
+    {
+      "date": "2016-12",
+      "category": "employment",
+      "current_net_response": -8.3,
+      "future_net_response": 38.7
+    },
+    {
+      "date": "2017-03",
+      "category": "employment",
+      "current_net_response": -6.4,
+      "future_net_response": 30.1
+    },
+    {
+      "date": "2017-05",
+      "category": "employment",
+      "current_net_response": -6.8,
+      "future_net_response": 32.0
+    },
+    {
+      "date": "2017-06",
+      "category": "employment",
+      "current_net_response": -8.1,
+      "future_net_response": 28.4
+    },
+    {
+      "date": "2017-09",
+      "category": "employment",
+      "current_net_response": -11.9,
+      "future_net_response": 26.6
+    },
+    {
+      "date": "2017-11",
+      "category": "employment",
+      "current_net_response": -17.4,
+      "future_net_response": 20.8
+    },
+    {
+      "date": "2017-12",
+      "category": "employment",
+      "current_net_response": -9.4,
+      "future_net_response": 33.6
+    },
+    {
+      "date": "2018-03",
+      "category": "employment",
+      "current_net_response": -11.6,
+      "future_net_response": 25.9
+    },
+    {
+      "date": "2018-05",
+      "category": "employment",
+      "current_net_response": -11.8,
+      "future_net_response": 26.5
+    },
+    {
+      "date": "2018-06",
+      "category": "employment",
+      "current_net_response": -4.1,
+      "future_net_response": 27.5
+    },
+    {
+      "date": "2018-09",
+      "category": "employment",
+      "current_net_response": -10.3,
+      "future_net_response": 25.1
+    },
+    {
+      "date": "2018-11",
+      "category": "employment",
+      "current_net_response": -13.3,
+      "future_net_response": 23.1
+    },
+    {
+      "date": "2018-12",
+      "category": "employment",
+      "current_net_response": -8.7,
+      "future_net_response": 37.6
+    },
+    {
+      "date": "2019-03",
+      "category": "employment",
+      "current_net_response": 3.9,
+      "future_net_response": 46.4
+    },
+    {
+      "date": "2019-05",
+      "category": "employment",
+      "current_net_response": -10.5,
+      "future_net_response": 36.2
+    },
+    {
+      "date": "2019-07",
+      "category": "employment",
+      "current_net_response": -13.1,
+      "future_net_response": 30.9
+    },
+    {
+      "date": "2019-09",
+      "category": "employment",
+      "current_net_response": -24.5,
+      "future_net_response": 17.8
+    },
+    {
+      "date": "2019-11",
+      "category": "employment",
+      "current_net_response": -33.1,
+      "future_net_response": 10.3
+    },
+    {
+      "date": "2020-01",
+      "category": "employment",
+      "current_net_response": -33.1,
+      "future_net_response": 13.0
+    },
+    {
+      "date": "2020-03",
+      "category": "employment",
+      "current_net_response": -30.5,
+      "future_net_response": 14.7
+    },
+    {
+      "date": "2020-05",
+      "category": "employment",
+      "current_net_response": -48.2,
+      "future_net_response": -5.9
+    },
+    {
+      "date": "2020-07",
+      "category": "employment",
+      "current_net_response": -65.1,
+      "future_net_response": 10.4
+    },
+    {
+      "date": "2020-09",
+      "category": "employment",
+      "current_net_response": -71.6,
+      "future_net_response": 22.5
+    },
+    {
+      "date": "2020-11",
+      "category": "employment",
+      "current_net_response": -68.5,
+      "future_net_response": 18.9
+    },
+    {
+      "date": "2021-01",
+      "category": "employment",
+      "current_net_response": -62.3,
+      "future_net_response": 26.7
+    },
+    {
+      "date": "2021-03",
+      "category": "employment",
+      "current_net_response": -59.1,
+      "future_net_response": 13.3
+    },
+    {
+      "date": "2021-05",
+      "category": "employment",
+      "current_net_response": -73.0,
+      "future_net_response": -11.6
+    },
+    {
+      "date": "2021-07",
+      "category": "employment",
+      "current_net_response": -66.5,
+      "future_net_response": 2.0
+    },
+    {
+      "date": "2021-09",
+      "category": "employment",
+      "current_net_response": -55.3,
+      "future_net_response": 9.4
+    },
+    {
+      "date": "2021-11",
+      "category": "employment",
+      "current_net_response": -44.4,
+      "future_net_response": 16.0
+    },
+    {
+      "date": "2022-01",
+      "category": "employment",
+      "current_net_response": -48.0,
+      "future_net_response": 2.2
+    },
+    {
+      "date": "2022-03",
+      "category": "employment",
+      "current_net_response": -35.9,
+      "future_net_response": 22.7
+    },
+    {
+      "date": "2022-05",
+      "category": "employment",
+      "current_net_response": -27.6,
+      "future_net_response": 19.2
+    },
+    {
+      "date": "2022-07",
+      "category": "employment",
+      "current_net_response": -26.5,
+      "future_net_response": 18.7
+    },
+    {
+      "date": "2022-09",
+      "category": "employment",
+      "current_net_response": -25.6,
+      "future_net_response": 16.1
+    },
+    {
+      "date": "2022-11",
+      "category": "employment",
+      "current_net_response": -17.8,
+      "future_net_response": 21.2
+    },
+    {
+      "date": "2023-01",
+      "category": "employment",
+      "current_net_response": -19.9,
+      "future_net_response": 21.6
+    },
+    {
+      "date": "2023-03",
+      "category": "employment",
+      "current_net_response": -15.7,
+      "future_net_response": 22.8
+    },
+    {
+      "date": "2023-05",
+      "category": "employment",
+      "current_net_response": -15.6,
+      "future_net_response": 22.9
+    },
+    {
+      "date": "2023-07",
+      "category": "employment",
+      "current_net_response": -17.5,
+      "future_net_response": 21.1
+    },
+    {
+      "date": "2023-09",
+      "category": "employment",
+      "current_net_response": -10.2,
+      "future_net_response": 29.6
+    },
+    {
+      "date": "2023-11",
+      "category": "employment",
+      "current_net_response": -12.4,
+      "future_net_response": 26.9
+    },
+    {
+      "date": "2024-01",
+      "category": "employment",
+      "current_net_response": -6.0,
+      "future_net_response": 34.7
+    },
+    {
+      "date": "2024-03",
+      "category": "employment",
+      "current_net_response": -0.0,
+      "future_net_response": 37.4
+    },
+    {
+      "date": "2024-05",
+      "category": "employment",
+      "current_net_response": -3.3,
+      "future_net_response": 34.3
+    },
+    {
+      "date": "2024-07",
+      "category": "employment",
+      "current_net_response": -8.1,
+      "future_net_response": 26.8
+    },
+    {
+      "date": "2024-09",
+      "category": "employment",
+      "current_net_response": -7.3,
+      "future_net_response": 27.3
+    },
+    {
+      "date": "2024-11",
+      "category": "employment",
+      "current_net_response": -7.8,
+      "future_net_response": 28.1
+    },
+    {
+      "date": "2025-01",
+      "category": "employment",
+      "current_net_response": -8.2,
+      "future_net_response": 27.6
+    },
+    {
+      "date": "2025-03",
+      "category": "employment",
+      "current_net_response": -6.1,
+      "future_net_response": 29.3
+    },
+    {
+      "date": "2025-05",
+      "category": "employment",
+      "current_net_response": -5.9,
+      "future_net_response": 29.8
+    },
+    {
+      "date": "2025-07",
+      "category": "employment",
+      "current_net_response": -6.7,
+      "future_net_response": 31.0
+    },
+    {
+      "date": "2025-09",
+      "category": "employment",
+      "current_net_response": -6.2,
+      "future_net_response": 31.5
+    },
+    {
+      "date": "2025-11",
+      "category": "employment",
+      "current_net_response": -6.3,
+      "future_net_response": 31.6
+    },
+    {
+      "date": "2026-01",
+      "category": "employment",
+      "current_net_response": -6.2,
+      "future_net_response": 33.0
+    }
+  ],
+  "income": [
+    {
+      "date": "2012-09",
+      "category": "income",
+      "current_net_response": 31.7,
+      "future_net_response": 41.5
+    },
+    {
+      "date": "2012-12",
+      "category": "income",
+      "current_net_response": 37.1,
+      "future_net_response": 44.9
+    },
+    {
+      "date": "2013-03",
+      "category": "income",
+      "current_net_response": 30.3,
+      "future_net_response": 39.0
+    },
+    {
+      "date": "2013-06",
+      "category": "income",
+      "current_net_response": 30.1,
+      "future_net_response": 50.0
+    },
+    {
+      "date": "2013-09",
+      "category": "income",
+      "current_net_response": 12.6,
+      "future_net_response": 24.6
+    },
+    {
+      "date": "2013-12",
+      "category": "income",
+      "current_net_response": 15.4,
+      "future_net_response": 37.2
+    },
+    {
+      "date": "2014-03",
+      "category": "income",
+      "current_net_response": 22.8,
+      "future_net_response": 53.6
+    },
+    {
+      "date": "2014-06",
+      "category": "income",
+      "current_net_response": 24.8,
+      "future_net_response": 58.7
+    },
+    {
+      "date": "2014-09",
+      "category": "income",
+      "current_net_response": 32.7,
+      "future_net_response": 61.9
+    },
+    {
+      "date": "2014-12",
+      "category": "income",
+      "current_net_response": 25.5,
+      "future_net_response": 54.7
+    },
+    {
+      "date": "2015-03",
+      "category": "income",
+      "current_net_response": 16.9,
+      "future_net_response": 46.3
+    },
+    {
+      "date": "2015-06",
+      "category": "income",
+      "current_net_response": 13.6,
+      "future_net_response": 41.1
+    },
+    {
+      "date": "2015-09",
+      "category": "income",
+      "current_net_response": 8.6,
+      "future_net_response": 36.6
+    },
+    {
+      "date": "2015-12",
+      "category": "income",
+      "current_net_response": 7.7,
+      "future_net_response": 38.6
+    },
+    {
+      "date": "2016-03",
+      "category": "income",
+      "current_net_response": 11.6,
+      "future_net_response": 43.5
+    },
+    {
+      "date": "2016-06",
+      "category": "income",
+      "current_net_response": 11.5,
+      "future_net_response": 42.3
+    },
+    {
+      "date": "2016-09",
+      "category": "income",
+      "current_net_response": 11.1,
+      "future_net_response": 41.1
+    },
+    {
+      "date": "2016-11",
+      "category": "income",
+      "current_net_response": 20.1,
+      "future_net_response": 47.7
+    },
+    {
+      "date": "2016-12",
+      "category": "income",
+      "current_net_response": 1.3,
+      "future_net_response": 43.1
+    },
+    {
+      "date": "2017-03",
+      "category": "income",
+      "current_net_response": 2.7,
+      "future_net_response": 40.1
+    },
+    {
+      "date": "2017-05",
+      "category": "income",
+      "current_net_response": 4.4,
+      "future_net_response": 43.6
+    },
+    {
+      "date": "2017-06",
+      "category": "income",
+      "current_net_response": 1.4,
+      "future_net_response": 37.7
+    },
+    {
+      "date": "2017-09",
+      "category": "income",
+      "current_net_response": 1.1,
+      "future_net_response": 37.4
+    },
+    {
+      "date": "2017-11",
+      "category": "income",
+      "current_net_response": -3.1,
+      "future_net_response": 33.9
+    },
+    {
+      "date": "2017-12",
+      "category": "income",
+      "current_net_response": 1.6,
+      "future_net_response": 40.5
+    },
+    {
+      "date": "2018-03",
+      "category": "income",
+      "current_net_response": -0.9,
+      "future_net_response": 36.8
+    },
+    {
+      "date": "2018-05",
+      "category": "income",
+      "current_net_response": 3.0,
+      "future_net_response": 41.0
+    },
+    {
+      "date": "2018-06",
+      "category": "income",
+      "current_net_response": 5.0,
+      "future_net_response": 40.5
+    },
+    {
+      "date": "2018-09",
+      "category": "income",
+      "current_net_response": 4.9,
+      "future_net_response": 51.3
+    },
+    {
+      "date": "2018-11",
+      "category": "income",
+      "current_net_response": 9.4,
+      "future_net_response": 52.3
+    },
+    {
+      "date": "2018-12",
+      "category": "income",
+      "current_net_response": 7.8,
+      "future_net_response": 57.3
+    },
+    {
+      "date": "2019-03",
+      "category": "income",
+      "current_net_response": 10.2,
+      "future_net_response": 55.1
+    },
+    {
+      "date": "2019-05",
+      "category": "income",
+      "current_net_response": 8.2,
+      "future_net_response": 52.9
+    },
+    {
+      "date": "2019-07",
+      "category": "income",
+      "current_net_response": 2.9,
+      "future_net_response": 48.5
+    },
+    {
+      "date": "2019-09",
+      "category": "income",
+      "current_net_response": -1.7,
+      "future_net_response": 43.4
+    },
+    {
+      "date": "2019-11",
+      "category": "income",
+      "current_net_response": -2.6,
+      "future_net_response": 44.5
+    },
+    {
+      "date": "2020-01",
+      "category": "income",
+      "current_net_response": -5.0,
+      "future_net_response": 42.7
+    },
+    {
+      "date": "2020-03",
+      "category": "income",
+      "current_net_response": -2.2,
+      "future_net_response": 44.2
+    },
+    {
+      "date": "2020-05",
+      "category": "income",
+      "current_net_response": -40.8,
+      "future_net_response": 18.1
+    },
+    {
+      "date": "2020-07",
+      "category": "income",
+      "current_net_response": -54.5,
+      "future_net_response": 26.3
+    },
+    {
+      "date": "2020-09",
+      "category": "income",
+      "current_net_response": -53.8,
+      "future_net_response": 43.2
+    },
+    {
+      "date": "2020-11",
+      "category": "income",
+      "current_net_response": -54.7,
+      "future_net_response": 40.3
+    },
+    {
+      "date": "2021-01",
+      "category": "income",
+      "current_net_response": -51.0,
+      "future_net_response": 41.4
+    },
+    {
+      "date": "2021-03",
+      "category": "income",
+      "current_net_response": -50.4,
+      "future_net_response": 35.9
+    },
+    {
+      "date": "2021-05",
+      "category": "income",
+      "current_net_response": -47.2,
+      "future_net_response": 29.1
+    },
+    {
+      "date": "2021-07",
+      "category": "income",
+      "current_net_response": -56.9,
+      "future_net_response": 31.6
+    },
+    {
+      "date": "2021-09",
+      "category": "income",
+      "current_net_response": -46.1,
+      "future_net_response": 32.6
+    },
+    {
+      "date": "2021-11",
+      "category": "income",
+      "current_net_response": -38.1,
+      "future_net_response": 36.6
+    },
+    {
+      "date": "2022-01",
+      "category": "income",
+      "current_net_response": -37.4,
+      "future_net_response": 29.0
+    },
+    {
+      "date": "2022-03",
+      "category": "income",
+      "current_net_response": -26.0,
+      "future_net_response": 44.3
+    },
+    {
+      "date": "2022-05",
+      "category": "income",
+      "current_net_response": -18.8,
+      "future_net_response": 44.0
+    },
+    {
+      "date": "2022-07",
+      "category": "income",
+      "current_net_response": -17.7,
+      "future_net_response": 43.3
+    },
+    {
+      "date": "2022-09",
+      "category": "income",
+      "current_net_response": -14.2,
+      "future_net_response": 42.4
+    },
+    {
+      "date": "2022-11",
+      "category": "income",
+      "current_net_response": -12.0,
+      "future_net_response": 44.9
+    },
+    {
+      "date": "2023-01",
+      "category": "income",
+      "current_net_response": -8.3,
+      "future_net_response": 47.6
+    },
+    {
+      "date": "2023-03",
+      "category": "income",
+      "current_net_response": -5.9,
+      "future_net_response": 46.7
+    },
+    {
+      "date": "2023-05",
+      "category": "income",
+      "current_net_response": -2.4,
+      "future_net_response": 46.9
+    },
+    {
+      "date": "2023-07",
+      "category": "income",
+      "current_net_response": 0.6,
+      "future_net_response": 48.0
+    },
+    {
+      "date": "2023-09",
+      "category": "income",
+      "current_net_response": -0.3,
+      "future_net_response": 49.2
+    },
+    {
+      "date": "2023-11",
+      "category": "income",
+      "current_net_response": 4.5,
+      "future_net_response": 51.8
+    },
+    {
+      "date": "2024-01",
+      "category": "income",
+      "current_net_response": 4.2,
+      "future_net_response": 49.4
+    },
+    {
+      "date": "2024-03",
+      "category": "income",
+      "current_net_response": 6.0,
+      "future_net_response": 50.5
+    },
+    {
+      "date": "2024-05",
+      "category": "income",
+      "current_net_response": 2.9,
+      "future_net_response": 50.7
+    },
+    {
+      "date": "2024-07",
+      "category": "income",
+      "current_net_response": -0.5,
+      "future_net_response": 49.1
+    },
+    {
+      "date": "2024-09",
+      "category": "income",
+      "current_net_response": -0.2,
+      "future_net_response": 49.9
+    },
+    {
+      "date": "2024-11",
+      "category": "income",
+      "current_net_response": -0.7,
+      "future_net_response": 50.2
+    },
+    {
+      "date": "2025-01",
+      "category": "income",
+      "current_net_response": -1.0,
+      "future_net_response": 49.1
+    },
+    {
+      "date": "2025-03",
+      "category": "income",
+      "current_net_response": 0.5,
+      "future_net_response": 51.0
+    },
+    {
+      "date": "2025-05",
+      "category": "income",
+      "current_net_response": 0.4,
+      "future_net_response": 52.3
+    },
+    {
+      "date": "2025-07",
+      "category": "income",
+      "current_net_response": 2.1,
+      "future_net_response": 52.6
+    },
+    {
+      "date": "2025-09",
+      "category": "income",
+      "current_net_response": 3.2,
+      "future_net_response": 53.0
+    },
+    {
+      "date": "2025-11",
+      "category": "income",
+      "current_net_response": 3.5,
+      "future_net_response": 53.1
+    },
+    {
+      "date": "2026-01",
+      "category": "income",
+      "current_net_response": 3.3,
+      "future_net_response": 50.1
+    }
+  ],
+  "inflation": [
+    {
+      "date": "2012-09",
+      "category": "inflation",
+      "current_net_response": -89.1,
+      "future_net_response": -88.0
+    },
+    {
+      "date": "2012-12",
+      "category": "inflation",
+      "current_net_response": -92.2,
+      "future_net_response": -85.1
+    },
+    {
+      "date": "2013-03",
+      "category": "inflation",
+      "current_net_response": -88.9,
+      "future_net_response": -85.7
+    },
+    {
+      "date": "2013-06",
+      "category": "inflation",
+      "current_net_response": -92.3,
+      "future_net_response": -90.0
+    },
+    {
+      "date": "2013-09",
+      "category": "inflation",
+      "current_net_response": -86.3,
+      "future_net_response": -81.6
+    },
+    {
+      "date": "2013-12",
+      "category": "inflation",
+      "current_net_response": -93.0,
+      "future_net_response": -86.6
+    },
+    {
+      "date": "2014-03",
+      "category": "inflation",
+      "current_net_response": -82.2,
+      "future_net_response": -77.9
+    },
+    {
+      "date": "2014-06",
+      "category": "inflation",
+      "current_net_response": -85.4,
+      "future_net_response": -82.4
+    },
+    {
+      "date": "2014-09",
+      "category": "inflation",
+      "current_net_response": -86.6,
+      "future_net_response": -84.8
+    },
+    {
+      "date": "2014-12",
+      "category": "inflation",
+      "current_net_response": -79.8,
+      "future_net_response": -78.8
+    },
+    {
+      "date": "2015-03",
+      "category": "inflation",
+      "current_net_response": -78.7,
+      "future_net_response": -79.8
+    },
+    {
+      "date": "2015-06",
+      "category": "inflation",
+      "current_net_response": -85.5,
+      "future_net_response": -80.5
+    },
+    {
+      "date": "2015-09",
+      "category": "inflation",
+      "current_net_response": -80.0,
+      "future_net_response": -78.5
+    },
+    {
+      "date": "2015-12",
+      "category": "inflation",
+      "current_net_response": -83.4,
+      "future_net_response": -82.6
+    },
+    {
+      "date": "2016-03",
+      "category": "inflation",
+      "current_net_response": -79.3,
+      "future_net_response": -78.0
+    },
+    {
+      "date": "2016-06",
+      "category": "inflation",
+      "current_net_response": -83.0,
+      "future_net_response": -79.6
+    },
+    {
+      "date": "2016-09",
+      "category": "inflation",
+      "current_net_response": -45.9,
+      "future_net_response": -51.0
+    },
+    {
+      "date": "2016-11",
+      "category": "inflation",
+      "current_net_response": -47.2,
+      "future_net_response": -52.1
+    },
+    {
+      "date": "2016-12",
+      "category": "inflation",
+      "current_net_response": -33.5,
+      "future_net_response": -41.8
+    },
+    {
+      "date": "2017-03",
+      "category": "inflation",
+      "current_net_response": -73.5,
+      "future_net_response": -73.6
+    },
+    {
+      "date": "2017-05",
+      "category": "inflation",
+      "current_net_response": -74.0,
+      "future_net_response": -76.1
+    },
+    {
+      "date": "2017-06",
+      "category": "inflation",
+      "current_net_response": -71.4,
+      "future_net_response": -70.8
+    },
+    {
+      "date": "2017-09",
+      "category": "inflation",
+      "current_net_response": -73.2,
+      "future_net_response": -72.5
+    },
+    {
+      "date": "2017-11",
+      "category": "inflation",
+      "current_net_response": -77.1,
+      "future_net_response": -75.0
+    },
+    {
+      "date": "2017-12",
+      "category": "inflation",
+      "current_net_response": -74.5,
+      "future_net_response": -72.0
+    },
+    {
+      "date": "2018-03",
+      "category": "inflation",
+      "current_net_response": -74.4,
+      "future_net_response": -75.4
+    },
+    {
+      "date": "2018-05",
+      "category": "inflation",
+      "current_net_response": -73.5,
+      "future_net_response": -73.7
+    },
+    {
+      "date": "2018-06",
+      "category": "inflation",
+      "current_net_response": -74.2,
+      "future_net_response": -72.5
+    },
+    {
+      "date": "2018-09",
+      "category": "inflation",
+      "current_net_response": -74.7,
+      "future_net_response": -73.7
+    },
+    {
+      "date": "2018-11",
+      "category": "inflation",
+      "current_net_response": -73.9,
+      "future_net_response": -69.8
+    },
+    {
+      "date": "2018-12",
+      "category": "inflation",
+      "current_net_response": -71.0,
+      "future_net_response": -69.9
+    },
+    {
+      "date": "2019-03",
+      "category": "inflation",
+      "current_net_response": -64.9,
+      "future_net_response": -66.6
+    },
+    {
+      "date": "2019-05",
+      "category": "inflation",
+      "current_net_response": -69.6,
+      "future_net_response": -71.9
+    },
+    {
+      "date": "2019-07",
+      "category": "inflation",
+      "current_net_response": -67.3,
+      "future_net_response": -73.7
+    },
+    {
+      "date": "2019-09",
+      "category": "inflation",
+      "current_net_response": -67.9,
+      "future_net_response": -71.8
+    },
+    {
+      "date": "2019-11",
+      "category": "inflation",
+      "current_net_response": -71.7,
+      "future_net_response": -71.9
+    },
+    {
+      "date": "2020-01",
+      "category": "inflation",
+      "current_net_response": -80.9,
+      "future_net_response": -75.3
+    },
+    {
+      "date": "2020-03",
+      "category": "inflation",
+      "current_net_response": -77.3,
+      "future_net_response": -71.5
+    },
+    {
+      "date": "2020-05",
+      "category": "inflation",
+      "current_net_response": -68.2,
+      "future_net_response": -66.3
+    },
+    {
+      "date": "2020-07",
+      "category": "inflation",
+      "current_net_response": -75.3,
+      "future_net_response": -71.4
+    },
+    {
+      "date": "2020-09",
+      "category": "inflation",
+      "current_net_response": -79.1,
+      "future_net_response": -71.3
+    },
+    {
+      "date": "2020-11",
+      "category": "inflation",
+      "current_net_response": -85.5,
+      "future_net_response": -73.4
+    },
+    {
+      "date": "2021-01",
+      "category": "inflation",
+      "current_net_response": -80.4,
+      "future_net_response": -72.7
+    },
+    {
+      "date": "2021-03",
+      "category": "inflation",
+      "current_net_response": -86.0,
+      "future_net_response": -76.6
+    },
+    {
+      "date": "2021-05",
+      "category": "inflation",
+      "current_net_response": -84.0,
+      "future_net_response": -76.0
+    },
+    {
+      "date": "2021-07",
+      "category": "inflation",
+      "current_net_response": -85.6,
+      "future_net_response": -75.5
+    },
+    {
+      "date": "2021-09",
+      "category": "inflation",
+      "current_net_response": -85.3,
+      "future_net_response": -78.6
+    },
+    {
+      "date": "2021-11",
+      "category": "inflation",
+      "current_net_response": -88.4,
+      "future_net_response": -77.9
+    },
+    {
+      "date": "2022-01",
+      "category": "inflation",
+      "current_net_response": -84.9,
+      "future_net_response": -77.0
+    },
+    {
+      "date": "2022-03",
+      "category": "inflation",
+      "current_net_response": -86.2,
+      "future_net_response": -80.2
+    },
+    {
+      "date": "2022-05",
+      "category": "inflation",
+      "current_net_response": -89.7,
+      "future_net_response": -77.6
+    },
+    {
+      "date": "2022-07",
+      "category": "inflation",
+      "current_net_response": -85.9,
+      "future_net_response": -77.2
+    },
+    {
+      "date": "2022-09",
+      "category": "inflation",
+      "current_net_response": -87.0,
+      "future_net_response": -75.7
+    },
+    {
+      "date": "2022-11",
+      "category": "inflation",
+      "current_net_response": -84.2,
+      "future_net_response": -79.1
+    },
+    {
+      "date": "2023-01",
+      "category": "inflation",
+      "current_net_response": -83.6,
+      "future_net_response": -76.2
+    },
+    {
+      "date": "2023-03",
+      "category": "inflation",
+      "current_net_response": -82.9,
+      "future_net_response": -76.8
+    },
+    {
+      "date": "2023-05",
+      "category": "inflation",
+      "current_net_response": -80.6,
+      "future_net_response": -77.8
+    },
+    {
+      "date": "2023-07",
+      "category": "inflation",
+      "current_net_response": -80.8,
+      "future_net_response": -76.4
+    },
+    {
+      "date": "2023-09",
+      "category": "inflation",
+      "current_net_response": -78.3,
+      "future_net_response": -74.5
+    },
+    {
+      "date": "2023-11",
+      "category": "inflation",
+      "current_net_response": -77.2,
+      "future_net_response": -75.0
+    },
+    {
+      "date": "2024-01",
+      "category": "inflation",
+      "current_net_response": -74.7,
+      "future_net_response": -72.2
+    },
+    {
+      "date": "2024-03",
+      "category": "inflation",
+      "current_net_response": -71.6,
+      "future_net_response": -71.7
+    },
+    {
+      "date": "2024-05",
+      "category": "inflation",
+      "current_net_response": -70.6,
+      "future_net_response": -74.3
+    },
+    {
+      "date": "2024-07",
+      "category": "inflation",
+      "current_net_response": -74.5,
+      "future_net_response": -75.0
+    },
+    {
+      "date": "2024-09",
+      "category": "inflation",
+      "current_net_response": -74.5,
+      "future_net_response": -73.4
+    },
+    {
+      "date": "2024-11",
+      "category": "inflation",
+      "current_net_response": -77.1,
+      "future_net_response": -73.6
+    },
+    {
+      "date": "2025-01",
+      "category": "inflation",
+      "current_net_response": -74.2,
+      "future_net_response": -74.2
+    },
+    {
+      "date": "2025-03",
+      "category": "inflation",
+      "current_net_response": -72.7,
+      "future_net_response": -72.0
+    },
+    {
+      "date": "2025-05",
+      "category": "inflation",
+      "current_net_response": -70.7,
+      "future_net_response": -70.8
+    },
+    {
+      "date": "2025-07",
+      "category": "inflation",
+      "current_net_response": -70.0,
+      "future_net_response": -70.3
+    },
+    {
+      "date": "2025-09",
+      "category": "inflation",
+      "current_net_response": -70.2,
+      "future_net_response": -68.9
+    },
+    {
+      "date": "2025-11",
+      "category": "inflation",
+      "current_net_response": -68.2,
+      "future_net_response": -68.1
+    },
+    {
+      "date": "2026-01",
+      "category": "inflation",
+      "current_net_response": -70.9,
+      "future_net_response": -71.7
+    }
+  ],
+  "prices": [
+    {
+      "date": "2012-09",
+      "category": "prices",
+      "current_net_response": -96.0,
+      "future_net_response": -93.3
+    },
+    {
+      "date": "2012-12",
+      "category": "prices",
+      "current_net_response": -94.5,
+      "future_net_response": -91.9
+    },
+    {
+      "date": "2013-03",
+      "category": "prices",
+      "current_net_response": -90.2,
+      "future_net_response": -89.8
+    },
+    {
+      "date": "2013-06",
+      "category": "prices",
+      "current_net_response": -95.7,
+      "future_net_response": -87.7
+    },
+    {
+      "date": "2013-09",
+      "category": "prices",
+      "current_net_response": -81.8,
+      "future_net_response": -78.2
+    },
+    {
+      "date": "2013-12",
+      "category": "prices",
+      "current_net_response": -93.5,
+      "future_net_response": -80.0
+    },
+    {
+      "date": "2014-03",
+      "category": "prices",
+      "current_net_response": -86.9,
+      "future_net_response": -67.2
+    },
+    {
+      "date": "2014-06",
+      "category": "prices",
+      "current_net_response": -88.2,
+      "future_net_response": -69.5
+    },
+    {
+      "date": "2014-09",
+      "category": "prices",
+      "current_net_response": -89.2,
+      "future_net_response": -71.0
+    },
+    {
+      "date": "2014-12",
+      "category": "prices",
+      "current_net_response": -82.8,
+      "future_net_response": -55.6
+    },
+    {
+      "date": "2015-03",
+      "category": "prices",
+      "current_net_response": -73.6,
+      "future_net_response": -65.5
+    },
+    {
+      "date": "2015-06",
+      "category": "prices",
+      "current_net_response": -77.6,
+      "future_net_response": -73.8
+    },
+    {
+      "date": "2015-09",
+      "category": "prices",
+      "current_net_response": -71.1,
+      "future_net_response": -68.5
+    },
+    {
+      "date": "2015-12",
+      "category": "prices",
+      "current_net_response": -70.0,
+      "future_net_response": -69.5
+    },
+    {
+      "date": "2016-03",
+      "category": "prices",
+      "current_net_response": -66.9,
+      "future_net_response": -68.8
+    },
+    {
+      "date": "2016-06",
+      "category": "prices",
+      "current_net_response": -68.7,
+      "future_net_response": -72.6
+    },
+    {
+      "date": "2016-09",
+      "category": "prices",
+      "current_net_response": -73.6,
+      "future_net_response": -70.9
+    },
+    {
+      "date": "2016-11",
+      "category": "prices",
+      "current_net_response": -78.6,
+      "future_net_response": -77.7
+    },
+    {
+      "date": "2016-12",
+      "category": "prices",
+      "current_net_response": -66.2,
+      "future_net_response": -55.0
+    },
+    {
+      "date": "2017-03",
+      "category": "prices",
+      "current_net_response": -80.7,
+      "future_net_response": -72.4
+    },
+    {
+      "date": "2017-05",
+      "category": "prices",
+      "current_net_response": -78.0,
+      "future_net_response": -70.9
+    },
+    {
+      "date": "2017-06",
+      "category": "prices",
+      "current_net_response": -81.8,
+      "future_net_response": -66.0
+    },
+    {
+      "date": "2017-09",
+      "category": "prices",
+      "current_net_response": -84.4,
+      "future_net_response": -72.9
+    },
+    {
+      "date": "2017-11",
+      "category": "prices",
+      "current_net_response": -86.9,
+      "future_net_response": -75.4
+    },
+    {
+      "date": "2017-12",
+      "category": "prices",
+      "current_net_response": -87.3,
+      "future_net_response": -72.0
+    },
+    {
+      "date": "2018-03",
+      "category": "prices",
+      "current_net_response": -83.5,
+      "future_net_response": -74.8
+    },
+    {
+      "date": "2018-05",
+      "category": "prices",
+      "current_net_response": -84.6,
+      "future_net_response": -76.3
+    },
+    {
+      "date": "2018-06",
+      "category": "prices",
+      "current_net_response": -86.0,
+      "future_net_response": -77.4
+    },
+    {
+      "date": "2018-09",
+      "category": "prices",
+      "current_net_response": -85.1,
+      "future_net_response": -72.2
+    },
+    {
+      "date": "2018-11",
+      "category": "prices",
+      "current_net_response": -84.5,
+      "future_net_response": -72.0
+    },
+    {
+      "date": "2018-12",
+      "category": "prices",
+      "current_net_response": -79.5,
+      "future_net_response": -59.1
+    },
+    {
+      "date": "2019-03",
+      "category": "prices",
+      "current_net_response": -72.0,
+      "future_net_response": -57.8
+    },
+    {
+      "date": "2019-05",
+      "category": "prices",
+      "current_net_response": -77.3,
+      "future_net_response": -59.3
+    },
+    {
+      "date": "2019-07",
+      "category": "prices",
+      "current_net_response": -78.4,
+      "future_net_response": -63.9
+    },
+    {
+      "date": "2019-09",
+      "category": "prices",
+      "current_net_response": -82.8,
+      "future_net_response": -65.6
+    },
+    {
+      "date": "2019-11",
+      "category": "prices",
+      "current_net_response": -83.9,
+      "future_net_response": -70.1
+    },
+    {
+      "date": "2020-01",
+      "category": "prices",
+      "current_net_response": -88.7,
+      "future_net_response": -66.7
+    },
+    {
+      "date": "2020-03",
+      "category": "prices",
+      "current_net_response": -84.6,
+      "future_net_response": -70.4
+    },
+    {
+      "date": "2020-05",
+      "category": "prices",
+      "current_net_response": -75.8,
+      "future_net_response": -66.4
+    },
+    {
+      "date": "2020-07",
+      "category": "prices",
+      "current_net_response": -76.2,
+      "future_net_response": -61.5
+    },
+    {
+      "date": "2020-09",
+      "category": "prices",
+      "current_net_response": -80.4,
+      "future_net_response": -59.5
+    },
+    {
+      "date": "2020-11",
+      "category": "prices",
+      "current_net_response": -88.3,
+      "future_net_response": -58.4
+    },
+    {
+      "date": "2021-01",
+      "category": "prices",
+      "current_net_response": -86.9,
+      "future_net_response": -63.5
+    },
+    {
+      "date": "2021-03",
+      "category": "prices",
+      "current_net_response": -92.8,
+      "future_net_response": -64.6
+    },
+    {
+      "date": "2021-05",
+      "category": "prices",
+      "current_net_response": -88.5,
+      "future_net_response": -64.4
+    },
+    {
+      "date": "2021-07",
+      "category": "prices",
+      "current_net_response": -90.8,
+      "future_net_response": -59.4
+    },
+    {
+      "date": "2021-09",
+      "category": "prices",
+      "current_net_response": -91.0,
+      "future_net_response": -64.5
+    },
+    {
+      "date": "2021-11",
+      "category": "prices",
+      "current_net_response": -94.2,
+      "future_net_response": -65.7
+    },
+    {
+      "date": "2022-01",
+      "category": "prices",
+      "current_net_response": -92.2,
+      "future_net_response": -68.6
+    },
+    {
+      "date": "2022-03",
+      "category": "prices",
+      "current_net_response": -92.1,
+      "future_net_response": -68.6
+    },
+    {
+      "date": "2022-05",
+      "category": "prices",
+      "current_net_response": -94.9,
+      "future_net_response": -71.1
+    },
+    {
+      "date": "2022-07",
+      "category": "prices",
+      "current_net_response": -94.3,
+      "future_net_response": -71.6
+    },
+    {
+      "date": "2022-09",
+      "category": "prices",
+      "current_net_response": -93.6,
+      "future_net_response": -70.8
+    },
+    {
+      "date": "2022-11",
+      "category": "prices",
+      "current_net_response": -93.9,
+      "future_net_response": -73.6
+    },
+    {
+      "date": "2023-01",
+      "category": "prices",
+      "current_net_response": -92.3,
+      "future_net_response": -76.0
+    },
+    {
+      "date": "2023-03",
+      "category": "prices",
+      "current_net_response": -92.9,
+      "future_net_response": -77.5
+    },
+    {
+      "date": "2023-05",
+      "category": "prices",
+      "current_net_response": -90.8,
+      "future_net_response": -75.4
+    },
+    {
+      "date": "2023-07",
+      "category": "prices",
+      "current_net_response": -91.4,
+      "future_net_response": -72.0
+    },
+    {
+      "date": "2023-09",
+      "category": "prices",
+      "current_net_response": -90.0,
+      "future_net_response": -66.8
+    },
+    {
+      "date": "2023-11",
+      "category": "prices",
+      "current_net_response": -89.9,
+      "future_net_response": -72.3
+    },
+    {
+      "date": "2024-01",
+      "category": "prices",
+      "current_net_response": -88.9,
+      "future_net_response": -71.4
+    },
+    {
+      "date": "2024-03",
+      "category": "prices",
+      "current_net_response": -87.8,
+      "future_net_response": -68.8
+    },
+    {
+      "date": "2024-05",
+      "category": "prices",
+      "current_net_response": -88.9,
+      "future_net_response": -68.4
+    },
+    {
+      "date": "2024-07",
+      "category": "prices",
+      "current_net_response": -92.6,
+      "future_net_response": -74.3
+    },
+    {
+      "date": "2024-09",
+      "category": "prices",
+      "current_net_response": -92.4,
+      "future_net_response": -73.3
+    },
+    {
+      "date": "2024-11",
+      "category": "prices",
+      "current_net_response": -93.6,
+      "future_net_response": -73.8
+    },
+    {
+      "date": "2025-01",
+      "category": "prices",
+      "current_net_response": -92.0,
+      "future_net_response": -75.1
+    },
+    {
+      "date": "2025-03",
+      "category": "prices",
+      "current_net_response": -89.7,
+      "future_net_response": -73.8
+    },
+    {
+      "date": "2025-05",
+      "category": "prices",
+      "current_net_response": -88.5,
+      "future_net_response": -73.1
+    },
+    {
+      "date": "2025-07",
+      "category": "prices",
+      "current_net_response": -87.0,
+      "future_net_response": -72.4
+    },
+    {
+      "date": "2025-09",
+      "category": "prices",
+      "current_net_response": -87.3,
+      "future_net_response": -71.1
+    },
+    {
+      "date": "2025-11",
+      "category": "prices",
+      "current_net_response": -78.9,
+      "future_net_response": -68.8
+    },
+    {
+      "date": "2026-01",
+      "category": "prices",
+      "current_net_response": -81.2,
+      "future_net_response": -75.2
+    }
+  ]
+}

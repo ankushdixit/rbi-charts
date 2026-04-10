@@ -85,6 +85,48 @@ const SPARKLINES: Record<string, React.ReactNode> = {
       })}
     </>
   ),
+  // Two parallel lines - current (red, below zero) and future (green, above zero)
+  "consumer-confidence": (
+    <>
+      <line x1="0" y1="15" x2="80" y2="15" stroke="#e7e1d8" strokeWidth="0.5" />
+      <path d="M0,20 Q10,22 20,24 Q30,19 40,22 Q50,18 60,20 Q70,21 80,19" stroke="#d4827a" strokeWidth="1.5" fill="none" opacity="0.7" />
+      <path d="M0,8 Q10,6 20,9 Q30,5 40,7 Q50,4 60,6 Q70,5 80,6" stroke="#5ea88e" strokeWidth="1.5" fill="none" opacity="0.7" />
+    </>
+  ),
+  // Rising bars - IT exports growing each quarter
+  "it-exports": (
+    <>
+      {[0, 9, 18, 27, 36, 45, 54, 63].map((x, i) => {
+        const heights = [10, 12, 14, 16, 18, 20, 23, 26];
+        return <rect key={i} x={x} y={30 - heights[i]} width="7" height={heights[i]} rx="1" fill={STORY_COLORS["it-exports"]} opacity={0.5 + i * 0.06} />;
+      })}
+    </>
+  ),
+  // Stacked bars with a line on top - reserves illusion
+  "reserves-illusion": (
+    <>
+      <line x1="0" y1="15" x2="80" y2="15" stroke="#e7e1d8" strokeWidth="0.5" />
+      {[0, 14, 28, 42, 56].map((x, i) => {
+        const ca = [-8, 4, -12, -6, -10];
+        const val = [0, 0, 0, 2, 16];
+        const caH = Math.abs(ca[i]);
+        const caY = ca[i] > 0 ? 15 - caH : 15;
+        return <g key={i}>
+          <rect x={x} y={caY} width="10" height={caH} rx="1" fill="#d4827a" opacity="0.5" />
+          <rect x={x} y={15 - val[i]} width="10" height={val[i] || 0.5} rx="1" fill="#c9a46c" opacity="0.6" />
+        </g>;
+      })}
+    </>
+  ),
+  // Stacked area - personal loans growing
+  "personal-loans": (
+    <>
+      <path d="M0,28 L13,26 27,22 40,16 53,15 67,14 80,13 L80,30 L0,30Z" fill={STORY_COLORS["it-exports"]} opacity="0.25" />
+      <path d="M0,24 L13,22 27,18 40,12 53,11 67,10 80,9 L80,13 L67,14 53,15 40,16 27,22 13,26 0,28Z" fill="#9b8ec4" opacity="0.25" />
+      <path d="M0,22 L13,20 27,16 40,10 53,9 67,8 80,7 L80,9 L67,10 53,11 40,12 27,18 13,22 0,24Z" fill="#e08a6d" opacity="0.3" />
+      <path d="M0,22 L13,20 27,16 40,10 53,9 67,8 80,7" stroke={STORY_COLORS["personal-loans"]} strokeWidth="1.5" fill="none" />
+    </>
+  ),
 };
 
 export default function Home() {
@@ -102,7 +144,7 @@ export default function Home() {
           The Indian Economy, Visualized.
         </h1>
         <p className="text-base md:text-lg text-[#78716c] leading-relaxed max-w-[520px] mx-auto">
-          Nine interactive stories from official Reserve Bank of India data.
+          Thirteen interactive stories from official Reserve Bank of India data.
           Free forever.
         </p>
       </section>

@@ -19,6 +19,7 @@ export const THEME_COLORS: Record<string, string> = {
   "Payments Revolution": "#5b7fc4",
   "India's Money Story": "#c4976a",
   "Deep Dives": "#5b9ea6",
+  "External Sector": "#b8956e",
 };
 
 /** Per-story colors - pastel palette */
@@ -32,6 +33,10 @@ export const STORY_COLORS: Record<string, string> = {
   "money-flow": "#c9a46c",
   "inflation-gap": "#c4976a",
   "hot-money": "#5b9ea6",
+  "it-exports": "#4a90d9",
+  "reserves-illusion": "#b8956e",
+  "consumer-confidence": "#6aab93",
+  "personal-loans": "#c47a8a",
 };
 
 export const THEMES = {
@@ -51,7 +56,13 @@ export const THEMES = {
     tag: "SURVEYS & FLOWS",
     heading: "Expectations & Capital",
     subtitle: "Inflation expectations, capital flows, and the data behind the headlines.",
-    slugs: ["inflation-gap", "hot-money"],
+    slugs: ["inflation-gap", "hot-money", "consumer-confidence"],
+  },
+  "External Sector": {
+    tag: "EXTERNAL SECTOR",
+    heading: "India and the World",
+    subtitle: "IT exports, forex reserves, and what really drives India's external account.",
+    slugs: ["it-exports", "reserves-illusion", "personal-loans"],
   },
 };
 
@@ -148,6 +159,47 @@ export const STORIES: Story[] = [
     href: "/stories/hot-money",
     sparkline: [0.445, 0.544, 0.267, 0.0, 0.017, 0.62, 0.565, 0.386, 0.883, 0.575, 0.776, 0.759, 0.461, 1.0, 0.11, 0.267, 0.48, 0.27, 0.429],
     sparklineType: "volatile",
+  },
+  {
+    slug: "consumer-confidence",
+    title: "The Perpetual Optimist",
+    subtitle: "Pessimists about today, optimists about tomorrow. 73 surveys prove it.",
+    category: "Surveys",
+    theme: "Deep Dives",
+    href: "/stories/consumer-confidence",
+    sparkline: [0.49, 0.48, 0.35, 0.36, 0.3, 0.3, 0.39, 0.35, 0.4, 0.42, 0.52, 0.44, 0.5, 0.48, 0.4, 0.39, 0.44, 0.0, 0.07, 0.22, 0.3, 0.4, 0.45, 0.5],
+    sparklineType: "volatile",
+  },
+  // External Sector
+  {
+    slug: "it-exports",
+    title: "India's IT Export Machine",
+    subtitle: "$93B to $181B in five years. India's largest forex earner keeps growing.",
+    category: "Exports",
+    theme: "External Sector",
+    href: "/stories/it-exports",
+    sparkline: [0.0, 0.08, 0.17, 0.32, 0.34, 0.43, 0.41, 0.48, 0.52, 0.56, 0.61, 0.65, 0.69, 0.72, 0.79, 0.85, 0.9, 0.96, 1.0],
+    sparklineType: "rising",
+  },
+  {
+    slug: "reserves-illusion",
+    title: "The Reserve Illusion",
+    subtitle: "Reserves grew $19.4B, but $50.2B was just valuation. The real flow was -$30.8B.",
+    category: "Reserves",
+    theme: "External Sector",
+    href: "/stories/reserves-illusion",
+    sparkline: [0.6, 0.9, 0.5, 0.0, 0.7, 0.28, 0.1, 0.55],
+    sparklineType: "volatile",
+  },
+  {
+    slug: "personal-loans",
+    title: "The Personal Loan Explosion",
+    subtitle: "Personal loans doubled to 62 lakh crore. Housing, credit cards, and fintech.",
+    category: "Credit",
+    theme: "External Sector",
+    href: "/stories/personal-loans",
+    sparkline: [0.0, 0.15, 0.37, 0.74, 0.79, 0.81, 0.82, 0.84, 0.86, 0.89, 0.91, 0.93, 0.95, 0.97, 0.98, 1.0],
+    sparklineType: "rising",
   },
 ];
 

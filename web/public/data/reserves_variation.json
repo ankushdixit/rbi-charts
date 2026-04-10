@@ -1,0 +1,244 @@
+{
+  "annual": [
+    {
+      "period": "FY2019-20",
+      "type": "annual",
+      "merchandise_net_usd_mn": -157506.0,
+      "invisibles_net_usd_mn": 132850.0,
+      "current_account_net_usd_mn": -24656.0,
+      "foreign_investment_net_usd_mn": 44417.0,
+      "fdi_net_usd_mn": 43013.0,
+      "portfolio_net_usd_mn": 1403.0,
+      "capital_account_net_usd_mn": 83180.0,
+      "errors_omissions_net_usd_mn": 974.0,
+      "overall_balance_net_usd_mn": 59498.0,
+      "fx_reserves_change_usd_mn": -59498.0
+    },
+    {
+      "period": "FY2020-21",
+      "type": "annual",
+      "merchandise_net_usd_mn": -102152.0,
+      "invisibles_net_usd_mn": 126065.0,
+      "current_account_net_usd_mn": 23912.0,
+      "foreign_investment_net_usd_mn": 80092.0,
+      "fdi_net_usd_mn": 43955.0,
+      "portfolio_net_usd_mn": 36137.0,
+      "capital_account_net_usd_mn": 63721.0,
+      "errors_omissions_net_usd_mn": -347.0,
+      "overall_balance_net_usd_mn": 87286.0,
+      "fx_reserves_change_usd_mn": -87286.0
+    },
+    {
+      "period": "FY2021-22",
+      "type": "annual",
+      "merchandise_net_usd_mn": -189459.0,
+      "invisibles_net_usd_mn": 150694.0,
+      "current_account_net_usd_mn": -38766.0,
+      "foreign_investment_net_usd_mn": 21809.0,
+      "fdi_net_usd_mn": 38587.0,
+      "portfolio_net_usd_mn": -16777.0,
+      "capital_account_net_usd_mn": 85807.0,
+      "errors_omissions_net_usd_mn": 459.0,
+      "overall_balance_net_usd_mn": 47501.0,
+      "fx_reserves_change_usd_mn": -47501.0
+    },
+    {
+      "period": "FY2022-23",
+      "type": "annual",
+      "merchandise_net_usd_mn": -265291.0,
+      "invisibles_net_usd_mn": 198236.0,
+      "current_account_net_usd_mn": -67055.0,
+      "foreign_investment_net_usd_mn": 22834.0,
+      "fdi_net_usd_mn": 27986.0,
+      "portfolio_net_usd_mn": -5152.0,
+      "capital_account_net_usd_mn": 58943.0,
+      "errors_omissions_net_usd_mn": -1024.0,
+      "overall_balance_net_usd_mn": -9135.0,
+      "fx_reserves_change_usd_mn": 9135.0
+    },
+    {
+      "period": "FY2023-24",
+      "type": "annual",
+      "merchandise_net_usd_mn": -244911.0,
+      "invisibles_net_usd_mn": 218800.0,
+      "current_account_net_usd_mn": -26111.0,
+      "foreign_investment_net_usd_mn": 54233.0,
+      "fdi_net_usd_mn": 10152.0,
+      "portfolio_net_usd_mn": 44081.0,
+      "capital_account_net_usd_mn": 89411.0,
+      "errors_omissions_net_usd_mn": 402.0,
+      "overall_balance_net_usd_mn": 63702.0,
+      "fx_reserves_change_usd_mn": -63702.0,
+      "actual_reserves_change_usd_mn": 63800.0,
+      "bop_reserves_change_usd_mn": 63702.0,
+      "valuation_usd_mn": 98.0
+    },
+    {
+      "period": "FY2024-25",
+      "type": "annual",
+      "merchandise_net_usd_mn": -287214.0,
+      "invisibles_net_usd_mn": 263846.0,
+      "current_account_net_usd_mn": -23368.0,
+      "foreign_investment_net_usd_mn": 4523.0,
+      "fdi_net_usd_mn": 959.0,
+      "portfolio_net_usd_mn": 3564.0,
+      "capital_account_net_usd_mn": 16788.0,
+      "errors_omissions_net_usd_mn": 1547.0,
+      "overall_balance_net_usd_mn": -5032.0,
+      "fx_reserves_change_usd_mn": 5032.0,
+      "actual_reserves_change_usd_mn": 27700.0,
+      "bop_reserves_change_usd_mn": -5032.0,
+      "valuation_usd_mn": 32732.0
+    }
+  ],
+  "quarterly": [
+    {
+      "period": "Q1 FY2021-22",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 25392.0,
+      "errors_omissions_net_usd_mn": -81.0,
+      "overall_balance_net_usd_mn": 31870.0,
+      "fx_reserves_change_usd_mn": -31870.0
+    },
+    {
+      "period": "Q2 FY2021-22",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 39622.0,
+      "errors_omissions_net_usd_mn": 1301.0,
+      "overall_balance_net_usd_mn": 31189.0,
+      "fx_reserves_change_usd_mn": -31189.0
+    },
+    {
+      "period": "Q3 FY2021-22",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 22500.0,
+      "errors_omissions_net_usd_mn": 132.0,
+      "overall_balance_net_usd_mn": 465.0,
+      "fx_reserves_change_usd_mn": -465.0
+    },
+    {
+      "period": "Q4 FY2021-22",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": -1707.0,
+      "errors_omissions_net_usd_mn": -893.0,
+      "overall_balance_net_usd_mn": -16024.0,
+      "fx_reserves_change_usd_mn": 16024.0
+    },
+    {
+      "period": "Q1 FY2022-23",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 22055.0,
+      "errors_omissions_net_usd_mn": 505.0,
+      "overall_balance_net_usd_mn": 4595.0,
+      "fx_reserves_change_usd_mn": -4595.0
+    },
+    {
+      "period": "Q2 FY2022-23",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 1461.0,
+      "errors_omissions_net_usd_mn": -937.0,
+      "overall_balance_net_usd_mn": -30379.0,
+      "fx_reserves_change_usd_mn": 30379.0
+    },
+    {
+      "period": "Q3 FY2022-23",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 28887.0,
+      "errors_omissions_net_usd_mn": -986.0,
+      "overall_balance_net_usd_mn": 11069.0,
+      "fx_reserves_change_usd_mn": -11069.0
+    },
+    {
+      "period": "Q4 FY2022-23",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 6540.0,
+      "errors_omissions_net_usd_mn": 395.0,
+      "overall_balance_net_usd_mn": 5579.0,
+      "fx_reserves_change_usd_mn": -5579.0
+    },
+    {
+      "period": "Q1 FY2023-24",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 33822.0,
+      "errors_omissions_net_usd_mn": -427.0,
+      "overall_balance_net_usd_mn": 24432.0,
+      "fx_reserves_change_usd_mn": -24432.0
+    },
+    {
+      "period": "Q2 FY2023-24",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 12856.0,
+      "errors_omissions_net_usd_mn": 946.0,
+      "overall_balance_net_usd_mn": 2519.0,
+      "fx_reserves_change_usd_mn": -2519.0
+    },
+    {
+      "period": "Q3 FY2023-24",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 17189.0,
+      "errors_omissions_net_usd_mn": -761.0,
+      "overall_balance_net_usd_mn": 5998.0,
+      "fx_reserves_change_usd_mn": -5998.0
+    },
+    {
+      "period": "Q4 FY2023-24",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 25543.0,
+      "errors_omissions_net_usd_mn": 643.0,
+      "overall_balance_net_usd_mn": 30754.0,
+      "fx_reserves_change_usd_mn": -30754.0
+    },
+    {
+      "period": "Q1 FY2024-25",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 13106.0,
+      "errors_omissions_net_usd_mn": 797.0,
+      "overall_balance_net_usd_mn": 5226.0,
+      "fx_reserves_change_usd_mn": -5226.0
+    },
+    {
+      "period": "Q2 FY2024-25",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": 35860.0,
+      "errors_omissions_net_usd_mn": -449.0,
+      "overall_balance_net_usd_mn": 18614.0,
+      "fx_reserves_change_usd_mn": -18614.0
+    },
+    {
+      "period": "Q3 FY2024-25",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": -26603.0,
+      "errors_omissions_net_usd_mn": 288.0,
+      "overall_balance_net_usd_mn": -37660.0,
+      "fx_reserves_change_usd_mn": 37660.0
+    },
+    {
+      "period": "Q4 FY2024-25",
+      "type": "quarterly",
+      "capital_account_net_usd_mn": -5574.0,
+      "errors_omissions_net_usd_mn": 912.0,
+      "overall_balance_net_usd_mn": 8789.0,
+      "fx_reserves_change_usd_mn": -8789.0
+    }
+  ],
+  "press_release": {
+    "apr_dec_2024": {
+      "total_change_usd_bn": -10.7,
+      "valuation_usd_bn": 3.1,
+      "bop_change_usd_bn": -13.8,
+      "current_account_usd_bn": -36.7,
+      "capital_account_usd_bn": 22.9,
+      "fdi_usd_bn": 0.6,
+      "portfolio_usd_bn": 9.4
+    },
+    "apr_dec_2025": {
+      "total_change_usd_bn": 19.4,
+      "valuation_usd_bn": 50.2,
+      "bop_change_usd_bn": -30.8,
+      "current_account_usd_bn": -30.2,
+      "capital_account_usd_bn": -0.6,
+      "fdi_usd_bn": 3.0,
+      "portfolio_usd_bn": -4.3
+    }
+  }
+}
