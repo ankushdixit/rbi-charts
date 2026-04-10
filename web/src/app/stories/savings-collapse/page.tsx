@@ -26,9 +26,9 @@ export default function SavingsCollapsePage() {
         </h1>
         <p className="text-xl text-zinc-400 max-w-2xl mb-8">
           COVID lockdowns forced savings to an all-time high of 12% of GDP.
-          Then came the reversal — a crash to 4.9% as spending normalized and
-          borrowing surged. Now at 6%, the composition has fundamentally changed:
-          bank deposits are out, mutual funds and equity are in.
+          Then came the reversal — a crash to 4.9% as borrowing nearly tripled.
+          Now recovering at 6%, the story isn&apos;t just about how much Indians
+          save — it&apos;s about where the money goes and how much they borrow.
         </p>
 
         <div className="flex gap-8 mb-8 flex-wrap">
@@ -79,50 +79,57 @@ export default function SavingsCollapsePage() {
           <div className="grid gap-8 md:grid-cols-2 max-w-5xl">
             <div>
               <p className="text-lg font-bold text-white mb-2">
-                Mutual funds doubled in a single year
+                It was the borrowing, not the saving
               </p>
               <p className="text-zinc-400 text-sm">
-                Mutual fund inflows exploded from ₹2.4 lakh crore (FY24) to
-                ₹4.7 lakh crore (FY25) — nearly doubling. Direct equity
-                investments tripled from ₹29,000 crore to ₹73,500 crore.
-                Indians are moving from deposits to markets at unprecedented speed.
+                The &quot;savings collapse&quot; wasn&apos;t really about Indians
+                saving less — total financial assets stayed at ₹29-35 lakh crore
+                annually. The real driver was a borrowing explosion: household
+                liabilities nearly tripled from ₹5.9L Cr (FY22) to ₹18.8L Cr
+                (FY24). Personal loans, credit cards, and BNPL ate into the net
+                savings number. FY25&apos;s recovery to 6% came largely because
+                borrowing fell back to ₹15.7L Cr.
               </p>
             </div>
 
             <div>
               <p className="text-lg font-bold text-white mb-2">
-                COVID created an artificial peak — then reality hit
+                Mutual funds: from ₹60K Cr to ₹4.7L Cr in 6 years
               </p>
               <p className="text-zinc-400 text-sm">
-                In FY 2020-21, lockdowns meant people couldn&apos;t spend, pushing
-                net savings to 12% of GDP — an anomalous all-time high. By FY
-                2022-23, the reversal was complete: savings crashed to 4.9% as
-                revenge spending, personal loans, and credit card debt surged.
-                The real question is whether 6% is the new normal.
+                The one trend that&apos;s genuinely new: mutual fund inflows grew
+                8x from ₹60,000 crore (FY20) to ₹4.7 lakh crore (FY25).
+                Direct equity tripled in just one year. But context matters —
+                mutual funds are still only 13% of total savings. Bank deposits
+                (₹11.9L Cr) and provident funds (₹7.9L Cr) remain far larger.
+                The shift is real but still early.
               </p>
             </div>
 
             <div>
               <p className="text-lg font-bold text-white mb-2">
-                Household borrowing actually fell in FY25
+                Provident funds: the quiet, steady giant
               </p>
               <p className="text-zinc-400 text-sm">
-                Total financial liabilities dropped from ₹18.8 lakh crore (FY24)
-                to ₹15.7 lakh crore (FY25) — a 17% decline. This is why net
-                savings recovered to 6% of GDP despite slower asset growth.
-                Households deleveraged after the post-COVID borrowing binge.
+                While headlines focus on mutual funds and equity, provident and
+                pension funds have grown every single year without exception —
+                ₹5.0L Cr (FY20) to ₹7.9L Cr (FY25). No dips, no drama. For most
+                Indian salaried workers, this mandatory contribution remains the
+                largest single component of their financial savings.
               </p>
             </div>
 
             <div>
               <p className="text-lg font-bold text-white mb-2">
-                Q3 is always the weakest quarter
+                The COVID anomaly distorts everything
               </p>
               <p className="text-zinc-400 text-sm">
-                Net savings as % of GDP drops every Q3 (Oct-Dec): 4.3% in FY23,
-                3.8% in FY24, 3.2% in FY25. This is festive season spending —
-                Diwali, weddings, and year-end consumption drain household
-                finances before Q4 tax-saving season replenishes them.
+                FY 2020-21 savings (12% of GDP) were an anomaly, not a baseline.
+                Lockdowns forced ₹31.6L Cr in asset accumulation while borrowing
+                stayed at ₹7.9L Cr. Every comparison to &quot;pre-COVID levels&quot;
+                is misleading. The real pre-COVID baseline was FY 2019-20 at 8.1%
+                — and the current 6.0% is indeed lower, reflecting structurally
+                higher household leverage in the personal loan era.
               </p>
             </div>
           </div>
