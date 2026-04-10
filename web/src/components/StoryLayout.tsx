@@ -128,7 +128,7 @@ export default function StoryLayout({
               <div
                 key={i}
                 className="pl-5 border-l-[3px]"
-                style={{ borderColor: i === 0 ? color : "#e7e1d8" }}
+                style={{ borderColor: color }}
               >
                 <h4
                   className="text-lg font-bold mb-2 leading-snug"
