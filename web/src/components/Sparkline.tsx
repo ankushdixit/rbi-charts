@@ -51,13 +51,13 @@ export default function Sparkline({
   return (
     <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`}>
       <defs>
-        <linearGradient id={`spark-${color.replace("#", "")}`} x1="0" y1="0" x2="0" y2="1">
+        <linearGradient id={`spark-${color.replace("#", "")}-${width}`} x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor={color} stopOpacity="0.3" />
           <stop offset="100%" stopColor={color} stopOpacity="0.02" />
         </linearGradient>
       </defs>
       {(type === "area" || type === "rising") && (
-        <path d={areaPath} fill={`url(#spark-${color.replace("#", "")})`} />
+        <path d={areaPath} fill={`url(#spark-${color.replace("#", "")}-${width})`} />
       )}
       <path
         d={linePath}

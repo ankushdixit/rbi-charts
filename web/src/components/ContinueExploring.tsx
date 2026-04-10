@@ -17,18 +17,22 @@ export default function ContinueExploring({ currentSlug }: Props) {
         </p>
         <div className="grid gap-4 md:grid-cols-3">
           {related.map((story) => {
-            const accentColor = THEME_COLORS[story.theme];
+            const tagColor = THEME_COLORS[story.theme];
             return (
               <Link
                 key={story.slug}
                 href={story.href}
-                className="group relative rounded-xl overflow-hidden border border-zinc-700 bg-[#1e293b] p-6 min-h-[180px] flex flex-col justify-between hover:border-zinc-500 transition-colors"
+                className="group relative rounded-xl overflow-hidden p-6 min-h-[180px] flex flex-col justify-between hover:scale-[1.02] transition-transform"
+                style={{
+                  background: `linear-gradient(135deg, ${story.cardColor}18 0%, #1e293b 100%)`,
+                  border: `1px solid ${story.cardColor}25`,
+                }}
               >
                 {/* Sparkline background */}
-                <div className="absolute bottom-0 left-0 right-0 opacity-50">
+                <div className="absolute bottom-0 left-0 right-0 opacity-40 pointer-events-none">
                   <Sparkline
                     data={story.sparkline}
-                    color={accentColor}
+                    color={story.cardColor}
                     type={story.sparklineType}
                     width={300}
                     height={70}
@@ -38,19 +42,19 @@ export default function ContinueExploring({ currentSlug }: Props) {
                 <div className="relative z-10">
                   <p
                     className="text-[10px] font-semibold tracking-widest uppercase mb-2"
-                    style={{ color: accentColor }}
+                    style={{ color: tagColor }}
                   >
                     {story.category}
                   </p>
-                  <p className="text-base font-bold text-white mb-1 group-hover:text-opacity-80 transition-colors">
+                  <p className="text-base font-bold text-white mb-1">
                     {story.title}
                   </p>
                   <p className="text-xs text-zinc-400">{story.subtitle}</p>
                 </div>
 
                 <p
-                  className="relative z-10 text-xs mt-3"
-                  style={{ color: accentColor }}
+                  className="relative z-10 text-xs mt-3 font-medium"
+                  style={{ color: story.cardColor }}
                 >
                   Read story →
                 </p>

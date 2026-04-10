@@ -34,10 +34,7 @@ export default function Home() {
                 <p className="text-[10px] font-semibold text-zinc-500 tracking-widest uppercase mb-0.5">
                   {stat.label}
                 </p>
-                <p
-                  className="text-xl font-black"
-                  style={{ color: stat.color }}
-                >
+                <p className="text-xl font-black" style={{ color: stat.color }}>
                   {stat.value}
                 </p>
               </div>
@@ -49,7 +46,7 @@ export default function Home() {
       {/* Story sections — white background */}
       <div className="bg-white text-zinc-900">
         {Object.entries(THEMES).map(([themeName, theme]) => {
-          const accentColor = THEME_COLORS[themeName];
+          const tagColor = THEME_COLORS[themeName];
           const themeStories = theme.slugs
             .map((slug) => STORIES.find((s) => s.slug === slug)!)
             .filter(Boolean);
@@ -58,7 +55,7 @@ export default function Home() {
             <section key={themeName} className="mx-auto max-w-7xl px-6 py-14">
               <p
                 className="text-xs font-semibold tracking-widest uppercase mb-1"
-                style={{ color: accentColor }}
+                style={{ color: tagColor }}
               >
                 {theme.tag}
               </p>
@@ -77,38 +74,41 @@ export default function Home() {
                 }`}
               >
                 {themeStories.map((story, i) => {
-                  const isLarge =
-                    i === 0 && themeStories.length >= 3;
+                  const isLarge = i === 0 && themeStories.length >= 3;
                   return (
                     <Link
                       key={story.slug}
                       href={story.href}
-                      className={`group relative rounded-xl overflow-hidden border border-zinc-800 bg-[#0f172a] p-6 flex flex-col justify-between hover:border-zinc-600 transition-colors ${
+                      className={`group relative rounded-xl overflow-hidden p-6 flex flex-col justify-between hover:scale-[1.02] transition-transform ${
                         isLarge
-                          ? "md:col-span-2 md:row-span-2 min-h-[320px]"
+                          ? "md:col-span-2 md:row-span-2 min-h-[340px]"
                           : "min-h-[200px]"
                       }`}
+                      style={{
+                        background: `linear-gradient(135deg, ${story.cardColor}18 0%, #0f172a 100%)`,
+                        border: `1px solid ${story.cardColor}30`,
+                      }}
                     >
                       {/* Sparkline background */}
-                      <div className="absolute bottom-0 left-0 right-0 opacity-60">
+                      <div className="absolute bottom-0 left-0 right-0 opacity-50 pointer-events-none">
                         <Sparkline
                           data={story.sparkline}
-                          color={accentColor}
+                          color={story.cardColor}
                           type={story.sparklineType}
                           width={isLarge ? 600 : 300}
-                          height={isLarge ? 140 : 80}
+                          height={isLarge ? 160 : 90}
                         />
                       </div>
 
                       <div className="relative z-10">
                         <p
-                          className="text-[10px] font-semibold tracking-widest uppercase mb-2"
-                          style={{ color: accentColor }}
+                          className="text-[10px] font-semibold tracking-widest uppercase mb-3"
+                          style={{ color: tagColor }}
                         >
                           {story.category}
                         </p>
                         <p
-                          className={`font-bold text-white mb-1 group-hover:text-opacity-80 transition-colors ${
+                          className={`font-bold text-white mb-1.5 ${
                             isLarge ? "text-2xl" : "text-base"
                           }`}
                         >
@@ -116,7 +116,7 @@ export default function Home() {
                         </p>
                         <p
                           className={`text-zinc-400 ${
-                            isLarge ? "text-sm" : "text-xs"
+                            isLarge ? "text-sm max-w-md" : "text-xs"
                           }`}
                         >
                           {story.subtitle}
@@ -124,8 +124,8 @@ export default function Home() {
                       </div>
 
                       <p
-                        className="relative z-10 text-xs mt-4"
-                        style={{ color: accentColor }}
+                        className="relative z-10 text-xs mt-4 font-medium"
+                        style={{ color: story.cardColor }}
                       >
                         Read story →
                       </p>
