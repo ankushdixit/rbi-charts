@@ -1,5 +1,5 @@
 import MoneyFlowChart from "@/components/charts/MoneyFlowChart";
-import creditData from "../../../../public/data/sectoral_credit.json";
+import creditData from "../../../../public/data/sectoral_credit_summary.json";
 
 export const metadata = {
   title: "Where Does India's Money Flow? — India in Charts",
@@ -9,22 +9,28 @@ export const metadata = {
 
 export default function MoneyFlowPage() {
   // Get latest date data for stats
-  const allDates = Array.from(new Set(creditData.map((d: any) => d.date)));
+  const allDates = Array.from(new Set(creditData.map((d: any) => d.date))).sort();
   const latestDate = allDates[allDates.length - 1];
   const latest = creditData.filter((d: any) => d.date === latestDate);
 
   const getSector = (key: string) =>
     latest.find((d: any) => d.sector === key)?.outstanding_crore ?? 0;
 
-  const totalCredit = getSector("non_food_credit");
   const agri = getSector("agriculture");
   const industry = getSector("industry_total");
   const services = getSector("services");
   const personal = getSector("personal_loans");
-  const housing = getSector("personal_housing");
-  const vehicle = getSector("personal_vehicle");
-  const gold = getSector("personal_gold");
-  const ccOutstanding = getSector("personal_credit_card");
+  const totalCredit = agri + industry + services + personal;
+
+  // Get full dataset for sub-sector stats
+  const fullData = require("../../../../public/data/sectoral_credit.json");
+  const latestFull = fullData.filter((d: any) => d.date === latestDate);
+  const getFullSector = (key: string) =>
+    latestFull.find((d: any) => d.sector === key)?.outstanding_crore ?? 0;
+  const housing = getFullSector("personal_housing");
+  const vehicle = getFullSector("personal_vehicle");
+  const gold = getFullSector("personal_gold");
+  const ccOutstanding = getFullSector("personal_credit_card");
 
   return (
     <div className="min-h-screen bg-[#0f172a] text-white">
@@ -94,8 +100,8 @@ export default function MoneyFlowPage() {
             RBI Sectoral Deployment of Bank Credit
           </div>
           <div>
-            <span className="font-semibold text-zinc-400">Latest:</span>{" "}
-            {latestDate}
+            <span className="font-semibold text-zinc-400">Period:</span>{" "}
+            FY 2020-21 to Jun 2025 ({allDates.length} data points)
           </div>
         </div>
       </section>

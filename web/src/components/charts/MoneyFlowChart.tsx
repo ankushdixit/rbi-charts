@@ -6,6 +6,7 @@ import type { EChartsOption } from "echarts";
 
 interface CreditRecord {
   date: string;
+  date_label: string;
   sector: string;
   outstanding_crore: number;
 }
@@ -23,33 +24,30 @@ const SECTORS = [
 
 export default function MoneyFlowChart({ data }: Props) {
   const option = useMemo<EChartsOption>(() => {
-    // Sort dates chronologically
-    const allDates = Array.from(new Set(data.map((d) => d.date)));
-    allDates.sort((a, b) => {
-      // Parse "28.Feb,2026" format
-      const parseDate = (s: string) => {
-        const m = s.match(/(\d+)\.(\w+),(\d+)/);
-        if (!m) return 0;
-        const months: Record<string, number> = {
-          Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6,
-          Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12,
-        };
-        return parseInt(m[3]) * 10000 + (months[m[2]] || 0) * 100 + parseInt(m[1]);
-      };
-      return parseDate(a) - parseDate(b);
+    const dates = Array.from(new Set(data.map((d) => d.date))).sort();
+
+    const dateLabels = dates.map((d) => {
+      const [y, m] = d.split("-");
+      const months = ["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+      return `${months[parseInt(m)]} ${y}`;
     });
 
     const series = SECTORS.map(({ key, name, color }) => ({
       name,
-      type: "bar" as const,
-      stack: "total",
-      data: allDates.map((date) => {
+      type: "line" as const,
+      data: dates.map((date) => {
         const rec = data.find((d) => d.date === date && d.sector === key);
         return rec ? +(rec.outstanding_crore / 100000).toFixed(1) : null;
       }),
+      smooth: true,
+      symbol: "circle",
+      symbolSize: 4,
+      lineStyle: { width: 3, color },
       itemStyle: { color },
-      emphasis: { focus: "series" as const },
-      barWidth: "60%",
+      areaStyle: {
+        color,
+        opacity: 0.08,
+      },
     }));
 
     return {
@@ -59,19 +57,17 @@ export default function MoneyFlowChart({ data }: Props) {
         borderColor: "#334155",
         textStyle: { color: "#e2e8f0", fontSize: 12 },
         formatter: (params: any) => {
+          const sorted = [...params]
+            .filter((p: any) => p.value != null)
+            .sort((a: any, b: any) => (b.value ?? 0) - (a.value ?? 0));
           let html = `<div style="font-weight:600;margin-bottom:6px">${params[0].axisValue}</div>`;
-          let total = 0;
-          for (const p of params) {
-            if (p.value != null) {
-              total += p.value;
-              html += `<div style="display:flex;align-items:center;gap:6px;margin:2px 0">
-                <span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${p.color}"></span>
-                <span style="flex:1">${p.seriesName}</span>
-                <span style="font-weight:600">₹${p.value}L Cr</span>
-              </div>`;
-            }
+          for (const p of sorted) {
+            html += `<div style="display:flex;align-items:center;gap:6px;margin:2px 0">
+              <span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${p.color}"></span>
+              <span style="flex:1">${p.seriesName}</span>
+              <span style="font-weight:600">₹${p.value}L Cr</span>
+            </div>`;
           }
-          html += `<div style="border-top:1px solid #334155;margin-top:4px;padding-top:4px;font-weight:600">Total: ₹${total.toFixed(1)}L Cr</div>`;
           return html;
         },
       },
@@ -79,19 +75,19 @@ export default function MoneyFlowChart({ data }: Props) {
         data: SECTORS.map((s) => s.name),
         bottom: 45,
         textStyle: { color: "#94a3b8", fontSize: 11 },
-        itemWidth: 12,
-        itemHeight: 12,
+        itemWidth: 16,
+        itemHeight: 3,
       },
       grid: {
         left: 60,
         right: 20,
         top: 20,
-        bottom: 90,
+        bottom: 100,
       },
       xAxis: {
         type: "category",
-        data: allDates,
-        axisLabel: { fontSize: 10, color: "#94a3b8", rotate: 20 },
+        data: dateLabels,
+        axisLabel: { fontSize: 11, color: "#94a3b8", rotate: 30 },
         axisLine: { lineStyle: { color: "#334155" } },
         axisTick: { show: false },
       },
@@ -102,6 +98,19 @@ export default function MoneyFlowChart({ data }: Props) {
         axisLabel: { color: "#94a3b8", fontSize: 11 },
         splitLine: { lineStyle: { color: "#1e293b" } },
       },
+      dataZoom: [
+        { type: "inside" },
+        {
+          type: "slider",
+          height: 25,
+          bottom: 8,
+          borderColor: "#334155",
+          backgroundColor: "#0f172a",
+          fillerColor: "rgba(59, 130, 246, 0.1)",
+          handleStyle: { color: "#3b82f6" },
+          textStyle: { color: "#64748b" },
+        },
+      ],
       series,
     };
   }, [data]);

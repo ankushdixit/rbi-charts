@@ -1,0 +1,386 @@
+[
+  {
+    "date": "2021-03",
+    "date_label": "FY 2020-21",
+    "sector": "agriculture",
+    "outstanding_crore": 1329618.0
+  },
+  {
+    "date": "2021-03",
+    "date_label": "FY 2020-21",
+    "sector": "industry_total",
+    "outstanding_crore": 2940571.0
+  },
+  {
+    "date": "2021-03",
+    "date_label": "FY 2020-21",
+    "sector": "personal_loans",
+    "outstanding_crore": 3009013.0
+  },
+  {
+    "date": "2021-03",
+    "date_label": "FY 2020-21",
+    "sector": "services",
+    "outstanding_crore": 2764831.0
+  },
+  {
+    "date": "2022-03",
+    "date_label": "FY 2021-22",
+    "sector": "agriculture",
+    "outstanding_crore": 1496484.0
+  },
+  {
+    "date": "2022-03",
+    "date_label": "FY 2021-22",
+    "sector": "industry_total",
+    "outstanding_crore": 3181100.0
+  },
+  {
+    "date": "2022-03",
+    "date_label": "FY 2021-22",
+    "sector": "personal_loans",
+    "outstanding_crore": 3466075.0
+  },
+  {
+    "date": "2022-03",
+    "date_label": "FY 2021-22",
+    "sector": "services",
+    "outstanding_crore": 3112541.0
+  },
+  {
+    "date": "2023-03",
+    "date_label": "FY 2022-23",
+    "sector": "agriculture",
+    "outstanding_crore": 1726410.0
+  },
+  {
+    "date": "2023-03",
+    "date_label": "FY 2022-23",
+    "sector": "industry_total",
+    "outstanding_crore": 3366406.0
+  },
+  {
+    "date": "2023-03",
+    "date_label": "FY 2022-23",
+    "sector": "personal_loans",
+    "outstanding_crore": 4182767.0
+  },
+  {
+    "date": "2023-03",
+    "date_label": "FY 2022-23",
+    "sector": "services",
+    "outstanding_crore": 3718805.0
+  },
+  {
+    "date": "2024-03",
+    "date_label": "FY 2023-24",
+    "sector": "agriculture",
+    "outstanding_crore": 2071251.0
+  },
+  {
+    "date": "2024-03",
+    "date_label": "FY 2023-24",
+    "sector": "industry_total",
+    "outstanding_crore": 3652804.0
+  },
+  {
+    "date": "2024-03",
+    "date_label": "FY 2023-24",
+    "sector": "personal_loans",
+    "outstanding_crore": 5331290.0
+  },
+  {
+    "date": "2024-03",
+    "date_label": "FY 2023-24",
+    "sector": "services",
+    "outstanding_crore": 4592227.0
+  },
+  {
+    "date": "2024-07",
+    "date_label": "Jul 26, 2024",
+    "sector": "agriculture",
+    "outstanding_crore": 2156320.0
+  },
+  {
+    "date": "2024-07",
+    "date_label": "Jul 26, 2024",
+    "sector": "industry_total",
+    "outstanding_crore": 3724547.0
+  },
+  {
+    "date": "2024-07",
+    "date_label": "Jul 26, 2024",
+    "sector": "personal_loans",
+    "outstanding_crore": 5507740.0
+  },
+  {
+    "date": "2024-07",
+    "date_label": "Jul 26, 2024",
+    "sector": "services",
+    "outstanding_crore": 4623910.0
+  },
+  {
+    "date": "2024-08",
+    "date_label": "Aug 23, 2024",
+    "sector": "agriculture",
+    "outstanding_crore": 2160634.0
+  },
+  {
+    "date": "2024-08",
+    "date_label": "Aug 23, 2024",
+    "sector": "industry_total",
+    "outstanding_crore": 3756194.0
+  },
+  {
+    "date": "2024-08",
+    "date_label": "Aug 23, 2024",
+    "sector": "personal_loans",
+    "outstanding_crore": 5555484.0
+  },
+  {
+    "date": "2024-08",
+    "date_label": "Aug 23, 2024",
+    "sector": "services",
+    "outstanding_crore": 4643586.0
+  },
+  {
+    "date": "2024-09",
+    "date_label": "Sep 20, 2024",
+    "sector": "agriculture",
+    "outstanding_crore": 2167287.0
+  },
+  {
+    "date": "2024-09",
+    "date_label": "Sep 20, 2024",
+    "sector": "industry_total",
+    "outstanding_crore": 3801604.0
+  },
+  {
+    "date": "2024-09",
+    "date_label": "Sep 20, 2024",
+    "sector": "personal_loans",
+    "outstanding_crore": 5596719.0
+  },
+  {
+    "date": "2024-09",
+    "date_label": "Sep 20, 2024",
+    "sector": "services",
+    "outstanding_crore": 4736957.0
+  },
+  {
+    "date": "2024-10",
+    "date_label": "Oct 18, 2024",
+    "sector": "agriculture",
+    "outstanding_crore": 2205299.0
+  },
+  {
+    "date": "2024-10",
+    "date_label": "Oct 18, 2024",
+    "sector": "industry_total",
+    "outstanding_crore": 3774252.0
+  },
+  {
+    "date": "2024-10",
+    "date_label": "Oct 18, 2024",
+    "sector": "personal_loans",
+    "outstanding_crore": 5647476.0
+  },
+  {
+    "date": "2024-10",
+    "date_label": "Oct 18, 2024",
+    "sector": "services",
+    "outstanding_crore": 4784938.0
+  },
+  {
+    "date": "2024-11",
+    "date_label": "Nov 29, 2024",
+    "sector": "agriculture",
+    "outstanding_crore": 2223467.0
+  },
+  {
+    "date": "2024-11",
+    "date_label": "Nov 29, 2024",
+    "sector": "industry_total",
+    "outstanding_crore": 3813094.0
+  },
+  {
+    "date": "2024-11",
+    "date_label": "Nov 29, 2024",
+    "sector": "personal_loans",
+    "outstanding_crore": 5734856.0
+  },
+  {
+    "date": "2024-11",
+    "date_label": "Nov 29, 2024",
+    "sector": "services",
+    "outstanding_crore": 4853884.0
+  },
+  {
+    "date": "2024-12",
+    "date_label": "Dec 27, 2024",
+    "sector": "agriculture",
+    "outstanding_crore": 2239028.0
+  },
+  {
+    "date": "2024-12",
+    "date_label": "Dec 27, 2024",
+    "sector": "industry_total",
+    "outstanding_crore": 3854429.0
+  },
+  {
+    "date": "2024-12",
+    "date_label": "Dec 27, 2024",
+    "sector": "personal_loans",
+    "outstanding_crore": 5794866.0
+  },
+  {
+    "date": "2024-12",
+    "date_label": "Dec 27, 2024",
+    "sector": "services",
+    "outstanding_crore": 4962520.0
+  },
+  {
+    "date": "2025-01",
+    "date_label": "Jan 24, 2025",
+    "sector": "agriculture",
+    "outstanding_crore": 2253510.0
+  },
+  {
+    "date": "2025-01",
+    "date_label": "Jan 24, 2025",
+    "sector": "industry_total",
+    "outstanding_crore": 3874601.0
+  },
+  {
+    "date": "2025-01",
+    "date_label": "Jan 24, 2025",
+    "sector": "personal_loans",
+    "outstanding_crore": 5831547.0
+  },
+  {
+    "date": "2025-01",
+    "date_label": "Jan 24, 2025",
+    "sector": "services",
+    "outstanding_crore": 5013597.0
+  },
+  {
+    "date": "2025-02",
+    "date_label": "Feb 21, 2025",
+    "sector": "agriculture",
+    "outstanding_crore": 2264312.0
+  },
+  {
+    "date": "2025-02",
+    "date_label": "Feb 21, 2025",
+    "sector": "industry_total",
+    "outstanding_crore": 3875386.0
+  },
+  {
+    "date": "2025-02",
+    "date_label": "Feb 21, 2025",
+    "sector": "personal_loans",
+    "outstanding_crore": 5878918.0
+  },
+  {
+    "date": "2025-02",
+    "date_label": "Feb 21, 2025",
+    "sector": "services",
+    "outstanding_crore": 5056929.0
+  },
+  {
+    "date": "2025-03",
+    "date_label": "Mar 21, 2025",
+    "sector": "agriculture",
+    "outstanding_crore": 2287071.0
+  },
+  {
+    "date": "2025-03",
+    "date_label": "Mar 21, 2025",
+    "sector": "industry_total",
+    "outstanding_crore": 3937149.0
+  },
+  {
+    "date": "2025-03",
+    "date_label": "Mar 21, 2025",
+    "sector": "personal_loans",
+    "outstanding_crore": 5952299.0
+  },
+  {
+    "date": "2025-03",
+    "date_label": "Mar 21, 2025",
+    "sector": "services",
+    "outstanding_crore": 5161462.0
+  },
+  {
+    "date": "2025-04",
+    "date_label": "Apr 18, 2025",
+    "sector": "agriculture",
+    "outstanding_crore": 2309631.0
+  },
+  {
+    "date": "2025-04",
+    "date_label": "Apr 18, 2025",
+    "sector": "industry_total",
+    "outstanding_crore": 3895471.0
+  },
+  {
+    "date": "2025-04",
+    "date_label": "Apr 18, 2025",
+    "sector": "personal_loans",
+    "outstanding_crore": 5980893.0
+  },
+  {
+    "date": "2025-04",
+    "date_label": "Apr 18, 2025",
+    "sector": "services",
+    "outstanding_crore": 5088547.0
+  },
+  {
+    "date": "2025-05",
+    "date_label": "May 30, 2025",
+    "sector": "agriculture",
+    "outstanding_crore": 2298815.0
+  },
+  {
+    "date": "2025-05",
+    "date_label": "May 30, 2025",
+    "sector": "industry_total",
+    "outstanding_crore": 3881567.0
+  },
+  {
+    "date": "2025-05",
+    "date_label": "May 30, 2025",
+    "sector": "personal_loans",
+    "outstanding_crore": 6061987.0
+  },
+  {
+    "date": "2025-05",
+    "date_label": "May 30, 2025",
+    "sector": "services",
+    "outstanding_crore": 5090833.0
+  },
+  {
+    "date": "2025-06",
+    "date_label": "Jun 27, 2025",
+    "sector": "agriculture",
+    "outstanding_crore": 2305993.0
+  },
+  {
+    "date": "2025-06",
+    "date_label": "Jun 27, 2025",
+    "sector": "industry_total",
+    "outstanding_crore": 3932773.0
+  },
+  {
+    "date": "2025-06",
+    "date_label": "Jun 27, 2025",
+    "sector": "personal_loans",
+    "outstanding_crore": 6150295.0
+  },
+  {
+    "date": "2025-06",
+    "date_label": "Jun 27, 2025",
+    "sector": "services",
+    "outstanding_crore": 5130831.0
+  }
+]
