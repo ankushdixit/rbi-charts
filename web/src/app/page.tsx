@@ -8,43 +8,82 @@ const STATS = [
   { label: "Savings / GDP", value: "6.0%", color: STORY_COLORS["savings-collapse"] },
 ];
 
+/** Hand-crafted sparklines that mirror each chart's visual signature */
 const SPARKLINES: Record<string, React.ReactNode> = {
+  // Area chart — exponential UPI growth curve
   "upi-explosion": (
-    <path d="M0,28 L10,26 20,24 30,20 40,16 50,11 60,7 70,4 80,2" strokeWidth="2" fill="none" />
+    <>
+      <path d="M0,28 Q20,27 35,24 Q50,20 60,14 Q70,8 80,3" stroke={STORY_COLORS["upi-explosion"]} strokeWidth="2" fill="none" />
+      <path d="M0,28 Q20,27 35,24 Q50,20 60,14 Q70,8 80,3 L80,30 L0,30Z" fill={STORY_COLORS["upi-explosion"]} opacity="0.15" />
+    </>
   ),
+  // Stacked area — multiple colored layers growing
   "death-of-cash": (
-    <path d="M0,28 L10,27 20,24 30,20 40,15 50,10 60,6 70,3 80,1" strokeWidth="2" fill="none" />
+    <>
+      <path d="M0,28 L10,27 20,26 30,25 40,24 50,22 60,20 70,18 80,17 L80,30 L0,30Z" fill="#e08a6d" opacity="0.3" />
+      <path d="M0,26 L10,25 20,23 30,20 40,17 50,14 60,11 70,9 80,7 L80,17 L0,28Z" fill="#9b8ec4" opacity="0.3" />
+      <path d="M0,24 L10,23 20,21 30,18 40,14 50,10 60,7 70,5 80,3 L80,7 L0,26Z" fill={STORY_COLORS["death-of-cash"]} opacity="0.4" />
+    </>
   ),
+  // Multiple racing lines — 3 banks diverging
   "credit-card-wars": (
     <>
-      <path d="M0,25 L10,24 20,22 30,20 40,17 50,14 60,10 70,6 80,3" strokeWidth="2" fill="none" />
-      <path d="M0,28 L10,27 20,26 30,24 40,22 50,18 60,14 70,10 80,7" strokeWidth="1.5" fill="none" opacity="0.4" stroke={STORY_COLORS["upi-explosion"]} />
+      <path d="M0,20 L10,19 20,17 30,15 40,13 50,11 60,8 70,5 80,3" stroke={STORY_COLORS["credit-card-wars"]} strokeWidth="2" fill="none" />
+      <path d="M0,24 L10,23 20,22 30,20 40,18 50,15 60,12 70,9 80,7" stroke={STORY_COLORS["upi-explosion"]} strokeWidth="1.5" fill="none" opacity="0.5" />
+      <path d="M0,27 L10,26 20,25 30,24 40,22 50,19 60,16 70,13 80,11" stroke={STORY_COLORS["forex-fortress"]} strokeWidth="1.5" fill="none" opacity="0.4" />
     </>
   ),
+  // Crossing lines — ATMs down (red), QR up (green)
   "infra-shift": (
     <>
-      <path d="M0,15 L10,14 20,13 30,13 40,14 50,15 60,17 70,19 80,22" strokeWidth="1.5" fill="none" opacity="0.5" stroke={STORY_COLORS["savings-collapse"]} />
-      <path d="M0,28 L10,25 20,20 30,15 40,10 50,7 60,4 70,3 80,2" strokeWidth="2" fill="none" />
+      <path d="M0,10 L10,10 20,11 30,12 40,13 50,15 60,18 70,21 80,25" stroke="#d4827a" strokeWidth="1.5" fill="none" opacity="0.6" />
+      <path d="M0,28 L10,25 20,22 30,18 40,14 50,10 60,7 70,5 80,3" stroke={STORY_COLORS["infra-shift"]} strokeWidth="2" fill="none" />
     </>
   ),
+  // Stacked bars — volatile quarterly savings
   "savings-collapse": (
     <>
       {[0, 12, 24, 36, 48, 60].map((x, i) => (
-        <rect key={i} x={x} y={[6, 0, 4, 14, 12, 8][i]} width="8" height={[24, 30, 26, 16, 18, 22][i]} rx="2" opacity={[0.5, 0.7, 0.45, 0.55, 0.5, 0.6][i]} />
+        <rect key={i} x={x} y={[8, 2, 6, 16, 14, 10][i]} width="8" height={[22, 28, 24, 14, 16, 20][i]} rx="2" opacity={[0.5, 0.7, 0.45, 0.55, 0.5, 0.6][i]} />
       ))}
     </>
   ),
+  // Single area — long exponential reserves growth
   "forex-fortress": (
-    <path d="M0,28 L10,27 20,26 30,24 40,18 50,12 60,7 70,4 80,2" strokeWidth="2" fill="none" />
+    <>
+      <path d="M0,28 L10,28 20,27 30,26 40,22 50,15 60,8 70,5 80,3" stroke={STORY_COLORS["forex-fortress"]} strokeWidth="2" fill="none" />
+      <path d="M0,28 L10,28 20,27 30,26 40,22 50,15 60,8 70,5 80,3 L80,30 L0,30Z" fill={STORY_COLORS["forex-fortress"]} opacity="0.15" />
+    </>
   ),
+  // Multiple lines — 4 sectors, personal loans on top
   "money-flow": (
-    <path d="M0,26 L10,24 20,22 30,20 40,18 50,14 60,10 70,6 80,3" strokeWidth="2" fill="none" />
+    <>
+      <path d="M0,22 L20,20 40,17 60,14 80,10" stroke={STORY_COLORS["money-flow"]} strokeWidth="2" fill="none" />
+      <path d="M0,24 L20,22 40,19 60,16 80,13" stroke={STORY_COLORS["infra-shift"]} strokeWidth="1.5" fill="none" opacity="0.4" />
+      <path d="M0,26 L20,25 40,23 60,21 80,19" stroke={STORY_COLORS["upi-explosion"]} strokeWidth="1.5" fill="none" opacity="0.35" />
+      <path d="M0,28 L20,27 40,26 60,25 80,24" stroke={STORY_COLORS["forex-fortress"]} strokeWidth="1.5" fill="none" opacity="0.3" />
+    </>
   ),
+  // Three parallel lines — current, 3m, 1y expectations (never converge)
   "inflation-gap": (
-    <path d="M0,8 L10,12 20,6 30,14 40,10 50,18 60,12 70,16 80,14" strokeWidth="2" fill="none" />
+    <>
+      <path d="M0,18 L10,16 20,19 30,14 40,17 50,12 60,15 70,13 80,14" stroke={STORY_COLORS["inflation-gap"]} strokeWidth="2" fill="none" />
+      <path d="M0,12 L10,10 20,13 30,8 40,11 50,7 60,10 70,8 80,9" stroke={STORY_COLORS["inflation-gap"]} strokeWidth="1.5" fill="none" opacity="0.5" />
+      <path d="M0,6 L10,4 20,7 30,3 40,6 50,2 60,5 70,3 80,4" stroke={STORY_COLORS["inflation-gap"]} strokeWidth="1" fill="none" opacity="0.3" />
+    </>
   ),
+  // Bars — above and below zero line showing FDI/FII volatility
   "hot-money": (
-    <path d="M0,15 L10,8 20,22 30,5 40,20 50,10 60,18 70,12 80,16" strokeWidth="2" fill="none" />
+    <>
+      <line x1="0" y1="15" x2="80" y2="15" stroke="#e7e1d8" strokeWidth="0.5" />
+      {[0, 10, 20, 30, 40, 50, 60, 70].map((x, i) => {
+        const vals = [6, -8, 4, -12, 10, -5, 8, -3];
+        const h = Math.abs(vals[i]);
+        const y = vals[i] > 0 ? 15 - h : 15;
+        const color = vals[i] > 0 ? STORY_COLORS["upi-explosion"] : STORY_COLORS["savings-collapse"];
+        return <rect key={i} x={x + 1} y={y} width="6" height={h} rx="1" fill={color} opacity="0.6" />;
+      })}
+    </>
   ),
 };
 
