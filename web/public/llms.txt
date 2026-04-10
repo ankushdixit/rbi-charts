@@ -1,0 +1,38 @@
+# India in Charts
+
+> Interactive data journalism visualizing India's economy from official RBI data.
+
+India in Charts is an open-source project that turns Reserve Bank of India statistical releases into interactive visualizations. It covers payments, credit, savings, forex reserves, inflation expectations, and capital flows.
+
+## Stories
+
+- [The UPI Explosion](/stories/upi-explosion): UPI grew from zero to 20.4 billion monthly transactions (2016-2026). 73 data points showing the fastest payment system adoption in history.
+- [The Death of Cash](/stories/death-of-cash): Digital payments replaced cheques over 10 years. 123 months of stacked area data showing UPI, NEFT, IMPS, cards, wallets, and CTS.
+- [Credit Card Wars](/stories/credit-card-wars): 15 banks competing over 179 months (2011-2026). HDFC leads at 26.3M cards. Annotations for RBI bans, mergers, and devaluations.
+- [3,600 QR Codes for Every ATM](/stories/infra-shift): Payment infrastructure shift. ATMs peaked at 220K and are declining. UPI QR codes reached 754M. 179 months of data.
+- [The Great Rebalancing](/stories/savings-collapse): Household savings shifted from bank deposits to mutual funds. 30 quarters across 6 fiscal years. Net savings: 8.1% → 12% (COVID) → 4.9% → 6% GDP.
+- [The Forex Fortress](/stories/forex-fortress): India's foreign exchange reserves grew from $5.8B (1991 crisis) to $668B. 58 years of annual + 120 weeks of recent data.
+- [Where Does India's Money Flow?](/stories/money-flow): Sectoral credit deployment. Personal loans (33%) overtook industry (21%). 16 data points from FY2021 to Jun 2025.
+- [The Expectation Escalator](/stories/inflation-gap): Households always expect inflation to worsen. 70 bi-monthly survey rounds (2008-2026). Pattern held in 68/70 rounds.
+- [Steady Hands vs Quick Exits](/stories/hot-money): FDI vs portfolio investment. FII swings from -$11.4B to +$19.9B quarterly. 19 quarters of data (FY2022-FY2026).
+
+## Data Sources
+
+All data is from the Reserve Bank of India (rbi.org.in):
+- Payment System Indicators (PSI): monthly XLSX + HTML pages
+- Bank-wise ATM/Card Statistics: 180 monthly HTML pages
+- RBI Bulletin statistical tables
+- Handbook of Statistics on Indian Economy
+- Inflation Expectations Survey of Households
+- Balance of Payments quarterly data
+
+## Technical Details
+
+- Frontend: Next.js, Tailwind CSS, Apache ECharts
+- Pipeline: Python, BeautifulSoup, Playwright, pandas
+- Data: SQLite + JSON exports
+- Open source: https://github.com/ankushdixit/rbi-charts
+
+## About
+
+Built by Ankush Dixit (https://ankushdixit.com). Not affiliated with the Reserve Bank of India.
