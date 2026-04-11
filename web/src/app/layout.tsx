@@ -9,9 +9,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "India in Charts — RBI Data Visualized",
+  title: "India in Charts - RBI Data Visualized",
   description:
-    "Beautiful, interactive visualizations of Reserve Bank of India statistical data. Payments, credit, savings, and more.",
+    "Interactive visualizations of Reserve Bank of India statistical data. Payments, credit, savings, forex reserves, and more.",
+  metadataBase: new URL("https://india.ankushdixit.com"),
+  openGraph: {
+    title: "India in Charts",
+    description: "Interactive visualizations of Reserve Bank of India data.",
+    siteName: "India in Charts",
+  },
 };
 
 export default function RootLayout({
